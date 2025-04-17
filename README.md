@@ -542,4 +542,27 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 **Segmento #1: Usuarios generales**
 
+| **Tarea**                                | **Frecuencia**    | **Importancia**   |
+|------------------------------------------|-------------------|-------------------|
+| Ingresar alimentos y hacer seguimiento de calorías | Diaria | Alta |
+| Seguir plan nutricional personalizado     | Diaria  | Alta     |
+| Consultar recetas rápidas y fáciles      | Semanal  | Media |
+| Realizar ajustes a la dieta (como cambiar recetas o ingredientes) | Semanal | Media   |
+| Consultar el progreso del peso o salud   | Semanal | Alta|
+| Recibir recordatorios de comidas o ejercicios | Diario  | Alta |
+| Acceder a recomendaciones sobre hábitos saludables | Semanal | Baja    |
+
+---
+
 **Segmento #2: Nutricionistas**
+
+| **Tarea**                                | **Frecuencia**    | **Importancia**   |
+|------------------------------------------|-------------------|-------------------|
+| Crear y personalizar planes nutricionales para pacientes | Diario | Alta |
+| Realizar seguimiento del progreso de los pacientes | Semanal  | Alta         |
+| Proveer consultas y asesoramiento a pacientes | Semanal | Alta |
+| Ajustar planes nutricionales basados en el progreso del paciente | Semanal | Alta |
+| Gestionar el historial de pacientes       | Semanal  | Alta   |
+| Acceder a recursos educativos sobre nutrición | Mensual  | Media  |
+| Mantener comunicación con los pacientes | Semanal  | Alta  |
+
