@@ -245,7 +245,7 @@ Creemos que si incluimos funciones adaptables y contenido educativo accesible, l
 
 #### 1.2.2.4. Lean UX Canvas
 
-# 1.3. Segmentos Objetivo
+## 1.3. Segmentos Objetivo
 
 #### 1. Usuarios generales
 
@@ -405,7 +405,6 @@ A continuación se presenta un análisis competitivo de las empresas que ofrecen
   <tr>
     <td rowspan="5"><b>Análisis SWOT</b></td>
     <td colspan="5">
-      Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.
     </td>
   </tr>
   <tr>
