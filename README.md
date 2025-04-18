@@ -521,9 +521,13 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 #### Segmento #1: Usuarios generales
 
 **Entrevista #1:**
+
 Nombre: Ernesto Ruiz
+
 Edad: 20
+
 Distrito: Pueblo Libre
+
 Link:
 
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
@@ -532,8 +536,10 @@ En la entrevista, el usuario expresó que su motivación principal para mejorar 
 
 ### 2.2.3. Análisis de entrevistas
 
-|Entrevistado|Análisis de la entrevista|
-|Ernesto Ruiz|Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos.|
+| Entrevistado   | Análisis de la entrevista |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ernesto Ruiz   | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
+
 
 ## 2.3. Needfinding
 
@@ -581,3 +587,25 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 | Acceder a recursos educativos sobre nutrición | Mensual  | Media  |
 | Mantener comunicación con los pacientes | Semanal  | Alta  |
 
+### 2.3.3. User Journey Mapping
+
+A continuación se muestra el proceso para la realización del User Journey Mapping para los User Persona con el fin de entender las experiencias del usuario sin nuestra solución.
+
+**Segmento #1: Usuarios generales**
+
+
+**Segmento #2: Nutricionistas**
+
+
+### 2.3.4. Empathy Mapping
+
+A continuación se muestra el proceso para la realización del Empathy Mapping para los User Persona con el fin de entender lo que piensa, siente, oye, hace y observa.
+
+
+**Segmento #1: Usuarios generales**
+
+<img src="./img/empathy1.png" width="900" height="900">
+
+**Segmento #2: Nutricionistas**
+
+<img src="./img/empathy2.png" width="900" height="900">
