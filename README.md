@@ -28,7 +28,7 @@
 |  |  |
 |  |  |
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
-|  |  |
+| Pardo Zapata, Gustavo Adolfo | U202120347 |
 |  |  |
 |  |  |
 
@@ -141,6 +141,7 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | :--- | :--- | :--- |
 |Nombre|Descripción|Conocimientos|
 |Daiki Oscar Oshiro Yamashita u20201f846|Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.|Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL.|
+|<img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347|Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.|Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.|
 
 ## 1.2. Solution Profile
 
