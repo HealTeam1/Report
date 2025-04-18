@@ -610,3 +610,15 @@ A continuación se muestra el proceso para la realización del Empathy Mapping p
 **Segmento #2: Nutricionistas**
 
 <img src="./img/empathy2.png" width="900" height="900">
+
+### 2.3.5. As-is Scenario Mapping
+
+A continuación se muestra el proceso para la realización del As-Is Scenario Mapping para los User Persona.
+
+**Segmento #1: Usuarios generales**
+
+<img src="./img/asis1.png" width="1400" height="600">
+
+**Segmento #2: Nutricionistas**
+
+<img src="./img/asis2.png" width="1400" height="600">
