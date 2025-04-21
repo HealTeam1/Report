@@ -23,14 +23,14 @@
 
 <h3> Team Members: </h3>
 
-| Member                           |    Code    |
-| :------------------------------- | :--------: |
-|  |  |
-|  |  |
+| Member                        |    Code    |
+| :---------------------------- | :--------: |
+|                               |            |
+|                               |            |
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
-| Pardo Zapata, Gustavo Adolfo | U202120347 |
-|  |  |
-|  |  |
+| Pardo Zapata, Gustavo Adolfo  | U202120347 |
+| Alejandro Espino Flores       | U202122129 |
+|                               |            |
 
 <h3 align="center">Abril, 2025</h3>
 
@@ -38,9 +38,9 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| :-------: | :---------: | :----------------: | :----------------------:|
-|TB1||-|Se añadió los capítulos 1 al 4|
+| Versión | Fecha | Autor |  Descripción de modificación   |
+| :-----: | :---: | :---: | :----------------------------: |
+|   TB1   |       |   -   | Se añadió los capítulos 1 al 4 |
 
 # Project Report Collaboration Insights
 
@@ -91,7 +91,7 @@
   - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-  
+
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
@@ -100,6 +100,7 @@
 - [3.4. Product Backlog](#34-product-backlog)
 
 [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design-1)
+
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
 
   [Conclusiones](#conclusiones-1)
@@ -114,9 +115,9 @@
 
 # Student Outcome
 
-|Criterio específico| Acciones realizadas | Conclusiones |
-|:------ | :--------------------------- | :--------- |
-|1|2|3|
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :------------------ | :------------------ | :----------- |
+| 1                   | 2                   | 3            |
 
 <div style="page-break-after: always;"></div>
 
@@ -137,11 +138,12 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrantes | Descripción | Conocimientos |
-| :--- | :--- | :--- |
-|Nombre|Descripción|Conocimientos|
-|Daiki Oscar Oshiro Yamashita u20201f846|Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.|Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL.|
-|<img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347|Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.|Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.|
+| Integrantes                                                                                              | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
+| :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| Nombre                                                                                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
+| Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
+| <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
+| <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
 
 ## 1.2. Solution Profile
 
@@ -161,7 +163,7 @@ NutriPlan es una aplicación móvil que permite planificar comidas saludables, v
 
 Porque muchas personas quieren alimentarse mejor, pero no saben cómo empezar o cómo mantener una rutina saludable. Al mismo tiempo, los nutricionistas necesitan soluciones digitales que faciliten su trabajo. NutriPlan responde a ambas necesidades, promoviendo una mejor salud a través de la tecnología.
 
-#### Where?  (¿Dónde se utilizará?)
+#### Where? (¿Dónde se utilizará?)
 
 En cualquier lugar, gracias a su formato de app móvil. Ya sea en casa, en el supermercado o en la consulta con el nutricionista, NutriPlan está disponible para acompañar al usuario en todo momento.
 
@@ -537,10 +539,9 @@ En la entrevista, el usuario expresó que su motivación principal para mejorar 
 
 ### 2.2.3. Análisis de entrevistas
 
-| Entrevistado   | Análisis de la entrevista |
-|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ernesto Ruiz   | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
-
+| Entrevistado | Análisis de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ernesto Ruiz | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
 
 ## 2.3. Needfinding
 
@@ -564,29 +565,29 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 **Segmento #1: Usuarios generales**
 
-| **Tarea**                                | **Frecuencia**    | **Importancia**   |
-|------------------------------------------|-------------------|-------------------|
-| Ingresar alimentos y hacer seguimiento de calorías | Diaria | Alta |
-| Seguir plan nutricional personalizado     | Diaria  | Alta     |
-| Consultar recetas rápidas y fáciles      | Semanal  | Media |
-| Realizar ajustes a la dieta (como cambiar recetas o ingredientes) | Semanal | Media   |
-| Consultar el progreso del peso o salud   | Semanal | Alta|
-| Recibir recordatorios de comidas o ejercicios | Diario  | Alta |
-| Acceder a recomendaciones sobre hábitos saludables | Semanal | Baja    |
+| **Tarea**                                                         | **Frecuencia** | **Importancia** |
+| ----------------------------------------------------------------- | -------------- | --------------- |
+| Ingresar alimentos y hacer seguimiento de calorías                | Diaria         | Alta            |
+| Seguir plan nutricional personalizado                             | Diaria         | Alta            |
+| Consultar recetas rápidas y fáciles                               | Semanal        | Media           |
+| Realizar ajustes a la dieta (como cambiar recetas o ingredientes) | Semanal        | Media           |
+| Consultar el progreso del peso o salud                            | Semanal        | Alta            |
+| Recibir recordatorios de comidas o ejercicios                     | Diario         | Alta            |
+| Acceder a recomendaciones sobre hábitos saludables                | Semanal        | Baja            |
 
 ---
 
 **Segmento #2: Nutricionistas**
 
-| **Tarea**                                | **Frecuencia**    | **Importancia**   |
-|------------------------------------------|-------------------|-------------------|
-| Crear y personalizar planes nutricionales para pacientes | Diario | Alta |
-| Realizar seguimiento del progreso de los pacientes | Semanal  | Alta         |
-| Proveer consultas y asesoramiento a pacientes | Semanal | Alta |
-| Ajustar planes nutricionales basados en el progreso del paciente | Semanal | Alta |
-| Gestionar el historial de pacientes       | Semanal  | Alta   |
-| Acceder a recursos educativos sobre nutrición | Mensual  | Media  |
-| Mantener comunicación con los pacientes | Semanal  | Alta  |
+| **Tarea**                                                        | **Frecuencia** | **Importancia** |
+| ---------------------------------------------------------------- | -------------- | --------------- |
+| Crear y personalizar planes nutricionales para pacientes         | Diario         | Alta            |
+| Realizar seguimiento del progreso de los pacientes               | Semanal        | Alta            |
+| Proveer consultas y asesoramiento a pacientes                    | Semanal        | Alta            |
+| Ajustar planes nutricionales basados en el progreso del paciente | Semanal        | Alta            |
+| Gestionar el historial de pacientes                              | Semanal        | Alta            |
+| Acceder a recursos educativos sobre nutrición                    | Mensual        | Media           |
+| Mantener comunicación con los pacientes                          | Semanal        | Alta            |
 
 ### 2.3.3. User Journey Mapping
 
@@ -594,14 +595,11 @@ A continuación se muestra el proceso para la realización del User Journey Mapp
 
 **Segmento #1: Usuarios generales**
 
-
 **Segmento #2: Nutricionistas**
-
 
 ### 2.3.4. Empathy Mapping
 
 A continuación se muestra el proceso para la realización del Empathy Mapping para los User Persona con el fin de entender lo que piensa, siente, oye, hace y observa.
-
 
 **Segmento #1: Usuarios generales**
 
@@ -654,4 +652,3 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 - **Metrics (métricas):** Datos cuantificables como peso, IMC, calorías diarias y nivel de adherencia al plan, que se usan para evaluar el progreso del usuario.
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
-
