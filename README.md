@@ -681,9 +681,45 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
+
+En esta sección se introduce y explica el proceso realizado para las decisiones de nivel estratégico aplicando Domain-Driven Design. El equipo explica y evidencia el proceso para descomponer el sistema en subconjuntos con límites naturales o Bounded Contexts. Para ello debe aplicar las herramientas de EvenStorming y Bounded Context Canvas.
+
 ### 4.1.1. EventStorming
+
+Durante esta sesión de EventStorming, el equipo de NutriPlan se reunió conel objetivo de mapear de manera colaborativa yvisual el flujo principal de eventos de dominio que ocurren en la interacción entre usuarios y la apliación.La actividad tuvo una duración aprocimada de 2 horas, y fue facilitada utilizando herramientas digitales, siendo en este caso la herramienta Miro.
+
+La técnica e aplico enfocándonos en la experienciadel usuario general y del nutricionista,identificando los eventos significativos del negocio, los comandos del sistema,los agregados y las vistas,conforme a la metodología propuesta por Alberto Brandolini.
+
+**Actividades realizadas**
+
+- Se identificaron eventos clave de negocio.
+- Se agregaron comando que desencadenan estos eventos.
+- Se agruparon eventos por áreas funcionales, lo que permitió visualizar puntos de transición y dependencia.
+
 #### 4.1.1.1. Candidate Context Discovery
+
+A partir del EventStorming realizado,se llevó a cabo una sesión de Candidate Context Discovery con el objetivo de identificar los posibles bounded contexts del sistema, Para esta sesión, se utilizaron las siguientes técnicas:
+
+- Start-with-value: Se priorizaron los componentes con mayor impacto en la propuesta de valor, como la personalización de planes y el monitoreo del progreso.
+- Look-for-pivotal-events: Se analizaron los eventos que marcaban unatransición de responabilidad o un cambio de estado claro.
+
+**Bounded Contexts identificados**
+
+1. Planificación Nutricional Context : Gestiona la creación, personalización y actualizazión de planes alimenticios
+2. Seguimiento y Progreso Context : Encargado de registrar alimentos, métricas y generar reportes de progreso.
+3. Onboarding Context : Maneja la incorporación de usuarios y su evaluacion incial.
+4. Recetario y compras Context : Relacionado con la sugerencia de recetas saludables y generación de listas de compra.
+5. Getion del Nutricionista Context : Espacio exclusivo del nutricionista para gestionar pacientes,metricas y recomendaciones.
+   
 #### 4.1.1.2. Domain Message Flows Modelings
+
+En esta etapa se aplicó la tecnica de Domain Storytelling para representar como los distintos bounded contexts colaboran para satisfacer escenarios del negocio.Se seleccionaron flujos representativos como:
+
+- Creacion de plan nutricional personalizado
+- Monitoreo del progreso del usuario
+- Comunicación entre usuario y nutricionista
+
+Cada historia se representa mediantes actores, acciones y los contextos responsable,permitiendo visualizar la orquestación y los contratos entre servicios
 #### 4.1.1.3. Bounded Context Canvases
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
