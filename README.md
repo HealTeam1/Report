@@ -23,14 +23,14 @@
 
 <h3> Team Members: </h3>
 
-| Member                        |    Code    |
-| :---------------------------- | :--------: |
-|                               |            |
-|                               |            |
-| Oshiro Yamashita, Daiki Oscar | U20201F846 |
-| Pardo Zapata, Gustavo Adolfo  | U202120347 |
-| Alejandro Espino Flores       | U202122129 |
-| Dueñas Canales Leonardo Manuel| U202117475 |
+| Member                         |    Code    |
+| :----------------------------- | :--------: |
+|                                |            |
+|                                |            |
+| Oshiro Yamashita, Daiki Oscar  | U20201F846 |
+| Pardo Zapata, Gustavo Adolfo   | U202120347 |
+| Alejandro Espino Flores        | U202122129 |
+| Dueñas Canales Leonardo Manuel | U202117475 |
 
 <h3 align="center">Abril, 2025</h3>
 
@@ -112,6 +112,7 @@
     - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
     - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+
   - [4.2.1. Bounded Context: <Bounded-Context-Name>](#421-bounded-context-bounded-context-name)
     - [4.2.1.1. Domain Layer](#4211-domain-layer)
     - [4.2.1.2. Interface Layer](#4212-interface-layer)
@@ -119,11 +120,8 @@
     - [4.2.1.4. Infrastructure Layer](#4214-infrasructure-layer)
     - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
     - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
-       - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-       - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-
-
-
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
 
   [Conclusiones](#conclusiones-1)
 
@@ -166,7 +164,7 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
 | <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
 | <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
-| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento el conocimiento de Java, javascript, Python, C#, HTML. |
+| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                                                          | Cuento el conocimiento de Java, javascript, Python, C#, HTML.                   |
 
 ## 1.2. Solution Profile
 
@@ -676,8 +674,6 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
 
-
-
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -710,7 +706,7 @@ A partir del EventStorming realizado,se llevó a cabo una sesión de Candidate C
 3. Onboarding Context : Maneja la incorporación de usuarios y su evaluacion incial.
 4. Recetario y compras Context : Relacionado con la sugerencia de recetas saludables y generación de listas de compra.
 5. Getion del Nutricionista Context : Espacio exclusivo del nutricionista para gestionar pacientes,metricas y recomendaciones.
-   
+
 #### 4.1.1.2. Domain Message Flows Modelings
 
 En esta etapa se aplicó la tecnica de Domain Storytelling para representar como los distintos bounded contexts colaboran para satisfacer escenarios del negocio.Se seleccionaron flujos representativos como:
@@ -720,19 +716,229 @@ En esta etapa se aplicó la tecnica de Domain Storytelling para representar como
 - Comunicación entre usuario y nutricionista
 
 Cada historia se representa mediantes actores, acciones y los contextos responsable,permitiendo visualizar la orquestación y los contratos entre servicios
+
 #### 4.1.1.3. Bounded Context Canvases
+
 ### 4.1.2. Context Mapping
+
 ### 4.1.3. Software Architecture
+
 #### 4.1.3.1. Software Architecture Context Level Diagrams
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
 ## 4.2. Tactical-Level Domain-Driven Design
+
 ### 4.2.1. Bounded Context: <Bounded-Context-Name>
+
+#### Bounded Context: NutritionPlanning
+
+En este contexto se gestiona toda la lógica relacionada con la **creación, asignación y seguimiento de planes nutricionales**, así como su desglose diario y por momento de comida. Este módulo es central en el sistema y depende de perfiles y recetas.
+
+---
+
+##### Clase: `NutritionalPlan`
+
+###### Propósito:
+
+Representa un plan nutricional creado por un nutricionista para un paciente. Contiene la información general del plan y los planes diarios asociados.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del plan.
+- `usuarioId: Long` – ID del paciente al que está asignado el plan.
+- `startDate: Date` – Fecha de inicio del plan.
+- `name: String` – Nombre del plan (ej: "Plan Keto Semana 1").
+- `description: String` – Descripción general del plan.
+- `active: boolean` – Indicador de si el plan está activo.
+- `dailyPlans: List<DailyPlan>` – Lista de planes diarios asociados al plan.
+
+###### Métodos:
+
+- `activatePlan(): void` – Activa el plan.
+- `deactivatePlan(): void` – Desactiva el plan.
+- `addDailyPlan(dayPlan: DailyPlan): void` – Agrega un plan diario.
+- `removeDailyPlan(day: WeekDay): void` – Elimina un plan de un día específico.
+- `getPlanSummary(): PlanSummaryDTO` – Devuelve un resumen del plan.
+
+---
+
+#### Clase: `DailyPlan`
+
+###### Propósito:
+
+Representa un plan diario dentro de un plan nutricional. Define qué comidas están programadas para un día específico.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del día.
+- `nutritionalPlanId: Long` – Referencia al plan nutricional padre.
+- `weekDay: WeekDay (enum)` – Día de la semana (ej: MONDAY).
+- `scheduledMeals: List<ScheduledMeal>` – Comidas planificadas para ese día.
+
+###### Métodos:
+
+- `addScheduledMeal(meal: ScheduledMeal): void` – Agrega una comida al día.
+- `removeScheduledMeal(moment: MomentOfDay): void` – Elimina una comida específica.
+- `getMeals(): List<ScheduledMeal>` – Devuelve las comidas del día.
+- `totalCalories(): Int` – Suma total de calorías del día.
+
+---
+
+#### Clase: `ScheduledMeal`
+
+###### Propósito:
+
+Representa una comida planificada en un momento específico del día (ej: desayuno).
+
+###### Atributos:
+
+- `momentOfDay: MomentOfDay (enum)` – Momento del día (ej: BREAKFAST, DINNER).
+- `recipeId: Long` – Referencia a una receta (opcional).
+- `plannedFoods: List<PlannedFood>` – Lista de alimentos específicos.
+
+###### Métodos:
+
+- `addFoodItem(foodItem: PlannedFood): void` – Agrega alimento a la comida.
+- `removeFoodItem(foodId: Long): void` – Elimina un alimento.
+- `getRecipe(): Recipe` – Devuelve la receta asociada (si la hay).
+- `totalCalories(): Int` – Suma de calorías de esta comida.
+
+---
+
+#### Clase: `PlannedFood`
+
+###### Propósito:
+
+Alimento específico que se planifica consumir en una comida, con cantidad incluida.
+
+###### Atributos:
+
+- `foodId: Long` – Referencia al alimento.
+- `quantity: Int` – Cantidad en gramos o unidad base.
+
+###### Métodos:
+
+- `calculateCalories(): Int` – Retorna las calorías de este alimento según su cantidad.
+
+---
+
+##### Relaciones
+
+- `NutritionalPlan` → contiene muchos `DailyPlan`
+- `DailyPlan` → contiene muchos `ScheduledMeal`
+- `ScheduledMeal` → puede tener un `Recipe` o muchos `PlannedFood`
+- `PlannedFood` → referencia a `Food` en el contexto de `FoodCatalog`
+
+#### Bounded Context: FoodCatalog
+
+Este contexto gestiona el catálogo de alimentos y recetas disponibles en el sistema. Permite a los nutricionistas y administradores registrar, consultar y estructurar alimentos y recetas, los cuales serán utilizados en la planificación de comidas.
+
+---
+
+##### Clase: `Food`
+
+###### Propósito:
+
+Representa un alimento individual que puede ser consumido por sí mismo o como parte de una receta. Contiene información nutricional relevante.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del alimento.
+- `name: String` – Nombre del alimento.
+- `description: String` – Descripción general del alimento.
+- `caloriesPer100g: Int` – Calorías por cada 100 gramos.
+- `proteinPer100g: Float` – Proteína por cada 100 gramos.
+- `fatPer100g: Float` – Grasa por cada 100 gramos.
+- `carbsPer100g: Float` – Carbohidratos por cada 100 gramos.
+- `unit: UnitOfMeasure (enum)` – Unidad de medida base.
+
+###### Métodos:
+
+- `calculateCalories(quantity: Float): Int` – Calcula las calorías según una cantidad dada.
+- `isValid(): Boolean` – Valida si el alimento tiene datos completos.
+
+---
+
+##### Clase: `Recipe`
+
+###### Propósito:
+
+Representa una receta compuesta por varios ingredientes. Cada receta puede ser utilizada en la planificación de comidas.
+
+###### Atributos:
+
+- `id: Long` – Identificador único de la receta.
+- `name: String` – Nombre de la receta.
+- `description: String` – Descripción de preparación.
+- `ingredients: List<Ingredient>` – Lista de ingredientes que componen la receta.
+- `preparationSteps: List<String>` – Pasos para preparar la receta.
+
+###### Métodos:
+
+- `addIngredient(ingredient: Ingredient): void` – Agrega un ingrediente.
+- `removeIngredient(foodId: Long): void` – Elimina un ingrediente de la receta.
+- `getTotalCalories(): Int` – Calcula la suma total de calorías de la receta.
+- `getMacronutrientBreakdown(): MacronutrientDTO` – Devuelve proteínas, grasas y carbohidratos totales.
+
+---
+
+##### Clase: `Ingredient`
+
+###### Propósito:
+
+Representa un alimento y su cantidad utilizada dentro de una receta.
+
+###### Atributos:
+
+- `foodId: Long` – Referencia al alimento.
+- `quantity: Float` – Cantidad utilizada.
+- `unit: UnitOfMeasure (enum)` – Unidad de medida (gramos, unidades, etc.).
+
+###### Métodos:
+
+- `calculateCalories(): Int` – Calcula las calorías del ingrediente.
+- `toFood(): Food` – Devuelve el objeto `Food` referenciado.
+
+---
+
+##### Enum: `UnitOfMeasure`
+
+###### Propósito:
+
+Enumera las unidades de medida disponibles para alimentos e ingredientes.
+
+###### Valores:
+
+- `GRAMS`
+- `MILLILITERS`
+- `UNITS`
+- `CUPS`
+- `TABLESPOONS`
+- `TEASPOONS`
+
+---
+
+##### Relaciones
+
+- `Recipe` → contiene muchos `Ingredient`
+- `Ingredient` → referencia a `Food`
+- `Food` → puede estar presente en múltiples `Recipe` a través de `Ingredient`
+
 #### 4.2.1.1. Domain Layer
+
 #### 4.2.1.2. Interface Layer
+
 #### 4.2.1.3. Application Layer
+
 #### 4.2.1.4. Infrastructure Layer
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
