@@ -30,7 +30,7 @@
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
 | Pardo Zapata, Gustavo Adolfo  | U202120347 |
 | Alejandro Espino Flores       | U202122129 |
-|                               |            |
+| Dueñas Canales Leonardo Manuel| U202117475 |
 
 <h3 align="center">Abril, 2025</h3>
 
@@ -166,6 +166,7 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
 | <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
 | <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
+| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento el conocimiento de Java, javascript, Python, C#, HTML. |
 
 ## 1.2. Solution Profile
 
@@ -674,3 +675,28 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 - **Metrics (métricas):** Datos cuantificables como peso, IMC, calorías diarias y nivel de adherencia al plan, que se usan para evaluar el progreso del usuario.
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
+
+
+
+# Capítulo IV: Solution Software Design
+
+## 4.1. Strategic-Level Domain-Driven Design
+### 4.1.1. EventStorming
+#### 4.1.1.1. Candidate Context Discovery
+#### 4.1.1.2. Domain Message Flows Modelings
+#### 4.1.1.3. Bounded Context Canvases
+### 4.1.2. Context Mapping
+### 4.1.3. Software Architecture
+#### 4.1.3.1. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: <Bounded-Context-Name>
+#### 4.2.1.1. Domain Layer
+#### 4.2.1.2. Interface Layer
+#### 4.2.1.3. Application Layer
+#### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
