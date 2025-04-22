@@ -30,7 +30,7 @@
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
 | Pardo Zapata, Gustavo Adolfo  | U202120347 |
 | Alejandro Espino Flores       | U202122129 |
-|                               |            |
+| Dueñas Canales Leonardo Manuel| U202117475 |
 
 <h3 align="center">Abril, 2025</h3>
 
