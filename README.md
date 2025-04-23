@@ -356,6 +356,10 @@ El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes d
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios. A continuación se presenta el Lean UX Canvas trabajado por el equipo a través de la herramienta digital Mural:
 
+![Image](https://github.com/user-attachments/assets/c9c4811a-b42c-42ab-bd14-812c53b40061)
+
+Enlace: [https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/891b85b88f2d8e99fb15c7cdf2f30e62792b17af?sender=ufdf66b413172c812625a4806](LeanUX-Canvas_NutriPlan)
+
 ## 1.3. Segmentos Objetivo
 
 #### 1. Usuarios generales
