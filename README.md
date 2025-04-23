@@ -258,38 +258,59 @@ La carencia de acceso a información nutricional clara y accesible limita la cap
 
 #### 1.2.2.2. Lean UX Assumptions
 
-¿Quién es el usuario?
+#### User Assumptions
 
-Personas que desean mejorar su alimentación y aprender a comer de manera más saludable.
+#### **¿Quién utiliza nuestra plataforma?**
+- **Jóvenes de 18-28 años en Lima:** Personas que buscan mejorar sus hábitos alimenticios, aprender a cocinar de manera más saludable y optimizar sus compras, pero enfrentan barreras como la falta de tiempo y conocimiento nutricional.
+- **Nutricionistas:** Profesionales de la salud que necesitan una herramienta digital eficiente para personalizar dietas, monitorear pacientes y gestionar su carga de trabajo de manera efectiva.
 
-Nutricionistas que buscan herramientas digitales para gestionar mejor sus planes y pacientes.
+#### **¿Cómo se integra nuestro producto en la rutina laboral o cotidiana?**
+- **Para los jóvenes de 18-28 años en Lima:** NutriPlan se integra ayudando a los jóvenes a planificar sus comidas de forma rápida y sencilla, generar listas de compras inteligentes basadas en sus preferencias alimentarias y seguir su progreso nutricional, todo a través de una plataforma accesible desde su móvil.
+- **Para los nutricionistas:** La aplicación facilita la creación de dietas personalizadas, el seguimiento remoto de pacientes y la gestión eficiente de múltiples pacientes, lo que optimiza su tiempo y mejora la calidad del servicio.
 
-¿Dónde encaja nuestro servicio? ¿En su trabajo o vida?
-NutriPlan se integra en el día a día de quienes quieren mejorar su salud a través de la comida, facilitando la planificación y la educación alimentaria. En el caso de los nutricionistas, es un apoyo digital para su trabajo profesional.
+#### **¿Cuáles son los desafíos que aborda nuestro producto?**
+- **Para los jóvenes de 18-28 años en Lima:** La falta de tiempo y conocimientos sobre nutrición que dificulta la planificación de comidas saludables y la toma de decisiones informadas sobre su alimentación, lo que contribuye a hábitos poco saludables y un mayor riesgo de enfermedades crónicas.
+- **Para los nutricionistas:** La falta de herramientas digitales eficientes para personalizar dietas, gestionar un número elevado de pacientes y realizar un seguimiento adecuado de manera remota, lo que limita la calidad y efectividad de su trabajo.
 
-¿Cuándo y cómo es usado nuestro servicio?
+#### **¿Cuál es la imagen que deseamos proyectar con nuestro producto?**
+NutriPlan busca proyectar una imagen de **salud, accesibilidad y conveniencia**. Queremos ser vistos como una herramienta confiable, moderna y fácil de usar que facilita la mejora de los hábitos alimenticios, tanto para los jóvenes como para los nutricionistas, mejorando la salud nutricional de manera efectiva.
 
-Los usuarios utilizarán NutriPlan al organizar sus menús semanales, al momento de cocinar, hacer compras o seguir un plan nutricional.
+#### **¿Cuál es el propósito fundamental de nuestra aplicación?**
+El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes de 18-28 años en Lima proporcionando una plataforma que facilite la planificación de comidas saludables, optimice las compras y ofrezca un seguimiento continuo del progreso. Para los nutricionistas, la aplicación permite personalizar dietas y gestionar pacientes de forma eficiente y remota.
 
-Los nutricionistas lo usarán para crear planes, revisar el progreso de sus pacientes y brindar recomendaciones a través de la app.
+#### **¿Qué funcionalidades destacan en nuestra aplicación?**
+- **Planificación de comidas personalizadas:** Recetas adaptadas a las necesidades y preferencias de cada usuario.  
+- **Listas de compras inteligentes:** Generación automática de listas basadas en las recetas y preferencias del usuario.  
+- **Seguimiento nutricional:** Monitoreo del progreso nutricional y recomendaciones personalizadas para ajustes en la dieta.  
+- **Gestión de pacientes (para nutricionistas):** Herramienta para crear dietas personalizadas, realizar seguimiento y gestionar pacientes de manera eficiente.
 
-¿Qué problemas puede enfrentar nuestro servicio?
 
-Dificultad para lograr la adherencia al uso continuo por parte del usuario.
+#### **Business Outcomes**
 
-Garantizar que los planes y recetas sean realmente personalizados y basados en datos confiables.
+1. **Aumentar** la satisfacción del usuario al proporcionar una plataforma accesible, útil y fácil de usar para mejorar los hábitos alimenticios, lo que favorece la retención de usuarios.
+2. **Expandir** la base de usuarios en Lima y Perú, aumentando la cuota de mercado en el sector de aplicaciones de salud y nutrición.
+3. **Incrementar** las suscripciones premium de usuarios al ofrecer funcionalidades avanzadas como asesoramiento personalizado y seguimiento nutricional detallado.
+4. **Mejorar** la eficiencia de los nutricionistas en la gestión de pacientes, lo que resulta en una mayor adopción de la plataforma por parte de profesionales de la salud.
+5. **Establecer** alianzas estratégicas con instituciones de salud, empresas de nutrición y marcas de productos alimenticios para ampliar la visibilidad y las oportunidades de monetización.
 
-Conseguir que los nutricionistas adopten la plataforma como parte de su rutina profesional.
+#### User Outcomes
 
-##### Business Outcomes
+#### **Segmento objetivo Jóvenes de 18-28 años en Lima**
 
-Creemos que los usuarios valorarán una plataforma que les ayude a mejorar su alimentación de forma práctica, educativa y personalizable.
+1. **Mejorar** los hábitos alimenticios al planificar comidas saludables adaptadas a sus necesidades y objetivos nutricionales.
+2. **Optimizar** las compras mediante listas inteligentes que permiten comprar solo lo necesario, reduciendo desperdicios y costos.
+3. **Incrementar** el conocimiento sobre nutrición para tomar decisiones informadas que mejoren la salud a largo plazo.
+4. **Hacer** un seguimiento del progreso nutricional, ajustando los hábitos según los resultados y objetivos personales.
+5. **Sentirse** más motivados a mantener hábitos saludables gracias al apoyo continuo y las recomendaciones personalizadas de la app.
 
-Creemos que los nutricionistas adoptarán una herramienta que les permita ampliar su alcance, profesionalizar su seguimiento y mejorar la atención a sus pacientes.
+#### **Segmento objetivo: Nutricionistas en Lima**
 
-Sabemos que existen apps similares, pero creemos que podemos diferenciarnos al integrar funcionalidades como planificación inteligente, análisis nutricional por receta y conexión con profesionales de la salud.
+1. **Crear** dietas personalizadas de manera más rápida y eficiente, adaptadas a las necesidades específicas de cada paciente.
+2. **Mejorar** el seguimiento de los pacientes, monitoreando su progreso de manera remota y realizando ajustes según sea necesario.
+3. **Ahorrar** tiempo al automatizar tareas y centralizar la gestión de pacientes, optimizando sus recursos.
+4. **Ofrecer** atención más personalizada, gracias al acceso a datos en tiempo real y a la capacidad de ajustar las recomendaciones rápidamente.
+5. **Experimentar** mayor satisfacción profesional al contar con una herramienta que facilita el trabajo y mejora la calidad de atención.
 
-Reconocemos que existen otras aplicaciones relacionadas con nutrición, pero creemos que NutriPlan se diferenciará al integrar funciones de planificación automática, educación alimentaria, conexión con profesionales y análisis nutricional en una sola plataforma, ofreciendo una experiencia más completa y personalizada.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
