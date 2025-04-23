@@ -221,13 +221,40 @@ Suscripción Premium para usuarios: Incluye planes nutricionales personalizados,
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-La idea central de NutriPlan surge a partir de la creciente necesidad de las personas de adoptar hábitos alimenticios saludables, pero sin contar con el conocimiento, el tiempo o las herramientas necesarias para lograrlo. Además, los profesionales de la nutrición enfrentan dificultades para hacer seguimiento personalizado y digital a sus pacientes de forma práctica y eficiente.
+##### **1. Problem Statement: Mejora de Alimentación para Jóvenes Adultos en Lima**
 
-Pese a que existen aplicaciones centradas en dietas o recetas, muchas de ellas no ofrecen una visión integral que combine educación, seguimiento personalizado y planificación automatizada de comidas.
+**Descripción de la situación:**  
+La mayoría de los jóvenes adultos en Lima tienen poco tiempo y conocimiento para planificar comidas saludables. Según el Ministerio de Salud, más del 60% de los adultos en Perú sufren de sobrepeso u obesidad, lo que aumenta los riesgos de enfermedades crónicas. Sin embargo, solo el 30% de los jóvenes de entre 18 y 28 años en Lima tiene acceso a recursos adecuados para mejorar su alimentación. 
 
-NutriPlan supera estas limitaciones al ofrecer una solución digital que permite a los usuarios planificar sus comidas, conocer su valor nutricional, mejorar sus hábitos y recibir orientación profesional. Al mismo tiempo, brinda a los nutricionistas una herramienta moderna para gestionar a sus pacientes y crear planes alimenticios basados en evidencia.
+**Descripción del problema:**  
+La falta de una herramienta que facilite la planificación de comidas saludables y optimice las compras diarias lleva a que muchos jóvenes adultos continúen tomando decisiones alimenticias poco informadas, lo que contribuye a un aumento de enfermedades relacionadas con la mala alimentación.
 
-Sentiremos que estamos logrando nuestro propósito cuando veamos un número creciente de personas usando NutriPlan como parte de su rutina alimentaria diaria, y a nutricionistas recomendándola como una extensión de sus consultas.
+**Propuesta de solución:**  
+¿Cómo podemos ofrecer a los jóvenes adultos en Lima una plataforma accesible que les permita planificar comidas saludables, optimizar sus compras y llevar un seguimiento nutricional, para que puedan tomar decisiones informadas y mejorar sus hábitos alimenticios?
+
+##### **2. Problem Statement: Falta de Herramientas Digitales para Nutricionistas**
+
+**Descripción de la situación:**  
+Los nutricionistas en Lima gestionan una gran cantidad de pacientes con necesidades dietéticas diversas, pero la mayoría no dispone de herramientas digitales adecuadas para personalizar dietas y hacer un seguimiento continuo de los pacientes. Según la Sociedad Peruana de Nutrición, solo el 15% de los nutricionistas utiliza tecnología avanzada para gestionar sus prácticas profesionales.
+
+**Descripción del problema:**  
+La ausencia de una plataforma digital eficiente limita la capacidad de los nutricionistas para personalizar las dietas, realizar un seguimiento adecuado y proporcionar recomendaciones a sus pacientes de manera remota y en tiempo real. Esto afecta la calidad de la atención y aumenta la carga de trabajo sin optimizar recursos.
+
+**Propuesta de solución:**  
+¿Cómo podemos proporcionar a los nutricionistas en Lima una herramienta digital que les permita crear dietas personalizadas, realizar un seguimiento continuo y ofrecer recomendaciones eficientes, mejorando la calidad de su servicio y optimizando el tiempo dedicado a cada paciente?
+
+
+##### **3. Problem Statement: Acceso y Comprensión de la Nutrición para Jóvenes Adultos en Lima**
+
+**Descripción de la situación:**  
+En Lima, la falta de educación nutricional accesible afecta a un alto porcentaje de la población, especialmente entre los jóvenes adultos. Según la Encuesta Nacional de Hogares (ENAHO), el 58% de los jóvenes no conoce la cantidad adecuada de calorías que deben consumir diariamente, lo que contribuye a una mala toma de decisiones alimenticias. Esta falta de educación es más notable en los sectores de menores ingresos.
+
+**Descripción del problema:**  
+La carencia de acceso a información nutricional clara y accesible limita la capacidad de los jóvenes adultos para tomar decisiones informadas sobre su alimentación, lo que provoca un incremento en enfermedades como la obesidad y la diabetes tipo 2.
+
+**Propuesta de solución:**  
+¿Cómo podemos ofrecer a los jóvenes adultos en Lima una plataforma educativa que proporcione información nutricional accesible, personalizada y fácil de comprender, para que puedan mejorar sus hábitos alimenticios y prevenir enfermedades relacionadas con la mala nutrición?
+
 
 #### 1.2.2.2. Lean UX Assumptions
 
