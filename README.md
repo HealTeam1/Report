@@ -201,9 +201,9 @@ NutriPlan se utilizará de manera continua. Los usuarios podrán acceder a la ap
 
 #### Who? (¿A quién está dirigido?)
 
-Usuarios generales que buscan mejorar su alimentación diaria, cocinar de manera saludable y optimizar sus compras.
+Usuarios generales: Jóvenes adultos de entre 18 y 28 años en Lima que buscan mejorar su alimentación diaria, cocinar de manera saludable y optimizar sus compras. Este grupo busca una solución práctica y accesible para integrar hábitos alimenticios más saludables en su rutina.
 
-Nutricionistas que requieren una herramienta digital para personalizar dietas, monitorear pacientes y compartir recomendaciones profesionales.
+Nutricionistas: Profesionales de la salud en Lima  que necesitan una herramienta digital para personalizar dietas, monitorear el progreso de sus pacientes y compartir recomendaciones profesionales de manera eficiente y remota.
 
 #### How? (¿Cómo funciona?)
 
