@@ -176,9 +176,11 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 
 #### Antecedentes y problemática
 
-En la actualidad, muchas personas desean mejorar su alimentación, pero se enfrentan a barreras como la falta de conocimientos nutricionales, el poco tiempo para planificar comidas o la dificultad para mantener hábitos saludables. Paralelamente, nutricionistas buscan herramientas modernas que les permitan brindar un mejor seguimiento a sus pacientes y generar planes personalizados de forma eficiente.
+En la actualidad, el 60% de los adultos en Lima padecen sobrepeso u obesidad, lo que aumenta significativamente el riesgo de enfermedades crónicas como diabetes tipo 2, hipertensión y problemas cardiovasculares. A pesar de la creciente preocupación por la salud, muchas personas se enfrentan a barreras para mejorar su alimentación, como la falta de conocimientos nutricionales, la escasez de tiempo para planificar comidas o la dificultad para mantener hábitos saludables en medio de las exigencias diarias. Según la Encuesta Nacional de Hogares (ENAHO) del INEI, el 45.6% de la población en Perú no sigue una dieta balanceada debido a estos desafíos.
 
-En este contexto, surge la necesidad de una solución tecnológica que integre educación nutricional, planificación inteligente y asesoría profesional, de manera accesible y personalizada.
+Simultáneamente, los nutricionistas enfrentan dificultades para acceder a herramientas modernas que les permitan brindar un mejor seguimiento a sus pacientes, personalizar planes alimenticios de forma eficiente y manejar una carga creciente de pacientes. De acuerdo con la Sociedad Peruana de Nutrición, la falta de plataformas digitales accesibles y efectivas para estos profesionales también es un factor que limita el impacto de su trabajo.
+
+En este contexto, surge la necesidad de una solución tecnológica que integre educación nutricional, planificación inteligente de alimentos y asesoría profesional, de manera accesible y personalizada. NutriPlan busca resolver estos problemas, proporcionando a los usuarios herramientas para mejorar su alimentación, mientras ofrece a los nutricionistas una plataforma eficiente para gestionar planes alimenticios y realizar seguimientos de manera remota.
 
 #### What? (¿Qué es?)
 
