@@ -31,6 +31,7 @@
 | Pardo Zapata, Gustavo Adolfo  | U202120347 |
 | Alejandro Espino Flores       | U202122129 |
 | Dueñas Canales Leonardo Manuel| U202117475 |
+| Comettant Rubiños Jessica Elizabeth | U20211C009 |
 
 <h3 align="center">Abril, 2025</h3>
 
@@ -166,7 +167,8 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
 | <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
 | <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
-| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento con el conocimiento de Java, javascript, Python, C#, HTML. |
+| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.  |
+| ![Image](https://github.com/user-attachments/assets/c76261aa-c9dc-402a-b95f-2ba0a37c48dc) **Jessica Elizabeth Comettant Rubiños** | Estudiante de la carrera de ingeniería de software de la UPC (Universidad Peruana de Ciencias Aplicadas). Estoy en el sexto ciclo de mi carrera. Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, mi personalidad se encuentra basada en la autonomía. Por lo tanto, he sido capaz de extender mis conocimientos de programación con mayor material de estudio. Finalmente, destaco de mi personalidad la empatía, la responsabilidad, la amabilidad y la capacidad de trabajar en equipo. | Conocimientos en C#, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals. |
 
 ## 1.2. Solution Profile
 
@@ -184,15 +186,16 @@ NutriPlan es una aplicación móvil que permite planificar comidas saludables, v
 
 #### Why? (¿Por qué lo hacemos?)
 
-Porque muchas personas quieren alimentarse mejor, pero no saben cómo empezar o cómo mantener una rutina saludable. Al mismo tiempo, los nutricionistas necesitan soluciones digitales que faciliten su trabajo. NutriPlan responde a ambas necesidades, promoviendo una mejor salud a través de la tecnología.
+En Perú, especialmente en Lima, existen desafíos importantes en cuanto a salud y nutrición. Según el Ministerio de Salud (Minsa), el sobrepeso y la obesidad han aumentado significativamente en la población urbana, afectando aproximadamente al 60% de los adultos en Lima. Esta situación ha contribuido a un incremento de enfermedades crónicas como la diabetes tipo 2, hipertensión y problemas cardiovasculares. Además, muchas personas carecen de la educación nutricional necesaria para tomar decisiones alimenticias informadas. NutriPlan surge con el objetivo de ofrecer soluciones accesibles, proporcionando herramientas personalizadas para que los usuarios puedan mejorar sus hábitos alimenticios de manera efectiva.
+
 
 #### Where? (¿Dónde se utilizará?)
 
-En cualquier lugar, gracias a su formato de app móvil. Ya sea en casa, en el supermercado o en la consulta con el nutricionista, NutriPlan está disponible para acompañar al usuario en todo momento.
+NutriPlan estará disponible principalmente en Lima, la capital de Perú, y en otras zonas urbanas del país. La aplicación está diseñada para personas que desean mejorar su alimentación y para nutricionistas que buscan una plataforma práctica y accesible para gestionar planes alimenticios. Con el tiempo, se espera expandir su alcance a otras ciudades de América Latina, donde los problemas nutricionales son similares.
 
 #### When? (¿Cuándo se utilizará?)
 
-NutriPlan está pensada para su uso diario, especialmente durante la planificación de comidas, compras semanales o al momento de preparar alimentos. También es útil durante las consultas nutricionales o el seguimiento de planes alimenticios.
+NutriPlan se utilizará de manera continua. Los usuarios podrán acceder a la aplicación en cualquier momento, ya sea para planificar sus comidas, hacer compras o seguir su progreso nutricional. La aplicación también podrá adaptarse a situaciones particulares, como dietas postoperatorias o cambios de hábitos alimenticios a lo largo del tiempo.
 
 #### Who? (¿A quién está dirigido?)
 
