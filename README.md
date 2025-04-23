@@ -329,7 +329,7 @@ El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes d
 4. **Hacer** un seguimiento del progreso nutricional, ajustando los hábitos según los resultados y objetivos personales.
 5. **Sentirse** más motivados a mantener hábitos saludables gracias al apoyo continuo y las recomendaciones personalizadas de la app.
 
-#### **Segmento objetivo: Nutricionistas en Lima**
+#### **Segmento objetivo: Nutricionistas en Perú**
 
 1. **Crear** dietas personalizadas de manera más rápida y eficiente, adaptadas a las necesidades específicas de cada paciente.
 2. **Mejorar** el seguimiento de los pacientes, monitoreando su progreso de manera remota y realizando ajustes según sea necesario.
@@ -362,25 +362,33 @@ Enlace: [https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/89
 
 ## 1.3. Segmentos Objetivo
 
-#### 1. Usuarios generales
+#### Segmento 1: Jóvenes Adultos de 18 a 28 Años en Lima
 
-Jóvenes y adultos que desean mejorar sus hábitos alimenticios de forma sencilla y sostenible.
+- **Población**: En 2022, la población joven peruana entre 18 y 29 años ascendía a 7,875,040 personas, representando aproximadamente el 23.6% de la población nacional. Lima Metropolitana concentra el 28.4% de esta población joven. 
+  
+- **Características**:
+  - Alta penetración de smartphones y uso de aplicaciones móviles.
+  - Interés creciente por la salud y el bienestar.
+  - Búsqueda de soluciones prácticas y accesibles para mejorar sus hábitos alimenticios.
 
-Personas con objetivos específicos como pérdida de peso, ganancia muscular o control de enfermedades crónicas (como diabetes o hipertensión).
+- **Necesidades**:
+  - Herramientas que faciliten la planificación de comidas saludables.
+  - Acceso a información nutricional personalizada.
+  - Motivación y seguimiento para mantener hábitos alimenticios saludables.
 
-Usuarios con poco tiempo para planificar sus comidas que buscan recetas saludables y fáciles de preparar.
+#### Segmento 2: Nutricionistas en Perú
 
-Familias que quieren organizar mejor sus compras y comidas semanales, reduciendo desperdicio y mejorando su nutrición.
+- **Población**: El Colegio de Nutricionistas del Perú cuenta con aproximadamente 9,000 profesionales registrados.
+  
+- **Características**:
+  - Profesionales comprometidos con la salud y el bienestar de la población.
+  - Interés en herramientas digitales que optimicen su labor.
+  - Necesidad de plataformas que faciliten la gestión de pacientes y el seguimiento nutricional.
 
-#### 2. Nutricionistas
-
-Nutricionistas que desean ofrecer planes personalizados a sus pacientes de forma digital, optimizando su tiempo y aumentando su alcance.
-
-Profesionales de la salud que buscan una plataforma que les permita monitorear progresos, enviar recomendaciones y mantener una comunicación constante con sus pacientes.
-
-Especialistas que ya ofrecen asesoría nutricional presencial y desean digitalizar y escalar sus servicios.
-
-Expertos en nutrición interesados en generar ingresos extra compartiendo su conocimiento a través de contenidos, recetas y asesorías online.
+- **Necesidades**:
+  - Herramientas que permitan crear dietas personalizadas de manera eficiente.
+  - Seguimiento remoto de pacientes.
+  - Acceso a datos y estadísticas que faciliten la toma de decisiones.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -390,7 +398,7 @@ En este capítulo se realizará el proceso de Análisis competitivo y Needfindin
 
 ### 2.1.1. Análisis Competitivo
 
-A continuación se presenta un análisis competitivo de las empresas que ofrecen servicios similares a NutriPlan.
+El análisis competitivo es una herramienta esencial debido a su relevancia en la toma de decisiones estratégicas, la identificación de oportunidades y amenazas, y la creación de ventajas competitivas sostenibles en el mercado. Por tales motivos, ayuda a las empresas a mantenerse ágiles y a tomar decisiones informadas en un entorno empresarial de constante cambio. A continuación, se exhibe la incorporación de esta herramienta dentro del desarrollo del proyecto y la examinación de los competidores:
 
 <table>
   <tr>
@@ -607,7 +615,7 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 **Preguntas Específicas**
 
-#### Segmento 1: Usuarios generales
+#### Segmento 1: Jóvenes de 18 - 28 años en Lima
 
 ¿Qué le motiva a querer mejorar su alimentación o estilo de vida?
 
@@ -619,7 +627,7 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 ¿Qué funcionalidades considera imprescindibles en una app que lo ayuden a mantenerse motivado y organizado en su plan nutricional?
 
-#### Segmento 2: Nutricionistas
+#### Segmento 2: Nutricionistas en el Perú
 
 ¿Cuáles son los principales retos que enfrenta al gestionar los planes nutricionales de sus pacientes?
 
@@ -633,19 +641,17 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento #1: Usuarios generales
+#### Segmento #1: Jóvenes de 18 - 28 años en Lima
 
-**Entrevista #1:**
-
-Nombre: Ernesto Ruiz
-
-Edad: 20
-
-Distrito: Pueblo Libre
-
-Link:
+|Entrevistado 1| Ernesto Ruiz|
+|-|-|
+|Edad|20|
+|Distrito| Pueblo Libre|
+|Screenshot||
+|Timing: 0:00-00:00 |URL: |
 
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
+
 
 #### Segmento #2: Nutricionistas
 
@@ -663,11 +669,11 @@ En esta sección se muestra el proceso de análisis de la información recolecta
 
 A continuación brindamos las fichas de User Persona elaboradas a partir del análisis de las entrevistas realizadas.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/user1.png" width="900" height="900">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en Perú**
 
 <img src="./img/user2.png" width="900" height="900">
 
@@ -675,7 +681,7 @@ A continuación brindamos las fichas de User Persona elaboradas a partir del an�
 
 A continuación se muestra el proceso para la realizacion del User Task Matrix para comprender las tareas que realizan los User Persona para cumplir sus objetivos.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 | **Tarea**                                                         | **Frecuencia** | **Importancia** |
 | ----------------------------------------------------------------- | -------------- | --------------- |
@@ -689,7 +695,7 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 ---
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en el Perú**
 
 | **Tarea**                                                        | **Frecuencia** | **Importancia** |
 | ---------------------------------------------------------------- | -------------- | --------------- |
@@ -705,7 +711,7 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 A continuación se muestra el proceso para la realización del User Journey Mapping para los User Persona con el fin de entender las experiencias del usuario sin nuestra solución.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
 
 **Segmento #2: Nutricionistas**
 
@@ -713,11 +719,11 @@ A continuación se muestra el proceso para la realización del User Journey Mapp
 
 A continuación se muestra el proceso para la realización del Empathy Mapping para los User Persona con el fin de entender lo que piensa, siente, oye, hace y observa.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:   Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/empathy1.png" width="900" height="900">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en el Perú**
 
 <img src="./img/empathy2.png" width="900" height="900">
 
@@ -725,11 +731,11 @@ A continuación se muestra el proceso para la realización del Empathy Mapping p
 
 A continuación se muestra el proceso para la realización del As-Is Scenario Mapping para los User Persona.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/asis1.png" width="1400" height="600">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en Perú**
 
 <img src="./img/asis2.png" width="1400" height="600">
 
@@ -737,7 +743,7 @@ A continuación se muestra el proceso para la realización del As-Is Scenario Ma
 
 A continuación, se presentan los términos clave utilizados en el dominio de negocio de **NutriPlan**, con el objetivo de unificar el lenguaje entre el equipo de desarrollo, los usuarios y los profesionales involucrados.
 
-- **User (usuario general):** Persona que utiliza la aplicación con el objetivo de mejorar su alimentación mediante planes personalizados y seguimiento de hábitos.
+- **User (joven usuario):** Persona que utiliza la aplicación con el objetivo de mejorar su alimentación mediante planes personalizados y seguimiento de hábitos.
 
 - **Nutritionist (nutricionista):** Profesional de la salud que diseña, adapta y supervisa los planes alimenticios de los usuarios a través de la plataforma.
 
@@ -764,7 +770,6 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 - **Metrics (métricas):** Datos cuantificables como peso, IMC, calorías diarias y nivel de adherencia al plan, que se usan para evaluar el progreso del usuario.
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
-
 
 
 # Capítulo IV: Solution Software Design
