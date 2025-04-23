@@ -258,6 +258,32 @@ La carencia de acceso a información nutricional clara y accesible limita la cap
 
 #### 1.2.2.2. Lean UX Assumptions
 
+#### Business Assumptions
+
+1. **Creemos** que nuestros usuarios necesitan una plataforma que les permita mejorar sus hábitos alimenticios de manera fácil y accesible, mientras reciben recomendaciones personalizadas de nutrición.
+
+2. **Estas necesidades se pueden satisfacer** mediante el desarrollo de una aplicación móvil que proporcione recetas saludables, listas de compras inteligentes y un seguimiento nutricional continuo adaptado a cada usuario.
+
+3. **Nuestros clientes iniciales** serán los jóvenes adultos de 18-28 años en Lima que desean mejorar su alimentación diaria, así como nutricionistas que buscan una herramienta para gestionar dietas personalizadas y hacer seguimiento de sus pacientes.
+
+4. **El valor más importante** que un cliente quiere de nuestros servicios es la capacidad de recibir recomendaciones nutricionales personalizadas y tener una planificación de comidas fácil de seguir para mejorar su salud y bienestar general.
+
+5. **El cliente también** obtendrá beneficios adicionales como acceso a estadísticas sobre su progreso nutricional y la optimización de sus compras mediante listas inteligentes basadas en sus recetas.
+
+6. **Vamos a obtener la mayoría de los clientes** mediante marketing en redes sociales, campañas de concientización sobre hábitos alimenticios saludables y colaboraciones con nutricionistas y profesionales de la salud.
+
+7. **Vamos a obtener ingresos** mediante suscripciones premium para usuarios que deseen funcionalidades adicionales, como asesoramiento personalizado, y mediante alianzas con nutricionistas que usen la plataforma para gestionar sus pacientes.
+
+8. **Nuestra competencia en el mercado** serán aplicaciones de planificación de comidas y seguimiento nutricional que ya ofrecen algunas funcionalidades similares, como MyFitnessPal y Yazio.
+
+9. **Vamos a tener ventaja frente a nuestra competencia** debido a que NutriPlan estará específicamente diseñada para adaptarse a los hábitos alimenticios de los jóvenes adultos de Lima, ofreciendo una experiencia más local y personalizada. Además, la plataforma incluirá un sistema de gestión para nutricionistas que mejorará la experiencia tanto para los usuarios como para los profesionales.
+
+10. **El mayor riesgo del servicio** es que el segmento objetivo no se muestre dispuesto a adoptar una nueva aplicación para mejorar sus hábitos alimenticios. Esto puede ser debido a la falta de motivación para cambiar hábitos arraigados o resistencia a la tecnología.
+
+11. **Lo resolveremos** creando una interfaz atractiva, fácil de usar y gamificada para mantener el compromiso de los usuarios, además de ofrecer contenido educativo interactivo que incentive la adopción de hábitos saludables.
+
+12. **Otras suposiciones incluyen** la aceptación de funcionalidades adicionales basadas en inteligencia artificial para personalizar aún más las recomendaciones, la disponibilidad de recursos tecnológicos para garantizar el buen funcionamiento de la plataforma y la seguridad de los datos personales y nutricionales de los usuarios. Finalmente, se asume que la aplicación cumplirá con altos estándares de privacidad y seguridad para garantizar la confianza de los usuarios en el manejo de su información personal.
+
 #### User Assumptions
 
 #### **¿Quién utiliza nuestra plataforma?**
@@ -314,15 +340,21 @@ El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes d
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que los usuarios interesados en mejorar su alimentación usarán NutriPlan como una herramienta práctica y confiable para planificar sus comidas y adquirir mejores hábitos.
+1. **Creemos** que si proporcionamos a los jóvenes de 18-28 años en Lima una plataforma accesible y fácil de usar para planificar comidas saludables,  
+   **Entonces** estos jóvenes adoptarán hábitos alimenticios más saludables de manera más consistente,  
+   **Sabemos** que hemos tenido éxito cuando veamos un aumento del 25% en la retención de usuarios durante los primeros tres meses, medido a través de la tasa de retención de usuarios.
 
-Creemos que los nutricionistas utilizarán nuestra plataforma para crear planes personalizados y monitorear el progreso de sus pacientes, fortaleciendo así su práctica profesional.
+2. **Creemos** que si ofrecemos a los nutricionistas una herramienta eficiente para crear dietas personalizadas y hacer seguimiento remoto de pacientes,  
+   **Entonces** mejorarán la eficiencia en la gestión de sus pacientes, reduciendo el tiempo invertido en tareas repetitivas,  
+   **Sabemos** que hemos tenido éxito cuando observemos una disminución del 30% en el tiempo promedio dedicado a la creación de dietas, medido a través del tiempo invertido por tarea.
 
-Creemos que ofrecer una experiencia integral (planificación, recetas, valor nutricional y seguimiento profesional) nos permitirá destacar frente a la competencia y generar un crecimiento sostenido en ambas audiencias.
+3. **Creemos** que si implementamos funcionalidades de seguimiento nutricional personalizado,  
+   **Entonces** los jóvenes adultos mejorarán su conocimiento sobre nutrición y tomarán decisiones más informadas sobre su alimentación,  
+   **Sabemos** que hemos tenido éxito cuando observemos una mejora del 15% en los hábitos alimenticios reportados en encuestas de usuarios, medido a través de la puntuación de hábitos alimenticios.
 
-Creemos que si incluimos funciones adaptables y contenido educativo accesible, lograremos una alta retención de usuarios y recomendaciones boca a boca.
 
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios. A continuación se presenta el Lean UX Canvas trabajado por el equipo a través de la herramienta digital Mural:
 
 ## 1.3. Segmentos Objetivo
 
