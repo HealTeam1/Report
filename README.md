@@ -791,6 +791,10 @@ Durante esta sesión de EventStorming, el equipo de NutriPlan se reunió conel o
 
 La técnica e aplico enfocándonos en la experienciadel usuario general y del nutricionista,identificando los eventos significativos del negocio, los comandos del sistema,los agregados y las vistas,conforme a la metodología propuesta por Alberto Brandolini.
 
+<img src="img/evenstorming.png" width="900" height="500">
+
+link: https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=288998827764
+
 **Actividades realizadas**
 
 - Se identificaron eventos clave de negocio.
