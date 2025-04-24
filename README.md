@@ -140,7 +140,8 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :------------------ | :------------------ | :----------- |
-| 1                   | 2                   | 3            |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br>  | Conclusiones:           |
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br>| Conclusiones: |
 
 <div style="page-break-after: always;"></div>
 
@@ -164,11 +165,12 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | Integrantes                                                                                              | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
 | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
 | Nombre                                                                                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
-| Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
+| <img src="img/Daiki.png" alt="" width="100" height="120"> Daiki Oscar Oshiro Yamashita u20201f846 | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro. | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
 | <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
 | <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
 | Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.  |
 | ![Image](https://github.com/user-attachments/assets/c76261aa-c9dc-402a-b95f-2ba0a37c48dc) **Jessica Elizabeth Comettant Rubiños** | Estudiante de la carrera de ingeniería de software de la UPC (Universidad Peruana de Ciencias Aplicadas). Estoy en el sexto ciclo de mi carrera. Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, mi personalidad se encuentra basada en la autonomía. Por lo tanto, he sido capaz de extender mis conocimientos de programación con mayor material de estudio. Finalmente, destaco de mi personalidad la empatía, la responsabilidad, la amabilidad y la capacidad de trabajar en equipo. | Conocimientos en C#, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals. |
+
 
 ## 1.2. Solution Profile
 
@@ -643,12 +645,16 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 #### Segmento #1: Jóvenes de 18 - 28 años en Lima
 
-|Entrevistado 1| Ernesto Ruiz|
-|-|-|
-|Edad|20|
-|Distrito| Pueblo Libre|
-|Screenshot||
-|Timing: 0:00-00:00 |URL: |
+Nombre: Ernesto Ruiz
+
+Edad: 20
+
+Distrito: Pueblo Libre
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/Eb4F9pJ-5kpMlwpi79JvVosBH-a6t5k3QGpR3Q75rotHbg?e=iM6Prv 
+
+<img src="./img/ientre.png" width="700" height="200">
+
 
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
 
