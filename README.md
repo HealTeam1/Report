@@ -810,23 +810,37 @@ A partir del EventStorming realizado,se llevó a cabo una sesión de Candidate C
 
 **Bounded Contexts identificados**
 
-1. Planificación Nutricional Context : Gestiona la creación, personalización y actualizazión de planes alimenticios
-2. Seguimiento y Progreso Context : Encargado de registrar alimentos, métricas y generar reportes de progreso.
+1. NutritionPlanning Context : Gestiona la creación, personalización y actualizazión de planes alimenticios
+2. ProgressTracking Context : Encargado de registrar alimentos, métricas y generar reportes de progreso.
 3. Onboarding Context : Maneja la incorporación de usuarios y su evaluacion incial.
-4. Recetario y compras Context : Relacionado con la sugerencia de recetas saludables y generación de listas de compra.
-5. Getion del Nutricionista Context : Espacio exclusivo del nutricionista para gestionar pacientes,metricas y recomendaciones.
+4. FoodCatalog ontext : Relacionado con la sugerencia de recetas saludables y generación de listas.
+5. UserProfile Context : Espacio para los usuarios para gestionar pacientes,metricas y recomendaciones.
 
 #### 4.1.1.2. Domain Message Flows Modelings
 
 En esta etapa se aplicó la tecnica de Domain Storytelling para representar como los distintos bounded contexts colaboran para satisfacer escenarios del negocio.Se seleccionaron flujos representativos como:
 
-- Creacion de plan nutricional personalizado
+- Creacion de plan nutricional 
 - Monitoreo del progreso del usuario
-- Comunicación entre usuario y nutricionista
+- Gestion de plan del usuario
 
 Cada historia se representa mediantes actores, acciones y los contextos responsable,permitiendo visualizar la orquestación y los contratos entre servicios
 
 #### 4.1.1.3. Bounded Context Canvases
+
+En esta sección se documenta cada uno de los bounded contexts identificados para el dominio de Nutriplan. utilizando el formato de Bounded Context Canvas. Cada canvas proporciona una visión detallada de los límites,responsabilidades,lenguaje ubicuo,capacidades y dependecias internas y externas del contexto.
+
+Esta herramienta permitió al equipo delimitar ecplicitamente que comportamiento y datos pertenecen a cada parte del sistema,facilitando el diseño de soluciones modulares y alineadas con el dominio del negocio.
+
+**Los Bounded Context definidos son:**
+
+1. Nuriplanning
+2. FoodCatalog
+3. ProgressTracking
+4. UserProfile
+5. IAM
+5. Payment
+6. Subscription
 
 ### 4.1.2. Context Mapping
 
