@@ -748,7 +748,7 @@ Representa un plan nutricional creado por un nutricionista para un paciente. Con
 ###### Atributos:
 
 - `id: Long` – Identificador único del plan.
-- `usuarioId: Long` – ID del paciente al que está asignado el plan.
+- `userId: Long` – ID del paciente al que está asignado el plan.
 - `startDate: Date` – Fecha de inicio del plan.
 - `name: String` – Nombre del plan (ej: "Plan Keto Semana 1").
 - `description: String` – Descripción general del plan.
@@ -759,8 +759,10 @@ Representa un plan nutricional creado por un nutricionista para un paciente. Con
 
 - `activatePlan(): void` – Activa el plan.
 - `deactivatePlan(): void` – Desactiva el plan.
-- `addDailyPlan(dayPlan: DailyPlan): void` – Agrega un plan diario.
-- `removeDailyPlan(day: WeekDay): void` – Elimina un plan de un día específico.
+- `getDayPlan(weekDay:WeekDay):DailyPlan` – Devuelve el Plan del día de comida.
+- `scheduleMeal(weekDay:WeekDay, meal:ScheduledMeal):void` – Agregar una comida programada a un día.
+- `addFoodToMeal(weekDay:WeekDay,timeDay:TimeDay,food:PlannedFood)` – Agrega un alimento a la comida programada.
+- `removeFoodFromMeal(weekDay:WeekDay,timeDay:TimeDay,foodId:Food)` – Elimina un alimento a la comida programada.
 - `getPlanSummary(): PlanSummaryDTO` – Devuelve un resumen del plan.
 
 ---
@@ -849,10 +851,10 @@ Representa un alimento individual que puede ser consumido por sí mismo o como p
 - `id: Long` – Identificador único del alimento.
 - `name: String` – Nombre del alimento.
 - `description: String` – Descripción general del alimento.
-- `caloriesPer100g: Int` – Calorías por cada 100 gramos.
-- `proteinPer100g: Float` – Proteína por cada 100 gramos.
-- `fatPer100g: Float` – Grasa por cada 100 gramos.
-- `carbsPer100g: Float` – Carbohidratos por cada 100 gramos.
+- `caloriesPerUnit: Int` – Calorías por unidad.
+- `proteinPerUnit: Float` – Proteína por unidad.
+- `fatPerUnit: Float` – Grasa por unidad.
+- `carbsPerUnit: Float` – Carbohidratos por unidad.
 - `unit: UnitOfMeasure (enum)` – Unidad de medida base.
 
 ###### Métodos:
@@ -874,14 +876,13 @@ Representa una receta compuesta por varios ingredientes. Cada receta puede ser u
 - `name: String` – Nombre de la receta.
 - `description: String` – Descripción de preparación.
 - `ingredients: List<Ingredient>` – Lista de ingredientes que componen la receta.
-- `preparationSteps: List<String>` – Pasos para preparar la receta.
+- `instructions: String` – Pasos para preparar la receta.
 
 ###### Métodos:
 
 - `addIngredient(ingredient: Ingredient): void` – Agrega un ingrediente.
 - `removeIngredient(foodId: Long): void` – Elimina un ingrediente de la receta.
 - `getTotalCalories(): Int` – Calcula la suma total de calorías de la receta.
-- `getMacronutrientBreakdown(): MacronutrientDTO` – Devuelve proteínas, grasas y carbohidratos totales.
 
 ---
 
@@ -921,19 +922,1155 @@ Enumera las unidades de medida disponibles para alimentos e ingredientes.
 
 ---
 
-##### Relaciones
+###### Relaciones
 
 - `Recipe` → contiene muchos `Ingredient`
 - `Ingredient` → referencia a `Food`
 - `Food` → puede estar presente en múltiples `Recipe` a través de `Ingredient`
 
+#### Bounded Context: UserProfiles
+
+Este contexto gestiona la información de perfil tanto de los pacientes como de los nutricionistas. Incluye detalles personales, profesionales y el estado de verificación de los perfiles.
+
+---
+
+##### Clase: `UserProfile`
+
+###### Propósito:
+
+Representa el perfil básico de un usuario, ya sea paciente o nutricionista. Es la base para extender con roles específicos.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del perfil.
+- `userId: Long` – Referencia al usuario del sistema.
+- `fullName: String` – Nombre completo del usuario.
+- `birthDate: Date` – Fecha de nacimiento.
+- `gender: Gender` – Género del usuario.
+- `height: Float` – Altura en centímetros.
+- `weight: Float` – Peso actual en kilogramos.
+- `activityLevel: ActivityLevel` –Nivel de actividad del usuario.
+- `profilePictureUrl: String` – URL de la imagen de perfil.
+
+###### Métodos:
+
+- `updateProfile(data: ProfileDTO): void` – Actualiza los datos del perfil.
+- `getAge(): Int` – Calcula la edad actual.
+- `isComplete(): Boolean` – Verifica si el perfil está completo.
+
+---
+
+##### Clase: `NutritionistProfile`
+
+###### Propósito:
+
+Extiende `UserProfile` con atributos y comportamientos específicos de los nutricionistas, permitiendo gestionar su perfil profesional, pacientes asignados y planes creados.
+
+###### Atributos:
+
+- `id:Long` – Referencia a la clase padre.
+- `userId: Long` – Referencia al usuario.
+- `patientId: List<PatientId>` – Referencia al paciente usuario.
+- `licenseNumber: String` – Número de licencia profesional.
+- `specialization: String` – Especialidad médica o nutricional.
+- `yearsOfExperience: Int` – Años de experiencia.
+- `description: String` – Descripción del perfil profesional.
+- `isVerified: Boolean` – Estado de verificación por la plataforma.
+- `createdAt: DateTime` – Fecha de creación del perfil.
+
+###### Métodos:
+
+- `updateProfile(specialization: String, description: String): void` – Actualiza la especialidad y descripción.
+- `verifyLicense(): void` – Marca la licencia como verificada.
+- `getAssignedPatients(): List<PatientProfile>` – Devuelve la lista de pacientes asignados.
+- `getActivePlans(): List<NutritionalPlan>` – Devuelve los planes nutricionales activos que ha creado.
+- `assignPatient(patientId: Long): void` – Asigna un paciente al nutricionista.
+- `unassignPatient(patientId: Long): void` – Desasigna un paciente del nutricionista.
+- `listPatients(): List<PatientProfile>` – Lista todos los pacientes asignados.
+- `createNutritionalPlan(patientId: Long, planData: NutritionalPlanDTO): NutritionalPlan` – Crea un nuevo plan nutricional para un paciente.
+- `reviewWeeklyReport(patientId: Long): WeeklyReport` – Permite revisar el reporte semanal de un paciente.
+
+---
+
+###### Relaciones
+
+- `NutritionistProfile` extiende a `UserProfile`
+- `UserProfile` está asociado a `User` (del contexto IAM)
+
+#### Bounded Context: ProgressTracking
+
+Este contexto se encarga de registrar y monitorear el progreso del paciente durante la duración de un plan nutricional. Incluye métricas como peso, calorías consumidas, adherencia al plan, y otros indicadores semanales.
+
+---
+
+##### Clase: `WeeklyReport`
+
+###### Propósito:
+
+Representa el reporte de progreso semanal de un paciente respecto a un plan nutricional asignado.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del reporte.
+- `userId: Long` – ID del paciente.
+- `planId: Long` – Referencia al plan nutricional.
+- `weekStart: Date` – Fecha de inicio de la semana.
+- `weekEnd: Date` – Fecha de fin de la semana.
+- `mealsPlanned: Int` – Cantidad total de comidas esperadas esa semana.
+- `mealsLogged: Int` – Número de comidas registradas por el paciente.
+- `adherence: Float` – Porcentaje de adherencia al plan (0.0 a 1.0).
+- `caloriesPlanned: Int` – Calorías totales planificadas para la semana.
+- `caloriesConsumed: Int` – Calorías realmente consumidas.
+- `startingWeight: Float` – Peso al inicio de la semana.
+- `endingWeight: Float` – Peso al final de la semana.
+- `generatedAt: DateTime` – Fecha de generación del reporte.
+
+###### Métodos:
+
+- `calculateAdherence(): Float` – Calcula el nivel de adherencia del paciente.
+- `calculateCaloricBalance(): Int` – Diferencia entre calorías planificadas y consumidas.
+- `hasProgress(): Boolean` – Indica si hubo progreso en el peso.
+- `generateSummary(): WeeklySummaryDTO` – Devuelve un resumen general del progreso.
+
+---
+
+###### Relaciones
+
+- `WeeklyReport` → referencia a `NutritionalPlan` (en NutritionPlanning)
+- `WeeklyReport` → se asocia a un `User` por `usuarioId`
+
+#### Bounded Context: IAM
+
+Este contexto gestiona la **identidad y acceso de los usuarios**, incluyendo la autenticación, autorización mediante roles y la asociación de estos con los usuarios. Es fundamental para garantizar el control de acceso dentro del sistema.
+
+---
+
+##### Clase: `User`
+
+###### Propósito:
+
+Representa a un usuario del sistema, ya sea paciente, nutricionista o administrador. Se encarga de manejar su identidad, credenciales y roles asignados.
+
+###### Atributos:
+
+- `id: Long` – Identificador único del usuario.
+- `email: String` – Correo electrónico del usuario.
+- `password: String` – Contraseña encriptada.
+- `role: Set<Role>` – Conjunto de roles asignados.
+- `createdAt: Date` – Fecha de creación del usuario.
+- `updatedAt: Date` – Fecha de última actualización.
+
+###### Métodos:
+
+- `User()` – Constructor vacío.
+- `User(email: String, password: String)` – Constructor con credenciales básicas.
+- `User(email: String, password: String, roles: List<Role>)` – Constructor con roles iniciales.
+- `addRole(role: Role): User` – Asigna un nuevo rol al usuario.
+- `addRoles(roles: List<Role>): User` – Asigna múltiples roles al usuario.
+- `getSerializedRoles(): List<String>` – Devuelve los roles como lista de strings.
+- `getEmail(): String` – Devuelve el email del usuario.
+- `getPassword(): String` – Devuelve la contraseña del usuario.
+- `getRoles(): Set<Role>` – Devuelve el conjunto de roles asignados.
+
+---
+
+##### Clase: `Role`
+
+###### Propósito:
+
+Define un rol dentro del sistema, utilizado para controlar los permisos y acceso a funcionalidades específicas.
+
+###### Atributos:
+
+- `id: Long` – Identificador del rol.
+- `name: Roles (enum)` – Nombre del rol, como `ROLE_ADMIN`, `ROLE_USER`, etc.
+
+###### Métodos:
+
+- `Role()` – Constructor vacío.
+- `Role(name: Roles)` – Constructor con nombre de rol.
+- `getStringName(): String` – Devuelve el nombre del rol como string.
+- `getDefaultRole(): Role` – Devuelve el rol por defecto.
+- `toRoleFromName(name: String): Role` – Convierte un string al rol correspondiente.
+- `validateRoleSet(roles: List<Role>): List<Role>` – Valida y filtra un conjunto de roles.
+- `getId(): Long` – Devuelve el ID del rol.
+- `getName(): Roles` – Devuelve el nombre del rol.
+- `setId(id: Long): void` – Asigna el ID del rol.
+- `setName(name: Roles): void` – Asigna el nombre del rol.
+
+---
+
+##### Enumeración: `Roles`
+
+###### Propósito:
+
+Define los posibles valores de roles utilizados en el sistema.
+
+###### Valores:
+
+- `ROLE_ADMIN`
+- `ROLE_NUTRITIONIST`
+- `ROLE_USER`
+
+---
+
+## Relaciones
+
+- `User` → puede tener muchos `Role`.
+- `Role` → pertenece a uno o más `User`.
+- `Roles` (enum) → define las constantes de los nombres de rol utilizados por `Role`.
+
+#### Bounded Context: Subscription
+
+Este contexto gestiona la **suscripción de usuarios al sistema**, incluyendo el tipo de plan contratado, su duración, estado y renovación. Se relaciona directamente con el contexto de `Payment` para validar los pagos asociados.
+
+---
+
+##### Clase: `Subscription`
+
+###### Propósito:
+
+Representa una suscripción activa o pasada de un usuario a un plan del sistema. Permite modificar el tipo de plan o renovarlo.
+
+###### Atributos:
+
+- `id: Long` – Identificador único de la suscripción.
+- `planType: PlanTypes (enum)` – Tipo de plan contratado.
+- `userId: UserId` – Identificador del usuario.
+- `startDate: LocalDate` – Fecha de inicio de la suscripción.
+- `renewDate: LocalDate` – Fecha de renovación automática.
+- `status: String` – Estado de la suscripción (ej: ACTIVA, CANCELADA).
+- `cost: double` – Costo del plan.
+- `createdAt: Date` – Fecha de creación del registro.
+- `updatedAt: Date` – Fecha de última modificación.
+
+###### Métodos:
+
+- `Subscription(command: CreateSubscriptionCommand)` – Constructor de suscripción.
+- `updatePlanType(command: UpdatePlanTypeCommand): void` – Cambia el tipo de plan.
+- `renewPlan(command: RenewSubscriptionCommand): void` – Renueva la suscripción.
+- `getUserId(): Long` – Devuelve el ID del usuario.
+- `getPlanType(): PlanTypes` – Devuelve el tipo de plan.
+- `getStartDate(): LocalDate` – Devuelve la fecha de inicio.
+- `getRenewDate(): LocalDate` – Devuelve la fecha de renovación.
+- `getStatus(): String` – Devuelve el estado.
+- `getCost(): double` – Devuelve el costo.
+
+---
+
+##### Enumeración: `PlanTypes`
+
+###### Propósito:
+
+Define los tipos de suscripciones disponibles en el sistema.
+
+###### Valores:
+
+- `BASIC`
+- `PREMIUM`
+- `STANDARD`
+
+---
+
+##### Relaciones
+
+- `Subscription` → pertenece a un `User` (desde IAM).
+- `Subscription` → tiene uno o más `Payment`.
+
+---
+
+#### Bounded Context: Payment
+
+Este contexto gestiona la **información de pagos asociados a suscripciones**, incluyendo datos de tarjeta, fecha de vencimiento, CVV, estado de pago, y más.
+
+---
+
+##### Clase: `Payment`
+
+###### Propósito:
+
+Representa un pago realizado por un usuario para una suscripción, guardando detalles sensibles como método de pago, fecha y estado.
+
+###### Atributos:
+
+- `id: Long` – Identificador del pago.
+- `subscriptionId: Long` – Referencia a la suscripción asociada.
+- `date: LocalDate` – Fecha en la que se realizó el pago.
+- `state: String` – Estado del pago (ej: APROBADO, RECHAZADO).
+- `cardHolderName: String` – Nombre en la tarjeta.
+- `cardNumber: String` – Número de la tarjeta (enmascarado).
+- `expireDate: Date` – Fecha de expiración de la tarjeta.
+- `cvv: String` – Código de seguridad.
+- `createdAt: Date` – Fecha de creación del registro.
+- `updatedAt: Date` – Fecha de última modificación.
+
+###### Métodos:
+
+- `Payment(command: CreatePaymentCommand)` – Constructor de pago.
+- `getSubscriptionId(): Long` – Devuelve el ID de la suscripción.
+- `getDate(): LocalDate` – Devuelve la fecha del pago.
+- `getState(): String` – Devuelve el estado del pago.
+- `getCardHolderName(): String` – Devuelve el nombre del titular.
+- `getCardNumber(): String` – Devuelve el número de tarjeta.
+- `getExpireDate(): String` – Devuelve la fecha de vencimiento.
+- `getCvv(): String` – Devuelve el código de seguridad.
+
+---
+
+###### Relaciones
+
+- `Payment` → pertenece a una `Subscription`.
+
 #### 4.2.1.1. Domain Layer
+
+#### Domain Layer - NutritionPlanning
+
+La capa de dominio representa el núcleo de la lógica de negocio de la aplicación. Define los conceptos fundamentales del dominio, sus reglas y relaciones, utilizando elementos como Aggregates, Entities, Value Objects, Domain Services y comandos/consultas.
+
+#### Aggregates
+
+#### NutritionalPlan
+
+Es la raíz del agregado que encapsula toda la lógica del plan nutricional de un usuario durante una semana. Garantiza la integridad y coherencia de los elementos que lo componen: los DailyPlans y sus ScheduledMeals.
+
+**Métodos:**
+
+- `activatePlan()`
+- `deactivatePlan()`
+- `getPlanSummary(): PlanSummaryDTO`
+- `getDailyPlan(weekDay: WeekDay): DailyPlan`
+- `scheduleMeal(weekDay: WeekDay, timeDay: TimeDay, meal: ScheduledMeal): void`
+- `addFoodToMeal(weekDay: WeekDay, timeDay: TimeDay, food: PlannedFood): void`
+- `removeFoodFromMeal(weekDay: WeekDay, timeDay: TimeDay, foodId: Long): void`
+
+#### Entities
+
+#### DailyPlan
+
+Representa el conjunto de comidas planificadas para un día específico de la semana.
+
+**Propiedades:**
+
+- `weekDay: WeekDay`
+- `scheduledMeals: List<ScheduledMeal>`
+
+**Métodos:**
+
+- `addScheduledMeal(meal: ScheduledMeal): void`
+- `removeScheduledMeal(timeDay: TimeDay): void`
+- `getMeals(): List<ScheduledMeal>`
+- `totalCalories(): Int`
+
+#### ScheduledMeal
+
+Representa una comida específica (por ejemplo, desayuno o almuerzo) dentro de un día del plan.
+
+**Propiedades:**
+
+- `timeDay: TimeDay`
+- `plannedFoods: List<PlannedFood>`
+- `recipeId: Long?`
+
+**Métodos:**
+
+- `addFoodItem(foodItem: PlannedFood): void`
+- `removeFoodItem(foodId: Long): void`
+- `getRecipe(): Recipe`
+- `totalCalories(): Int`
+
+#### PlannedFood
+
+Representa un alimento específico que será consumido dentro de una comida.
+
+**Propiedades:**
+
+- `foodId: Long`
+- `amount: Int`
+- `unit: Unit`
+
+**Método:**
+
+- `calculateCalories(): Int`
+
+#### Value Objects
+
+##### WeekDay (Enum)
+
+Días de la semana:
+
+- `MONDAY`, `TUESDAY`, `WEDNESDAY`, `THURSDAY`, `FRIDAY`, `SATURDAY`, `SUNDAY`
+
+##### TimeDay (Enum)
+
+Momentos del día para planificar comidas:
+
+- `BREAKFAST`, `MIDMORNING`, `LUNCH`, `DINNER`
+
+##### Unit (Enum)
+
+Unidades válidas para los alimentos:
+
+- `GRAM`, `KILOGRAM`, `MILLILITER`, `LITER`, `UNIT`, `SLICE`, `TABLESPOON`, `TEASPOON`, `CUP`, `PIECE`
+
+### Commands
+
+Acciones que modifican el estado del dominio:
+
+- `CreateNutritionalPlanCommand(userId, startDate, name, description)`
+- `DeleteNutritionalPlanCommand(planId)`
+- `ActivatePlanCommand(planId)`
+- `DeactivatePlanCommand(planId)`
+- `ScheduleMealCommand(planId, weekDay, momentDay, recipeId?, List<PlannedFoodDTO>)`
+- `AddFoodToMealCommand(planId, weekDay, momentDay, foodId, quantity)`
+- `RemoveFoodFromMealCommand(planId, weekDay, momentDay, foodId)`
+- `ReplaceMealRecipeCommand(planId, weekDay, momentDay, recipeId)`
+
+### Queries
+
+Consultas que permiten leer el estado del dominio:
+
+- `GetNutritionalPlanQuery(planId)`
+- `GetDailyPlanQuery(planId, weekDay)`
+- `GetScheduledMealQuery(planId, weekDay, momentDay)`
+- `GetWeeklySummaryQuery(planId)`
+- `ListAllPlansForUserQuery(userId)`
+
+### Domain Services
+
+Servicios de dominio encargados de manejar lógica de negocio que no corresponde exclusivamente a una entidad:
+
+- `NutritionalPlanCommandService`
+- `DailyPlanCommandService`
+- `ScheduledMealCommandService`
+- `NutritionalPlanQueryService`
+- `DailyPlanQueryService`
+- `ScheduledMealQueryService`
+
+---
+
+#### Domain Layer - WeeklyReport
+
+La capa de dominio representa el núcleo de la lógica del módulo de reportes semanales. Define los conceptos clave del dominio, sus atributos, comportamientos y relaciones, centrándose en representar el progreso del paciente con respecto a un plan nutricional.
+
+#### Aggregates
+
+#### WeeklyReport
+
+Agregado raíz que representa el reporte semanal generado para un paciente. Centraliza la información sobre cumplimiento, consumo calórico y evolución del peso.
+
+**Atributos:**
+
+- `id: Long`
+- `userId: Long`
+- `planId: Long`
+- `weekStart: Date`
+- `weekEnd: Date`
+- `mealsPlanned: Int`
+- `mealsLogged: Int`
+- `adherence: Float`
+- `caloriesPlanned: Int`
+- `caloriesConsumed: Int`
+- `startingWeight: Float`
+- `endingWeight: Float`
+- `generatedAt: DateTime`
+
+**Métodos:**
+
+- `calculateAdherence(): Float`
+- `calculateCaloricBalance(): Int`
+- `hasProgress(): Boolean`
+- `generateSummary(): WeeklySummaryDTO`
+
+#### Value Objects
+
+Actualmente no se definen Value Objects independientes, ya que los datos están encapsulados directamente en el agregado `WeeklyReport`.
+
+---
+
+### Commands
+
+Acciones que modifican o generan nuevos elementos en el dominio:
+
+- `GenerateWeeklyReportCommand(userId, planId, weekStart, weekEnd, mealsPlanned, mealsLogged, caloriesPlanned, caloriesConsumed, startingWeight, endingWeight)`
+
+---
+
+### Queries
+
+Consultas para obtener información del dominio:
+
+- `GetWeeklyReportQuery(reportId)`
+- `ListWeeklyReportsForUserQuery(userId)`
+- `GetReportByWeekQuery(userId, weekStart)`
+
+---
+
+### Domain Services
+
+Servicios de dominio que encapsulan reglas de negocio complejas que no pertenecen a una sola entidad:
+
+- `WeeklyReportCommandService`
+- `WeeklyReportQueryService`
+
+---
+
+#### Domain Layer - RecipesAndFood
+
+La capa de dominio representa el núcleo de la lógica relacionada con la gestión de alimentos y recetas. Define los conceptos fundamentales, sus atributos, comportamientos y relaciones dentro de este bounded context.
+
+#### Aggregates
+
+#### Recipe
+
+Es la raíz del agregado que encapsula la lógica de una receta alimentaria. Gestiona su identidad, descripción, instrucciones y la lista de ingredientes que la componen.
+
+**Propiedades:**
+
+- `id: Long`
+- `name: String`
+- `description: String`
+- `instructions: String`
+- `createdBy: Long`
+- `ingredients: List<MealIngredient>`
+
+**Métodos:**
+
+- `addIngredient(foodId: Long, quantity: Int): void`
+- `removeIngredient(foodId: Long): void`
+- `getTotalCalories(): Int`
+
+#### Entities
+
+#### Food
+
+Representa un alimento individual con su información nutricional asociada.
+
+**Propiedades:**
+
+- `id: Long`
+- `name: String`
+- `unit: Unit`
+- `caloriesPerUnit: Float`
+- `proteinPerUnit: Float`
+- `carbsPerUnit: Float`
+- `fatPerUnit: Float`
+
+**Método:**
+
+- `getNutritionalInfo(): NutritionDTO`
+
+#### Value Objects
+
+##### Unit (Enum)
+
+Unidades válidas para los alimentos:
+
+- `GRAM`
+- `KILOGRAM`
+- `MILLILITER`
+- `LITER`
+- `UNIT`
+- `SLICE`
+- `TABLESPOON`
+- `TEASPOON`
+- `CUP`
+- `PIECE`
+
+#### Commands
+
+Acciones que modifican el estado del dominio:
+
+- `CreateRecipeCommand(name, description, instructions, createdBy)`
+- `AddIngredientToRecipeCommand(recipeId, foodId, quantity)`
+- `RemoveIngredientFromRecipeCommand(recipeId, foodId)`
+- `DeleteRecipeCommand(recipeId)`
+- `UpdateFoodNutritionalInfoCommand(foodId, updatedValues)`
+- `CreateFoodCommand(name, unit, calories, proteins, carbs, fats)`
+
+#### Queries
+
+Consultas que permiten obtener información del dominio:
+
+- `GetRecipeQuery(recipeId)`
+- `ListAllRecipesByUserQuery(userId)`
+- `GetFoodQuery(foodId)`
+- `ListAllFoodsQuery()`
+
+#### Domain Services
+
+Servicios de dominio encargados de manejar lógica de negocio transversal:
+
+- `RecipeCommandService`
+- `FoodCommandService`
+- `RecipeQueryService`
+- `FoodQueryService`
+
+---
+
+#### Domain Layer - Profiles
+
+La capa de dominio representa el núcleo de la lógica de negocio relacionada con los profesionales de la nutrición y los pacientes. Define las entidades principales, sus relaciones, comportamientos y validaciones, a través de Entities, Value Objects y Domain Services.
+
+#### Entities
+
+#### Nutritionist
+
+Representa a un profesional de la salud encargado de gestionar planes nutricionales y hacer seguimiento del progreso de los pacientes.
+
+**Propiedades:**
+
+- `id: Long`
+- `userId: Long`
+- `patientIds: List<Long>`
+- `licenseNumber: String`
+- `specialization: String`
+- `yearsOfExperience: Int`
+- `description: String`
+- `isVerified: Boolean`
+- `createdAt: DateTime`
+
+**Métodos:**
+
+- `updateProfile(specialization: String, description: String): void`
+- `verifyLicense(): void`
+- `getAssignedPatients(): List<PatientProfile>`
+- `getActivePlans(): List<NutritionalPlan>`
+- `assignPatient(patientId: Long): void`
+- `unassignPatient(patientId: Long): void`
+- `listPatients(): List<PatientProfile>`
+- `createNutritionalPlan(patientId: Long, planData: NutritionalPlanDTO): NutritionalPlan`
+- `reviewWeeklyReport(patientId: Long): WeeklyReport`
+
+#### PatientProfile (PerfilUsuario)
+
+Contiene la información personal, biométrica y de estilo de vida del usuario paciente.
+
+**Propiedades:**
+
+- `id: Long`
+- `userId: Long`
+- `name: String`
+- `birthdate: Date`
+- `gender: Gender`
+- `height: Float`
+- `weight: Float`
+- `activityLevel: ActivityLevel`
+
+**Métodos:**
+
+- `updateProfile(data: ProfileDTO): void`
+- `getAge(): Int`
+- `isComplete(): Boolean`
+
+#### Value Objects
+
+##### Gender (Enum)
+
+Categoriza el género del paciente:
+
+- `MALE`
+- `FEMALE`
+- `OTHER`
+
+##### ActivityLevel (Enum)
+
+Clasifica el nivel de actividad física del paciente:
+
+- `SEDENTARY`
+- `MODERATE`
+- `ACTIVE`
+
+#### Domain Services
+
+Servicios de dominio que gestionan operaciones entre perfiles de usuario y nutricionistas, validaciones cruzadas o lógicas que no pertenecen exclusivamente a una entidad.
+
+- `ProfileManagementService`
+- `PatientAssignmentService`
+- `NutritionistVerificationService`
+
+---
 
 #### 4.2.1.2. Interface Layer
 
+#### Interface Layer - NutritionPlanning
+
+Esta capa define los puntos de entrada de la aplicación desde el exterior, como controladores HTTP (REST API). Se encarga de recibir las solicitudes del cliente, transformarlas en comandos o queries, y delegarlas a la capa de aplicación. También transforma las respuestas del dominio en formatos comprensibles por el cliente.
+
+#### Resources
+
+Clases que representan las estructuras de datos que viajan entre el cliente y la aplicación.
+
+- `NutritionalPlanResource.java`  
+  Representa un plan nutricional completo con todos sus días y comidas asociadas.
+
+- `DailyPlanResource.java`  
+  Representa un día específico de un plan nutricional.
+
+- `ScheduledMealResource.java`  
+  Representa una comida planificada en un momento del día.
+
+- `PlannedFoodResource.java`  
+  Representa un alimento planificado con su cantidad y unidad.
+
+#### Controllers
+
+Clases encargadas de exponer endpoints REST para las funcionalidades del dominio.
+
+- `NutritionalPlansController.java`
+
+  - POST `/plans` → Crear un nuevo plan nutricional
+  - DELETE `/plans/{id}` → Eliminar un plan
+  - PUT `/plans/{id}/activate` → Activar un plan
+  - PUT `/plans/{id}/deactivate` → Desactivar un plan
+  - GET `/plans/{id}` → Obtener un plan específico
+  - GET `/plans/user/{userId}` → Listar todos los planes de un usuario
+
+- `DailyPlansController.java`
+
+  - GET `/plans/{id}/days/{weekDay}` → Obtener plan diario
+  - POST `/plans/{id}/days/{weekDay}/meals` → Agendar comida
+
+- `ScheduledMealsController.java`
+  - GET `/plans/{id}/days/{weekDay}/meals/{momentDay}` → Obtener comida específica
+  - PUT `/plans/{id}/days/{weekDay}/meals/{momentDay}/foods` → Agregar alimento
+  - DELETE `/plans/{id}/days/{weekDay}/meals/{momentDay}/foods/{foodId}` → Quitar alimento
+  - PUT `/plans/{id}/days/{weekDay}/meals/{momentDay}/recipe` → Reemplazar receta
+
+#### Transformers / Assemblers
+
+Clases responsables de transformar entre recursos (DTOs) y comandos o entidades del dominio.
+
+- `NutritionalPlanResourceFromEntityAssembler.java`
+- `DailyPlanResourceFromEntityAssembler.java`
+- `ScheduledMealResourceFromEntityAssembler.java`
+- `PlannedFoodResourceFromEntityAssembler.java`
+
+- `CreateNutritionalPlanCommandFromResourceAssembler.java`
+- `ScheduleMealCommandFromResourceAssembler.java`
+- `AddFoodToMealCommandFromResourceAssembler.java`
+- `ReplaceMealRecipeCommandFromResourceAssembler.java`
+
+---
+
+#### Interface Layer - WeeklyReport
+
+Esta capa expone los endpoints y recursos necesarios para interactuar con los reportes semanales a través de HTTP (REST API).
+
+#### Controllers
+
+##### WeeklyReportController
+
+Responsable de manejar las solicitudes HTTP relacionadas con reportes semanales.
+
+**Endpoints:**
+
+- `GET /weekly-reports/{reportId}`  
+  Obtiene un reporte semanal por su ID.
+
+- `GET /users/{userId}/weekly-reports`  
+  Lista todos los reportes semanales de un usuario.
+
+- `GET /users/{userId}/weekly-reports/week?startDate=yyyy-MM-dd`  
+  Obtiene el reporte semanal correspondiente a una semana específica.
+
+- `POST /weekly-reports`  
+  Genera un nuevo reporte semanal con los datos del progreso del paciente.
+
+---
+
+### Interface Layer - RecipesAndFood
+
+La capa de interfaz o presentación expone los endpoints necesarios para la interacción de usuarios o sistemas externos con el bounded context de gestión de recetas y alimentos. Aquí se definen controladores REST y clases de ensamblaje (transformers).
+
+#### Resources
+
+Clases que representan los datos que se reciben y se envían desde/hacia la capa de presentación.
+
+- `RecipeResource.java`  
+  Representa la estructura de datos para mostrar una receta.
+
+- `FoodResource.java`  
+  Estructura que encapsula los datos nutricionales y de identificación de un alimento.
+
+- `CreateRecipeResource.java`  
+  Payload para la creación de una receta.
+
+- `AddIngredientResource.java`  
+  Payload para agregar un ingrediente a una receta.
+
+- `CreateFoodResource.java`  
+  Estructura de datos utilizada para registrar un nuevo alimento.
+
+#### Controllers
+
+Encargados de recibir las peticiones HTTP, validar datos, delegar en la capa de aplicación y devolver la respuesta.
+
+- `RecipesController.java`  
+  Expone endpoints como:
+
+  - `POST /recipes`
+  - `GET /recipes/{id}`
+  - `POST /recipes/{id}/ingredients`
+  - `DELETE /recipes/{id}/ingredients/{foodId}`
+
+- `FoodsController.java`  
+  Expone endpoints como:
+  - `GET /foods`
+  - `GET /foods/{id}`
+  - `POST /foods`
+  - `PUT /foods/{id}`
+
+#### Transformers / Assemblers
+
+Clases utilitarias para convertir entre recursos y entidades del dominio.
+
+- `RecipeResourceFromEntityAssembler.java`  
+  Convierte una entidad `Recipe` en un `RecipeResource`.
+
+- `RecipeFromResourceCommandAssembler.java`  
+  Ensambla un `CreateRecipeCommand` a partir de un `CreateRecipeResource`.
+
+- `FoodResourceFromEntityAssembler.java`  
+  Ensambla un `FoodResource` desde una entidad `Food`.
+
+- `FoodFromResourceCommandAssembler.java`  
+  Ensambla comandos de creación o actualización de alimento a partir de recursos.
+
+---
+
+### Interface Layer - Profiles
+
+La capa de interfaz expone la funcionalidad del sistema al exterior (por ejemplo, a través de una API REST), delegando la lógica de negocio a los servicios de aplicación. Define los controladores, recursos y transformadores necesarios para la interacción con los perfiles de usuarios y nutricionistas.
+
+#### Resources
+
+- `/api/nutritionists`
+- `/api/nutritionists/{id}`
+- `/api/nutritionists/{id}/patients`
+- `/api/nutritionists/{id}/plans`
+- `/api/nutritionists/{id}/reports`
+- `/api/patients/{id}`
+- `/api/patients/{id}/profile`
+
+#### Controllers
+
+##### `NutritionistController`
+
+Gestiona operaciones relacionadas con el perfil del nutricionista y la asignación de pacientes.
+
+- `GET /nutritionists/{id}`  
+  Retorna el perfil del nutricionista.
+
+- `PUT /nutritionists/{id}`  
+  Actualiza la especialización y descripción.
+
+- `POST /nutritionists/{id}/verify-license`  
+  Verifica la licencia profesional del nutricionista.
+
+- `POST /nutritionists/{id}/patients`  
+  Asigna un nuevo paciente.
+
+- `DELETE /nutritionists/{id}/patients/{patientId}`  
+  Desasigna un paciente del nutricionista.
+
+- `GET /nutritionists/{id}/patients`  
+  Lista los pacientes asignados.
+
+- `GET /nutritionists/{id}/plans`  
+  Lista los planes activos de los pacientes del nutricionista.
+
+- `POST /nutritionists/{id}/patients/{patientId}/plans`  
+  Crea un plan nutricional para un paciente.
+
+- `GET /nutritionists/{id}/patients/{patientId}/weekly-report`  
+  Revisa el reporte semanal del paciente.
+
+##### `PatientProfileController`
+
+Gestiona las operaciones relacionadas con el perfil del paciente.
+
+- `GET /patients/{id}/profile`  
+  Obtiene el perfil del paciente.
+
+- `PUT /patients/{id}/profile`  
+  Actualiza los datos del perfil.
+
+- `GET /patients/{id}/profile/age`  
+  Calcula la edad del paciente.
+
+- `GET /patients/{id}/profile/completeness`  
+  Verifica si el perfil está completo.
+
+#### Transformers / Assemblers
+
+Encargados de convertir entre DTOs y objetos de dominio o respuestas HTTP.
+
+- `NutritionistAssembler`
+
+  - `toDTO(Nutritionist): NutritionistDTO`
+  - `fromDTO(NutritionistDTO): Nutritionist`
+
+- `PatientProfileAssembler`
+
+  - `toDTO(PatientProfile): ProfileDTO`
+  - `fromDTO(ProfileDTO): PatientProfile`
+
+- `WeeklyReportAssembler`
+  - `toDTO(WeeklyReport): WeeklyReportDTO`
+
+---
+
 #### 4.2.1.3. Application Layer
 
+#### Application Layer - NutritionPlanning
+
+La capa de aplicación coordina los flujos de procesos del negocio, orquestando la ejecución de comandos y consultas definidos en el dominio. Se encarga de manejar los casos de uso del sistema, delegando la lógica de negocio a la Domain Layer y gestionando la persistencia a través de interfaces como los repositorios. Esta capa expone las **capacidades** (capabilities) del sistema, y está compuesta por **Command Handlers**, **Query Handlers** y, eventualmente, **Event Handlers**.
+
+#### Command Handlers
+
+Encargados de ejecutar operaciones que modifican el estado del dominio. Cada handler implementa un caso de uso del negocio.
+
+- `CreateNutritionalPlanCommandHandler.java`  
+  Crea un nuevo plan nutricional para un usuario.
+
+- `DeleteNutritionalPlanCommandHandler.java`  
+  Elimina un plan nutricional existente.
+
+- `ActivatePlanCommandHandler.java`  
+  Activa un plan nutricional, asegurando que otros planes queden desactivados.
+
+- `DeactivatePlanCommandHandler.java`  
+  Desactiva un plan nutricional.
+
+- `ScheduleMealCommandHandler.java`  
+  Agrega una nueva comida a un día del plan.
+
+- `AddFoodToMealCommandHandler.java`  
+  Agrega un alimento específico a una comida planificada.
+
+- `RemoveFoodFromMealCommandHandler.java`  
+  Elimina un alimento específico de una comida.
+
+- `ReplaceMealRecipeCommandHandler.java`  
+  Reemplaza la receta asociada a una comida planificada.
+
+#### Query Handlers
+
+Se encargan de ejecutar consultas de solo lectura sobre el modelo de dominio.
+
+- `GetNutritionalPlanQueryHandler.java`  
+  Obtiene los datos completos de un plan nutricional.
+
+- `GetDailyPlanQueryHandler.java`  
+  Devuelve las comidas planificadas para un día específico.
+
+- `GetScheduledMealQueryHandler.java`  
+  Obtiene una comida específica del plan.
+
+- `GetWeeklySummaryQueryHandler.java`  
+  Calcula y devuelve un resumen semanal del plan (calorías por día, por ejemplo).
+
+- `ListAllPlansForUserQueryHandler.java`  
+  Devuelve todos los planes nutricionales asociados a un usuario.
+
+#### Event Handlers
+
+(Actualmente no definidos)
+
+---
+
+#### Application Layer - WeeklyReport
+
+Esta capa coordina los flujos de negocio a través de command handlers y query handlers. Aquí se define cómo se ejecutan las operaciones que responden a los requerimientos de la aplicación.
+
+#### Command Handlers
+
+- `GenerateWeeklyReportCommandHandler`  
+  Se encarga de crear y persistir un nuevo reporte semanal a partir de los datos del usuario y su progreso.
+
+#### Query Handlers
+
+- `GetWeeklyReportQueryHandler`
+- `ListWeeklyReportsForUserQueryHandler`
+- `GetReportByWeekQueryHandler`
+
+---
+
+### Application Layer - RecipesAndFood
+
+La capa de aplicación orquesta los flujos de procesos del negocio mediante el uso de comandos, eventos y servicios. Define los _capabilities_ de la aplicación y conecta la capa de presentación con la lógica de dominio.
+
+#### Command Handlers
+
+Clases responsables de manejar los comandos enviados por los controladores y ejecutar las acciones sobre el dominio.
+
+- `CreateRecipeCommandHandler`  
+  Maneja la creación de una nueva receta a partir de los datos enviados por el usuario.
+
+- `AddIngredientCommandHandler`  
+  Agrega un nuevo ingrediente (referencia a un alimento) a una receta existente.
+
+- `RemoveIngredientCommandHandler`  
+  Elimina un ingrediente específico de una receta.
+
+- `CreateFoodCommandHandler`  
+  Registra un nuevo alimento con sus propiedades nutricionales.
+
+- `UpdateFoodCommandHandler`  
+  Actualiza los datos de un alimento existente.
+
+#### Event Handlers
+
+_No se han definido Event Handlers en este bounded context por el momento._
+
+#### Services (Application Services)
+
+Servicios que coordinan la ejecución de comandos complejos y componen lógica orquestada de aplicación.
+
+- `RecipeApplicationService`  
+  Servicio de aplicación para gestión de recetas. Coordina comandos como creación, adición o remoción de ingredientes.
+
+- `FoodApplicationService`  
+  Servicio de aplicación para registro, consulta y modificación de alimentos.
+
+#### Comandos
+
+- `CreateRecipeCommand(name, description, instructions, createdBy)`
+- `AddIngredientCommand(recipeId, foodId, quantity)`
+- `RemoveIngredientCommand(recipeId, foodId)`
+- `CreateFoodCommand(name, unit, caloriesPerUnit, proteinPerUnit, carbsPerUnit, fatPerUnit)`
+- `UpdateFoodCommand(foodId, updatedValues...)`
+
+---
+
+### Application Layer - Profiles
+
+La capa de aplicación orquesta la lógica de negocio definida en la capa de dominio, coordinando la ejecución de comandos y consultas relacionados con los perfiles de usuario y nutricionistas. Sirve como puente entre la Interface Layer y el Domain Layer.
+
+#### Commands
+
+Acciones que modifican el estado del dominio:
+
+- `UpdateNutritionistProfileCommand(nutritionistId, specialization, description)`
+- `VerifyNutritionistLicenseCommand(nutritionistId)`
+- `AssignPatientCommand(nutritionistId, patientId)`
+- `UnassignPatientCommand(nutritionistId, patientId)`
+- `CreateNutritionalPlanForPatientCommand(nutritionistId, patientId, planData)`
+- `ReviewWeeklyReportCommand(nutritionistId, patientId)`
+- `UpdatePatientProfileCommand(patientId, profileDTO)`
+
+#### Queries
+
+Consultas que permiten leer el estado del dominio:
+
+- `GetNutritionistProfileQuery(nutritionistId)`
+- `ListAssignedPatientsQuery(nutritionistId)`
+- `ListActivePlansQuery(nutritionistId)`
+- `GetPatientProfileQuery(patientId)`
+- `GetPatientAgeQuery(patientId)`
+- `CheckPatientProfileCompletenessQuery(patientId)`
+
+#### Application Services
+
+Servicios de aplicación que encapsulan la coordinación de casos de uso del negocio:
+
+- `NutritionistCommandService`
+- `NutritionistQueryService`
+- `PatientProfileCommandService`
+- `PatientProfileQueryService`
+
+---
+
 #### 4.2.1.4. Infrastructure Layer
+
+#### Infrastructure Layer - NutritionPlanning
+
+La capa de infraestructura contiene las implementaciones concretas que permiten a la aplicación interactuar con sistemas externos, como bases de datos, servicios de mensajería o APIs de terceros. En esta capa se implementan las interfaces definidas en la Domain Layer, especialmente los **Repositories** y potencialmente los **Message Brokers**.
+
+#### Repositories
+
+Implementaciones concretas de las interfaces de persistencia del dominio. Estas clases utilizan frameworks de persistencia como JPA, Hibernate o tecnologías similares para acceder a la base de datos.
+
+- `JpaNutritionalPlanRepository.java`  
+  Implementa el repositorio de planes nutricionales, permitiendo almacenar, recuperar y eliminar planes.
+
+- `JpaDailyPlanRepository.java`  
+  Proporciona acceso a los planes diarios asociados a un plan nutricional.
+
+- `JpaScheduledMealRepository.java`  
+  Permite la persistencia de comidas planificadas (ScheduledMeal) dentro de los planes diarios.
+
+- `JpaPlannedFoodRepository.java`  
+  Administra el acceso a los alimentos planificados que componen una comida.
+
+---
+
+#### Infrastructure Layer - WeeklyReport
+
+Esta capa contiene las implementaciones técnicas que interactúan con servicios externos como bases de datos o mensajería.
+
+#### Repositories
+
+##### WeeklyReportRepository (Interface)
+
+Define las operaciones de acceso a datos para los reportes semanales.
+
+##### JpaWeeklyReportRepository (Implementación)
+
+Implementación de la interfaz `WeeklyReportRepository` utilizando JPA/Hibernate para persistencia en base de datos relacional.
+
+**Métodos comunes:**
+
+- `findById(reportId): WeeklyReport`
+- `findByUserId(userId): List<WeeklyReport>`
+- `findByUserIdAndWeekStart(userId, weekStart): WeeklyReport`
+- `save(report: WeeklyReport): void`
+
+### Infrastructure Layer - RecipesAndFood
+
+La capa de infraestructura se encarga de interactuar con servicios externos, como bases de datos o sistemas de mensajería. Contiene implementaciones concretas de interfaces definidas en el dominio, como los repositorios y adaptadores para otros servicios.
+
+#### Repositories
+
+Implementaciones que permiten el acceso y persistencia de entidades del dominio.
+
+- `JpaRecipeRepository implements RecipeRepository`  
+  Implementación del repositorio de recetas utilizando JPA/Hibernate. Permite crear, buscar y actualizar recetas.
+
+- `JpaFoodRepository implements FoodRepository`  
+  Implementación del repositorio de alimentos. Se encarga de almacenar y consultar objetos `Food`.
+
+  ***
+
+  ### Infrastructure Layer - Profiles
+
+La capa de infraestructura proporciona implementaciones técnicas necesarias para interactuar con recursos externos, como bases de datos, servicios externos o sistemas de mensajería. Su propósito es soportar las operaciones definidas en la capa de aplicación.
+
+#### Repositories
+
+##### `NutritionistRepository`
+
+Interfaz que define las operaciones de persistencia para nutricionistas.
+
+**Métodos:**
+
+- `findById(id: Long): Nutritionist`
+- `save(nutritionist: Nutritionist): void`
+- `deleteById(id: Long): void`
+- `findPatientsByNutritionistId(nutritionistId: Long): List<PatientProfile>`
+- `findActivePlans(nutritionistId: Long): List<NutritionalPlan>`
+
+##### `PatientProfileRepository`
+
+Interfaz para acceder a los perfiles de los pacientes.
+
+**Métodos:**
+
+- `findById(id: Long): PatientProfile`
+- `save(profile: PatientProfile): void`
+- `deleteById(id: Long): void`
+
+---
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
