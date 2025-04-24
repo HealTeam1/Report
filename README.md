@@ -23,14 +23,16 @@
 
 <h3> Team Members: </h3>
 
-| Member                         |    Code    |
-| :----------------------------- | :--------: |
-|                                |            |
-|                                |            |
-| Oshiro Yamashita, Daiki Oscar  | U20201F846 |
-| Pardo Zapata, Gustavo Adolfo   | U202120347 |
-| Alejandro Espino Flores        | U202122129 |
-| Dueñas Canales Leonardo Manuel | U202117475 |
+
+| Member                        |    Code    |
+| :---------------------------- | :--------: |
+|                               |            |
+|                               |            |
+| Oshiro Yamashita, Daiki Oscar | U20201F846 |
+| Pardo Zapata, Gustavo Adolfo  | U202120347 |
+| Alejandro Espino Flores       | U202122129 |
+| Dueñas Canales Leonardo Manuel| U202117475 |
+| Comettant Rubiños Jessica Elizabeth | U20211C009 |
 
 <h3 align="center">Abril, 2025</h3>
 
@@ -137,7 +139,8 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :------------------ | :------------------ | :----------- |
-| 1                   | 2                   | 3            |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br>  | Conclusiones:           |
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br>| Conclusiones: |
 
 <div style="page-break-after: always;"></div>
 
@@ -161,10 +164,13 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | Integrantes                                                                                              | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
 | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
 | Nombre                                                                                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
-| Daiki Oscar Oshiro Yamashita u20201f846                                                                  | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                        | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
+| <img src="img/Daiki.png" alt="" width="100" height="120"> Daiki Oscar Oshiro Yamashita u20201f846 | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro. | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
 | <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
 | <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
-| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                                                          | Cuento el conocimiento de Java, javascript, Python, C#, HTML.                   |
+| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.  |
+| ![Image](https://github.com/user-attachments/assets/c76261aa-c9dc-402a-b95f-2ba0a37c48dc) **Jessica Elizabeth Comettant Rubiños** | Estudiante de la carrera de ingeniería de software de la UPC (Universidad Peruana de Ciencias Aplicadas). Estoy en el sexto ciclo de mi carrera. Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, mi personalidad se encuentra basada en la autonomía. Por lo tanto, he sido capaz de extender mis conocimientos de programación con mayor material de estudio. Finalmente, destaco de mi personalidad la empatía, la responsabilidad, la amabilidad y la capacidad de trabajar en equipo. | Conocimientos en C#, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals. |
+
+
 
 ## 1.2. Solution Profile
 
@@ -172,9 +178,11 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 
 #### Antecedentes y problemática
 
-En la actualidad, muchas personas desean mejorar su alimentación, pero se enfrentan a barreras como la falta de conocimientos nutricionales, el poco tiempo para planificar comidas o la dificultad para mantener hábitos saludables. Paralelamente, nutricionistas buscan herramientas modernas que les permitan brindar un mejor seguimiento a sus pacientes y generar planes personalizados de forma eficiente.
+En la actualidad, el 60% de los adultos en Lima padecen sobrepeso u obesidad, lo que aumenta significativamente el riesgo de enfermedades crónicas como diabetes tipo 2, hipertensión y problemas cardiovasculares. A pesar de la creciente preocupación por la salud, muchas personas se enfrentan a barreras para mejorar su alimentación, como la falta de conocimientos nutricionales, la escasez de tiempo para planificar comidas o la dificultad para mantener hábitos saludables en medio de las exigencias diarias. Según la Encuesta Nacional de Hogares (ENAHO) del INEI, el 45.6% de la población en Perú no sigue una dieta balanceada debido a estos desafíos.
 
-En este contexto, surge la necesidad de una solución tecnológica que integre educación nutricional, planificación inteligente y asesoría profesional, de manera accesible y personalizada.
+Simultáneamente, los nutricionistas enfrentan dificultades para acceder a herramientas modernas que les permitan brindar un mejor seguimiento a sus pacientes, personalizar planes alimenticios de forma eficiente y manejar una carga creciente de pacientes. De acuerdo con la Sociedad Peruana de Nutrición, la falta de plataformas digitales accesibles y efectivas para estos profesionales también es un factor que limita el impacto de su trabajo.
+
+En este contexto, surge la necesidad de una solución tecnológica que integre educación nutricional, planificación inteligente de alimentos y asesoría profesional, de manera accesible y personalizada. NutriPlan busca resolver estos problemas, proporcionando a los usuarios herramientas para mejorar su alimentación, mientras ofrece a los nutricionistas una plataforma eficiente para gestionar planes alimenticios y realizar seguimientos de manera remota.
 
 #### What? (¿Qué es?)
 
@@ -182,21 +190,22 @@ NutriPlan es una aplicación móvil que permite planificar comidas saludables, v
 
 #### Why? (¿Por qué lo hacemos?)
 
-Porque muchas personas quieren alimentarse mejor, pero no saben cómo empezar o cómo mantener una rutina saludable. Al mismo tiempo, los nutricionistas necesitan soluciones digitales que faciliten su trabajo. NutriPlan responde a ambas necesidades, promoviendo una mejor salud a través de la tecnología.
+En Perú, especialmente en Lima, existen desafíos importantes en cuanto a salud y nutrición. Según el Ministerio de Salud (Minsa), el sobrepeso y la obesidad han aumentado significativamente en la población urbana, afectando aproximadamente al 60% de los adultos en Lima. Esta situación ha contribuido a un incremento de enfermedades crónicas como la diabetes tipo 2, hipertensión y problemas cardiovasculares. Además, muchas personas carecen de la educación nutricional necesaria para tomar decisiones alimenticias informadas. NutriPlan surge con el objetivo de ofrecer soluciones accesibles, proporcionando herramientas personalizadas para que los usuarios puedan mejorar sus hábitos alimenticios de manera efectiva.
+
 
 #### Where? (¿Dónde se utilizará?)
 
-En cualquier lugar, gracias a su formato de app móvil. Ya sea en casa, en el supermercado o en la consulta con el nutricionista, NutriPlan está disponible para acompañar al usuario en todo momento.
+NutriPlan estará disponible principalmente en Lima, la capital de Perú, y en otras zonas urbanas del país. La aplicación está diseñada para personas que desean mejorar su alimentación y para nutricionistas que buscan una plataforma práctica y accesible para gestionar planes alimenticios. Con el tiempo, se espera expandir su alcance a otras ciudades de América Latina, donde los problemas nutricionales son similares.
 
 #### When? (¿Cuándo se utilizará?)
 
-NutriPlan está pensada para su uso diario, especialmente durante la planificación de comidas, compras semanales o al momento de preparar alimentos. También es útil durante las consultas nutricionales o el seguimiento de planes alimenticios.
+NutriPlan se utilizará de manera continua. Los usuarios podrán acceder a la aplicación en cualquier momento, ya sea para planificar sus comidas, hacer compras o seguir su progreso nutricional. La aplicación también podrá adaptarse a situaciones particulares, como dietas postoperatorias o cambios de hábitos alimenticios a lo largo del tiempo.
 
 #### Who? (¿A quién está dirigido?)
 
-Usuarios generales que buscan mejorar su alimentación diaria, cocinar de manera saludable y optimizar sus compras.
+Usuarios generales: Jóvenes adultos de entre 18 y 28 años en Lima que buscan mejorar su alimentación diaria, cocinar de manera saludable y optimizar sus compras. Este grupo busca una solución práctica y accesible para integrar hábitos alimenticios más saludables en su rutina.
 
-Nutricionistas que requieren una herramienta digital para personalizar dietas, monitorear pacientes y compartir recomendaciones profesionales.
+Nutricionistas: Profesionales de la salud en Lima  que necesitan una herramienta digital para personalizar dietas, monitorear el progreso de sus pacientes y compartir recomendaciones profesionales de manera eficiente y remota.
 
 #### How? (¿Cómo funciona?)
 
@@ -214,82 +223,174 @@ Suscripción Premium para usuarios: Incluye planes nutricionales personalizados,
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-La idea central de NutriPlan surge a partir de la creciente necesidad de las personas de adoptar hábitos alimenticios saludables, pero sin contar con el conocimiento, el tiempo o las herramientas necesarias para lograrlo. Además, los profesionales de la nutrición enfrentan dificultades para hacer seguimiento personalizado y digital a sus pacientes de forma práctica y eficiente.
+##### **1. Problem Statement: Mejora de Alimentación para Jóvenes Adultos en Lima**
 
-Pese a que existen aplicaciones centradas en dietas o recetas, muchas de ellas no ofrecen una visión integral que combine educación, seguimiento personalizado y planificación automatizada de comidas.
+**Descripción de la situación:**  
+La mayoría de los jóvenes adultos en Lima tienen poco tiempo y conocimiento para planificar comidas saludables. Según el Ministerio de Salud, más del 60% de los adultos en Perú sufren de sobrepeso u obesidad, lo que aumenta los riesgos de enfermedades crónicas. Sin embargo, solo el 30% de los jóvenes de entre 18 y 28 años en Lima tiene acceso a recursos adecuados para mejorar su alimentación. 
 
-NutriPlan supera estas limitaciones al ofrecer una solución digital que permite a los usuarios planificar sus comidas, conocer su valor nutricional, mejorar sus hábitos y recibir orientación profesional. Al mismo tiempo, brinda a los nutricionistas una herramienta moderna para gestionar a sus pacientes y crear planes alimenticios basados en evidencia.
+**Descripción del problema:**  
+La falta de una herramienta que facilite la planificación de comidas saludables y optimice las compras diarias lleva a que muchos jóvenes adultos continúen tomando decisiones alimenticias poco informadas, lo que contribuye a un aumento de enfermedades relacionadas con la mala alimentación.
 
-Sentiremos que estamos logrando nuestro propósito cuando veamos un número creciente de personas usando NutriPlan como parte de su rutina alimentaria diaria, y a nutricionistas recomendándola como una extensión de sus consultas.
+**Propuesta de solución:**  
+¿Cómo podemos ofrecer a los jóvenes adultos en Lima una plataforma accesible que les permita planificar comidas saludables, optimizar sus compras y llevar un seguimiento nutricional, para que puedan tomar decisiones informadas y mejorar sus hábitos alimenticios?
+
+##### **2. Problem Statement: Falta de Herramientas Digitales para Nutricionistas**
+
+**Descripción de la situación:**  
+Los nutricionistas en Lima gestionan una gran cantidad de pacientes con necesidades dietéticas diversas, pero la mayoría no dispone de herramientas digitales adecuadas para personalizar dietas y hacer un seguimiento continuo de los pacientes. Según la Sociedad Peruana de Nutrición, solo el 15% de los nutricionistas utiliza tecnología avanzada para gestionar sus prácticas profesionales.
+
+**Descripción del problema:**  
+La ausencia de una plataforma digital eficiente limita la capacidad de los nutricionistas para personalizar las dietas, realizar un seguimiento adecuado y proporcionar recomendaciones a sus pacientes de manera remota y en tiempo real. Esto afecta la calidad de la atención y aumenta la carga de trabajo sin optimizar recursos.
+
+**Propuesta de solución:**  
+¿Cómo podemos proporcionar a los nutricionistas en Lima una herramienta digital que les permita crear dietas personalizadas, realizar un seguimiento continuo y ofrecer recomendaciones eficientes, mejorando la calidad de su servicio y optimizando el tiempo dedicado a cada paciente?
+
+
+##### **3. Problem Statement: Acceso y Comprensión de la Nutrición para Jóvenes Adultos en Lima**
+
+**Descripción de la situación:**  
+En Lima, la falta de educación nutricional accesible afecta a un alto porcentaje de la población, especialmente entre los jóvenes adultos. Según la Encuesta Nacional de Hogares (ENAHO), el 58% de los jóvenes no conoce la cantidad adecuada de calorías que deben consumir diariamente, lo que contribuye a una mala toma de decisiones alimenticias. Esta falta de educación es más notable en los sectores de menores ingresos.
+
+**Descripción del problema:**  
+La carencia de acceso a información nutricional clara y accesible limita la capacidad de los jóvenes adultos para tomar decisiones informadas sobre su alimentación, lo que provoca un incremento en enfermedades como la obesidad y la diabetes tipo 2.
+
+**Propuesta de solución:**  
+¿Cómo podemos ofrecer a los jóvenes adultos en Lima una plataforma educativa que proporcione información nutricional accesible, personalizada y fácil de comprender, para que puedan mejorar sus hábitos alimenticios y prevenir enfermedades relacionadas con la mala nutrición?
+
 
 #### 1.2.2.2. Lean UX Assumptions
 
-¿Quién es el usuario?
+#### Business Assumptions
 
-Personas que desean mejorar su alimentación y aprender a comer de manera más saludable.
+1. **Creemos** que nuestros usuarios necesitan una plataforma que les permita mejorar sus hábitos alimenticios de manera fácil y accesible, mientras reciben recomendaciones personalizadas de nutrición.
 
-Nutricionistas que buscan herramientas digitales para gestionar mejor sus planes y pacientes.
+2. **Estas necesidades se pueden satisfacer** mediante el desarrollo de una aplicación móvil que proporcione recetas saludables, listas de compras inteligentes y un seguimiento nutricional continuo adaptado a cada usuario.
 
-¿Dónde encaja nuestro servicio? ¿En su trabajo o vida?
-NutriPlan se integra en el día a día de quienes quieren mejorar su salud a través de la comida, facilitando la planificación y la educación alimentaria. En el caso de los nutricionistas, es un apoyo digital para su trabajo profesional.
+3. **Nuestros clientes iniciales** serán los jóvenes adultos de 18-28 años en Lima que desean mejorar su alimentación diaria, así como nutricionistas que buscan una herramienta para gestionar dietas personalizadas y hacer seguimiento de sus pacientes.
 
-¿Cuándo y cómo es usado nuestro servicio?
+4. **El valor más importante** que un cliente quiere de nuestros servicios es la capacidad de recibir recomendaciones nutricionales personalizadas y tener una planificación de comidas fácil de seguir para mejorar su salud y bienestar general.
 
-Los usuarios utilizarán NutriPlan al organizar sus menús semanales, al momento de cocinar, hacer compras o seguir un plan nutricional.
+5. **El cliente también** obtendrá beneficios adicionales como acceso a estadísticas sobre su progreso nutricional y la optimización de sus compras mediante listas inteligentes basadas en sus recetas.
 
-Los nutricionistas lo usarán para crear planes, revisar el progreso de sus pacientes y brindar recomendaciones a través de la app.
+6. **Vamos a obtener la mayoría de los clientes** mediante marketing en redes sociales, campañas de concientización sobre hábitos alimenticios saludables y colaboraciones con nutricionistas y profesionales de la salud.
 
-¿Qué problemas puede enfrentar nuestro servicio?
+7. **Vamos a obtener ingresos** mediante suscripciones premium para usuarios que deseen funcionalidades adicionales, como asesoramiento personalizado, y mediante alianzas con nutricionistas que usen la plataforma para gestionar sus pacientes.
 
-Dificultad para lograr la adherencia al uso continuo por parte del usuario.
+8. **Nuestra competencia en el mercado** serán aplicaciones de planificación de comidas y seguimiento nutricional que ya ofrecen algunas funcionalidades similares, como MyFitnessPal y Yazio.
 
-Garantizar que los planes y recetas sean realmente personalizados y basados en datos confiables.
+9. **Vamos a tener ventaja frente a nuestra competencia** debido a que NutriPlan estará específicamente diseñada para adaptarse a los hábitos alimenticios de los jóvenes adultos de Lima, ofreciendo una experiencia más local y personalizada. Además, la plataforma incluirá un sistema de gestión para nutricionistas que mejorará la experiencia tanto para los usuarios como para los profesionales.
 
-Conseguir que los nutricionistas adopten la plataforma como parte de su rutina profesional.
+10. **El mayor riesgo del servicio** es que el segmento objetivo no se muestre dispuesto a adoptar una nueva aplicación para mejorar sus hábitos alimenticios. Esto puede ser debido a la falta de motivación para cambiar hábitos arraigados o resistencia a la tecnología.
 
-##### Business Outcomes
+11. **Lo resolveremos** creando una interfaz atractiva, fácil de usar y gamificada para mantener el compromiso de los usuarios, además de ofrecer contenido educativo interactivo que incentive la adopción de hábitos saludables.
 
-Creemos que los usuarios valorarán una plataforma que les ayude a mejorar su alimentación de forma práctica, educativa y personalizable.
+12. **Otras suposiciones incluyen** la aceptación de funcionalidades adicionales basadas en inteligencia artificial para personalizar aún más las recomendaciones, la disponibilidad de recursos tecnológicos para garantizar el buen funcionamiento de la plataforma y la seguridad de los datos personales y nutricionales de los usuarios. Finalmente, se asume que la aplicación cumplirá con altos estándares de privacidad y seguridad para garantizar la confianza de los usuarios en el manejo de su información personal.
 
-Creemos que los nutricionistas adoptarán una herramienta que les permita ampliar su alcance, profesionalizar su seguimiento y mejorar la atención a sus pacientes.
+#### User Assumptions
 
-Sabemos que existen apps similares, pero creemos que podemos diferenciarnos al integrar funcionalidades como planificación inteligente, análisis nutricional por receta y conexión con profesionales de la salud.
+#### **¿Quién utiliza nuestra plataforma?**
+- **Jóvenes de 18-28 años en Lima:** Personas que buscan mejorar sus hábitos alimenticios, aprender a cocinar de manera más saludable y optimizar sus compras, pero enfrentan barreras como la falta de tiempo y conocimiento nutricional.
+- **Nutricionistas:** Profesionales de la salud que necesitan una herramienta digital eficiente para personalizar dietas, monitorear pacientes y gestionar su carga de trabajo de manera efectiva.
 
-Reconocemos que existen otras aplicaciones relacionadas con nutrición, pero creemos que NutriPlan se diferenciará al integrar funciones de planificación automática, educación alimentaria, conexión con profesionales y análisis nutricional en una sola plataforma, ofreciendo una experiencia más completa y personalizada.
+#### **¿Cómo se integra nuestro producto en la rutina laboral o cotidiana?**
+- **Para los jóvenes de 18-28 años en Lima:** NutriPlan se integra ayudando a los jóvenes a planificar sus comidas de forma rápida y sencilla, generar listas de compras inteligentes basadas en sus preferencias alimentarias y seguir su progreso nutricional, todo a través de una plataforma accesible desde su móvil.
+- **Para los nutricionistas:** La aplicación facilita la creación de dietas personalizadas, el seguimiento remoto de pacientes y la gestión eficiente de múltiples pacientes, lo que optimiza su tiempo y mejora la calidad del servicio.
+
+#### **¿Cuáles son los desafíos que aborda nuestro producto?**
+- **Para los jóvenes de 18-28 años en Lima:** La falta de tiempo y conocimientos sobre nutrición que dificulta la planificación de comidas saludables y la toma de decisiones informadas sobre su alimentación, lo que contribuye a hábitos poco saludables y un mayor riesgo de enfermedades crónicas.
+- **Para los nutricionistas:** La falta de herramientas digitales eficientes para personalizar dietas, gestionar un número elevado de pacientes y realizar un seguimiento adecuado de manera remota, lo que limita la calidad y efectividad de su trabajo.
+
+#### **¿Cuál es la imagen que deseamos proyectar con nuestro producto?**
+NutriPlan busca proyectar una imagen de **salud, accesibilidad y conveniencia**. Queremos ser vistos como una herramienta confiable, moderna y fácil de usar que facilita la mejora de los hábitos alimenticios, tanto para los jóvenes como para los nutricionistas, mejorando la salud nutricional de manera efectiva.
+
+#### **¿Cuál es el propósito fundamental de nuestra aplicación?**
+El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes de 18-28 años en Lima proporcionando una plataforma que facilite la planificación de comidas saludables, optimice las compras y ofrezca un seguimiento continuo del progreso. Para los nutricionistas, la aplicación permite personalizar dietas y gestionar pacientes de forma eficiente y remota.
+
+#### **¿Qué funcionalidades destacan en nuestra aplicación?**
+- **Planificación de comidas personalizadas:** Recetas adaptadas a las necesidades y preferencias de cada usuario.  
+- **Listas de compras inteligentes:** Generación automática de listas basadas en las recetas y preferencias del usuario.  
+- **Seguimiento nutricional:** Monitoreo del progreso nutricional y recomendaciones personalizadas para ajustes en la dieta.  
+- **Gestión de pacientes (para nutricionistas):** Herramienta para crear dietas personalizadas, realizar seguimiento y gestionar pacientes de manera eficiente.
+
+
+#### **Business Outcomes**
+
+1. **Aumentar** la satisfacción del usuario al proporcionar una plataforma accesible, útil y fácil de usar para mejorar los hábitos alimenticios, lo que favorece la retención de usuarios.
+2. **Expandir** la base de usuarios en Lima y Perú, aumentando la cuota de mercado en el sector de aplicaciones de salud y nutrición.
+3. **Incrementar** las suscripciones premium de usuarios al ofrecer funcionalidades avanzadas como asesoramiento personalizado y seguimiento nutricional detallado.
+4. **Mejorar** la eficiencia de los nutricionistas en la gestión de pacientes, lo que resulta en una mayor adopción de la plataforma por parte de profesionales de la salud.
+5. **Establecer** alianzas estratégicas con instituciones de salud, empresas de nutrición y marcas de productos alimenticios para ampliar la visibilidad y las oportunidades de monetización.
+
+#### User Outcomes
+
+#### **Segmento objetivo Jóvenes de 18-28 años en Lima**
+
+1. **Mejorar** los hábitos alimenticios al planificar comidas saludables adaptadas a sus necesidades y objetivos nutricionales.
+2. **Optimizar** las compras mediante listas inteligentes que permiten comprar solo lo necesario, reduciendo desperdicios y costos.
+3. **Incrementar** el conocimiento sobre nutrición para tomar decisiones informadas que mejoren la salud a largo plazo.
+4. **Hacer** un seguimiento del progreso nutricional, ajustando los hábitos según los resultados y objetivos personales.
+5. **Sentirse** más motivados a mantener hábitos saludables gracias al apoyo continuo y las recomendaciones personalizadas de la app.
+
+#### **Segmento objetivo: Nutricionistas en Perú**
+
+1. **Crear** dietas personalizadas de manera más rápida y eficiente, adaptadas a las necesidades específicas de cada paciente.
+2. **Mejorar** el seguimiento de los pacientes, monitoreando su progreso de manera remota y realizando ajustes según sea necesario.
+3. **Ahorrar** tiempo al automatizar tareas y centralizar la gestión de pacientes, optimizando sus recursos.
+4. **Ofrecer** atención más personalizada, gracias al acceso a datos en tiempo real y a la capacidad de ajustar las recomendaciones rápidamente.
+5. **Experimentar** mayor satisfacción profesional al contar con una herramienta que facilita el trabajo y mejora la calidad de atención.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que los usuarios interesados en mejorar su alimentación usarán NutriPlan como una herramienta práctica y confiable para planificar sus comidas y adquirir mejores hábitos.
+1. **Creemos** que si proporcionamos a los jóvenes de 18-28 años en Lima una plataforma accesible y fácil de usar para planificar comidas saludables,  
+   **Entonces** estos jóvenes adoptarán hábitos alimenticios más saludables de manera más consistente,  
+   **Sabemos** que hemos tenido éxito cuando veamos un aumento del 25% en la retención de usuarios durante los primeros tres meses, medido a través de la tasa de retención de usuarios.
 
-Creemos que los nutricionistas utilizarán nuestra plataforma para crear planes personalizados y monitorear el progreso de sus pacientes, fortaleciendo así su práctica profesional.
+2. **Creemos** que si ofrecemos a los nutricionistas una herramienta eficiente para crear dietas personalizadas y hacer seguimiento remoto de pacientes,  
+   **Entonces** mejorarán la eficiencia en la gestión de sus pacientes, reduciendo el tiempo invertido en tareas repetitivas,  
+   **Sabemos** que hemos tenido éxito cuando observemos una disminución del 30% en el tiempo promedio dedicado a la creación de dietas, medido a través del tiempo invertido por tarea.
 
-Creemos que ofrecer una experiencia integral (planificación, recetas, valor nutricional y seguimiento profesional) nos permitirá destacar frente a la competencia y generar un crecimiento sostenido en ambas audiencias.
+3. **Creemos** que si implementamos funcionalidades de seguimiento nutricional personalizado,  
+   **Entonces** los jóvenes adultos mejorarán su conocimiento sobre nutrición y tomarán decisiones más informadas sobre su alimentación,  
+   **Sabemos** que hemos tenido éxito cuando observemos una mejora del 15% en los hábitos alimenticios reportados en encuestas de usuarios, medido a través de la puntuación de hábitos alimenticios.
 
-Creemos que si incluimos funciones adaptables y contenido educativo accesible, lograremos una alta retención de usuarios y recomendaciones boca a boca.
 
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios. A continuación se presenta el Lean UX Canvas trabajado por el equipo a través de la herramienta digital Mural:
+
+![Image](https://github.com/user-attachments/assets/c9c4811a-b42c-42ab-bd14-812c53b40061)
+
+Enlace: [https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/891b85b88f2d8e99fb15c7cdf2f30e62792b17af?sender=ufdf66b413172c812625a4806](LeanUX-Canvas_NutriPlan)
 
 ## 1.3. Segmentos Objetivo
 
-#### 1. Usuarios generales
+#### Segmento 1: Jóvenes Adultos de 18 a 28 Años en Lima
 
-Jóvenes y adultos que desean mejorar sus hábitos alimenticios de forma sencilla y sostenible.
+- **Población**: En 2022, la población joven peruana entre 18 y 29 años ascendía a 7,875,040 personas, representando aproximadamente el 23.6% de la población nacional. Lima Metropolitana concentra el 28.4% de esta población joven. 
+  
+- **Características**:
+  - Alta penetración de smartphones y uso de aplicaciones móviles.
+  - Interés creciente por la salud y el bienestar.
+  - Búsqueda de soluciones prácticas y accesibles para mejorar sus hábitos alimenticios.
 
-Personas con objetivos específicos como pérdida de peso, ganancia muscular o control de enfermedades crónicas (como diabetes o hipertensión).
+- **Necesidades**:
+  - Herramientas que faciliten la planificación de comidas saludables.
+  - Acceso a información nutricional personalizada.
+  - Motivación y seguimiento para mantener hábitos alimenticios saludables.
 
-Usuarios con poco tiempo para planificar sus comidas que buscan recetas saludables y fáciles de preparar.
+#### Segmento 2: Nutricionistas en Perú
 
-Familias que quieren organizar mejor sus compras y comidas semanales, reduciendo desperdicio y mejorando su nutrición.
+- **Población**: El Colegio de Nutricionistas del Perú cuenta con aproximadamente 9,000 profesionales registrados.
+  
+- **Características**:
+  - Profesionales comprometidos con la salud y el bienestar de la población.
+  - Interés en herramientas digitales que optimicen su labor.
+  - Necesidad de plataformas que faciliten la gestión de pacientes y el seguimiento nutricional.
 
-#### 2. Nutricionistas
-
-Nutricionistas que desean ofrecer planes personalizados a sus pacientes de forma digital, optimizando su tiempo y aumentando su alcance.
-
-Profesionales de la salud que buscan una plataforma que les permita monitorear progresos, enviar recomendaciones y mantener una comunicación constante con sus pacientes.
-
-Especialistas que ya ofrecen asesoría nutricional presencial y desean digitalizar y escalar sus servicios.
-
-Expertos en nutrición interesados en generar ingresos extra compartiendo su conocimiento a través de contenidos, recetas y asesorías online.
+- **Necesidades**:
+  - Herramientas que permitan crear dietas personalizadas de manera eficiente.
+  - Seguimiento remoto de pacientes.
+  - Acceso a datos y estadísticas que faciliten la toma de decisiones.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -299,7 +400,7 @@ En este capítulo se realizará el proceso de Análisis competitivo y Needfindin
 
 ### 2.1.1. Análisis Competitivo
 
-A continuación se presenta un análisis competitivo de las empresas que ofrecen servicios similares a NutriPlan.
+El análisis competitivo es una herramienta esencial debido a su relevancia en la toma de decisiones estratégicas, la identificación de oportunidades y amenazas, y la creación de ventajas competitivas sostenibles en el mercado. Por tales motivos, ayuda a las empresas a mantenerse ágiles y a tomar decisiones informadas en un entorno empresarial de constante cambio. A continuación, se exhibe la incorporación de esta herramienta dentro del desarrollo del proyecto y la examinación de los competidores:
 
 <table>
   <tr>
@@ -516,7 +617,7 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 **Preguntas Específicas**
 
-#### Segmento 1: Usuarios generales
+#### Segmento 1: Jóvenes de 18 - 28 años en Lima
 
 ¿Qué le motiva a querer mejorar su alimentación o estilo de vida?
 
@@ -528,7 +629,7 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 ¿Qué funcionalidades considera imprescindibles en una app que lo ayuden a mantenerse motivado y organizado en su plan nutricional?
 
-#### Segmento 2: Nutricionistas
+#### Segmento 2: Nutricionistas en el Perú
 
 ¿Cuáles son los principales retos que enfrenta al gestionar los planes nutricionales de sus pacientes?
 
@@ -542,9 +643,7 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento #1: Usuarios generales
-
-**Entrevista #1:**
+#### Segmento #1: Jóvenes de 18 - 28 años en Lima
 
 Nombre: Ernesto Ruiz
 
@@ -552,9 +651,13 @@ Edad: 20
 
 Distrito: Pueblo Libre
 
-Link:
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/Eb4F9pJ-5kpMlwpi79JvVosBH-a6t5k3QGpR3Q75rotHbg?e=iM6Prv 
+
+<img src="./img/ientre.png" width="700" height="200">
+
 
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
+
 
 #### Segmento #2: Nutricionistas
 
@@ -572,11 +675,11 @@ En esta sección se muestra el proceso de análisis de la información recolecta
 
 A continuación brindamos las fichas de User Persona elaboradas a partir del análisis de las entrevistas realizadas.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/user1.png" width="900" height="900">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en Perú**
 
 <img src="./img/user2.png" width="900" height="900">
 
@@ -584,7 +687,7 @@ A continuación brindamos las fichas de User Persona elaboradas a partir del an�
 
 A continuación se muestra el proceso para la realizacion del User Task Matrix para comprender las tareas que realizan los User Persona para cumplir sus objetivos.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 | **Tarea**                                                         | **Frecuencia** | **Importancia** |
 | ----------------------------------------------------------------- | -------------- | --------------- |
@@ -598,7 +701,7 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 ---
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en el Perú**
 
 | **Tarea**                                                        | **Frecuencia** | **Importancia** |
 | ---------------------------------------------------------------- | -------------- | --------------- |
@@ -614,7 +717,7 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 A continuación se muestra el proceso para la realización del User Journey Mapping para los User Persona con el fin de entender las experiencias del usuario sin nuestra solución.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
 
 **Segmento #2: Nutricionistas**
 
@@ -622,11 +725,11 @@ A continuación se muestra el proceso para la realización del User Journey Mapp
 
 A continuación se muestra el proceso para la realización del Empathy Mapping para los User Persona con el fin de entender lo que piensa, siente, oye, hace y observa.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1:   Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/empathy1.png" width="900" height="900">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en el Perú**
 
 <img src="./img/empathy2.png" width="900" height="900">
 
@@ -634,11 +737,11 @@ A continuación se muestra el proceso para la realización del Empathy Mapping p
 
 A continuación se muestra el proceso para la realización del As-Is Scenario Mapping para los User Persona.
 
-**Segmento #1: Usuarios generales**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/asis1.png" width="1400" height="600">
 
-**Segmento #2: Nutricionistas**
+**Segmento #2: Nutricionistas en Perú**
 
 <img src="./img/asis2.png" width="1400" height="600">
 
@@ -646,7 +749,7 @@ A continuación se muestra el proceso para la realización del As-Is Scenario Ma
 
 A continuación, se presentan los términos clave utilizados en el dominio de negocio de **NutriPlan**, con el objetivo de unificar el lenguaje entre el equipo de desarrollo, los usuarios y los profesionales involucrados.
 
-- **User (usuario general):** Persona que utiliza la aplicación con el objetivo de mejorar su alimentación mediante planes personalizados y seguimiento de hábitos.
+- **User (joven usuario):** Persona que utiliza la aplicación con el objetivo de mejorar su alimentación mediante planes personalizados y seguimiento de hábitos.
 
 - **Nutritionist (nutricionista):** Profesional de la salud que diseña, adapta y supervisa los planes alimenticios de los usuarios a través de la plataforma.
 
@@ -673,6 +776,8 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 - **Metrics (métricas):** Datos cuantificables como peso, IMC, calorías diarias y nivel de adherencia al plan, que se usan para evaluar el progreso del usuario.
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
+
+
 
 # Capítulo IV: Solution Software Design
 
