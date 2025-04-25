@@ -2253,3 +2253,15 @@ Interfaz para acceder a los perfiles de los pacientes.
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+# Conclusiones
+
+<div style="page-break-after: always;"></div>
+
+# Bibliografía
+
+<div style="page-break-after: always;"></div>
+
+# Anexos
+
+<div style="page-break-after: always;"></div>
