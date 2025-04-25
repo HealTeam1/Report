@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TP1 Report </h1>
+<h1 align="center"> TB1 Report </h1>
 
 <h3 align="center"> Aplicaciones para Dispositivos Móviles - 346 </h3>
 
@@ -57,6 +57,8 @@
 [Contenido](#contenido)
 
 [Student Outcome](#student-outcome-1)
+
+[Objetivos SMART](#objetivos-smart-1)
 
 [Capítulo I: Introducción](#capitulo-i-introduccion)
 
@@ -137,8 +139,12 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :------------------ | :------------------ | :----------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br>  | Conclusiones:           |
-|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br>| Conclusiones: |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br> *Pardo Zapata Gustavo Adolfo* <br> *TB1*: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br>   | Conclusiones:           |
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br> *Pardo Zapata Gustavo Adolfo* <br> *TB1*: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>| Conclusiones: |
+
+<div style="page-break-after: always;"></div>
+
+# Objetivos SMART
 
 <div style="page-break-after: always;"></div>
 
