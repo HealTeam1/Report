@@ -204,7 +204,6 @@
   </tr>
  <tr>
     <td> Dueñas Canales Leonardo Manuel</td>
-   <td> Dueñas Canales Leonardo Manuel</td>
     <td> 	Mi objetivo es obtener experiencia profesional en el área de desarrollo de productos digitales enfocados en salud y nutrición, mediante prácticas preprofesionales o proyectos colaborativos, para fortalecer mi portafolio y aumentar mi empleabilidad en el sector tecnológico. </td>
     <td> 	01/10/2025 </td>
     <td> 	30/03/2026 </td>
