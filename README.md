@@ -26,8 +26,6 @@
 
 | Member                        |    Code    |
 | :---------------------------- | :--------: |
-|                               |            |
-|                               |            |
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
 | Pardo Zapata, Gustavo Adolfo  | U202120347 |
 | Alejandro Espino Flores       | U202122129 |
@@ -810,33 +808,94 @@ A partir del EventStorming realizado,se llevó a cabo una sesión de Candidate C
 
 **Bounded Contexts identificados**
 
-1. Planificación Nutricional Context : Gestiona la creación, personalización y actualizazión de planes alimenticios
-2. Seguimiento y Progreso Context : Encargado de registrar alimentos, métricas y generar reportes de progreso.
+1. NutritionPlanning Context : Gestiona la creación, personalización y actualizazión de planes alimenticios
+2. ProgressTracking Context : Encargado de registrar alimentos, métricas y generar reportes de progreso.
 3. Onboarding Context : Maneja la incorporación de usuarios y su evaluacion incial.
-4. Recetario y compras Context : Relacionado con la sugerencia de recetas saludables y generación de listas de compra.
-5. Getion del Nutricionista Context : Espacio exclusivo del nutricionista para gestionar pacientes,metricas y recomendaciones.
+4. FoodCatalog ontext : Relacionado con la sugerencia de recetas saludables y generación de listas.
+5. UserProfile Context : Espacio para los usuarios para gestionar pacientes,metricas y recomendaciones.
 
 #### 4.1.1.2. Domain Message Flows Modelings
 
 En esta etapa se aplicó la tecnica de Domain Storytelling para representar como los distintos bounded contexts colaboran para satisfacer escenarios del negocio.Se seleccionaron flujos representativos como:
 
-- Creacion de plan nutricional personalizado
+- Creacion de plan nutricional 
 - Monitoreo del progreso del usuario
-- Comunicación entre usuario y nutricionista
+- Gestion de plan del usuario
 
 Cada historia se representa mediantes actores, acciones y los contextos responsable,permitiendo visualizar la orquestación y los contratos entre servicios
 
 #### 4.1.1.3. Bounded Context Canvases
 
+En esta sección se documenta cada uno de los bounded contexts identificados para el dominio de Nutriplan. utilizando el formato de Bounded Context Canvas. Cada canvas proporciona una visión detallada de los límites,responsabilidades,lenguaje ubicuo,capacidades y dependecias internas y externas del contexto.
+
+Esta herramienta permitió al equipo delimitar ecplicitamente que comportamiento y datos pertenecen a cada parte del sistema,facilitando el diseño de soluciones modulares y alineadas con el dominio del negocio.
+
+**Los Bounded Context definidos son:**
+
+1. Nuriplanning
+2. FoodCatalog
+3. ProgressTracking
+4. UserProfile
+5. IAM
+5. Payment
+6. Subscription
+
 ### 4.1.2. Context Mapping
+
+En esta sección se documenta el proceso y resultado del Context Mapping, una técnica estratégica que permite visualizar las relaciones entre los distintos Bounded Contexts de NutriPlan.
+
+Se utilizó la técnica "look for pivotal events" a partir del EventStorming, lo que permitió descubrir interacciones relevantes entre contextos (por ejemplo, cómo el evento en ProgressTracking puede afectar la lógica de NutritionPlanning).
+
+Se aplicaron patrones como:
+
+- Customer/Supplier: Relaciones donde un contexto depende del output de otro.
+- Conformist: donde un contexto consumidor se adapta al modelo del proveedor.
+- Shared Kernel: donde dos conextos comparten un modelo común cuidadosament gestionado.
+
+| **Context Origen**  | **Context Destino** | **Relacion**       |**Descripción**                               |
+| ------------------- | ------------------- | ------------------ | -------------------------------------------- |
+| NutritionPlanning   | FoodCatalog         | Shared Kernel      | Comparten recetas y estructuras dealimentos. |
+| NutritionPlanning   | ProgressTracking    | Customer/Supplier  | Se adapta según el progreso del usuario.     |
+| Subscription        | Payment             | Conformist         | Adopta el modelo y eventos de pago           |
+| All                 | IAM                 | Customer/supplier  | Autenticación como servicio compartido.      |
+
 
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 
+El diagrama de contexto proporciona una vision de alto nivel del sistema. Muestra la interacción del sistema con sus actores externos, usuarios, otras aplicaciones, y externos, lo que ayuda a entender los limites del sistema.
+
+<img src="img/C4-1.png" width="1000" height="700">
+
+link: https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C4%20Nutriplan&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19SZcIG-Am5o2pFswX7s6hX-jFHn20M7v%26export%3Ddownload
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
+El diagram de contenedor detalla los diferentes componenetes del sistema. Muestra los principales contenedores como aplicaciones, servicios backend, bases de datos y la comunicación entre ellos.
+
+<img src="img/C4-nutriplan.png" width="1000" height="700">
+
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de componentes desglosa los contenedores en componentes internos. Cada componente muestra una funcionalidad específica dentro del sisetema, esto permite una comprensión más detallada de sus responsabilidadese interacción entre ellos.
+
+**Nutriplanning**
+
+<img src="img/C4-nutriplanning.png" width="1000" height="700">
+
+**FoodCatalog**
+
+<img src="img/C4-FoodCatalog.png" width="1000" height="700">
+
+**ProgressTracking**
+
+<img src="img/C4-progress.png" width="1000" height="700">
+
+**UserProfile**
+
+<img src="img/C4-userprofile.png" width="1000" height="700">
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
