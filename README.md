@@ -26,8 +26,6 @@
 
 | Member                        |    Code    |
 | :---------------------------- | :--------: |
-|                               |            |
-|                               |            |
 | Oshiro Yamashita, Daiki Oscar | U20201F846 |
 | Pardo Zapata, Gustavo Adolfo  | U202120347 |
 | Alejandro Espino Flores       | U202122129 |
@@ -843,6 +841,24 @@ Esta herramienta permitió al equipo delimitar ecplicitamente que comportamiento
 6. Subscription
 
 ### 4.1.2. Context Mapping
+
+En esta sección se documenta el proceso y resultado del Context Mapping, una técnica estratégica que permite visualizar las relaciones entre los distintos Bounded Contexts de NutriPlan.
+
+Se utilizó la técnica "look for pivotal events" a partir del EventStorming, lo que permitió descubrir interacciones relevantes entre contextos (por ejemplo, cómo el evento en ProgressTracking puede afectar la lógica de NutritionPlanning).
+
+Se aplicaron patrones como:
+
+- Customer/Supplier: Relaciones donde un contexto depende del output de otro.
+- Conformist: donde un contexto consumidor se adapta al modelo del proveedor.
+- Shared Kernel: donde dos conextos comparten un modelo común cuidadosament gestionado.
+
+| **Context Origen**  | **Context Destino** | **Relacion**       |**Descripción**                               |
+| ------------------- | ------------------- | ------------------ | -------------------------------------------- |
+| NutritionPlanning   | FoodCatalog         | Shared Kernel      | Comparten recetas y estructuras dealimentos. |
+| NutritionPlanning   | ProgressTracking    | Customer/Supplier  | Se adapta según el progreso del usuario.     |
+| Subscription        | Payment             | Conformist         | Adopta el modelo y eventos de pago           |
+| All                 | IAM                 | Customer/supplier  | Autenticación como servicio compartido.      |
+
 
 ### 4.1.3. Software Architecture
 
