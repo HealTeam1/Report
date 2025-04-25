@@ -23,13 +23,12 @@
 
 <h3> Team Members: </h3>
 
-
-| Member                        |    Code    |
-| :---------------------------- | :--------: |
-| Oshiro Yamashita, Daiki Oscar | U20201F846 |
-| Pardo Zapata, Gustavo Adolfo  | U202120347 |
-| Alejandro Espino Flores       | U202122129 |
-| Dueñas Canales Leonardo Manuel| U202117475 |
+| Member                              |    Code    |
+| :---------------------------------- | :--------: |
+| Oshiro Yamashita, Daiki Oscar       | U20201F846 |
+| Pardo Zapata, Gustavo Adolfo        | U202120347 |
+| Alejandro Espino Flores             | U202122129 |
+| Dueñas Canales Leonardo Manuel      | U202117475 |
 | Comettant Rubiños Jessica Elizabeth | U20211C009 |
 
 <h3 align="center">Abril, 2025</h3>
@@ -40,7 +39,7 @@
 
 | Versión | Fecha | Autor |  Descripción de modificación   |
 | :-----: | :---: | :---: | :----------------------------: |
-|   TB1   |       |   -   | Se añadió los capítulos 1 al 4 |
+|   TB1   | 24/04/2025 | Todos los integrantes | Se añadió los capítulos 1 al 4 |
 
 # Project Report Collaboration Insights
 
@@ -137,10 +136,10 @@
 
 # Student Outcome
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :------------------ | :------------------ | :----------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br> *Pardo Zapata Gustavo Adolfo* <br> *TB1*: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br>   | Conclusiones:           |
-|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | *Daiki Oscar Oshiro Yamashita* <br> *TB1*: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br> *Pardo Zapata Gustavo Adolfo* <br> *TB1*: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>| Conclusiones: |
+| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones  |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br>_Alejandro Espino Flores_<br> Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente. | Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>_Alejandro Espino Flores_<br> En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. | Conclusiones:  Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software. |
 
 <div style="page-break-after: always;"></div>
 
@@ -165,16 +164,14 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrantes                                                                                              | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
-| :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| Nombre                                                                                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                      | Conocimientos                                                                   |
-| <img src="img/Daiki.png" alt="" width="100" height="120"> Daiki Oscar Oshiro Yamashita u20201f846 | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro. | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL. |
-| <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347 | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                  |
-| <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                     | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto. | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                 |
-| Dueñas Canales Leonardo Manuel                                                                           | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                        | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.  |
+| Integrantes                                                                                                                       | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conocimientos                                                                                                                                           |
+| :-------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Nombre                                                                                                                            | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conocimientos                                                                                                                                           |
+| <img src="img/Daiki.png" alt="" width="100" height="120"> Daiki Oscar Oshiro Yamashita u20201f846                                 | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro.                                                                                                                                                                                                                                                                                                                                                                                                                                               | Cuento con el conocimiento de diversos lenguajes HTML, Python, C++, C# y MySQL.                                                                         |
+| <img src="img/PerfilGustavo.jpg" alt="" width="100" height="120">Pardo Zapata Gustavo Adolfo u2020120347                          | Estudiante de la carrera de Ingeniería de Software. Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.                                                                                                                                                                                                                                                                       | Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                                                                                          |
+| <img src="" alt="" width="100" height="120">Espino Flores, Alejandro                                                              | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto.                                                                                                                                                                                                                                        | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                                                                                         |
+| Dueñas Canales Leonardo Manuel                                                                                                    | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.                                                                                       |
 | ![Image](https://github.com/user-attachments/assets/c76261aa-c9dc-402a-b95f-2ba0a37c48dc) **Jessica Elizabeth Comettant Rubiños** | Estudiante de la carrera de ingeniería de software de la UPC (Universidad Peruana de Ciencias Aplicadas). Estoy en el sexto ciclo de mi carrera. Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, mi personalidad se encuentra basada en la autonomía. Por lo tanto, he sido capaz de extender mis conocimientos de programación con mayor material de estudio. Finalmente, destaco de mi personalidad la empatía, la responsabilidad, la amabilidad y la capacidad de trabajar en equipo. | Conocimientos en C#, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals. |
-
-
 
 ## 1.2. Solution Profile
 
@@ -196,7 +193,6 @@ NutriPlan es una aplicación móvil que permite planificar comidas saludables, v
 
 En Perú, especialmente en Lima, existen desafíos importantes en cuanto a salud y nutrición. Según el Ministerio de Salud (Minsa), el sobrepeso y la obesidad han aumentado significativamente en la población urbana, afectando aproximadamente al 60% de los adultos en Lima. Esta situación ha contribuido a un incremento de enfermedades crónicas como la diabetes tipo 2, hipertensión y problemas cardiovasculares. Además, muchas personas carecen de la educación nutricional necesaria para tomar decisiones alimenticias informadas. NutriPlan surge con el objetivo de ofrecer soluciones accesibles, proporcionando herramientas personalizadas para que los usuarios puedan mejorar sus hábitos alimenticios de manera efectiva.
 
-
 #### Where? (¿Dónde se utilizará?)
 
 NutriPlan estará disponible principalmente en Lima, la capital de Perú, y en otras zonas urbanas del país. La aplicación está diseñada para personas que desean mejorar su alimentación y para nutricionistas que buscan una plataforma práctica y accesible para gestionar planes alimenticios. Con el tiempo, se espera expandir su alcance a otras ciudades de América Latina, donde los problemas nutricionales son similares.
@@ -209,7 +205,7 @@ NutriPlan se utilizará de manera continua. Los usuarios podrán acceder a la ap
 
 Usuarios generales: Jóvenes adultos de entre 18 y 28 años en Lima que buscan mejorar su alimentación diaria, cocinar de manera saludable y optimizar sus compras. Este grupo busca una solución práctica y accesible para integrar hábitos alimenticios más saludables en su rutina.
 
-Nutricionistas: Profesionales de la salud en Lima  que necesitan una herramienta digital para personalizar dietas, monitorear el progreso de sus pacientes y compartir recomendaciones profesionales de manera eficiente y remota.
+Nutricionistas: Profesionales de la salud en Lima que necesitan una herramienta digital para personalizar dietas, monitorear el progreso de sus pacientes y compartir recomendaciones profesionales de manera eficiente y remota.
 
 #### How? (¿Cómo funciona?)
 
@@ -230,7 +226,7 @@ Suscripción Premium para usuarios: Incluye planes nutricionales personalizados,
 ##### **1. Problem Statement: Mejora de Alimentación para Jóvenes Adultos en Lima**
 
 **Descripción de la situación:**  
-La mayoría de los jóvenes adultos en Lima tienen poco tiempo y conocimiento para planificar comidas saludables. Según el Ministerio de Salud, más del 60% de los adultos en Perú sufren de sobrepeso u obesidad, lo que aumenta los riesgos de enfermedades crónicas. Sin embargo, solo el 30% de los jóvenes de entre 18 y 28 años en Lima tiene acceso a recursos adecuados para mejorar su alimentación. 
+La mayoría de los jóvenes adultos en Lima tienen poco tiempo y conocimiento para planificar comidas saludables. Según el Ministerio de Salud, más del 60% de los adultos en Perú sufren de sobrepeso u obesidad, lo que aumenta los riesgos de enfermedades crónicas. Sin embargo, solo el 30% de los jóvenes de entre 18 y 28 años en Lima tiene acceso a recursos adecuados para mejorar su alimentación.
 
 **Descripción del problema:**  
 La falta de una herramienta que facilite la planificación de comidas saludables y optimice las compras diarias lleva a que muchos jóvenes adultos continúen tomando decisiones alimenticias poco informadas, lo que contribuye a un aumento de enfermedades relacionadas con la mala alimentación.
@@ -249,7 +245,6 @@ La ausencia de una plataforma digital eficiente limita la capacidad de los nutri
 **Propuesta de solución:**  
 ¿Cómo podemos proporcionar a los nutricionistas en Lima una herramienta digital que les permita crear dietas personalizadas, realizar un seguimiento continuo y ofrecer recomendaciones eficientes, mejorando la calidad de su servicio y optimizando el tiempo dedicado a cada paciente?
 
-
 ##### **3. Problem Statement: Acceso y Comprensión de la Nutrición para Jóvenes Adultos en Lima**
 
 **Descripción de la situación:**  
@@ -260,7 +255,6 @@ La carencia de acceso a información nutricional clara y accesible limita la cap
 
 **Propuesta de solución:**  
 ¿Cómo podemos ofrecer a los jóvenes adultos en Lima una plataforma educativa que proporcione información nutricional accesible, personalizada y fácil de comprender, para que puedan mejorar sus hábitos alimenticios y prevenir enfermedades relacionadas con la mala nutrición?
-
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -293,29 +287,34 @@ La carencia de acceso a información nutricional clara y accesible limita la cap
 #### User Assumptions
 
 #### **¿Quién utiliza nuestra plataforma?**
+
 - **Jóvenes de 18-28 años en Lima:** Personas que buscan mejorar sus hábitos alimenticios, aprender a cocinar de manera más saludable y optimizar sus compras, pero enfrentan barreras como la falta de tiempo y conocimiento nutricional.
 - **Nutricionistas:** Profesionales de la salud que necesitan una herramienta digital eficiente para personalizar dietas, monitorear pacientes y gestionar su carga de trabajo de manera efectiva.
 
 #### **¿Cómo se integra nuestro producto en la rutina laboral o cotidiana?**
+
 - **Para los jóvenes de 18-28 años en Lima:** NutriPlan se integra ayudando a los jóvenes a planificar sus comidas de forma rápida y sencilla, generar listas de compras inteligentes basadas en sus preferencias alimentarias y seguir su progreso nutricional, todo a través de una plataforma accesible desde su móvil.
 - **Para los nutricionistas:** La aplicación facilita la creación de dietas personalizadas, el seguimiento remoto de pacientes y la gestión eficiente de múltiples pacientes, lo que optimiza su tiempo y mejora la calidad del servicio.
 
 #### **¿Cuáles son los desafíos que aborda nuestro producto?**
+
 - **Para los jóvenes de 18-28 años en Lima:** La falta de tiempo y conocimientos sobre nutrición que dificulta la planificación de comidas saludables y la toma de decisiones informadas sobre su alimentación, lo que contribuye a hábitos poco saludables y un mayor riesgo de enfermedades crónicas.
 - **Para los nutricionistas:** La falta de herramientas digitales eficientes para personalizar dietas, gestionar un número elevado de pacientes y realizar un seguimiento adecuado de manera remota, lo que limita la calidad y efectividad de su trabajo.
 
 #### **¿Cuál es la imagen que deseamos proyectar con nuestro producto?**
+
 NutriPlan busca proyectar una imagen de **salud, accesibilidad y conveniencia**. Queremos ser vistos como una herramienta confiable, moderna y fácil de usar que facilita la mejora de los hábitos alimenticios, tanto para los jóvenes como para los nutricionistas, mejorando la salud nutricional de manera efectiva.
 
 #### **¿Cuál es el propósito fundamental de nuestra aplicación?**
+
 El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes de 18-28 años en Lima proporcionando una plataforma que facilite la planificación de comidas saludables, optimice las compras y ofrezca un seguimiento continuo del progreso. Para los nutricionistas, la aplicación permite personalizar dietas y gestionar pacientes de forma eficiente y remota.
 
 #### **¿Qué funcionalidades destacan en nuestra aplicación?**
-- **Planificación de comidas personalizadas:** Recetas adaptadas a las necesidades y preferencias de cada usuario.  
-- **Listas de compras inteligentes:** Generación automática de listas basadas en las recetas y preferencias del usuario.  
-- **Seguimiento nutricional:** Monitoreo del progreso nutricional y recomendaciones personalizadas para ajustes en la dieta.  
-- **Gestión de pacientes (para nutricionistas):** Herramienta para crear dietas personalizadas, realizar seguimiento y gestionar pacientes de manera eficiente.
 
+- **Planificación de comidas personalizadas:** Recetas adaptadas a las necesidades y preferencias de cada usuario.
+- **Listas de compras inteligentes:** Generación automática de listas basadas en las recetas y preferencias del usuario.
+- **Seguimiento nutricional:** Monitoreo del progreso nutricional y recomendaciones personalizadas para ajustes en la dieta.
+- **Gestión de pacientes (para nutricionistas):** Herramienta para crear dietas personalizadas, realizar seguimiento y gestionar pacientes de manera eficiente.
 
 #### **Business Outcomes**
 
@@ -343,7 +342,6 @@ El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes d
 4. **Ofrecer** atención más personalizada, gracias al acceso a datos en tiempo real y a la capacidad de ajustar las recomendaciones rápidamente.
 5. **Experimentar** mayor satisfacción profesional al contar con una herramienta que facilita el trabajo y mejora la calidad de atención.
 
-
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 1. **Creemos** que si proporcionamos a los jóvenes de 18-28 años en Lima una plataforma accesible y fácil de usar para planificar comidas saludables,  
@@ -358,8 +356,8 @@ El propósito de NutriPlan es **mejorar la salud nutricional** de los jóvenes d
    **Entonces** los jóvenes adultos mejorarán su conocimiento sobre nutrición y tomarán decisiones más informadas sobre su alimentación,  
    **Sabemos** que hemos tenido éxito cuando observemos una mejora del 15% en los hábitos alimenticios reportados en encuestas de usuarios, medido a través de la puntuación de hábitos alimenticios.
 
-
 #### 1.2.2.4. Lean UX Canvas
+
 El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios. A continuación se presenta el Lean UX Canvas trabajado por el equipo a través de la herramienta digital Mural:
 
 ![Image](https://github.com/user-attachments/assets/c9c4811a-b42c-42ab-bd14-812c53b40061)
@@ -370,9 +368,9 @@ Enlace: [https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/89
 
 #### Segmento 1: Jóvenes Adultos de 18 a 28 Años en Lima
 
-- **Población**: En 2022, la población joven peruana entre 18 y 29 años ascendía a 7,875,040 personas, representando aproximadamente el 23.6% de la población nacional. Lima Metropolitana concentra el 28.4% de esta población joven. 
-  
+- **Población**: En 2022, la población joven peruana entre 18 y 29 años ascendía a 7,875,040 personas, representando aproximadamente el 23.6% de la población nacional. Lima Metropolitana concentra el 28.4% de esta población joven.
 - **Características**:
+
   - Alta penetración de smartphones y uso de aplicaciones móviles.
   - Interés creciente por la salud y el bienestar.
   - Búsqueda de soluciones prácticas y accesibles para mejorar sus hábitos alimenticios.
@@ -385,8 +383,8 @@ Enlace: [https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/89
 #### Segmento 2: Nutricionistas en Perú
 
 - **Población**: El Colegio de Nutricionistas del Perú cuenta con aproximadamente 9,000 profesionales registrados.
-  
 - **Características**:
+
   - Profesionales comprometidos con la salud y el bienestar de la población.
   - Interés en herramientas digitales que optimicen su labor.
   - Necesidad de plataformas que faciliten la gestión de pacientes y el seguimiento nutricional.
@@ -655,13 +653,11 @@ Edad: 20
 
 Distrito: Pueblo Libre
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/Eb4F9pJ-5kpMlwpi79JvVosBH-a6t5k3QGpR3Q75rotHbg?e=iM6Prv 
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/Eb4F9pJ-5kpMlwpi79JvVosBH-a6t5k3QGpR3Q75rotHbg?e=iM6Prv
 
 <img src="./img/ientre.png" width="700" height="200">
 
-
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
-
 
 #### Segmento #2: Nutricionistas
 
@@ -679,7 +675,7 @@ En esta sección se muestra el proceso de análisis de la información recolecta
 
 A continuación brindamos las fichas de User Persona elaboradas a partir del análisis de las entrevistas realizadas.
 
-**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/user1.png" width="900" height="900">
 
@@ -721,7 +717,7 @@ A continuación se muestra el proceso para la realizacion del User Task Matrix p
 
 A continuación se muestra el proceso para la realización del User Journey Mapping para los User Persona con el fin de entender las experiencias del usuario sin nuestra solución.
 
-**Segmento #1:  Jóvenes de 18 - 28 años en Lima**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 **Segmento #2: Nutricionistas**
 
@@ -729,7 +725,7 @@ A continuación se muestra el proceso para la realización del User Journey Mapp
 
 A continuación se muestra el proceso para la realización del Empathy Mapping para los User Persona con el fin de entender lo que piensa, siente, oye, hace y observa.
 
-**Segmento #1:   Jóvenes de 18 - 28 años en Lima**
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
 
 <img src="./img/empathy1.png" width="900" height="900">
 
@@ -780,6 +776,7 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 - **Metrics (métricas):** Datos cuantificables como peso, IMC, calorías diarias y nivel de adherencia al plan, que se usan para evaluar el progreso del usuario.
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
+
 
 # Capítulo III: Requirements Specification
 
@@ -859,7 +856,6 @@ El Product Backlog es una lista priorizada de todas las funcionalidades, mejoras
 | 23  | US24          | Suscribirse a versión premium              | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas.       | 8            |
 | 24  | US25          | Ver beneficios premium                     | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.             | 5            |
 
-
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -901,7 +897,7 @@ A partir del EventStorming realizado,se llevó a cabo una sesión de Candidate C
 
 En esta etapa se aplicó la tecnica de Domain Storytelling para representar como los distintos bounded contexts colaboran para satisfacer escenarios del negocio.Se seleccionaron flujos representativos como:
 
-- Creacion de plan nutricional 
+- Creacion de plan nutricional
 - Monitoreo del progreso del usuario
 - Gestion de plan del usuario
 
@@ -920,8 +916,8 @@ Esta herramienta permitió al equipo delimitar ecplicitamente que comportamiento
 3. ProgressTracking
 4. UserProfile
 5. IAM
-5. Payment
-6. Subscription
+6. Payment
+7. Subscription
 
 ### 4.1.2. Context Mapping
 
@@ -935,13 +931,12 @@ Se aplicaron patrones como:
 - Conformist: donde un contexto consumidor se adapta al modelo del proveedor.
 - Shared Kernel: donde dos conextos comparten un modelo común cuidadosament gestionado.
 
-| **Context Origen**  | **Context Destino** | **Relacion**       |**Descripción**                               |
-| ------------------- | ------------------- | ------------------ | -------------------------------------------- |
-| NutritionPlanning   | FoodCatalog         | Shared Kernel      | Comparten recetas y estructuras dealimentos. |
-| NutritionPlanning   | ProgressTracking    | Customer/Supplier  | Se adapta según el progreso del usuario.     |
-| Subscription        | Payment             | Conformist         | Adopta el modelo y eventos de pago           |
-| All                 | IAM                 | Customer/supplier  | Autenticación como servicio compartido.      |
-
+| **Context Origen** | **Context Destino** | **Relacion**      | **Descripción**                              |
+| ------------------ | ------------------- | ----------------- | -------------------------------------------- |
+| NutritionPlanning  | FoodCatalog         | Shared Kernel     | Comparten recetas y estructuras dealimentos. |
+| NutritionPlanning  | ProgressTracking    | Customer/Supplier | Se adapta según el progreso del usuario.     |
+| Subscription       | Payment             | Conformist        | Adopta el modelo y eventos de pago           |
+| All                | IAM                 | Customer/supplier | Autenticación como servicio compartido.      |
 
 ### 4.1.3. Software Architecture
 
@@ -958,7 +953,6 @@ link: https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=
 El diagram de contenedor detalla los diferentes componenetes del sistema. Muestra los principales contenedores como aplicaciones, servicios backend, bases de datos y la comunicación entre ellos.
 
 <img src="img/C4-nutriplan.png" width="1000" height="700">
-
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
@@ -1841,6 +1835,81 @@ Servicios de dominio que gestionan operaciones entre perfiles de usuario y nutri
 
 ---
 
+### Domain Layer - Subscription
+
+La capa de dominio encapsula la lógica central relacionada con la gestión de suscripciones de los usuarios. Define las reglas del negocio, el ciclo de vida de una suscripción y los distintos tipos de planes ofrecidos.
+
+#### Entities
+
+##### Subscription
+
+Representa una suscripción activa o pasada de un usuario, incluyendo información sobre el tipo de plan, fechas de inicio y renovación, estado y costo.
+
+**Propiedades:**
+
+- `id: Long`
+- `planType: PlanTypes`
+- `userId: UserId`
+- `startDate: LocalDate`
+- `renewDate: LocalDate`
+- `status: String`
+- `cost: double`
+- `createdAt: Date`
+- `updatedAt: Date`
+
+**Métodos:**
+
+- `Subscription(command: CreateSubscriptionCommand)`
+- `updatePlanType(command: UpdatePlanTypeCommand): void`
+- `renewPlan(command: RenewSubscriptionCommand): void`
+- `getUserId(): Long`
+- `getPlanType(): PlanTypes`
+- `getStartDate(): LocalDate`
+- `getRenewDate(): LocalDate`
+- `getStatus(): String`
+- `getCost(): double`
+
+#### Value Objects
+
+##### PlanTypes (Enum)
+
+Define los diferentes tipos de planes de suscripción disponibles:
+
+- `BASIC`
+- `STANDARD`
+- `PREMIUM`
+
+---
+
+### Commands
+
+Acciones que modifican el estado de las suscripciones:
+
+- `CreateSubscriptionCommand(userId, planType, startDate, cost)`
+- `UpdatePlanTypeCommand(subscriptionId, newPlanType)`
+- `RenewSubscriptionCommand(subscriptionId, newRenewDate)`
+
+---
+
+### Queries
+
+Consultas relacionadas con las suscripciones (se pueden expandir en la capa de aplicación):
+
+- `GetSubscriptionByUserQuery(userId)`
+- `ListAllSubscriptionsQuery()`
+- `GetActiveSubscriptionsQuery()`
+
+---
+
+### Domain Services
+
+Servicios de dominio para encapsular lógica compleja que no pertenece a una sola entidad:
+
+- `SubscriptionCommandService`
+- `SubscriptionQueryService`
+
+---
+
 #### 4.2.1.2. Interface Layer
 
 #### Interface Layer - NutritionPlanning
@@ -2071,6 +2140,90 @@ Encargados de convertir entre DTOs y objetos de dominio o respuestas HTTP.
 
 ---
 
+### Interface Layer - Subscription
+
+Esta capa expone las funcionalidades del bounded context de suscripciones hacia el exterior (por ejemplo, controladores web o APIs), transformando los datos entre el dominio y las representaciones externas (DTOs, JSON, etc.).
+
+#### Resources
+
+##### /subscriptions
+
+Representa el recurso principal para la gestión de suscripciones.
+
+#### Controllers
+
+##### SubscriptionController
+
+Controlador responsable de manejar las solicitudes HTTP relacionadas con suscripciones.
+
+**Endpoints:**
+
+- `POST /subscriptions`
+
+  - Crea una nueva suscripción.
+  - **Request body:** `CreateSubscriptionDTO`
+  - **Response:** `SubscriptionDTO`
+
+- `PUT /subscriptions/{id}/plan-type`
+
+  - Actualiza el tipo de plan de una suscripción existente.
+  - **Request body:** `UpdatePlanTypeDTO`
+
+- `PUT /subscriptions/{id}/renew`
+
+  - Renueva la suscripción, extendiendo la fecha de renovación.
+  - **Request body:** `RenewSubscriptionDTO`
+
+- `GET /subscriptions/{userId}`
+
+  - Obtiene la suscripción actual de un usuario.
+  - **Response:** `SubscriptionDTO`
+
+- `GET /subscriptions`
+  - Lista todas las suscripciones (opcionalmente filtradas por estado, plan, etc.).
+  - **Response:** `List<SubscriptionDTO>`
+
+#### Transformers / Assemblers
+
+##### SubscriptionAssembler
+
+Responsable de transformar objetos de dominio a DTOs y viceversa.
+
+**Métodos:**
+
+- `toDTO(subscription: Subscription): SubscriptionDTO`
+- `fromCreateDTO(dto: CreateSubscriptionDTO): CreateSubscriptionCommand`
+- `fromUpdatePlanTypeDTO(dto: UpdatePlanTypeDTO): UpdatePlanTypeCommand`
+- `fromRenewDTO(dto: RenewSubscriptionDTO): RenewSubscriptionCommand`
+
+#### DTOs
+
+- `CreateSubscriptionDTO`
+
+  - `userId: Long`
+  - `planType: String`
+  - `startDate: LocalDate`
+  - `cost: Double`
+
+- `UpdatePlanTypeDTO`
+
+  - `planType: String`
+
+- `RenewSubscriptionDTO`
+
+  - `renewDate: LocalDate`
+
+- `SubscriptionDTO`
+  - `id: Long`
+  - `userId: Long`
+  - `planType: String`
+  - `startDate: LocalDate`
+  - `renewDate: LocalDate`
+  - `status: String`
+  - `cost: Double`
+
+---
+
 #### 4.2.1.3. Application Layer
 
 #### Application Layer - NutritionPlanning
@@ -2232,6 +2385,63 @@ Servicios de aplicación que encapsulan la coordinación de casos de uso del neg
 
 ---
 
+### Application Layer - Subscription
+
+La capa de aplicación orquesta los flujos de procesos del negocio relacionados con la gestión de suscripciones. Aquí se definen los comandos, consultas y sus respectivos handlers, que coordinan la lógica de dominio mediante servicios y repositorios.
+
+#### Commands
+
+Acciones que modifican el estado del sistema:
+
+- `CreateSubscriptionCommand(userId: Long, planType: PlanTypes, startDate: LocalDate, cost: Double)`
+- `UpdatePlanTypeCommand(subscriptionId: Long, newPlanType: PlanTypes)`
+- `RenewSubscriptionCommand(subscriptionId: Long, renewDate: LocalDate)`
+
+#### Queries
+
+Consultas que permiten recuperar datos sin modificar el estado del dominio:
+
+- `GetSubscriptionByUserQuery(userId: Long)`
+- `ListAllSubscriptionsQuery()`
+- `GetActiveSubscriptionsQuery()`
+
+#### Command Handlers
+
+Encargados de ejecutar los comandos y delegar la lógica al dominio.
+
+- `CreateSubscriptionCommandHandler`
+
+  - Valida el comando y crea una nueva instancia de `Subscription`.
+
+- `UpdatePlanTypeCommandHandler`
+
+  - Cambia el tipo de plan de una suscripción existente.
+
+- `RenewSubscriptionCommandHandler`
+  - Renueva una suscripción actualizando su fecha de renovación.
+
+#### Query Handlers
+
+Resuelven las consultas del sistema de forma segura y sin efectos colaterales.
+
+- `GetSubscriptionByUserQueryHandler`
+
+  - Recupera la suscripción activa de un usuario.
+
+- `ListAllSubscriptionsQueryHandler`
+
+  - Retorna todas las suscripciones registradas.
+
+- `GetActiveSubscriptionsQueryHandler`
+  - Devuelve las suscripciones con estado activo.
+
+#### Application Services
+
+Servicios que coordinan casos de uso compuestos o reutilizables.
+
+- `SubscriptionCommandService`
+- `SubscriptionQueryService`
+
 #### 4.2.1.4. Infrastructure Layer
 
 #### Infrastructure Layer - NutritionPlanning
@@ -2323,13 +2533,85 @@ Interfaz para acceder a los perfiles de los pacientes.
 
 ---
 
+### Infrastructure Layer - Subscription
+
+La capa de infraestructura se encarga de proporcionar implementaciones técnicas específicas para los puertos definidos en las capas superiores, tales como la persistencia de datos, servicios externos y mapeo de objetos.
+
+#### Repositories
+
+##### SubscriptionRepository (Interface)
+
+Define las operaciones necesarias para acceder a las suscripciones desde el almacenamiento.
+
+**Métodos:**
+
+- `save(subscription: Subscription): void`
+- `findById(id: Long): Subscription?`
+- `findByUserId(userId: Long): Subscription?`
+- `findAll(): List<Subscription>`
+- `findActiveSubscriptions(): List<Subscription>`
+
+##### JpaSubscriptionRepository (Implementación)
+
+Implementación del repositorio utilizando JPA/Hibernate o el ORM de preferencia.
+
+#### Mappers / Assemblers
+
+##### SubscriptionMapper
+
+Responsable de transformar entidades del dominio a DTOs y viceversa.
+
+**Métodos:**
+
+- `toDTO(subscription: Subscription): SubscriptionDTO`
+- `toDomain(dto: SubscriptionDTO): Subscription`
+- `toListDTO(subscriptions: List<Subscription>): List<SubscriptionDTO>`
+
+#### Persistence Models
+
+##### SubscriptionEntity
+
+Representación persistente de la entidad `Subscription`.
+
+**Atributos:**
+
+- `id: Long`
+- `planType: String`
+- `userId: Long`
+- `startDate: LocalDate`
+- `renewDate: LocalDate`
+- `status: String`
+- `cost: Double`
+- `createdAt: Date`
+- `updatedAt: Date`
+
+#### Configuration
+
+##### SubscriptionConfiguration
+
+Clase de configuración para inyectar dependencias (repositorios, servicios, mappers).
+
+- Define beans para:
+  - `SubscriptionCommandService`
+  - `SubscriptionQueryService`
+  - `SubscriptionRepository`
+  - `SubscriptionMapper`
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams}
+
+Ruta del diagrama: [Diagrama](https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237)
+
+https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237
+
+<img src="https://raw.githubusercontent.com/HealTeam1/Report/refs/heads/Develop/img/ClassDiagramv1.png" alt="Class Diagram" />
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+<img src="https://raw.githubusercontent.com/HealTeam1/Report/refs/heads/Develop/img/NutriPlan-2025-04-24_23-27.png" alt="Database" />
 
 # Conclusiones
 
