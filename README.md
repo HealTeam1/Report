@@ -204,14 +204,15 @@
   </tr>
  <tr>
     <td> Dueñas Canales Leonardo Manuel</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+   <td> Dueñas Canales Leonardo Manuel</td>
+    <td> 	Mi objetivo es obtener experiencia profesional en el área de desarrollo de productos digitales enfocados en salud y nutrición, mediante prácticas preprofesionales o proyectos colaborativos, para fortalecer mi portafolio y aumentar mi empleabilidad en el sector tecnológico. </td>
+    <td> 	01/10/2025 </td>
+    <td> 	30/03/2026 </td>
+    <td>    Sí. El objetivo se enfoca en una acción concreta: adquirir experiencia real en desarrollo de productos digitales del rubro salud/nutrición, a través de prácticas o proyectos. </td>
+    <td>    Se medirá por haber participado en al menos 1 proyecto o práctica con duración mínima de 3 meses en un entorno real de trabajo, y contar con al menos 2 proyectos nuevos documentados en mi portafolio profesional. </td>
+    <td> 	Sí. Requiere buscar activamente oportunidades, aplicar a convocatorias, adaptar habilidades a entornos reales y demostrar resultados tangibles a potenciales empleadores o clientes. </td>
+    <td> 	Sí. Este objetivo es clave para mi crecimiento profesional, ya que la experiencia práctica complementa mi formación académica y me posiciona mejor en el mercado laboral dentro del rubro tecnológico aplicado a salud y bienestar. </td>
+    <td>  	El plazo está claramente definido: se busca concretar la experiencia entre octubre de 2025 y marzo de 2026, lo que permite organizar y monitorear avances dentro de ese período. </td>
   </tr>
  <tr>
     <td> Comettant Rubiños Jessica Elizabeth </td>
