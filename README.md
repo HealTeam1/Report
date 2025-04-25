@@ -866,13 +866,36 @@ Se aplicaron patrones como:
 
 El diagrama de contexto proporciona una vision de alto nivel del sistema. Muestra la interacción del sistema con sus actores externos, usuarios, otras aplicaciones, y externos, lo que ayuda a entender los limites del sistema.
 
-<img src="img/C4-1.png" width="1000" height="500">
+<img src="img/C4-1.png" width="1000" height="700">
 
 link: https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C4%20Nutriplan&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19SZcIG-Am5o2pFswX7s6hX-jFHn20M7v%26export%3Ddownload
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
+El diagram de contenedor detalla los diferentes componenetes del sistema. Muestra los principales contenedores como aplicaciones, servicios backend, bases de datos y la comunicación entre ellos.
+
+<img src="img/C4-nutriplan.png" width="1000" height="700">
+
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de componentes desglosa los contenedores en componentes internos. Cada componente muestra una funcionalidad específica dentro del sisetema, esto permite una comprensión más detallada de sus responsabilidadese interacción entre ellos.
+
+**Nutriplanning**
+
+<img src="img/C4-nutriplanning.png" width="1000" height="700">
+
+**FoodCatalog**
+
+<img src="img/C4-FoodCatalog.png" width="1000" height="700">
+
+**ProgressTracking**
+
+<img src="img/C4-progress.png" width="1000" height="700">
+
+**UserProfile**
+
+<img src="img/C4-userprofile.png" width="1000" height="700">
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
