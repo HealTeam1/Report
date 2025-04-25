@@ -37,8 +37,8 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor |  Descripción de modificación   |
-| :-----: | :---: | :---: | :----------------------------: |
+| Versión |   Fecha    |         Autor         |  Descripción de modificación   |
+| :-----: | :--------: | :-------------------: | :----------------------------: |
 |   TB1   | 24/04/2025 | Todos los integrantes | Se añadió los capítulos 1 al 4 |
 
 # Project Report Collaboration Insights
@@ -136,15 +136,14 @@
 
 # Student Outcome
 
-| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones  |
-| :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto. <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br>_Alejandro Espino Flores_<br> Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente. | Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>_Alejandro Espino Flores_<br> En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. | Conclusiones:  Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software. <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>_Alejandro Espino Flores_<br> En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software.          | Conclusiones: Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software.               |
 
 <div style="page-break-after: always;"></div>
 
 # Objetivos SMART
-
 
 <table>
   <tr>
@@ -194,14 +193,14 @@
   </tr>
  <tr>
     <td> Alejandro Espino Flores </td>
-    <td> </td>
+    <td>Mi objetivo es desarrollar los módulos principales de la aplicación NutriPlan, reforzando mis conocimientos en diseño de software, arquitectura por capas y uso de buenas prácticas como Domain-Driven Design (DDD), con el fin de mejorar mis habilidades como desarrollador. </td>
     <td> 01/04/2025 </td>
     <td> 30/09/2025 </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td> Construir una aplicación funcional que aplique buenas prácticas de desarrollo, organizando la lógica del sistema en capas bien definidas y documentadas.</td>
+    <td> Completar al menos el 90% de las funcionalidades asignadas dentro de los plazos establecidos, y generar documentación técnica para cada módulo implementado.</td>
+    <td> Esto implica aprendizaje continuo, aplicar patrones de arquitectura, colaborar con otros roles y mejorar mis capacidades técnicas en un entorno de proyecto real.</td>
+    <td>Si, contribuye al objetivo institucional de formar profesionales que desarrollen soluciones tecnológicas innovadoras y sostenibles. </td>
+    <td>El objetivo debe cumplirse con la entrega funcional de la app y su documentación técnica antes del 30 de septiembre de 2025. </td>
   </tr>
  <tr>
     <td> Dueñas Canales Leonardo Manuel</td>
@@ -226,7 +225,6 @@
     <td> </td>
   </tr>
 </table>
-
 
 <div style="page-break-after: always;"></div>
 
@@ -860,7 +858,6 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
 
-
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
@@ -879,65 +876,66 @@ los aspectos negativos identificados en el As-is Scenario.
 
 ## 3.2. User Stories
 
-| Epic/user story ID | ID Historia | Título                               | Descripción                                                                                   | Criterios de Aceptación                   |
-|--------------------|-------------|--------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------|
-| E01                | US01        | Registro de Usuario                 | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app. | Recibe correo de verificación, activa cuenta |
-| E01                | US02        | Inicio de sesión                    | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas. | Accede con credenciales válidas           |
-| E01                | US03        | Recuperar contraseña                | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta. | Recibe correo para restablecer contraseña |
-| E02                | US04        | Crear perfil de usuario             | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.     | Datos guardados y panel activado          |
-| E02                | US05        | Editar perfil                        | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.          | Datos se actualizan correctamente         |
-| E02                | US06        | Eliminar cuenta                      | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.            | Cuenta y datos eliminados                 |
-| E03                | US07        | Generar plan alimenticio personalizado | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil. | Se genera plan semanal                    |
-| E03                | US08        | Consultar plan diario                | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                      | Se muestra menú diario                    |
-| E03                | US09        | Sustituir alimentos del plan         | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos. | Se sugieren equivalentes                  |
-| E03                | US10        | Agregar restricciones alimentarias  | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten). | Plan se ajusta automáticamente            |
-| E04                | US11        | Buscar nutricionista                 | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | Se filtran y muestran nutricionistas      |
-| E04                | US12        | Contactar a un nutricionista         | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.       | Envío de mensaje privado posible          |
-| E04                | US13        | Nutricionista crea plan personalizado | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.         | Plan asignado al paciente                 |
-| E04                | US14        | Seguimiento de pacientes             | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                 | Se muestra historial y métricas           |
-| E05                | US15        | Ver recetas saludables               | Como usuario, quiero ver recetas saludables para preparar mis comidas.                        | Ingredientes y preparación visibles       |
-| E05                | US16        | Crear lista de compras               | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                  | Lista organizada por categorías           |
-| E05                | US17        | Editar lista de compras              | Como usuario, quiero modificar mi lista de compras para incluir otros productos.               | Puede agregar/quitar productos            |
-| E05                | US18        | Marcar productos comprados           | Como usuario, quiero marcar los productos que ya compré en mi lista.                          | Ítems se marcan como comprados             |
-| E06                | US19        | Registrar peso y medidas             | Como usuario, quiero registrar mi peso y medidas corporales para seguir mi progreso.           | Datos guardados y graficados               |
-| E06                | US20        | Ver gráfico de progreso              | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.       | Se muestran gráficos por fecha            |
-| E07                | US21        | Notificaciones de comidas            | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia. | Recibe notificaciones en horario          |
-| E07                | US22        | Recordatorio de hidratación          | Como usuario, quiero recibir alertas para tomar agua durante el día.                          | Notificación periódica activada            |
-| E07                | US23        | Recordatorio de actualización de peso | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento. | Recibe notificación semanal               |
-| E08                | US24        | Suscribirse a versión premium        | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas. | Acceso otorgado tras pago                  |
-| E08                | US25        | Ver beneficios premium               | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.      | Comparación clara de planes                |
+| Epic/user story ID | ID Historia | Título                                 | Descripción                                                                                               | Criterios de Aceptación                      |
+| ------------------ | ----------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| E01                | US01        | Registro de Usuario                    | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app.   | Recibe correo de verificación, activa cuenta |
+| E01                | US02        | Inicio de sesión                       | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas.       | Accede con credenciales válidas              |
+| E01                | US03        | Recuperar contraseña                   | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta.        | Recibe correo para restablecer contraseña    |
+| E02                | US04        | Crear perfil de usuario                | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.                | Datos guardados y panel activado             |
+| E02                | US05        | Editar perfil                          | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.                     | Datos se actualizan correctamente            |
+| E02                | US06        | Eliminar cuenta                        | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.                       | Cuenta y datos eliminados                    |
+| E03                | US07        | Generar plan alimenticio personalizado | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil.            | Se genera plan semanal                       |
+| E03                | US08        | Consultar plan diario                  | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                                 | Se muestra menú diario                       |
+| E03                | US09        | Sustituir alimentos del plan           | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos.    | Se sugieren equivalentes                     |
+| E03                | US10        | Agregar restricciones alimentarias     | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten).         | Plan se ajusta automáticamente               |
+| E04                | US11        | Buscar nutricionista                   | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | Se filtran y muestran nutricionistas         |
+| E04                | US12        | Contactar a un nutricionista           | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.                  | Envío de mensaje privado posible             |
+| E04                | US13        | Nutricionista crea plan personalizado  | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.                    | Plan asignado al paciente                    |
+| E04                | US14        | Seguimiento de pacientes               | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                             | Se muestra historial y métricas              |
+| E05                | US15        | Ver recetas saludables                 | Como usuario, quiero ver recetas saludables para preparar mis comidas.                                    | Ingredientes y preparación visibles          |
+| E05                | US16        | Crear lista de compras                 | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                              | Lista organizada por categorías              |
+| E05                | US17        | Editar lista de compras                | Como usuario, quiero modificar mi lista de compras para incluir otros productos.                          | Puede agregar/quitar productos               |
+| E05                | US18        | Marcar productos comprados             | Como usuario, quiero marcar los productos que ya compré en mi lista.                                      | Ítems se marcan como comprados               |
+| E06                | US19        | Registrar peso y medidas               | Como usuario, quiero registrar mi peso y medidas corporales para seguir mi progreso.                      | Datos guardados y graficados                 |
+| E06                | US20        | Ver gráfico de progreso                | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.                  | Se muestran gráficos por fecha               |
+| E07                | US21        | Notificaciones de comidas              | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia.          | Recibe notificaciones en horario             |
+| E07                | US22        | Recordatorio de hidratación            | Como usuario, quiero recibir alertas para tomar agua durante el día.                                      | Notificación periódica activada              |
+| E07                | US23        | Recordatorio de actualización de peso  | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento.   | Recibe notificación semanal                  |
+| E08                | US24        | Suscribirse a versión premium          | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas.           | Acceso otorgado tras pago                    |
+| E08                | US25        | Ver beneficios premium                 | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.                 | Comparación clara de planes                  |
 
 ## 3.3 Impact Mapping
 
 ## 3.4 Product Backlog
+
 El Product Backlog es una lista priorizada de todas las funcionalidades, mejoras, correcciones y tareas necesarias para desarrollar un producto. A continuación se presenta el Product Backlog de nuestro negocio:
 
-| #   | User Story ID | Título                                      | Descripción                                                                                           | Story Points |
-|-----|---------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
-| 1   | US07          | Generar plan alimenticio personalizado      | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil.        | 8            |
-| 2   | US09          | Sustituir alimentos del plan               | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos. | 8            |
-| 3   | US10          | Agregar restricciones alimentarias          | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten).      | 8            |
-| 4   | US04          | Crear perfil de usuario                    | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.            | 8            |
-| 5   | US14          | Seguimiento de pacientes                   | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                         | 8            |
-| 6   | US13          | Nutricionista crea plan personalizado       | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.                | 8            |
-| 7   | US16          | Crear lista de compras                     | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                          | 8            |
-| 8   | US05          | Editar perfil                              | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.                 | 5            |
-| 9   | US06          | Eliminar cuenta                            | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.                   | 5            |
-| 10  | US08          | Consultar plan diario                      | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                             | 5            |
-| 11  | US15          | Ver recetas saludables                     | Como usuario, quiero ver recetas saludables para preparar mis comidas.                                | 5            |
-| 12  | US17          | Editar lista de compras                    | Como usuario, quiero modificar mi lista de compras para incluir otros productos.                      | 5            |
-| 13  | US11          | Buscar nutricionista                        | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | 5            |
-| 14  | US12          | Contactar a un nutricionista                | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.              | 5            |
-| 15  | US18          | Marcar productos comprados                 | Como usuario, quiero marcar los productos que ya compré en mi lista.                                  | 3            |
-| 16  | US20          | Ver gráfico de progreso                    | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.              | 5            |
-| 17  | US21          | Notificaciones de comidas                  | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia.      | 5            |
-| 18  | US22          | Recordatorio de hidratación                | Como usuario, quiero recibir alertas para tomar agua durante el día.                                 | 5            |
-| 19  | US23          | Recordatorio de actualización de peso      | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento. | 5            |
-| 20  | US01          | Registro de Usuario                        | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app. | 5            |
-| 21  | US02          | Inicio de sesión                           | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas.   | 5            |
-| 22  | US03          | Recuperar contraseña                       | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta.     | 3            |
-| 23  | US24          | Suscribirse a versión premium              | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas.       | 8            |
-| 24  | US25          | Ver beneficios premium                     | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.             | 5            |
+| #   | User Story ID | Título                                 | Descripción                                                                                               | Story Points |
+| --- | ------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------ |
+| 1   | US07          | Generar plan alimenticio personalizado | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil.            | 8            |
+| 2   | US09          | Sustituir alimentos del plan           | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos.    | 8            |
+| 3   | US10          | Agregar restricciones alimentarias     | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten).         | 8            |
+| 4   | US04          | Crear perfil de usuario                | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.                | 8            |
+| 5   | US14          | Seguimiento de pacientes               | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                             | 8            |
+| 6   | US13          | Nutricionista crea plan personalizado  | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.                    | 8            |
+| 7   | US16          | Crear lista de compras                 | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                              | 8            |
+| 8   | US05          | Editar perfil                          | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.                     | 5            |
+| 9   | US06          | Eliminar cuenta                        | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.                       | 5            |
+| 10  | US08          | Consultar plan diario                  | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                                 | 5            |
+| 11  | US15          | Ver recetas saludables                 | Como usuario, quiero ver recetas saludables para preparar mis comidas.                                    | 5            |
+| 12  | US17          | Editar lista de compras                | Como usuario, quiero modificar mi lista de compras para incluir otros productos.                          | 5            |
+| 13  | US11          | Buscar nutricionista                   | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | 5            |
+| 14  | US12          | Contactar a un nutricionista           | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.                  | 5            |
+| 15  | US18          | Marcar productos comprados             | Como usuario, quiero marcar los productos que ya compré en mi lista.                                      | 3            |
+| 16  | US20          | Ver gráfico de progreso                | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.                  | 5            |
+| 17  | US21          | Notificaciones de comidas              | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia.          | 5            |
+| 18  | US22          | Recordatorio de hidratación            | Como usuario, quiero recibir alertas para tomar agua durante el día.                                      | 5            |
+| 19  | US23          | Recordatorio de actualización de peso  | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento.   | 5            |
+| 20  | US01          | Registro de Usuario                    | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app.   | 5            |
+| 21  | US02          | Inicio de sesión                       | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas.       | 5            |
+| 22  | US03          | Recuperar contraseña                   | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta.        | 3            |
+| 23  | US24          | Suscribirse a versión premium          | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas.           | 8            |
+| 24  | US25          | Ver beneficios premium                 | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.                 | 5            |
 
 # Capítulo IV: Solution Software Design
 
@@ -2698,7 +2696,6 @@ https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_
 
 # Conclusiones
 
-
 **Conclusiones y recomendaciones**
 
 Conclusiones
@@ -2725,11 +2722,9 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 
 - Iteración continua: Mantener una cultura de mejora constante basada en el feedback de usuarios, estableciendo ciclos cortos de experimentación (Lean) en las siguientes fases del desarrollo.
 
-
 <div style="page-break-after: always;"></div>
 
 # Bibliografía
-
 
 1. Ledo-Varela, M., de Luis Román, D. A., González-Sagrado, M., Izaola Jauregui, O., Conde Vicente, R., & Aller De la Fuente, R. (2011). Características nutricionales y estilo de vida en universitarios. Nutrición Hospitalaria, 26(4), 814-818. https://scielo.isciii.es/scielo.php?pid=s0212-16112011000400022&script=sci_arttext
 2. García-Izquierdo, I., Rodríguez-Yera, E., & Martín-Salinas, C. (2016). Plan de cuidado a personas de edad avanzada en riesgo nutricional. Gerokomos, 27(4), 157-160. https://scielo.isciii.es/pdf/geroko/v27n4/06_notas.pdf
@@ -2739,14 +2734,13 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 6. Quispe Vadillo, V. (2024). APLICACIÓN MÓVIL ORIENTADA A LA EDUCACIÓN NUTRICIONAL DE ALIMENTOS NATURALES PARA MOTIVAR EL APRENDIZAJE EN ESTUDIANTES DE PRIMERO DE SECUNDARIA. https://repositorio.upea.bo/jspui/bitstream/123456789/1065/1/ALIMENTOS-VQV.pdf
 7. Nandi, K., & Dey, K. Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming. https://www.academia.edu/download/122145825/IJCSE_V12I3P102.pdf
 8. Brandolini, A. (2013). Introducing event storming. blog, Ziobrando’s Lair, 18. https://www.academia.edu/download/59311660/Event_Storming_Case_Studies20190519-70833-1rtyiru.pdf
-9. Khononov, V. (2021). Learning Domain-Driven Design. " O'Reilly Media, Inc.". 
+9. Khononov, V. (2021). Learning Domain-Driven Design. " O'Reilly Media, Inc.".
 10. Evans, E. (2014). Domain-driven design reference: Definitions and pattern summaries. Dog Ear Publishing. https://pssp.app.br/analise_de_sistemas/ddd_reference_2015-03.pdf
 11. Ferrand, S., Onfray, M. P., & Medina, M. G. (2021). Actualización del rol del nutricionista clínico: Estándares de práctica. Revista chilena de nutrición, 48(3), 437-446. https://www.scielo.cl/scielo.php?pid=S0717-75182021000300437&script=sci_arttext
 12. Homar, P. S., Blanco, M. P., Hernández, M. Á. C., Cortés, F. F., & Sotelo, J. M. (2015). Desarrollo de una aplicación informática de ayuda al soporte nutricional especializado integrado en la historia clínica electrónica. Farmacia Hospitalaria, 39(5), 240-268. https://www.sciencedirect.com/science/article/pii/S1130634323005184
 13. Bealmonte, I. M. S. (2016). Diseño y aplicación de un plan nutricional para aumentar el rendimiento físico en futbolistas de la segunda división profesional de la federación mexicana de futbol AC, en el Municipio de Zitácuaro Michoacán. Área de Ciencias de la Salud.
 14. Boatella, J. (2017). Relaciones nutricionales: del equivalente nutritivo a las listas de intercambio. Revista Española de Nutrición Humana y Dietética, 21(3), 300-309. https://scielo.isciii.es/scielo.php?pid=S2174-51452017000300012&script=sci_arttext&tlng=pt
 15. Kapferer, S., & Zimmermann, O. (2020, February). Domain-specific Language and Tools for Strategic Domain-driven Design, Context Mapping and Bounded Context Modeling. In MODELSWARD (pp. 299-306). https://www.scitepress.org/PublishedPapers/2020/89105/89105.pdf
-
 
 <div style="page-break-after: always;"></div>
 
@@ -2756,7 +2750,7 @@ Lean Ux Canvas
 
 https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/891b85b88f2d8e99fb15c7cdf2f30e62792b17af?sender=ufdf66b413172c812625a4806
 
-Event Storming 
+Event Storming
 
 https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=288998827764
 
@@ -2767,7 +2761,5 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank
 UML-Data Base design
 
 https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237
-
-
 
 <div style="page-break-after: always;"></div>
