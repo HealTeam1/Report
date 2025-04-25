@@ -864,6 +864,12 @@ Se aplicaron patrones como:
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 
+El diagrama de contexto proporciona una vision de alto nivel del sistema. Muestra la interacción del sistema con sus actores externos, usuarios, otras aplicaciones, y externos, lo que ayuda a entender los limites del sistema.
+
+<img src="img/C4-1.png" width="1000" height="500">
+
+link: https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C4%20Nutriplan&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19SZcIG-Am5o2pFswX7s6hX-jFHn20M7v%26export%3Ddownload
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
