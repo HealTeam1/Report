@@ -145,6 +145,89 @@
 
 # Objetivos SMART
 
+
+<table>
+  <tr>
+    <td colspan="4"> </td>
+    <th colspan="5"><b>METODOLOGÍA SMART</b></th>
+  </tr>
+  <tr>
+    <td colspan="4">   </td>
+    <td> S <p> Specific <p> Específico </td>
+   <td> M <p> Meassurable <p> Medible</td>
+   <td> A <p> Ambitious <p> Ambicioso</td>
+   <td> R <p> Relevant <p> Relevante</td>
+   <td> T <p> Time-bound <p> Tiempo Limite</td>
+  </tr>
+  <tr>
+    <td>  Nombre del Estudiante </td>
+    <td>  Descripción del Objetivo</td>
+   <td> Fecha de inicio </td>
+   <td> Fecha de cumplimiento esperada </td>
+   <td> ¿Qué se va a lograr? <p> <p>  El objetivo indica con especificidad, cuál es el proceso, servicio o producto en cuestión, para qué área es relevante, u otro detalle clave que brinde contexto </td>
+   <td> ¿Tiene KPI o métrica clara? <p> <p>  El enunciado tiene una meta con indicador (KPI) o métrica clara, que determinará si el objetivo se cumplió. Idealmente, describe el impacto (lo que vamos a lograr) más que el entregable (Lo que vamos a hacer) </td>
+   <td> ¿Es retador y va más allá de sus funciones? <p> <p>  El objetivo inspira y reta a pensar acciones para dar el salto que se requiere para el logro, no se lograría sin una estrategia y un foco potentes. </td>
+   <td> ¿Está alineado a la estratégia? <p> <p>  Existe una explicación clara respecto a cómo el objetivo impacta sobre los objetivos estratégicos de la Institución o Laureate Perú. Brinda una noción del alcance del objetivo. </td>
+   <td> ¿Cuándo se cumplirar? <p> <p>  En caso que la expectativa de fecha de cumplimiento sea previa al cierre de año, el enunciado contiene de forma explícita la fecha límite para alcanzar el objetivo </td>
+  </tr>
+  <tr>
+    <td> Oshiro Yamashita, Daiki Oscar </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> Pardo Zapata, Gustavo Adolfo </td>
+    <td> Mi objetivo es crear y lanzar una aplicación móvil llamada "NutriPlan", diseñada para ayudar a los usuarios a encontrar planes de alimentacion personalizados y hacer seguimiento de su progreso nutricional, contribuyendo así a mejorar su salud y hábitos alimenticios. </td>
+    <td> 01/04/2025 </td>
+    <td> 30/09/2025</td>
+    <td> Se logrará el desarrollo y publicación de una aplicación funcional y atractiva para usuarios generales interesados en su nutrición, así como para nutricionistas que deseen escalar sus servicios. Será relevante para el área de bienestar, innovación y transformación digital. </td>
+  <td> Sí. Se espera alcanzar al menos 1,000 descargas en los primeros 3 meses desde el lanzamiento, con una calificación mínima promedio de 4.0 en la tienda de aplicaciones y al menos un 40% de usuarios activos mensuales. </td>
+  <td> Sí. El objetivo implica diseñar una solución innovadora, investigar el mercado, coordinar equipo técnico y validar hipótesis de usuario, lo cual va más allá del trabajo operativo y requiere visión estratégica. </td>
+  <td> Sí. Está alineado con la estrategia institucional de fomentar el uso de tecnología en el bienestar y promover proyectos con impacto social y escalabilidad. Contribuye a los objetivos de innovación y sostenibilidad. </td>
+  <td> El objetivo tiene un plazo claramente definido, con la meta de tener la aplicación completamente desarrollada el 30 de setiembre del 2025 </td>
+  </tr>
+ <tr>
+    <td> Alejandro Espino Flores </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+ <tr>
+    <td> Dueñas Canales Leonardo Manuel</td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+ <tr>
+    <td> Comettant Rubiños Jessica Elizabeth </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+
 <div style="page-break-after: always;"></div>
 
 # Capitulo I: Introduccion
@@ -2615,12 +2698,76 @@ https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_
 
 # Conclusiones
 
+
+**Conclusiones y recomendaciones**
+
+Conclusiones
+
+- A partir del trabajo desarrollado en el marco del modelo de negocio digital para NutriPlan, se han identificado y validado hallazgos clave en relación con los Problem Statements y supuestos iniciales:
+
+- Problem Statements: Confirmamos que muchas personas interesadas en mejorar su alimentación enfrentan dificultades para encontrar planes nutricionales confiables, personalizados y sostenibles en el tiempo. Del mismo modo, los nutricionistas carecen de herramientas digitales que les permitan escalar su servicio sin comprometer la calidad de la atención.
+
+- Assumptions validadas: Se validó que existe una alta disposición de los usuarios a utilizar una app móvil que les brinde orientación nutricional basada en objetivos personales (como bajar de peso, ganar masa muscular o mejorar hábitos). También se comprobó que los profesionales de nutrición están abiertos a digitalizar sus servicios si cuentan con herramientas que les permitan mantener contacto continuo y hacer seguimiento de sus pacientes.
+
+Recomendaciones
+
+Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximos pasos estratégicos dentro del Roadmap de NutriPlan:
+
+- Desarrollo del MVP: Priorizar las funcionalidades validadas en la etapa de prototipo, enfocándose en la personalización de planes, seguimiento de métricas y conexión con nutricionistas.
+
+- Integración con profesionales de nutrición: Diseñar un panel especializado para nutricionistas, lo que permitirá escalar el modelo hacia un marketplace de servicios nutricionales digitales.
+
+- Estrategia de onboarding y retención: Incluir elementos de gamificación y recordatorios personalizados para fomentar el uso recurrente y el cumplimiento de objetivos por parte de los usuarios.
+
+- Monetización progresiva: Evaluar modelos de suscripción premium una vez alcanzado un volumen crítico de usuarios activos, ofreciendo beneficios diferenciados como acceso a contenido exclusivo o consultas en línea.
+
+- Pruebas con nuevos segmentos: Realizar pruebas específicas con subgrupos como personas con enfermedades crónicas o deportistas, para extender la propuesta de valor.
+
+- Iteración continua: Mantener una cultura de mejora constante basada en el feedback de usuarios, estableciendo ciclos cortos de experimentación (Lean) en las siguientes fases del desarrollo.
+
+
 <div style="page-break-after: always;"></div>
 
 # Bibliografía
 
+
+1. Ledo-Varela, M., de Luis Román, D. A., González-Sagrado, M., Izaola Jauregui, O., Conde Vicente, R., & Aller De la Fuente, R. (2011). Características nutricionales y estilo de vida en universitarios. Nutrición Hospitalaria, 26(4), 814-818. https://scielo.isciii.es/scielo.php?pid=s0212-16112011000400022&script=sci_arttext
+2. García-Izquierdo, I., Rodríguez-Yera, E., & Martín-Salinas, C. (2016). Plan de cuidado a personas de edad avanzada en riesgo nutricional. Gerokomos, 27(4), 157-160. https://scielo.isciii.es/pdf/geroko/v27n4/06_notas.pdf
+3. Palacios, C. (2020, December). Uso de aplicaciones móviles para intervenciones nutricionales. In Anales Venezolanos de Nutrición (Vol. 33, No. 2, pp. 177-182). Fundación Bengoa. https://ve.scielo.org/pdf/avn/v33n2/0798-0752-avn-33-02-177.pdf
+4. Troncoso-Pantoja, C., Alarcón-Riveros, M., Amaya-Placencia, J., Sotomayor-Castro, M., & Maury-Sintjago, E. (2020). Guía práctica de aplicación del método dietético para el diagnóstico nutricional integrado. Revista chilena de nutrición, 47(3), 493-502. https://www.scielo.cl/pdf/rchnut/v47n3/0717-7518-rchnut-47-03-0493.pdf
+5. Yanguas Cariñena, A. (2024). Creación de una aplicación móvil y los servicios REST asociados para la recogida de datos nutricionales.
+6. Quispe Vadillo, V. (2024). APLICACIÓN MÓVIL ORIENTADA A LA EDUCACIÓN NUTRICIONAL DE ALIMENTOS NATURALES PARA MOTIVAR EL APRENDIZAJE EN ESTUDIANTES DE PRIMERO DE SECUNDARIA. https://repositorio.upea.bo/jspui/bitstream/123456789/1065/1/ALIMENTOS-VQV.pdf
+7. Nandi, K., & Dey, K. Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming. https://www.academia.edu/download/122145825/IJCSE_V12I3P102.pdf
+8. Brandolini, A. (2013). Introducing event storming. blog, Ziobrando’s Lair, 18. https://www.academia.edu/download/59311660/Event_Storming_Case_Studies20190519-70833-1rtyiru.pdf
+9. Khononov, V. (2021). Learning Domain-Driven Design. " O'Reilly Media, Inc.". 
+10. Evans, E. (2014). Domain-driven design reference: Definitions and pattern summaries. Dog Ear Publishing. https://pssp.app.br/analise_de_sistemas/ddd_reference_2015-03.pdf
+11. Ferrand, S., Onfray, M. P., & Medina, M. G. (2021). Actualización del rol del nutricionista clínico: Estándares de práctica. Revista chilena de nutrición, 48(3), 437-446. https://www.scielo.cl/scielo.php?pid=S0717-75182021000300437&script=sci_arttext
+12. Homar, P. S., Blanco, M. P., Hernández, M. Á. C., Cortés, F. F., & Sotelo, J. M. (2015). Desarrollo de una aplicación informática de ayuda al soporte nutricional especializado integrado en la historia clínica electrónica. Farmacia Hospitalaria, 39(5), 240-268. https://www.sciencedirect.com/science/article/pii/S1130634323005184
+13. Bealmonte, I. M. S. (2016). Diseño y aplicación de un plan nutricional para aumentar el rendimiento físico en futbolistas de la segunda división profesional de la federación mexicana de futbol AC, en el Municipio de Zitácuaro Michoacán. Área de Ciencias de la Salud.
+14. Boatella, J. (2017). Relaciones nutricionales: del equivalente nutritivo a las listas de intercambio. Revista Española de Nutrición Humana y Dietética, 21(3), 300-309. https://scielo.isciii.es/scielo.php?pid=S2174-51452017000300012&script=sci_arttext&tlng=pt
+15. Kapferer, S., & Zimmermann, O. (2020, February). Domain-specific Language and Tools for Strategic Domain-driven Design, Context Mapping and Bounded Context Modeling. In MODELSWARD (pp. 299-306). https://www.scitepress.org/PublishedPapers/2020/89105/89105.pdf
+
+
 <div style="page-break-after: always;"></div>
 
 # Anexos
+
+Lean Ux Canvas
+
+https://app.mural.co/t/integradis6182/m/integradis6182/1745440077390/891b85b88f2d8e99fb15c7cdf2f30e62792b17af?sender=ufdf66b413172c812625a4806
+
+Event Storming 
+
+https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=288998827764
+
+C4 modeling
+
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C4%20Nutriplan&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19SZcIG-Am5o2pFswX7s6hX-jFHn20M7v%26export%3Ddownload
+
+UML-Data Base design
+
+https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237
+
+
 
 <div style="page-break-after: always;"></div>
