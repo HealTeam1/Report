@@ -791,8 +791,7 @@ los aspectos negativos identificados en el As-is Scenario.
 
 **Segmento: Jóvenes de 18-28 años en Lima
 
-<img src="img/scenario-mapping-1.jpg
-" width="1000" height="700">
+<img src="img/scenario-mapping-1.png" width="1000" height="700">
 
 # Capítulo IV: Solution Software Design
 
