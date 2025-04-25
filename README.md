@@ -781,7 +781,18 @@ A continuación, se presentan los términos clave utilizados en el dominio de ne
 
 - **Customization (personalización):** Adaptación del contenido de la app a las necesidades individuales de cada usuario.
 
+# Capítulo III: Requirements Specification
 
+## 3.1. To-Be Scenario Mapping
+
+Para la realizar el To-be Scenario Mapping el equipo determinó como se vería el flujo de trabajo luego de que nuestra solución,
+Nutriplan, haya sido implementada para ambos segmentos objetivos. El objetivo del presente artefacto es comparar y mejorar
+los aspectos negativos identificados en el As-is Scenario.
+
+**Segmento: Jóvenes de 18-28 años en Lima
+
+<img src="img/scenario-mapping-1.jpg
+" width="1000" height="700">
 
 # Capítulo IV: Solution Software Design
 
