@@ -909,6 +909,13 @@ los aspectos negativos identificados en el As-is Scenario.
 
 ## 3.3 Impact Mapping
 
+**Segmento #1: Jóvenes de 18 - 28 años en Lima**
+
+![Image](https://github.com/user-attachments/assets/475536b8-8ac4-490f-a873-3d9e76685c2b)
+
+**Segmento #2: Nutricionistas en el Perú**
+![Image](https://github.com/user-attachments/assets/48487ed6-0b56-4913-9915-11f450e2c3e4)
+
 ## 3.4 Product Backlog
 El Product Backlog es una lista priorizada de todas las funcionalidades, mejoras, correcciones y tareas necesarias para desarrollar un producto. A continuación se presenta el Product Backlog de nuestro negocio:
 
