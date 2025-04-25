@@ -172,14 +172,14 @@
   </tr>
   <tr>
     <td> Oshiro Yamashita, Daiki Oscar </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td> Lanzar una aplicación digital que ofrezca planes de alimentación personalizados basados en objetivos nutricionales y estilo de vida, facilitando a los usuarios el acceso a recomendaciones confiables, herramientas de seguimiento y contenidos educativos nutricionales.</td>
+    <td> 01/04/2025 </td>
+    <td> 30/09/2025</td>
+    <td> Crear una plataforma móvil que ofrezca planes de alimentación personalizados basados en el perfil y objetivos de cada usuario.</td>
+    <td> Alcanzar 500 usuarios registrados en los primeros 3 meses de lanzamiento y obtener al menos un 60% de retención mensual. </td>
+    <td> Posicionar NutriPlan como una alternativa confiable frente a otras apps de nutrición dentro del primer año. </td>
+    <td> La nutrición personalizada es clave para prevenir enfermedades y mejorar la calidad de vida, lo cual responde a una necesidad social real. </td>
+    <td> Publicar y poner en funcionamiento la plataforma NutriPlan de forma completa antes del 30 de septiembre de 2025, permitiendo que los usuarios accedan a sus funcionalidades y beneficios principales. </td>
   </tr>
   <tr>
     <td> Pardo Zapata, Gustavo Adolfo </td>
@@ -195,8 +195,8 @@
  <tr>
     <td> Alejandro Espino Flores </td>
     <td> </td>
-    <td> </td>
-    <td> </td>
+    <td> 01/04/2025 </td>
+    <td> 30/09/2025 </td>
     <td> </td>
     <td> </td>
     <td> </td>
