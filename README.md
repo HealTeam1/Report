@@ -827,6 +827,38 @@ los aspectos negativos identificados en el As-is Scenario.
 | E08                | US24        | Suscribirse a versión premium        | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas. | Acceso otorgado tras pago                  |
 | E08                | US25        | Ver beneficios premium               | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.      | Comparación clara de planes                |
 
+## 3.3 Impact Mapping
+
+## 3.4 Product Backlog
+El Product Backlog es una lista priorizada de todas las funcionalidades, mejoras, correcciones y tareas necesarias para desarrollar un producto. A continuación se presenta el Product Backlog de nuestro negocio:
+
+| #   | User Story ID | Título                                      | Descripción                                                                                           | Story Points |
+|-----|---------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
+| 1   | US07          | Generar plan alimenticio personalizado      | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil.        | 8            |
+| 2   | US09          | Sustituir alimentos del plan               | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos. | 8            |
+| 3   | US10          | Agregar restricciones alimentarias          | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten).      | 8            |
+| 4   | US04          | Crear perfil de usuario                    | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.            | 8            |
+| 5   | US14          | Seguimiento de pacientes                   | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                         | 8            |
+| 6   | US13          | Nutricionista crea plan personalizado       | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.                | 8            |
+| 7   | US16          | Crear lista de compras                     | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                          | 8            |
+| 8   | US05          | Editar perfil                              | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.                 | 5            |
+| 9   | US06          | Eliminar cuenta                            | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.                   | 5            |
+| 10  | US08          | Consultar plan diario                      | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                             | 5            |
+| 11  | US15          | Ver recetas saludables                     | Como usuario, quiero ver recetas saludables para preparar mis comidas.                                | 5            |
+| 12  | US17          | Editar lista de compras                    | Como usuario, quiero modificar mi lista de compras para incluir otros productos.                      | 5            |
+| 13  | US11          | Buscar nutricionista                        | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | 5            |
+| 14  | US12          | Contactar a un nutricionista                | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.              | 5            |
+| 15  | US18          | Marcar productos comprados                 | Como usuario, quiero marcar los productos que ya compré en mi lista.                                  | 3            |
+| 16  | US20          | Ver gráfico de progreso                    | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.              | 5            |
+| 17  | US21          | Notificaciones de comidas                  | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia.      | 5            |
+| 18  | US22          | Recordatorio de hidratación                | Como usuario, quiero recibir alertas para tomar agua durante el día.                                 | 5            |
+| 19  | US23          | Recordatorio de actualización de peso      | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento. | 5            |
+| 20  | US01          | Registro de Usuario                        | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app. | 5            |
+| 21  | US02          | Inicio de sesión                           | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas.   | 5            |
+| 22  | US03          | Recuperar contraseña                       | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta.     | 3            |
+| 23  | US24          | Suscribirse a versión premium              | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas.       | 8            |
+| 24  | US25          | Ver beneficios premium                     | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.             | 5            |
+
 
 # Capítulo IV: Solution Software Design
 
