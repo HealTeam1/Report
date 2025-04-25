@@ -797,6 +797,37 @@ los aspectos negativos identificados en el As-is Scenario.
 
 <img src="img/scenario-mapping.png">
 
+## 3.2. User Stories
+
+| Epic/user story ID | ID Historia | Título                               | Descripción                                                                                   | Criterios de Aceptación                   |
+|--------------------|-------------|--------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------|
+| E01                | US01        | Registro de Usuario                 | Como nuevo usuario, quiero registrarme en NutriPlan para poder acceder a las funcionalidades de la app. | Recibe correo de verificación, activa cuenta |
+| E01                | US02        | Inicio de sesión                    | Como usuario registrado, quiero iniciar sesión para acceder a mi perfil y funciones personalizadas. | Accede con credenciales válidas           |
+| E01                | US03        | Recuperar contraseña                | Como usuario, quiero recuperar mi contraseña si la olvido para poder acceder de nuevo a mi cuenta. | Recibe correo para restablecer contraseña |
+| E02                | US04        | Crear perfil de usuario             | Como usuario nuevo, quiero crear mi perfil con información personal y metas nutricionales.     | Datos guardados y panel activado          |
+| E02                | US05        | Editar perfil                        | Como usuario, quiero actualizar mis datos personales y metas para mantenerlos al día.          | Datos se actualizan correctamente         |
+| E02                | US06        | Eliminar cuenta                      | Como usuario, quiero tener la opción de eliminar mi cuenta por privacidad o desuso.            | Cuenta y datos eliminados                 |
+| E03                | US07        | Generar plan alimenticio personalizado | Como usuario, quiero recibir un plan de alimentación semanal basado en mis objetivos y perfil. | Se genera plan semanal                    |
+| E03                | US08        | Consultar plan diario                | Como usuario, quiero ver el menú del día para seguir mi plan nutricional.                      | Se muestra menú diario                    |
+| E03                | US09        | Sustituir alimentos del plan         | Como usuario, quiero sustituir alimentos sugeridos por otros equivalentes para adaptarlo a mis gustos. | Se sugieren equivalentes                  |
+| E03                | US10        | Agregar restricciones alimentarias  | Como usuario, quiero especificar restricciones como alergias o preferencias (vegano, sin gluten). | Plan se ajusta automáticamente            |
+| E04                | US11        | Buscar nutricionista                 | Como usuario, quiero poder buscar un nutricionista dentro de la plataforma para consultas personalizadas. | Se filtran y muestran nutricionistas      |
+| E04                | US12        | Contactar a un nutricionista         | Como usuario, quiero enviar mensajes a nutricionistas para resolver dudas sobre mi plan.       | Envío de mensaje privado posible          |
+| E04                | US13        | Nutricionista crea plan personalizado | Como nutricionista, quiero poder crear y asignar planes nutricionales a mis pacientes.         | Plan asignado al paciente                 |
+| E04                | US14        | Seguimiento de pacientes             | Como nutricionista, quiero ver el progreso de mis pacientes en la plataforma.                 | Se muestra historial y métricas           |
+| E05                | US15        | Ver recetas saludables               | Como usuario, quiero ver recetas saludables para preparar mis comidas.                        | Ingredientes y preparación visibles       |
+| E05                | US16        | Crear lista de compras               | Como usuario, quiero generar una lista de compras basada en mi menú semanal.                  | Lista organizada por categorías           |
+| E05                | US17        | Editar lista de compras              | Como usuario, quiero modificar mi lista de compras para incluir otros productos.               | Puede agregar/quitar productos            |
+| E05                | US18        | Marcar productos comprados           | Como usuario, quiero marcar los productos que ya compré en mi lista.                          | Ítems se marcan como comprados             |
+| E06                | US19        | Registrar peso y medidas             | Como usuario, quiero registrar mi peso y medidas corporales para seguir mi progreso.           | Datos guardados y graficados               |
+| E06                | US20        | Ver gráfico de progreso              | Como usuario, quiero ver gráficos de evolución para motivarme y mantenerme en el camino.       | Se muestran gráficos por fecha            |
+| E07                | US21        | Notificaciones de comidas            | Como usuario, quiero recibir recordatorios a la hora de mis comidas para mantener la constancia. | Recibe notificaciones en horario          |
+| E07                | US22        | Recordatorio de hidratación          | Como usuario, quiero recibir alertas para tomar agua durante el día.                          | Notificación periódica activada            |
+| E07                | US23        | Recordatorio de actualización de peso | Como usuario, quiero recibir recordatorios semanales para actualizar mi peso y mantener el seguimiento. | Recibe notificación semanal               |
+| E08                | US24        | Suscribirse a versión premium        | Como usuario, quiero poder suscribirme a NutriPlan Premium para acceder a funciones exclusivas. | Acceso otorgado tras pago                  |
+| E08                | US25        | Ver beneficios premium               | Como usuario, quiero comparar los beneficios de la versión gratuita y la versión premium.      | Comparación clara de planes                |
+
+
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
