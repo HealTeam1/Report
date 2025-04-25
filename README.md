@@ -789,9 +789,13 @@ Para la realizar el To-be Scenario Mapping el equipo determinó como se vería e
 Nutriplan, haya sido implementada para ambos segmentos objetivos. El objetivo del presente artefacto es comparar y mejorar
 los aspectos negativos identificados en el As-is Scenario.
 
-**Segmento: Jóvenes de 18-28 años en Lima
+**Segmento: Jóvenes de 18-28 años en Lima**
 
-<img src="img/scenario-mapping-1.png" width="1000" height="700">
+<img src="img/scenario-mapping-1.png">
+
+**Segmento: Nutricionistas en Perú**
+
+<img src="img/scenario-mapping.png">
 
 # Capítulo IV: Solution Software Design
 
