@@ -746,11 +746,27 @@ En la entrevista, el usuario expresó que su motivación principal para mejorar 
 
 #### Segmento #2: Nutricionistas
 
+Nombre: Mariano Torres
+
+Edad: 24
+
+Distrito: Miraflores
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EbPJhwFo-zVKj5cyG07U7hIBPhSZsTitI3-7-CBGOyTuWQ?e=Ku257q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img src="img/EntrevistaGustavo.png" width="700" height="250">
+
+El nutricionista entrevistado, Mariano Torres, de 24 años y residente en Miraflores, Lima, trabaja en una clínica privada y atiende consultas particulares especializándose en enfermedades metabólicas.
+Identifica como principales retos en su práctica la adaptación de los planes alimenticios a las rutinas diarias de sus pacientes y el mantenimiento de su motivación a largo plazo.
+En cuanto a herramientas digitales, actualmente usa soluciones básicas como Excel, pero considera necesario contar con una plataforma más completa que permita personalizar dietas, realizar seguimientos en tiempo real y facilitar la comunicación con los pacientes.
+Para mejorar su práctica, Mariano destaca la necesidad de una app que incluya personalización automática de planes nutricionales, sugerencias de recetas, generación de listas de compras, y recordatorios. Además, considera muy valioso tener acceso a materiales educativos actualizados para compartir con sus pacientes.
+
 ### 2.2.3. Análisis de entrevistas
 
 | Entrevistado | Análisis de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ernesto Ruiz | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
+| Mariano Torres |La entrevista revela que los principales retos para los nutricionistas son adaptar los planes alimenticios a las rutinas específicas de los pacientes y mantener su motivación a largo plazo. Existe una necesidad clara de herramientas digitales más especializadas, ya que actualmente utilizan soluciones básicas como Excel que no satisfacen completamente sus necesidades. Se identifica una oportunidad importante para una app que permita personalizar dietas de forma rápida, hacer seguimientos en tiempo real y ofrecer recursos educativos actualizados. Además, el seguimiento visual del progreso y la automatización de tareas como la generación de listas de compras serían funciones altamente valoradas para mejorar la eficiencia y la experiencia tanto del nutricionista como del paciente.|
 
 ## 2.3. Needfinding
 
