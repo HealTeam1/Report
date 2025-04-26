@@ -754,7 +754,7 @@ Distrito: Miraflores
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EbPJhwFo-zVKj5cyG07U7hIBPhSZsTitI3-7-CBGOyTuWQ?e=Ku257q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-<img src="img/EntrevistaGustavo.png" width="700" height="500">
+<img src="img/EntrevistaGustavo.png" width="700" height="250">
 
 El nutricionista entrevistado, Mariano Torres, de 24 años y residente en Miraflores, Lima, trabaja en una clínica privada y atiende consultas particulares especializándose en enfermedades metabólicas.
 Identifica como principales retos en su práctica la adaptación de los planes alimenticios a las rutinas diarias de sus pacientes y el mantenimiento de su motivación a largo plazo.
