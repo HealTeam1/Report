@@ -43,6 +43,52 @@
 
 # Project Report Collaboration Insights
 
+
+**Primera Entrega**
+
+Durante esta fase inicial, el equipo trabajó colaborativamente en la estructura general del informe y la redacción de las secciones introductorias, incluyendo el contexto del proyecto, definición del problema y objetivos.
+
+Link: https://github.com/HealTeam1/Report.git
+
+Participación de los miembros:
+
+Jessica Comettant: Contribuyo en la redaccion de Lean UX canvas,Impact mapping y Product backlog
+
+Leonardo Dueñas: Contribuyo en la redacción de las User Stories y el scenario mapping.
+
+Alejandro Espino : Contribuyo con el diseño de base de datos y segunda parte del capitulo 4.
+
+Gustavo Pardo: Coordinación general del documento, diseño de EventStorming,c4 modeling y primera parte del capitulo 4.
+
+Daiki Oshiro: Contribuyó en la redacción de Problem Statements, segmentación y análisis preliminar de usuarios.
+
+Herramientas utilizadas:
+
+GitHub (repositorio principal del informe en formato Markdown)
+
+
+<img src="./img/Colaboration.png" width="500" height="400">
+
+**Alejandro**
+
+<img src="./img/AlejandroC.png" width="500" height="400">
+
+**Daiki**
+
+<img src="./img/DaikiOY.png" width="500" height="400">
+
+**Leonardo**
+
+<img src="./img/InsomnioC.png" width="500" height="400">
+
+**Jessica**
+
+<img src="./img/Jezz.png" width="500" height="400">
+
+**Gustavo**
+
+<img src="./img/GustavoC.png" width="500" height="400">
+
 <div style="page-break-after: always;"></div>
 
 # Contenido
@@ -217,14 +263,14 @@
   </tr>
  <tr>
     <td> Comettant Rubiños Jessica Elizabeth </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td>  Mi objetivo es asegurar que la plataforma cumpla con los requisitos del usuario final y los objetivos de negocio. De igual forma, busco que la aplicación sea lanzada dentro del plazo establecido, con una experiencia de usuario optimizada.</td>
+    <td> 	01/04/2025 </td>
+    <td> 	30/09/2025 </td>
+    <td> Mi objetivo es asegurar que el producto final cumpla con los requerimientos de los usuarios y se alinee con los objetivos estratégicos del negocio. </td>
+    <td> El éxito se medirá por la tasa de adopción de la aplicación, con el objetivo de que al menos el 50% de los usuarios activos la utilicen semanalmente dentro del primer mes del lanzamiento. </td>
+    <td> Este objetivo es ambicioso, ya que implica la coordinación de varios equipos interdisciplinarios, incluyendo desarrollo, diseño, y marketing. Será necesario un enfoque iterativo y basado en feedback constante para asegurar que el producto final sea efectivo, eficiente y bien recibido por los usuarios. </td>
+    <td> Este objetivo es clave para NutriPlan porque está alineado tanto con las necesidades de los usuarios como con los objetivos del negocio, que incluyen aumentar la retención de usuarios y generar ingresos a través de suscripciones premium. </td>
+    <td> El objetivo tiene un plazo claro, el 30 de septiembre de 2025. Este es el plazo en el cual se debe completar el desarrollo, las pruebas y el lanzamiento oficial de la aplicación, asegurando que se cumplan los objetivos de rendimiento, usabilidad y comercialización. </td>
   </tr>
 </table>
 
@@ -2724,6 +2770,8 @@ Clase de configuración para inyectar dependencias (repositorios, servicios, map
   - `SubscriptionMapper`
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+<img src="img/C4-nutriplan.png" width="1000" height="700">
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
