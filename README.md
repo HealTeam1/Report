@@ -263,14 +263,14 @@ GitHub (repositorio principal del informe en formato Markdown)
   </tr>
  <tr>
     <td> Comettant Rubiños Jessica Elizabeth </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td>  Mi objetivo es asegurar que la plataforma cumpla con los requisitos del usuario final y los objetivos de negocio. De igual forma, busco que la aplicación sea lanzada dentro del plazo establecido, con una experiencia de usuario optimizada.</td>
+    <td> 	01/04/2025 </td>
+    <td> 	30/09/2025 </td>
+    <td> Mi objetivo es asegurar que el producto final cumpla con los requerimientos de los usuarios y se alinee con los objetivos estratégicos del negocio. </td>
+    <td> El éxito se medirá por la tasa de adopción de la aplicación, con el objetivo de que al menos el 50% de los usuarios activos la utilicen semanalmente dentro del primer mes del lanzamiento. </td>
+    <td> Este objetivo es ambicioso, ya que implica la coordinación de varios equipos interdisciplinarios, incluyendo desarrollo, diseño, y marketing. Será necesario un enfoque iterativo y basado en feedback constante para asegurar que el producto final sea efectivo, eficiente y bien recibido por los usuarios. </td>
+    <td> Este objetivo es clave para NutriPlan porque está alineado tanto con las necesidades de los usuarios como con los objetivos del negocio, que incluyen aumentar la retención de usuarios y generar ingresos a través de suscripciones premium. </td>
+    <td> El objetivo tiene un plazo claro, el 30 de septiembre de 2025. Este es el plazo en el cual se debe completar el desarrollo, las pruebas y el lanzamiento oficial de la aplicación, asegurando que se cumplan los objetivos de rendimiento, usabilidad y comercialización. </td>
   </tr>
 </table>
 
