@@ -169,6 +169,39 @@ GitHub (repositorio principal del informe en formato Markdown)
     - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
       - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+    
+- [5.1 Product Design](#51-product-design)
+  - [5.1.1 Style Guidelines](#511-style-guidelines)
+  - [5.1.1.1 General Style Guidelines](#5111-general-style-guidelines)
+  - [5.1.2 Information Architecture](#512-information-architecture)
+  - [5.1.2.1 Organization Systems](#5121-organization-systems)
+  - [5.1.2.2 Labeling Systems](#5122-labeling-systems)
+  - [5.1.2.3 SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+  - [5.1.2.4 Searching Systems](#5124-searching-systems)
+  - [5.1.2.5 Navigation Systems](#5125-navigation-systems)
+  - [5.1.3 Landing Page UI Design](#513-landing-page-ui-design)
+  - [5.1.3.1 Landing Page Wireframe](#5131-landing-page-wireframe)
+  - [5.1.3.2 Landing Page Mock-up](#5132-landing-page-mock-up)
+  - [5.1.4 Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+  - [5.1.4.1 Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+  - [5.1.4.2 Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+  - [5.1.4.3 Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+  - [5.1.4.4 Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+  - [5.1.4.5 Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+
+- [6.1 Software Configuration Management](#61-software-configuration-management)
+  - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
+  - [6.1.2 Source Code Management](#612-source-code-management)
+  - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+
+- [6.2 Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+  - [6.2.X Sprint 1](#62x-sprint-1)
+    - [6.2.X.1 Sprint Planning 1](#62x1-sprint-planning-1)
+    - [6.2.X.2 Sprint Backlog 1](#62x2-sprint-backlog-1)
+    - [6.2.X.3 Execution Evidence for Sprint Review](#62x3-execution-evidence-for-sprint-review)
+    - [6.2.X.4 Services Documentation Evidence for Sprint Review](#62x4-services-documentation-evidence-for-sprint-review)
+    - [6.2.X.5 Software Deployment Evidence for Sprint Review](#62x5-software-deployment-evidence-for-sprint-review)
+    - [6.2.X.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
 
   [Conclusiones](#conclusiones-1)
 
@@ -2790,6 +2823,34 @@ https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 <img src="https://raw.githubusercontent.com/HealTeam1/Report/refs/heads/Develop/img/NutriPlan-2025-04-24_23-27.png" alt="Database" />
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1 Product Design
+
+### 5.1.1 Style Guidelines
+
+#### 5.1.1.1 General Style Guidelines
+
+**Branding:** El logo de NutriPlan representa una estilizada letra "N" formada por dos figuras entrelazadas que evocan un apretón de manos, símbolo de unión y compromiso. Esta imagen transmite la conexión cercana que nuestros usuarios establecen al integrarse a una comunidad enfocada en el bienestar. El brote en el centro simboliza el crecimiento y la transformación positiva que ofrece una buena nutrición, mientras que los tonos verdes y azules reflejan frescura, salud y confianza.
+
+<img src="img/logo11.png" width="400" height="400">
+
+**Typography:** La tipografía del logotipo de NutriPlan adopta el estilo elegante de Roboto, reconocido por su modernidad y atractivo visual. Esta elección refleja el enfoque innovador y accesible de nuestra aplicación, destacando nuestro compromiso con la salud y el bienestar nutricional. Roboto proyecta una imagen contemporánea y confiable, alineándose con los valores de frescura, tecnología y comunidad que definen a NutriPlan.
+
+**Colors:** La paleta de colores de NutriPlan transmite frescura, salud y claridad. El verde primario (#02C79D) representa bienestar y naturaleza, mientras que el blanco (#FFFFFF) aporta simplicidad y limpieza. Los tonos amarillos y verde secundario evocan energía y armonía. Los grises y negros aseguran legibilidad y una estética moderna. Esta combinación refuerza la identidad de NutriPlan como una app confiable y saludable.
+
+<img src="img/colores.png" width="400" height="400">
+
+**Spacing:** En NutriPlan, el espaciado juega un papel clave en ofrecer una experiencia visual clara y equilibrada para los usuarios. Se emplean márgenes y rellenos basados en una unidad base de 1rem, lo que garantiza coherencia en la distribución de los elementos. Esta unidad relativa, en lugar de píxeles fijos, permite que la interfaz se adapte de manera fluida a distintos tamaños de pantalla. Gracias a este enfoque, NutriPlan mantiene un diseño ordenado, legible y accesible tanto en dispositivos móviles como en escritorio, reforzando su compromiso con la usabilidad y la salud digital.
+
+### 5.1.2 Information Architecture
+
+#### 5.1.2.1 Organization Systems
+
+Al ingresar a NutriPlan, el usuario encontrará cuatro secciones principales: Planes de alimentación, Pago de suscripciones, Recetas saludables y Perfil personal. En cada una de estas secciones, el usuario podrá realizar diversas acciones interactivas, como explorar planes personalizados, gestionar sus pagos, descubrir recetas nutritivas y actualizar su información personal, todo diseñado para fomentar una nutrición equilibrada y accesible.
+
+<img src="img/organization-systems.png" width="1000" height="700">
 
 # Conclusiones
 
