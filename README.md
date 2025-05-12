@@ -2852,6 +2852,89 @@ Al ingresar a NutriPlan, el usuario encontrará cuatro secciones principales: Pl
 
 <img src="img/organization-systems.png" width="1000" height="700">
 
+#### 5.1.2.2 Labeling Systems
+
+En esta sección, tendrás la posibilidad de gestionar y personalizar los sistemas de etiquetado nutricional para cada uno de los productos o planes alimenticios. Podrás ajustar la información de los nutrientes, calorías, ingredientes, porciones recomendadas y cualquier otro dato relevante, asegurando que la información proporcionada a los usuarios sea precisa y clara. Esta herramienta está diseñada para facilitar la creación de etiquetas nutricionales que cumplan con los estándares regulatorios y que también se adapten a las necesidades específicas de cada cliente.
+
+- HomePage (Página de inicio)
+
+- Login (Inicio de sesión)
+
+- Register (Registro)
+
+- Profile (Perfil)
+
+- DietPlan (Plan de dieta)
+
+- Meal (Comida)
+
+- Nutritionist (Nutricionista)
+
+- ConsultationRequest (Solicitud de consulta)
+
+- ConsultationRequestList (Lista de solicitudes de consulta)
+
+- ConsultationRequestDetail (Detalle de solicitud de consulta)
+
+- DietPlanCreate (Creación de plan de dieta)
+
+- MealCreate (Creación de comida)
+
+- NutritionistCreate (Creación de nutricionista)
+
+#### 5.1.2.3 SEO Tags and Meta Tags
+
+
+**SEO Tags**
+
+a. Title Tag:
+
+<title>NutriPlan - Tu plataforma de nutrición personalizada y saludable</title>
+
+b. Meta Description Tag:
+
+<meta name="description" content="Descubre, personaliza y mejora tu salud con NutriPlan, la plataforma que ofrece planes de dieta personalizados, asesoría nutricional y herramientas para un estilo de vida saludable.">
+
+
+**Meta Tags**
+
+a. Meta Robots Tag: Este tag indica a los motores de búsqueda que indexen el sitio y sigan los enlaces para mejorar la visibilidad de NutriPlan.
+
+<meta name="robots" content="index, follow">
+
+b. Meta Author Tag: Este meta tag se refiere al autor del contenido. 
+
+<meta name="author" content="NutriPlan Inc.">
+
+c. Meta Author Tag: Este meta tag también se incluye para reforzar la identidad de NutriPlan como el creador del contenido.
+
+<meta name="author" content="NutriPlan Inc.">
+
+#### 5.1.2.4 Searching Systems
+
+Implementaremos sistemas de búsqueda por exploración, que permitirán a nuestros usuarios encontrar planes de alimentación de manera rápida y precisa. Las personas que deseen buscar planes alimenticios adecuados a sus necesidades podrán filtrarlos por objetivos nutricionales, tipo de dieta o nivel de actividad física. Además, contaremos con un sistema de búsqueda por nombre de plan o nutricionista desde la página principal de nuestra plataforma.
+
+<img src="img/Searching-Systems.png" width="1000" height="700">
+
+#### 5.1.2.5 Navigation Systems
+
+1. Navegación principal o global:
+
+En la landing page, se utilizará una barra de navegación superior que permitirá acceder fácilmente a secciones como inicio, beneficios, cómo funciona, contacto y registro. En la aplicación móvil, se implementará una barra de navegación inferior que dará acceso rápido a las funciones principales como planes de alimentación, consultas, nutricionistas, perfil y ajustes.
+
+2. Navegación local:
+
+Se ubicará jerárquicamente por debajo de la navegación principal y permitirá explorar contenidos dentro de una misma categoría. Por ejemplo, al ingresar a un plan de dieta, el usuario podrá navegar entre las comidas del día, sugerencias nutricionales o versiones alternativas del plan.
+
+3. Navegación contextual:
+
+Estará compuesta por enlaces relevantes que redirigen a otras secciones de NutriPlan o fuentes externas validadas. Se implementará en dos formatos. Navegación embebida, mediante enlaces en palabras clave dentro del contenido textual. Links relacionados, que aparecerán al final o lateral del contenido, sugiriendo otros planes, artículos o recursos educativos relacionados con el interés del usuario.
+
+<img src="img/nav1.png" width="1000" height="700">
+
+<img src="img/nav2.png" width="1000" height="700">
+
+
 # Conclusiones
 
 **Conclusiones y recomendaciones**
