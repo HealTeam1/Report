@@ -2916,7 +2916,10 @@ C4 modeling
 
 https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=C4%20Nutriplan&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D19SZcIG-Am5o2pFswX7s6hX-jFHn20M7v%26export%3Ddownload
 
-UML-Data Base design
+UML-Data Base design:
+
+Organization-Systems:
+https://miro.com/app/board/uXjVI271poo=/?share_link_id=940428667876
 
 https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237
 
