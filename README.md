@@ -3054,6 +3054,7 @@ Parael Ux/Ui Design usamos los siguientes softwares:
     <td>http://vertabelo.com/</td>
   </tr>
 
+</table>
 
 ### Conclusiones
 
