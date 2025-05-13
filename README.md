@@ -2934,6 +2934,126 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/nav2.png" width="1000" height="700">
 
+# Capitulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+
+En esta seccion se proporcionara los enlaces a las aplicaciones que se usaran para mantener la coherencia del desarollo del proyecto, siendo estas clasificadas en software basado en modelos Saas y productos que se ejecuten en las computadoras .Tendremos las siguientes secciones.
+
+* Project Management
+* Requirements Management
+* Product UX/UI Design
+* Software Development
+* Software Testing
+* Software Documentation
+
+## Project Management
+
+Para la gestion del proyecto se usara software que se ejecuten en computadoras, seran las siguientes mostradas en el cuadro especificando su uso.
+
+<table>
+  <tr>
+    <th>Programa</th>
+    <th>Nombre</th>
+    <th>Usado</th>
+    <th>Link</th>
+  </tr>
+
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="50" height="50"></td>
+    <td>Visual Studio Code</td>
+    <td>El programa fue usado en la realización del informe y desarrollo del landingPage</td>
+    <td>https://code.visualstudio.com/download </td>
+
+  </tr>
+
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Android_Studio_icon.svg" width="50" height="50"></td>
+    <td>AndoridStudio</td>
+    <td>El programa fue usado en la realización de la frontend con Kotlin</td>
+    <td>https://plugins.jetbrains.com/androidstudio </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-0.png" width="80" height="80"></td>
+    <td>Discord</td>
+    <td>El programa fue usado para la comunicacion del equipo de trabajo</td>
+    <td>https://meet.google.com/landing </td> 
+    </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://th.bing.com/th?id=A1347d5afb5defc136de5264018fe79f9&w=80&h=80&c=17&rs=1&o=6&dpr=1.3&pid=5.1" width="80" height="80"></td>
+    <td>Springboot</td>
+    <td>El programa fue usado para el desarrollo de la backend este maneja el lenguaje java </td>
+    <td>https://www.jetbrains.com/es-es/products/ </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png" width="80" height="80"></td>
+    <td>MySQL Workbench</td>
+    <td>El programa fue usado para acceder a la base de datos </td>
+    <td>https://dev.mysql.com/downloads/mysql/ </td>
+  </tr>
+
+  <tr>
+    <td><img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png" width="80" height="80"></td>
+    <td>MySQL 8.0 </td>
+    <td>Motor de Base de Datos Relacional Usado para el desarrollo de nuestra aplicacion Web </td>
+    <td>https://dev.mysql.com/downloads/mysql/ </td>
+  </tr>
+</table>
+
+## Requirements Management
+
+La gestion de requerimientos sera una herramienta de tipo Saas, aplicacion web, que permitira la organizacion de los rquerimientos planteados para nuestra aplicacion web.
+
+* **Pivotal Tracker:** Ea una herramienta que facilita la gestión de las historias de usuario, organizándolas en epopeyas y evaluando su importancia en el programa según su puntuación. Se utilizo para gestionar el avanze del desarrollo de la aplicacion entre todos los mienbros del equipo.
+
+
+
+## Product UX/UI Design
+
+Parael Ux/Ui Design usamos los siguientes softwares:
+
+<table>
+  <tr>
+    <th>Programa</th>
+    <th>Nombre</th>
+    <th>Usado</th>
+    <th>Link</th>
+  </tr>
+
+  <tr>
+    <td><img src="https://i.pinimg.com/564x/7f/cf/75/7fcf759c2cea7de5e524ecd44f2eb8c6.jpg" width="70" height="70"></td>
+    <td>Mirro</td>
+    <td>Software usado para la realizacion de impact maps y realizacion,Scenario mapping</td>
+    <td>https://miro.com/es/</td>
+  </tr>
+
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/600px-Figma-logo.svg.png" width="50" height="70"></td>
+    <td>Figma</td>
+    <td>Software usado para la realizacion de los wireframes, mockups y user diagrams flow</td>
+    <td>https://www.figma.com/</td>
+  </tr>
+
+  <tr>
+    <td><img src="https://avatars.slack-edge.com/2022-07-26/3865608556737_8f4ae4a98b36ab6912b3_512.png" width="50" height="50"></td>
+    <td>LuciChart</td>
+    <td>Software usado para la realizacion del diagrama de clases</td>
+    <td>https://lucid.app/</td>
+  </tr>
+
+   <tr>
+    <td><img src="https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1486988817/nvwuj5ja88anobbwubi2.png" width="50" height="50"></td>
+    <td>Vertabelo</td>
+    <td>Usado para el desarrollo del diagrama de Base de Datos</td>
+    <td>http://vertabelo.com/</td>
+  </tr>
 
 # Conclusiones
 
