@@ -2987,7 +2987,7 @@ Para la gestion del proyecto se usara software que se ejecuten en computadoras, 
 
   <tr>
     <td><img src="https://th.bing.com/th?id=A1347d5afb5defc136de5264018fe79f9&w=80&h=80&c=17&rs=1&o=6&dpr=1.3&pid=5.1" width="80" height="80"></td>
-    <td>Springboot</td>
+    <td>Jetbrains</td>
     <td>El programa fue usado para el desarrollo de la backend este maneja el lenguaje java </td>
     <td>https://www.jetbrains.com/es-es/products/ </td>
   </tr>
@@ -3002,17 +3002,16 @@ Para la gestion del proyecto se usara software que se ejecuten en computadoras, 
   <tr>
     <td><img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png" width="80" height="80"></td>
     <td>MySQL 8.0 </td>
-    <td>Motor de Base de Datos Relacional Usado para el desarrollo de nuestra aplicacion Web </td>
+    <td>Motor de Base de Datos Relacional Usado para el desarrollo de nuestra aplicacion MObil </td>
     <td>https://dev.mysql.com/downloads/mysql/ </td>
   </tr>
 </table>
 
-## Requirements Management
+### Requirements Management
 
 La gestion de requerimientos sera una herramienta de tipo Saas, aplicacion web, que permitira la organizacion de los rquerimientos planteados para nuestra aplicacion web.
 
 * **Pivotal Tracker:** Ea una herramienta que facilita la gestión de las historias de usuario, organizándolas en epopeyas y evaluando su importancia en el programa según su puntuación. Se utilizo para gestionar el avanze del desarrollo de la aplicacion entre todos los mienbros del equipo.
-
 
 
 ## Product UX/UI Design
@@ -3054,6 +3053,7 @@ Parael Ux/Ui Design usamos los siguientes softwares:
     <td>Usado para el desarrollo del diagrama de Base de Datos</td>
     <td>http://vertabelo.com/</td>
   </tr>
+
 
 # Conclusiones
 
