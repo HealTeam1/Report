@@ -3187,11 +3187,11 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 
 #### 6.2.1.3 Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+| Repository | Branch | Commit Id | Commit <br>Message | Author | Commited <br>on (Date) |
 |:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
-| Landing Page | main | 3205ccb09fa652947d7a2e024f10cb2736c13988 | Initial commit   | 3205ccb09fa652947d7a2e024f10cb2736c13988 | 09/05/2025 |
-| Front End | main | 11c99749a85423e3339ee4c6c3e144971cc4d84e | Initial commit   | 11c99749a85423e3339ee4c6c3e144971cc4d84e | 11/05/2025 |
-| Back End | main | 5cba932ce4e2c1d6b8345e494ec8d19d17259681 | Initial commit  | 5cba932ce4e2c1d6b8345e494ec8d19d17259681 | 10/05/2025 |
+| Landing Page | main | 3205ccb | Initial commit   | DaikiOY | 09/05/2025 |
+| Front End | main | 11c9974 | Initial commit   | GAPZ17  | 11/05/2025 |
+| Back End | main | 5cba932 | Initial commit  | CafecitoSKR | 10/05/2025 |
 
 
 ### Conclusiones
