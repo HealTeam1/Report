@@ -3028,8 +3028,8 @@ Para la gestion del proyecto se usara software que se ejecuten en computadoras, 
   </tr>
 
   <tr>
-    <td><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-0.png" width="80" height="80"></td>
-    <td>Discord</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Google_Meet_icon_%282020%29.svg.png" width="70" height="70" ></td>
+    <td>meet</td>
     <td>El programa fue usado para la comunicacion del equipo de trabajo</td>
     <td>https://meet.google.com/landing </td> 
     </td>
