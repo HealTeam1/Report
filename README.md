@@ -2915,7 +2915,7 @@ c. Meta Author Tag: Este meta tag también se incluye para reforzar la identidad
 
 Implementaremos sistemas de búsqueda por exploración, que permitirán a nuestros usuarios encontrar planes de alimentación de manera rápida y precisa. Las personas que deseen buscar planes alimenticios adecuados a sus necesidades podrán filtrarlos por objetivos nutricionales, tipo de dieta o nivel de actividad física. Además, contaremos con un sistema de búsqueda por nombre de plan o nutricionista desde la página principal de nuestra plataforma.
 
-<img src="img/Searching-Systems.png" width="1000" height="700">
+<img src="img/Searching-Systems.png" width="900" height="600">
 
 #### 5.1.2.5 Navigation Systems
 
@@ -2933,7 +2933,7 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/nav1.png" width="1000" height="700">
 
-<img src="img/nav2.png" width="1000" height="700">
+<img src="img/nav2.png" width="1000" height="500">
 
 ### 5.1.3 Landing Page UI Design
 
@@ -2961,13 +2961,13 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 ### 5.1.4.1 Mobile Applications Wireframes
 
-<img src="img/mobw1.png" width="1000" height="700">
+<img src="img/mobw1.png" width="1000" height="500">
 
 <img src="img/mobw2.png" width="1000" height="700">
 
-<img src="img/mobw3.png" width="1000" height="700">
+<img src="img/mobw3.png" width="1200" height="400">
 
-<img src="img/mobw4.png" width="1000" height="700">
+<img src="img/mobw4.png" width="1200" height="400">
 
 ### 5.1.4.2 Mobile Applications Wireflow Diagrams
 
@@ -2975,13 +2975,13 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 ### 5.1.4.3 Mobile Applications Mock-up
 
-<img src="img/mobm1.png" width="1000" height="700">
+<img src="img/mobm1.png" width="1000" height="500">
 
 <img src="img/mobm2.png" width="1000" height="700">
 
-<img src="img/mobm3.png" width="1000" height="700">
+<img src="img/mobm3.png" width="1200" height="400">
 
-<img src="img/mobm4.png" width="1000" height="700">
+<img src="img/mobm4.png" width="1200" height="400">
 
 
 # Capitulo VI: Product Implementation, Validation & Deployment
@@ -3144,19 +3144,19 @@ Parael Ux/Ui Design usamos los siguientes softwares:
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-    <td> Este sprint se centró en la creación de los primeros mockups y wireframes tanto de la aplicación móbil como de la landing page de NutriPlan. Se realizaron reuniones grupales para definir la estructura y funcionalidad de la plataforma. Además, se completó el diseño visual de la landing page y se desplegó exitosamente en un entorno de pruebas. </td>
+    <td> Durante este sprint se desarrolló la primera versión de la landing page de NutriPlan. Se completó el diseño visual y se implementó una versión funcional en un entorno de pruebas. Este desarrollo incluyó la estructura básica, la integración de estilos coherentes con la identidad del producto y la preparación de secciones clave como presentación del servicio. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
-    <td> El equipo destacó la importancia de una planificación detallada en las etapas iniciales del proyecto. Se identificaron áreas de mejora en la comunicación durante las reuniones y se propuso establecer una agenda más estructurada para futuras sesiones. También se discutió la necesidad de herramientas de colaboración más eficientes para el diseño y desarrollo conjunto. </td>
+    <td> El equipo reflexionó sobre el proceso de diseño y desarrollo de la landing page, reconociendo avances importantes en su despliegue. Se identificó la necesidad de mejorar la definición y seguimiento de las historias de usuario relacionadas, especialmente en lo que respecta a la comunicación entre nutricionistas y usuarios. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
-    <td> El objetivo de este sprint fue establecer las bases visuales y funcionales de NutriPlan mediante la creación de mockups y wireframes, y el despliegue inicial de la landing page. Las historias de usuario incluyeron la visualización de planes nutricionales, la recolección de datos del usuario y la navegación básica de la plataforma. </td>
+    <td> El objetivo principal del Sprint 1 fue desarrollar y desplegar la landing page de NutriPlan, sirviendo como punto de entrada para los usuarios. Se crearon historias de usuario enfocadas en la visualización clara del servicio, navegación intuitiva y recolección de datos de contacto, estableciendo así una base funcional y visual del producto. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura de la plataforma. </td>
+    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del landing page </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
@@ -3167,20 +3167,15 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 
 #### 6.2.1.2 Sprint Backlog 1
 
-| **ID**   | **Title**                           | **ID**  | **Title**                            | **Description**                                                                            | **Estimation (Hours)** | **Assigned To**                     | **Status** |
-| -------- | ----------------------------------- | ------- | ------------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------- | ---------- |
-| **HU15** | **Visualizar página informativa**   | **T01** | **Estructura de la landing**         | Programar la landing page comenzando por el HTML.                                          | 4                      | **Daiki Oshiro**                    | Done       |
-| **HU17** | **Landing Page intuitiva**          | **T02** | **Agregar CSS styles**               | Asignar estilos generales para la página.                                                  | 4                      | **Daiki Oshiro**                    | Done       |
-| **US01** | **Registro de Usuario**             | **T17** | **Estructura básica de la app**      | Crear la estructura básica en React Native para la aplicación móvil.                       | 6                      | **Gustavo Pardo**                   | Done       |
-| **US02** | **Inicio y Cierre de Sesión**       | **T18** | **Implementación de Login**          | Implementar la funcionalidad de inicio de sesión en la aplicación móvil.                   | 6                      | **Gustavo Pardo**                   | Done       |
-| **US03** | **Recuperación de Contraseña**      | **T19** | **Formulario de recuperación**       | Desarrollar el formulario para recuperar la contraseña en la app móvil.                    | 5                      | **Leonardo Espino**                 | To-Do      |
-| **US05** | **Crear Perfil**                    | **T20** | **Formulario de creación de perfil** | Implementar el formulario de registro de usuario en la app móvil, incluyendo validaciones. | 6                      | **Gustavo Pardo**                   | Done       |
-| **US07** | **Seleccionar Plan de Suscripción** | **T22** | **Pantalla de suscripción**          | Crear pantalla donde el usuario puede seleccionar su plan de suscripción en la app móvil.  | 6                      | **Alejandro Espino**                | To-Do      |
-| **US09** | **Crear Plan Nutricional**          | **T26** | **Pantalla de creación de plan**     | Crear una pantalla en la app móvil para que los nutricionistas puedan crear planes.        | 7                      | **Alejandro Espino**                | Done       |
-| **US10** | **Diseño de Mockups y Wireframes**  | **T27** | **Mockups Landing**                  | Diseñar los mockups y wireframes de la landing page para asegurar una estructura visual adecuada. | 6               | **Leonardo Dueñas**                 | Done       |
-| **US11** | **Diseño de Mockups y Wireframes**  | **T28** | **Mockups Aplicación Móvil**         | Diseñar los mockups y wireframes de la aplicación móvil para asegurar una estructura visual adecuada. | 6           | **Jessica Comettant**               | Done       |
-| **US12** | **Conexión Backend**                | **T29** | **API de Usuarios**                  | Desarrollar la API para gestionar los registros, inicio de sesión y recuperación de contraseñas de los usuarios. | 8| **Alejandro Espino **               | To-Do      |
-| **US13** | **Conexión Backend**                | **T30** | **Base de Datos de Planes Nutricionales** | Crear la base de datos y las rutas para almacenar y gestionar los planes nutricionales.    | 8                 | **Alejandro Espino**                | To-Do      |
+## Tabla de Avance – Landing Page
+
+|  Historia de Usuario |  Título           |  Relación con Product Backlog         |  Tarea Técnica         |  Descripción                                                                                          | Estimación (Horas) |  Asignado a  |  Estado |
+|------------------------|--------------------------------------------|-----------------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------|------------------------|----------------------|-----------|
+| HU15                   | Visualizar página informativa              | US15 – Ver recetas saludables           | T01                      | Programar la landing page comenzando por el HTML.                                                        | 4                      | Daiki Oshiro         | Done      |
+| HU17                   | Landing Page intuitiva                     | US15 – Ver recetas saludables           | T02                      | Asignar estilos generales para la página (CSS).                                                          | 4                      | Daiki Oshiro         | Done      |
+| US10                   | Diseño de Mockups y Wireframes (Landing)   | Diseño visual inicial del producto      | T27                      | Diseñar los mockups y wireframes de la landing page.                                                     | 6                      | Leonardo Dueñas      | Done      |
+| US11                   | Diseño de Mockups y Wireframes (App)       | Diseño visual general                   | T28                      | Diseñar los mockups de la aplicación móvil, que podrían tener influencia visual sobre la landing.        | 6                      | Jessica Comettant    | Done      |
+
 
 <div align="center">
   <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
@@ -3191,9 +3186,48 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 | Repository | Branch | Commit Id | Commit <br>Message | Author | Commited <br>on (Date) |
 |:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
 | Landing Page | main | 3205ccb | Initial commit   | DaikiOY | 09/05/2025 |
-| Front End | main | 11c9974 | Initial commit   | GAPZ17  | 11/05/2025 |
-| Back End | main | 5cba932 | Initial commit  | CafecitoSKR | 10/05/2025 |
+| Front End | main | 0096cc5 | Update chapter VI   | Insonnio| 11/05/2025 |
 
+#### 6.2.1.5  Execution Evidence for Sprint Review
+
+Tras el desarrolo de la Landing Page en el Sprint 1, obtuvimos el siguiente resultado:
+
+<img src="img/lad1.png" width="900" height="600">
+
+<img src="img/lad2.png" width="900" height="600">
+
+<img src="img/lad3.png" width="900" height="600">
+
+#### 6.2.1.6  Services Documentation Evidence for Sprint Review
+
+En el Sprint 1, se ha desplegado el Landing Page, usando Netlify bajo el dominio ".netlify.app" de forma gratuita. Y se puede visualizar bajo el siguiente link: 
+
+<img src="img/laddeploy.png" width="900" height="600">
+
+link del landing page: nutriplan-landing.netlify.app
+
+#### 6.2.1.7 Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de la landing page se emplearon las siguientes tecnologías:
+
+- **HTML**: Utilizado para definir la estructura base de la página web.
+- **CSS**: Empleado para aplicar estilos y mejorar la presentación visual del sitio.
+- **Git**: Herramienta de control de versiones utilizada para gestionar el código fuente de manera eficiente.
+- **GitHub**: Plataforma empleada para alojar el repositorio del proyecto y facilitar la colaboración entre desarrolladores.
+
+Además, para el despliegue de la página web se utilizó el servicio de **Netlify**, que permitió publicar el sitio de manera rápida y sencilla.
+
+#### 6.2.1.8 Team Collaboration Insights during Sprint
+
+Para el desarrollo de la landing page de NutriPlan, el equipo adoptó la metodología GitFlow, lo que permitió organizar eficientemente el trabajo y fomentar la colaboración entre los miembros. Se crearon ramas específicas para cada funcionalidad o sección, lo que facilitó el desarrollo simultáneo de distintas partes de la página sin afectar la estabilidad del proyecto principal.
+
+Esta estructura de trabajo permitió implementar mejoras, realizar pruebas individuales y asegurar que cada componente funcionara correctamente antes de su integración en la rama principal. Además, el uso de GitHub como plataforma de colaboración posibilitó una gestión clara de los cambios, revisión de código y control de versiones.
+
+Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, transparente y adaptable, lo que contribuyó significativamente a la calidad y solidez del producto final. A continuación, se presentan las tareas asignadas a cada miembro del equipo, así como los comentarios y aportes realizados en GitHub durante el proceso de desarrollo de la landing page.
+
+<img src="img/team2.png" width="900" height="600">
+
+<img src="img/team1.png" width="900" height="600">
 
 ### Conclusiones
 
