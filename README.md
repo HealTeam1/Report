@@ -2946,6 +2946,41 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/landw4.png" width="1000" height="700">
 
+#### 5.1.3.2 Landing Page Mock-up
+
+<img src="img/landm1.png" width="1000" height="700">
+
+<img src="img/landm2.png" width="1000" height="700">
+
+<img src="img/landm3.png" width="1000" height="700">
+
+<img src="img/landm4.png" width="1000" height="700">
+
+### 5.1.4 Mobile Applications UX/UI Design
+
+### 5.1.4.1 Mobile Applications Wireframes
+
+<img src="img/mobw1.png" width="1000" height="700">
+
+<img src="img/mobw2.png" width="1000" height="700">
+
+<img src="img/mobw3.png" width="1000" height="700">
+
+<img src="img/mobw4.png" width="1000" height="700">
+
+### 5.1.4.2 Mobile Applications Wireflow Diagrams
+
+
+
+### 5.1.4.3 Mobile Applications Mock-up
+
+<img src="img/mobm1.png" width="1000" height="700">
+
+<img src="img/mobm2.png" width="1000" height="700">
+
+<img src="img/mobm3.png" width="1000" height="700">
+
+<img src="img/mobm4.png" width="1000" height="700">
 
 
 # Capitulo VI: Product Implementation, Validation & Deployment
