@@ -3187,6 +3187,8 @@ Netlify se utiliza como plataforma de despliegue para nuestra Landing Page. Nos 
 
 <img src="img/net5.png" width="900" height="600">
 
+link del landing desplegado: https://nutriplan-landing.netlify.app/
+
 ## 6.2 Landing Page && Mobile Application Implementation
 
 ### 6.2.1 Sprint 1
