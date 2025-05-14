@@ -2934,6 +2934,20 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/nav2.png" width="1000" height="700">
 
+### 5.1.3 Landing Page UI Design
+
+#### 5.1.3.1 Landing Page Wireframe
+
+<img src="img/landw1.png" width="1000" height="700">
+
+<img src="img/landw2.png" width="1000" height="700">
+
+<img src="img/landw3.png" width="1000" height="700">
+
+<img src="img/landw4.png" width="1000" height="700">
+
+
+
 # Capitulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
