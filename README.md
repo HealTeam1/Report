@@ -2985,9 +2985,9 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 # Capitulo VI: Product Implementation, Validation & Deployment
 
-## 6.1. Software Configuration Management
+## 6.1 Software Configuration Management
 
-### 6.1.1. Software Development Environment Configuration
+### 6.1.1 Software Development Environment Configuration
 
 
 En esta seccion se proporcionara los enlaces a las aplicaciones que se usaran para mantener la coherencia del desarollo del proyecto, siendo estas clasificadas en software basado en modelos Saas y productos que se ejecuten en las computadoras .Tendremos las siguientes secciones.
@@ -3105,6 +3105,95 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 
 </table>
 
+### 6.1.2 Source Code Management
+
+## 6.2 Landing Page && Mobile Application Implementation
+
+### 6.2.1 Sprint 1
+
+#### 6.2.1.1 Sprint Planning 1
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 1 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 10/05/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 20:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> Todos los integrantes del grupo HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td> Este sprint se centró en la creación de los primeros mockups y wireframes tanto de la aplicación móbil como de la landing page de NutriPlan. Se realizaron reuniones grupales para definir la estructura y funcionalidad de la plataforma. Además, se completó el diseño visual de la landing page y se desplegó exitosamente en un entorno de pruebas. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> El equipo destacó la importancia de una planificación detallada en las etapas iniciales del proyecto. Se identificaron áreas de mejora en la comunicación durante las reuniones y se propuso establecer una agenda más estructurada para futuras sesiones. También se discutió la necesidad de herramientas de colaboración más eficientes para el diseño y desarrollo conjunto. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
+    <td> El objetivo de este sprint fue establecer las bases visuales y funcionales de NutriPlan mediante la creación de mockups y wireframes, y el despliegue inicial de la landing page. Las historias de usuario incluyeron la visualización de planes nutricionales, la recolección de datos del usuario y la navegación básica de la plataforma. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura de la plataforma. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 8 </td>
+  </tr>
+</table>
+
+
+#### 6.2.1.2 Sprint Backlog 1
+
+| **ID**   | **Title**                           | **ID**  | **Title**                            | **Description**                                                                            | **Estimation (Hours)** | **Assigned To**                     | **Status** |
+| -------- | ----------------------------------- | ------- | ------------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------- | ---------- |
+| **HU15** | **Visualizar página informativa**   | **T01** | **Estructura de la landing**         | Programar la landing page comenzando por el HTML.                                          | 4                      | **Daiki Oshiro**                    | Done       |
+| **HU17** | **Landing Page intuitiva**          | **T02** | **Agregar CSS styles**               | Asignar estilos generales para la página.                                                  | 4                      | **Daiki Oshiro**                    | Done       |
+| **US01** | **Registro de Usuario**             | **T17** | **Estructura básica de la app**      | Crear la estructura básica en React Native para la aplicación móvil.                       | 6                      | **Gustavo Pardo**                   | Done       |
+| **US02** | **Inicio y Cierre de Sesión**       | **T18** | **Implementación de Login**          | Implementar la funcionalidad de inicio de sesión en la aplicación móvil.                   | 6                      | **Gustavo Pardo**                   | Done       |
+| **US03** | **Recuperación de Contraseña**      | **T19** | **Formulario de recuperación**       | Desarrollar el formulario para recuperar la contraseña en la app móvil.                    | 5                      | **Leonardo Espino**                 | To-Do      |
+| **US05** | **Crear Perfil**                    | **T20** | **Formulario de creación de perfil** | Implementar el formulario de registro de usuario en la app móvil, incluyendo validaciones. | 6                      | **Gustavo Pardo**                   | Done       |
+| **US07** | **Seleccionar Plan de Suscripción** | **T22** | **Pantalla de suscripción**          | Crear pantalla donde el usuario puede seleccionar su plan de suscripción en la app móvil.  | 6                      | **Alejandro Espino**                | To-Do      |
+| **US09** | **Crear Plan Nutricional**          | **T26** | **Pantalla de creación de plan**     | Crear una pantalla en la app móvil para que los nutricionistas puedan crear planes.        | 7                      | **Alejandro Espino**                | Done       |
+| **US10** | **Diseño de Mockups y Wireframes**  | **T27** | **Mockups Landing**                  | Diseñar los mockups y wireframes de la landing page para asegurar una estructura visual adecuada. | 6               | **Leonardo Dueñas**                 | Done       |
+| **US11** | **Diseño de Mockups y Wireframes**  | **T28** | **Mockups Aplicación Móvil**         | Diseñar los mockups y wireframes de la aplicación móvil para asegurar una estructura visual adecuada. | 6           | **Jessica Comettant**               | Done       |
+| **US12** | **Conexión Backend**                | **T29** | **API de Usuarios**                  | Desarrollar la API para gestionar los registros, inicio de sesión y recuperación de contraseñas de los usuarios. | 8| **Alejandro Espino **               | To-Do      |
+| **US13** | **Conexión Backend**                | **T30** | **Base de Datos de Planes Nutricionales** | Crear la base de datos y las rutas para almacenar y gestionar los planes nutricionales.    | 8                 | **Alejandro Espino**                | To-Do      |
+
+<div align="center">
+  <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
+</div>
+
+#### 6.2.1.3 Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit <br>Message | Commit <br>Message Body | Commited <br>on (Date) |
+|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
+| Landing Page | main | 3205ccb09fa652947d7a2e024f10cb2736c13988 | Initial commit   | 3205ccb09fa652947d7a2e024f10cb2736c13988 | 09/05/2025 |
+| Front End | main | 11c99749a85423e3339ee4c6c3e144971cc4d84e | Initial commit   | 11c99749a85423e3339ee4c6c3e144971cc4d84e | 11/05/2025 |
+| Back End | main | 5cba932ce4e2c1d6b8345e494ec8d19d17259681 | Initial commit  | 5cba932ce4e2c1d6b8345e494ec8d19d17259681 | 10/05/2025 |
+
+
 ### Conclusiones
 
 **Conclusiones y recomendaciones**
@@ -3134,6 +3223,7 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 - Iteración continua: Mantener una cultura de mejora constante basada en el feedback de usuarios, estableciendo ciclos cortos de experimentación (Lean) en las siguientes fases del desarrollo.
 
 <div style="page-break-after: always;"></div>
+
 
 # Bibliografía
 
