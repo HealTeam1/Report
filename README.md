@@ -3111,10 +3111,15 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 El registro y control de las modificaciones realizadas tanto en la landing page como en este documento se gestionaron a través de una organización en GitHub. Esto facilitó la colaboración del equipo, permitió un seguimiento detallado de los cambios y aseguró una integración eficiente de los esfuerzos individuales.
 
 Organization: https://github.com/HealTeam1
+
 Report Repository: https://github.com/HealTeam1/Report
+
 Landing Page Repository: https://github.com/HealTeam1/Landing-Page
+
 Front.end Repository: https://github.com/HealTeam1/NutriPlanProject
+
 Back-end Repository: https://github.com/HealTeam1/NutriHealthBackend
+
 
 Además, para optimizar el control de nuestro proyecto utilizamos GitFlow en la gestión de ramas y modificaciones en el código fuente. En este flujo de trabajo, se emplean dos ramas principales: main y develop.
 
