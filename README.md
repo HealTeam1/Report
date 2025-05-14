@@ -3108,6 +3108,80 @@ Parael Ux/Ui Design usamos los siguientes softwares:
 
 ### 6.1.2 Source Code Management
 
+El registro y control de las modificaciones realizadas tanto en la landing page como en este documento se gestionaron a través de una organización en GitHub. Esto facilitó la colaboración del equipo, permitió un seguimiento detallado de los cambios y aseguró una integración eficiente de los esfuerzos individuales.
+
+Organization: https://github.com/HealTeam1
+Report Repository: https://github.com/HealTeam1/Report
+Landing Page Repository: https://github.com/HealTeam1/Landing-Page
+Front.end Repository: https://github.com/HealTeam1/NutriPlanProject
+Back-end Repository: https://github.com/HealTeam1/NutriHealthBackend
+
+Además, para optimizar el control de nuestro proyecto utilizamos GitFlow en la gestión de ramas y modificaciones en el código fuente. En este flujo de trabajo, se emplean dos ramas principales: main y develop.
+
+- Main: La rama main contiene el historial oficial de las versiones de nuestro repositorio que están listas para producción.
+- Develop: Esta rama actúa como un espacio de integración donde se combinan las diferentes características desarrolladas.
+- Ramas auxiliares: Se utilizan ramas adicionales para trabajar en funcionalidades específicas, permitiendo una gestión más eficiente y aislada del código.
+
+### 6.1.3 Source Code Style Guide & Conventions
+
+#### HTML y CSS
+
+Para el desarrollo de la parte de **HTML** y **CSS** de nuestra landing page, nos basaremos en las mejores prácticas del **Google HTML/CSS Style Guide**. A continuación, se enumeran algunas de las principales convenciones que aplicaremos:
+
+- **Declaración del tipo de documento:** Siempre especificaremos el tipo de documento al inicio del archivo.
+- **Nombres en minúsculas:** Utilizaremos minúsculas para todos los nombres de los elementos HTML (por ejemplo: `<p>`, `<h1>`, `<section>`, etc.).
+- **Cierre de elementos HTML:** Nos aseguraremos de cerrar siempre todos los elementos HTML correctamente (por ejemplo: `<p></p>`).
+- **Atributos entre comillas:** Todos los atributos de los elementos HTML estarán entre comillas (por ejemplo: `<p class="name"></p>`).
+- **Atributos para imágenes:** Especificaremos `alt`, `width` y `height` para todas las imágenes.
+- **Evitar líneas largas:** Evitaremos escribir líneas de código excesivamente largas, facilitando la legibilidad.
+- **Elemento `<title>`:** Siempre incluir el elemento `<title>` al inicio del archivo HTML para proporcionar un título a la página.
+- **Meta tags al inicio:** Colocaremos los meta tags importantes (como charset y viewport) al inicio del archivo HTML.
+
+#### JavaScript
+
+Para el desarrollo en **JavaScript**, seguimos las convenciones del **Google JavaScript Style Guide**. Algunas de las convenciones clave que implementaremos son:
+
+- **Nombrado en camelCase:** Nombres de variables y funciones seguirán la convención camelCase, como `numberArray` o `createUser()`.
+- **Comillas simples para strings:** Usaremos comillas simples para declarar cadenas de texto (por ejemplo: `'This is a string'`).
+- **Uso de punto y coma:** Colocaremos siempre un punto y coma (`;`) al final de cada sentencia.
+- **Evitar `var`:** En lugar de `var`, utilizaremos `let` o `const` para declarar variables, para mejorar la seguridad y claridad del código.
+
+### 6.1.4 Software Deployment Configuration
+
+Para el despliegue de nuestra Landing Page de NutriPlan, utilizamos una serie de herramientas clave que optimizan tanto el desarrollo como el mantenimiento del proyecto. A continuación, se describen las herramientas empleadas:
+
+**1. Git**
+Utilizamos Git como sistema de control de versiones para gestionar todas las modificaciones y cambios realizados en el proyecto a lo largo del tiempo. Esto nos permite trabajar de manera colaborativa, manteniendo un historial completo de las versiones de nuestra aplicación.
+
+**2. GitHub**
+La plataforma GitHub se utiliza para almacenar y gestionar el repositorio del proyecto. Dentro de esta plataforma, tenemos un repositorio que contiene todo el código fuente de nuestro Landing Page, permitiendo la colaboración entre los miembros del equipo y facilitando la integración de nuevas características.
+
+**3. GitFlow**
+El modelo GitFlow es el que seguimos para gestionar las ramas dentro de nuestro repositorio. Esta metodología nos permite organizar y visualizar el flujo de trabajo del equipo de desarrollo, asegurando que cada nueva funcionalidad o corrección se maneje de forma aislada y se fusione adecuadamente con la rama principal cuando esté lista.
+
+**4. Netlify**
+Netlify se utiliza como plataforma de despliegue para nuestra Landing Page. Nos permite desplegar el proyecto de manera sencilla y automática bajo el dominio de "netlify.app", lo que facilita la visualización de nuestra página web en un entorno de producción.
+
+- Ingresamos a Netlify:
+
+<img src="img/net1.png" width="900" height="600">
+
+- Seleccionamos GitHub para importar el proyecto:
+
+<img src="img/net2.png" width="900" height="600">
+
+- Colocamos las configuraciones necesarias:
+
+<img src="img/net3.png" width="900" height="600">
+
+- Esperamos que se complete el building del proyecto:
+
+<img src="img/net4.png" width="900" height="600">
+
+- Vemos los resultados:
+
+<img src="img/net5.png" width="900" height="600">
+
 ## 6.2 Landing Page && Mobile Application Implementation
 
 ### 6.2.1 Sprint 1
