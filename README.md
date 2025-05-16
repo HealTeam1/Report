@@ -3353,6 +3353,131 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
 
 <img src="img/team1.png" width="900" height="600">
 
+### 6.2.2 Sprint 2
+
+#### 6.2.2.1 Sprint Planning 2
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 2 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 11/05/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 20:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> Todos los integrantes del grupo HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td>Se implementó el Landing Page y se desplegó usando netlify </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> En este sprint como equipo logramos desplegar la landing page de forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
+    <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión del backend de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del backend</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 8 </td>
+  </tr>
+</table>
+
+#### 6.2.1.2 Sprint Backlog 2
+
+## Tabla de Avance – Backend
+
+## Tabla de Avance – Backend (NutritionalPlanning)
+
+| Historia de Usuario | Título                                | Relación con Product Backlog       | Tarea Técnica | Descripción                                                                                                              | Estimación (Horas) |
+| ------------------- | ------------------------------------- | ---------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------ |
+| HU25                | Actualizar plan nutricional           | E05 – Planificación Nutricional    | T09           | Implementar el endpoint `PUT /nutrition-plan/{planId}` para modificar los datos de un plan existente.                    | 4                  |
+| HU26                | Eliminar plan nutricional             | E05 – Planificación Nutricional    | T10           | Implementar el endpoint `DELETE /nutrition-plan/{planId}` para eliminar un plan por su identificador.                    | 3                  |
+| HU27                | Asignar receta a comida programada    | E05 – Planificación Nutricional    | T11           | Implementar el endpoint `PUT /nutrition-plan/scheduledMeal/{id}/set-recipe` para asignar un recipeId a un ScheduledMeal. | 5                  |
+| HU28                | Actualizar alimento planificado       | E05 – Planificación Nutricional    | T12           | Implementar el endpoint `PUT /nutrition-plan/plannedFood/{id}` para modificar cantidad o unidad de un PlannedFood.       | 4                  |
+| HU29                | Eliminar alimento planificado         | E05 – Planificación Nutricional    | T13           | Implementar el endpoint `DELETE /nutrition-plan/plannedFood/{id}` para eliminar un PlannedFood existente.                | 3                  |
+| HU30                | Agregar alimentos a comida programada | E05 – Planificación Nutricional    | T14           | Implementar el endpoint `POST /nutrition-plan/{scheduledMealId}/plannedFoods` para crear nuevos PlannedFoods.            | 5                  |
+| HU31                | Crear nuevo plan nutricional          | US11 – Crear Plan Nutricional      | T15           | Implementar el endpoint `POST /nutrition-plan/add-nutritional-plan` para instanciar un nuevo plan con sus dailyPlans.    | 6                  |
+| HU32                | Consultar planes de un usuario        | US12 – Ver Plan Nutricional Activo | T16           | Implementar el endpoint `GET /nutrition-plan/{userId}` para recuperar los planes de un usuario dado.                     | 3                  |
+
+<div align="center">
+  <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
+</div>
+
+#### 6.2.1.3 Development Evidence for Sprint Review
+
+|     Repository     | Branch | Commit Id |                              Commit <br>Message                               |         Author          | Commited <br>on (Date) |
+| :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :---------------------: | :--------------------: |
+| NutriHealthBackend |  main  |  113b361  |            chore: Initialize project setup for NutriHealth backend            | Alejandro Espino Flores |       29/04/2025       |
+| NutriHealthBackend |  main  |  6750748  |                   Nutritional Plan post and delete endpoint                   | Alejandro Espino Flores |       02/05/2025       |
+| NutriHealthBackend |  main  |  dd868a7  |      feat(nutritional-plan): Nutritional Plan post and delete endpointd       | Alejandro Espino Flores |       02/05/2025       |
+| NutriHealthBackend |  main  |  30e8105  |           feat(nutritional-plan): update nutritional plan endpoint            | Alejandro Espino Flores |       09/05/2025       |
+| NutriHealthBackend |  main  |  03a90ef  |       feat(nutritional-plan): delete and get endpoint por daily planst        | Alejandro Espino Flores |       09/05/2025       |
+| NutriHealthBackend |  main  |  1890048  |          feat(nutritional-plan): delete ScheduledMeal endpoint added          | Alejandro Espino Flores |       09/05/2025       |
+| NutriHealthBackend |  main  |  80633d3  |           test(nutrihealth): Add dockerfile for Java 21 deployment            | Alejandro Espino Flores |       09/05/2025       |
+| NutriHealthBackend |  main  |  38f85c6  |            feat(nutrihealth): Nutritional plan get endpoint added             | Alejandro Espino Flores |       12/05/2025       |
+| NutriHealthBackend |  main  |  f71e708  |           feat(nutrihealth): Nutritional Plan Update endpoint added           | Alejandro Espino Flores |       13/05/2025       |
+| NutriHealthBackend |  main  |  06dd514  |                 feat(nutrihealth): create daily plan endpoint                 | Alejandro Espino Flores |       09/05/2025       |
+| NutriHealthBackend |  main  |  ea7fd02  | feat(nutrihealth): Add plannedFood endpoint and update ScheduledMeal endpoint | Alejandro Espino Flores |       13/05/2025       |
+| NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                | Alejandro Espino Flores |       13/05/2025       |
+| NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              | Alejandro Espino Flores |       14/05/2025       |
+
+#### 6.2.1.5 Execution Evidence for Sprint Review
+
+Tras el desarrollo del backend en el Sprint 2, obtuvimos el siguiente resultado:
+
+<img src="img/deploy-backend/swagger-deployment.png" width="900" height="200" style="object-fit:cover">
+
+#### 6.2.1.6 Services Documentation Evidence for Sprint Review
+
+En el Sprint 1, se ha desplegado el Backend , usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
+
+<img src="img/deploy-backend/swagger-deployment.png" width="900" height="400" style="object-fit:cover">
+
+link del landing page: https://nutrihealthbackend-production.up.railway.app/swagger-ui.html
+
+#### 6.2.1.7 Software Deployment Evidence for Sprint Review
+
+En este sprint, se ha desarrollado la API de la aplicación web, utilizando las siguientes herramientas. No obstante, el despliegue de la API no está incluido en el alcance de este sprint.
+
+<ul>
+
+<li> Git: Sistema de control de versiones que utilizamos para colaborar y rastrear las versiones de la aplicación web en un repositorio remoto.</li>
+<li> Gitflow: Proceso de trabajo colaborativo que nos permitió organizar el trabajo en ramas dentro de nuestro repositorio, facilitando así la colaboración en el desarrollo.</li>
+<li> GitHub: Plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto. </li>
+<li> Swagger Ui: Herramienta destinada a probar y documentar nuestra API.</li>
+Además, para el despliegue del backend  se utilizó el servicio de **Railway**, que permitió publicar el backend y la base de datos de manera sencilla.
+
+#### 6.2.1.8 Team Collaboration Insights during Sprint
+
+A continuación se mostrarán el gráfico de insights durante el sprint:
+
+<img src="img/commits-backend.png" width="900" height="600">
+
 ### Conclusiones
 
 **Conclusiones y recomendaciones**
