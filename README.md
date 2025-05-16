@@ -37,13 +37,12 @@
 
 # Registro de Versiones del Informe
 
-| Versión |   Fecha    |         Autor         |  Descripción de modificación   |
-| :-----: | :--------: | :-------------------: | :----------------------------: |
-|   TB1   | 24/04/2025 | Todos los integrantes | Se añadió los capítulos 1 al 4 |
-|   TP1   | 10/05/2025 | Todos los integrantes | Se añadió los capítulos 5 , 6 y se realizaron correcciones|
+| Versión |   Fecha    |         Autor         |                Descripción de modificación                 |
+| :-----: | :--------: | :-------------------: | :--------------------------------------------------------: |
+|   TB1   | 24/04/2025 | Todos los integrantes |               Se añadió los capítulos 1 al 4               |
+|   TP1   | 10/05/2025 | Todos los integrantes | Se añadió los capítulos 5 , 6 y se realizaron correcciones |
 
 # Project Report Collaboration Insights
-
 
 **Primera Entrega**
 
@@ -66,7 +65,6 @@ Daiki Oshiro: Contribuyó en la redacción de Problem Statements, segmentación 
 Herramientas utilizadas:
 
 GitHub (repositorio principal del informe en formato Markdown)
-
 
 <img src="./img/Colaboration.png" width="500" height="400">
 
@@ -170,8 +168,9 @@ GitHub (repositorio principal del informe en formato Markdown)
     - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
       - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-    
+
 - [5.1 Product Design](#51-product-design)
+
   - [5.1.1 Style Guidelines](#511-style-guidelines)
   - [5.1.1.1 General Style Guidelines](#5111-general-style-guidelines)
   - [5.1.2 Information Architecture](#512-information-architecture)
@@ -191,11 +190,13 @@ GitHub (repositorio principal del informe en formato Markdown)
   - [5.1.4.5 Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
 
 - [6.1 Software Configuration Management](#61-software-configuration-management)
+
   - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
   - [6.1.2 Source Code Management](#612-source-code-management)
   - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
 
 - [6.2 Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+
   - [6.2.X Sprint 1](#62x-sprint-1)
     - [6.2.X.1 Sprint Planning 1](#62x1-sprint-planning-1)
     - [6.2.X.2 Sprint Backlog 1](#62x2-sprint-backlog-1)
@@ -216,12 +217,10 @@ GitHub (repositorio principal del informe en formato Markdown)
 
 # Student Outcome
 
-
-| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones  |
-| :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto.<br> <br>_TP1_: Durante esta primera entrega, se emplearon habilidades y conceptos previamente estudiados como base para el desarrollo del proyecto.<br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br>_Alejandro Espino Flores_<br> Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente.  <br>_Jessica Comettant Rubiños_<br> _TB1_:  He actualizado y aplicado conceptos clave en el desarrollo de soluciones de software, especialmente mediante el uso de metodologías como Lean UX. Esto me ha permitido estructurar entregables como Lean UX assumptions, Business assumptions, User assumptions, Problem Statements, Hypothesis Statements, Lean UX canvas, Impact Mapping, y Product Backlog, mejorando mi capacidad técnica y estratégica en el proyecto.<br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: Para esta primera entrega se desarrollaron las user stories, to be scenario mapping y se estuvo activamente atento a posibles deficiencias en el proyecto. Esto nos permite mejorar las capacidades de identificación estrategica en el proyecto para futuras entregas.| Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> <br>La identificación de los bounded contexts y agregados facilitó una estructuración clara del sistema y una separación efectiva de responsabilidades.<br> |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software.<br> <br>_TP1_:Para esta segunda entrega del trabajo, desarrollé parte de los capítulos 5 y 6, teniendo en cuenta las soluciones de software.<br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>_Alejandro Espino Flores_<br> En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. <br>_Jessica Comettant Rubiños_<br> _TB1_:  A través de este proceso, he comprendido la importancia del aprendizaje continuo para mantenerme al día con las mejores prácticas y herramientas del sector. Integrar metodologías como Lean UX y trabajar con herramientas prácticas ha sido esencial para mi desarrollo profesional y el éxito en proyectos de soluciones de software.<br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: En este primera entrega se comprendió lo importante que es mantener las buenas practicas y así estabilizar el proyecto a través de ellas para futuras entregas. | Conclusiones:  <br>Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software.<br> <br>La aplicación de metodologías modernas facilitó una comprensión más profunda del dominio del problema, mejorando la calidad del producto desde sus fases iniciales.<br>  |
-
+| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto.<br> <br>_TP1_: Durante esta primera entrega, se emplearon habilidades y conceptos previamente estudiados como base para el desarrollo del proyecto.<br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br>_Alejandro Espino Flores_<br> Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente. <br>_Jessica Comettant Rubiños_<br> _TB1_: He actualizado y aplicado conceptos clave en el desarrollo de soluciones de software, especialmente mediante el uso de metodologías como Lean UX. Esto me ha permitido estructurar entregables como Lean UX assumptions, Business assumptions, User assumptions, Problem Statements, Hypothesis Statements, Lean UX canvas, Impact Mapping, y Product Backlog, mejorando mi capacidad técnica y estratégica en el proyecto.<br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: Para esta primera entrega se desarrollaron las user stories, to be scenario mapping y se estuvo activamente atento a posibles deficiencias en el proyecto. Esto nos permite mejorar las capacidades de identificación estrategica en el proyecto para futuras entregas. | Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> <br>La identificación de los bounded contexts y agregados facilitó una estructuración clara del sistema y una separación efectiva de responsabilidades.<br>           |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software.<br> <br>_TP1_:Para esta segunda entrega del trabajo, desarrollé parte de los capítulos 5 y 6, teniendo en cuenta las soluciones de software.<br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia. <br>_Alejandro Espino Flores_<br> En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. <br>_Jessica Comettant Rubiños_<br> _TB1_: A través de este proceso, he comprendido la importancia del aprendizaje continuo para mantenerme al día con las mejores prácticas y herramientas del sector. Integrar metodologías como Lean UX y trabajar con herramientas prácticas ha sido esencial para mi desarrollo profesional y el éxito en proyectos de soluciones de software.<br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: En este primera entrega se comprendió lo importante que es mantener las buenas practicas y así estabilizar el proyecto a través de ellas para futuras entregas.                                                                                                                                                                                                            | Conclusiones: <br>Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software.<br> <br>La aplicación de metodologías modernas facilitó una comprensión más profunda del dominio del problema, mejorando la calidad del producto desde sus fases iniciales.<br> |
 
 <div style="page-break-after: always;"></div>
 
@@ -327,7 +326,6 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-
 | Integrantes                                                                                                                                                                                                               | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conocimientos                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Nombre                                                                                                                                                                                                                    | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conocimientos                                                                                                                                           |
@@ -336,7 +334,6 @@ Está diseñada tanto para usuarios que desean mejorar su alimentación como par
 | <img src="https://raw.githubusercontent.com/HealTeam1/Report/refs/heads/Develop/img/Alejandro%20Profile.jpeg" style="object-fit: cover;" alt="Espino Flores, Alejandro" width="100" height="120">Espino Flores, Alejandro | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Valoro el compañerismo y la colaboración, ya que creo que son fundamentales para alcanzar los objetivos comunes. Estoy comprometido con el aprendizaje continuo y me esfuerzo por aportar lo mejor de mí en cada proyecto.                                                                                                                                                                                                                                        | Cuento con conocimientos en Python, Java, SQL y desarrollo web.                                                                                         |
 | <img src="img/a.png"> Dueñas Canales Leonardo Manuel                                                                                                                                                                      | Soy estudiante de la carrera Ingeniría de Software. Me considero una persona asertiva, logíca con gran capacidad de trabajar en equipo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Cuento con el conocimiento de Java, javascript, Python, C#, HTML.                                                                                       |
 | ![Image](https://github.com/user-attachments/assets/c76261aa-c9dc-402a-b95f-2ba0a37c48dc) **Jessica Elizabeth Comettant Rubiños**                                                                                         | Estudiante de la carrera de ingeniería de software de la UPC (Universidad Peruana de Ciencias Aplicadas). Estoy en el sexto ciclo de mi carrera. Gracias a las asignaturas correspondientes a la malla curricular de mi carrera, cuento con las habilidades intelectuales propicias para el desarrollo del proyecto. Asimismo, mi personalidad se encuentra basada en la autonomía. Por lo tanto, he sido capaz de extender mis conocimientos de programación con mayor material de estudio. Finalmente, destaco de mi personalidad la empatía, la responsabilidad, la amabilidad y la capacidad de trabajar en equipo. | Conocimientos en C#, python y java. Manejo de base de datos relacionales. Frameworks de desarrollo (Angular y Vue). Acreditación en Scrum Fundamentals. |
-
 
 ## 1.2. Solution Profile
 
@@ -811,7 +808,9 @@ Por último, para contrarrestar el respaldo científico y profesional que exhibe
 ### 2.2.2. Registro de entrevistas
 
 ### Segmento #1: Jóvenes de 18 - 28 años en Lima
-___
+
+---
+
 Nombre: Ernesto Ruiz
 
 Edad: 20
@@ -825,7 +824,8 @@ Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/Eb
 En la entrevista, el usuario expresó que su motivación principal para mejorar su alimentación es llevar una vida más saludable, tener más energía y prevenir enfermedades. El mayor desafío que enfrenta es la falta de tiempo para planificar y preparar comidas saludables. Ha probado aplicaciones como Yazio y FatSecret, pero las encuentra complicadas y poco personalizadas. Busca una aplicación que ofrezca recomendaciones personalizadas, menús adaptados, seguimiento de calorías y hábitos saludables, además de contar con funcionalidades como recordatorios y monitoreo de metas para mantenerse motivado.
 
 ### Segmento #2: Nutricionistas
-___
+
+---
 
 ### Entrevista N° 01:
 
@@ -848,23 +848,23 @@ Para mejorar su práctica, Mariano destaca la necesidad de una app que incluya p
 
 Nombre: Renato Reyes Valenzuela
 
-Edad: 23 
+Edad: 23
 
 Distrito: La Molina
 
-![Image](https://github.com/user-attachments/assets/3ef406af-c026-4ea6-ae70-91a7e35e2c4e) 
+![Image](https://github.com/user-attachments/assets/3ef406af-c026-4ea6-ae70-91a7e35e2c4e)
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c009_upc_edu_pe/EQRnqWRaqPZFuxYMVO56m8UBLNgoyg5mJE1sxFbLz9Iy0w?e=vwgiUg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c009_upc_edu_pe/EQRnqWRaqPZFuxYMVO56m8UBLNgoyg5mJE1sxFbLz9Iy0w?e=vwgiUg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-El nutricionista entrevistado, Renato Reyes, de 23 años y residente en La Molina. Indica que existen aplicaciones móviles deficientes en temas de seguimiento de pacientes. Una de esas aplicaciones es Fitia. Otro punto clave indicado en la entrevista fue la falta de conocimiento relacionados a términos nutricionales en los pacientes y la necesidad de recursos educativos. Finalmente, indica que los planes nutricionales  presentan problemas como: costos, alimentos de preferencia por el paciente y tiempos de alimentación. Es necesaria una comunicación constante con el paciente y una aplicación que lo facilite sería de gran apoyo. 
+El nutricionista entrevistado, Renato Reyes, de 23 años y residente en La Molina. Indica que existen aplicaciones móviles deficientes en temas de seguimiento de pacientes. Una de esas aplicaciones es Fitia. Otro punto clave indicado en la entrevista fue la falta de conocimiento relacionados a términos nutricionales en los pacientes y la necesidad de recursos educativos. Finalmente, indica que los planes nutricionales presentan problemas como: costos, alimentos de preferencia por el paciente y tiempos de alimentación. Es necesaria una comunicación constante con el paciente y una aplicación que lo facilite sería de gran apoyo.
 
 ### 2.2.3. Análisis de entrevistas
 
-| Entrevistado | Análisis de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ernesto Ruiz | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
-| Mariano Torres |La entrevista revela que los principales retos para los nutricionistas son adaptar los planes alimenticios a las rutinas específicas de los pacientes y mantener su motivación a largo plazo. Existe una necesidad clara de herramientas digitales más especializadas, ya que actualmente utilizan soluciones básicas como Excel que no satisfacen completamente sus necesidades. Se identifica una oportunidad importante para una app que permita personalizar dietas de forma rápida, hacer seguimientos en tiempo real y ofrecer recursos educativos actualizados. Además, el seguimiento visual del progreso y la automatización de tareas como la generación de listas de compras serían funciones altamente valoradas para mejorar la eficiencia y la experiencia tanto del nutricionista como del paciente.|
-| Renato Reyes |La entrevista revela que los principales retos para los nutricionistas son adaptar los planes alimenticios a las rutinas específicas de los pacientes y mantener su motivación a largo plazo. Existe una necesidad clara de herramientas digitales más especializadas, ya que actualmente utilizan soluciones básicas como Excel que no satisfacen completamente sus necesidades. Se identifica una oportunidad importante para una app que permita personalizar dietas de forma rápida, hacer seguimientos en tiempo real y ofrecer recursos educativos actualizados. Además, el seguimiento visual del progreso y la automatización de tareas como la generación de listas de compras serían funciones altamente valoradas para mejorar la eficiencia y la experiencia tanto del nutricionista como del paciente.|
+| Entrevistado   | Análisis de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ernesto Ruiz   | Según el entrevistado del segmento de usuarios generales, la motivación principal para mejorar su alimentación está en alcanzar una vida más saludable, tener más energía y prevenir enfermedades a futuro, junto con un interés estético por controlar el peso. Su mayor desafío radica en la falta de tiempo para planificar comidas y la confusión ante tanta información sobre nutrición. Ha utilizado aplicaciones como Yazio y FatSecret, pero las considera poco personalizadas y difíciles de mantener a largo plazo. Espera que una app de nutrición ofrezca menús adaptados, recomendaciones claras y herramientas visuales para seguir su progreso. Destaca como funciones imprescindibles una interfaz sencilla, metas personalizables, recordatorios y recetas rápidas que se alineen con sus objetivos. |
+| Mariano Torres | La entrevista revela que los principales retos para los nutricionistas son adaptar los planes alimenticios a las rutinas específicas de los pacientes y mantener su motivación a largo plazo. Existe una necesidad clara de herramientas digitales más especializadas, ya que actualmente utilizan soluciones básicas como Excel que no satisfacen completamente sus necesidades. Se identifica una oportunidad importante para una app que permita personalizar dietas de forma rápida, hacer seguimientos en tiempo real y ofrecer recursos educativos actualizados. Además, el seguimiento visual del progreso y la automatización de tareas como la generación de listas de compras serían funciones altamente valoradas para mejorar la eficiencia y la experiencia tanto del nutricionista como del paciente.   |
+| Renato Reyes   | La entrevista revela que los principales retos para los nutricionistas son adaptar los planes alimenticios a las rutinas específicas de los pacientes y mantener su motivación a largo plazo. Existe una necesidad clara de herramientas digitales más especializadas, ya que actualmente utilizan soluciones básicas como Excel que no satisfacen completamente sus necesidades. Se identifica una oportunidad importante para una app que permita personalizar dietas de forma rápida, hacer seguimientos en tiempo real y ofrecer recursos educativos actualizados. Además, el seguimiento visual del progreso y la automatización de tareas como la generación de listas de compras serían funciones altamente valoradas para mejorar la eficiencia y la experiencia tanto del nutricionista como del paciente.   |
 
 ## 2.3. Needfinding
 
@@ -994,37 +994,36 @@ los aspectos negativos identificados en el As-is Scenario.
 
 ## 3.2. User Stories
 
-| Epic/Story ID | Título                                       | Descripción                                                                                                                                       | Criterios de Aceptación                                                                                                                                                               | Relacionado con (Epic ID) |
-|---------------|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| E01           | Gestión de Cuentas                           | Como usuario, quiero crear, iniciar sesión, recuperar y eliminar mi cuenta para acceder a NutriPlan.                                               | Dado un visitante, cuando se registra con datos válidos, entonces se crea la cuenta y se envía una confirmación por correo.                                                       | -                          |
-| US01          | Registro de Usuario                          | Como visitante, quiero registrarme con mi correo y contraseña para crear una cuenta en NutriPlan.                                                 | Dado un visitante, cuando proporciona datos válidos de registro, entonces el sistema crea una cuenta y envía un correo de confirmación.                                              | E01                        |
-| US02          | Inicio y Cierre de Sesión                    | Como usuario, quiero iniciar y cerrar sesión de forma segura para gestionar mi cuenta.                                                            | Dado un usuario con cuenta activa, cuando ingresa sus credenciales válidas, entonces el sistema le permite acceder.                                                                | E01                        |
-| US03          | Recuperación de Contraseña                   | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido.                                                 | Dado un usuario registrado, cuando solicita recuperar contraseña, entonces recibe un correo con un enlace para restablecerla.                                                       | E01                        |
-| US04          | Eliminación de Cuenta                        | Como usuario, quiero eliminar mi cuenta y todos mis datos personales y nutricionales del sistema.                                                | Dado un usuario autenticado, cuando solicita eliminar su cuenta, entonces el sistema elimina todos sus datos asociados.                                                            | E01                        |
-| E02           | Gestión de Perfiles                          | Como usuario, quiero configurar y editar mi perfil para personalizar mi experiencia en NutriPlan.                                                 | Dado un usuario autenticado, cuando completa sus datos y objetivos, entonces el sistema guarda correctamente la información.                                                         | -                          |
-| US05          | Crear Perfil                                 | Como usuario, quiero registrar mis datos personales y objetivos nutricionales para recibir planes adecuados.                                      | Dado un usuario autenticado, cuando ingresa sus datos físicos y metas, entonces el sistema los almacena en su perfil.                                                              | E02                        |
-| US06          | Editar Perfil                                | Como usuario, quiero modificar mis datos de perfil cuando haya cambios en mi estado físico o metas.                                               | Dado un usuario con perfil registrado, cuando actualiza sus datos, entonces el sistema los guarda y actualiza su configuración.                                                      | E02                        |
-| E03           | Gestión de Suscripciones                     | Como usuario, quiero suscribirme a un plan para acceder a las funcionalidades premium de NutriPlan.                                               | Dado un usuario, cuando selecciona un plan y realiza el pago, entonces el sistema activa su suscripción.                                                                          | -                          |
-| US07          | Seleccionar Plan de Suscripción              | Como usuario, quiero elegir un plan según mis necesidades nutricionales.                                                                          | Dado un usuario autenticado, cuando selecciona un plan válido, entonces el sistema le permite proceder al pago.                                                                    | E03                        |
-| US08          | Ver Estado de Suscripción                    | Como usuario, quiero visualizar el estado de mi suscripción para saber si está activa o vencida.                                                 | Dado un usuario con suscripción, cuando accede a su cuenta, entonces el sistema muestra el estado y vencimiento de la suscripción.                                                | E03                        |
-| E04           | Gestión de Pagos                             | Como usuario, quiero pagar mi suscripción de forma segura para acceder a funcionalidades premium.                                                 | Dado un usuario, cuando introduce datos de tarjeta válidos, entonces el pago se procesa correctamente.                                                                            | -                          |
-| US09          | Procesar Pago                                | Como usuario, quiero ingresar los datos de mi tarjeta para pagar mi suscripción.                                                                  | Dado un usuario autenticado, cuando introduce datos válidos de pago, entonces el sistema procesa el cobro y genera un comprobante.                                                 | E04                        |
-| US10          | Ver Historial de Pagos                       | Como usuario, quiero consultar mis pagos anteriores para llevar un control financiero.                                                            | Dado un usuario con historial de pagos, cuando accede a la sección correspondiente, entonces el sistema muestra la lista de pagos con fechas y montos.                             | E04                        |
-| E05           | Planificación Nutricional                    | Como usuario o nutricionista, quiero crear y acceder a planes alimenticios personalizados para cumplir mis metas.                                | Dado un nutricionista autenticado, cuando crea un plan con objetivos, días y comidas, entonces el sistema lo guarda correctamente.                                                | -                          |
-| US11          | Crear Plan Nutricional                       | Como nutricionista, quiero crear planes alimenticios personalizados para mis pacientes.                                                          | Dado un nutricionista autenticado, cuando define un plan con comidas, horarios y objetivos, entonces el sistema lo registra y asocia al usuario.                                    | E05                        |
-| US12          | Ver Plan Nutricional Activo                   | Como usuario, quiero visualizar mi plan nutricional vigente para seguirlo diariamente.                                                            | Dado un usuario con plan activo, cuando accede a su perfil, entonces el sistema muestra las comidas organizadas por día.                                                           | E05                        |
-| E06           | Seguimiento de Progreso                      | Como usuario, quiero registrar y ver mi progreso nutricional y físico para evaluar mis avances.                                                   | Dado un usuario, cuando registra datos como peso y medidas, entonces el sistema los almacena correctamente.                                                                      | -                          |
-| US13          | Registrar Progreso                           | Como usuario, quiero ingresar mi peso y medidas periódicamente para llevar control.                                                               | Dado un usuario autenticado, cuando ingresa sus datos de progreso, entonces el sistema los guarda y vincula a su cuenta.                                                           | E06                        |
-| US14          | Ver Gráficos de Progreso                     | Como usuario, quiero visualizar gráficos con la evolución de mi estado físico.                                                                    | Dado un usuario con datos de progreso, cuando accede a su historial, entonces ve representaciones gráficas de su evolución.                                                      | E06                        |
-| E07           | Catálogo de Alimentos                        | Como nutricionista, quiero consultar un catálogo de alimentos con información nutricional para planificar dietas.                                | Dado un nutricionista, cuando busca alimentos por nombre o categoría, entonces el sistema muestra resultados relevantes.                                                           | -                          |
-| US15          | Buscar Alimentos                             | Como nutricionista, quiero buscar alimentos por nombre o categoría.                                                                               | Dado un nutricionista autenticado, cuando realiza una búsqueda, entonces el sistema muestra los alimentos coincidentes.                                                           | E07                        |
-| US16          | Ver Información Nutricional                  | Como nutricionista, quiero ver la información nutricional completa de cada alimento.                                                              | Dado un alimento, cuando se accede a su detalle, entonces el sistema muestra su perfil nutricional.                                                                                | E07                        |
-| E08           | Página de Inicio (Landing Page)              | Como visitante, quiero acceder a la landing page para conocer la app antes de registrarme.                                                       | Dado un visitante, cuando accede al sitio, entonces puede ver información sobre beneficios, precios y testimonios.                                                                | -                          |
-| US17          | Ver Información en Landing                   | Como visitante, quiero conocer las funciones y ventajas de NutriPlan antes de registrarme.                                                       | Dado un visitante, cuando entra al sitio, entonces puede leer las secciones de beneficios, testimonios y funcionalidades.                                                          | E08                        |
-| US18          | Registro desde Landing                       | Como visitante, quiero iniciar mi registro desde la página informativa.                                                                           | Dado un visitante interesado, cuando hace clic en “Registrarse”, entonces el sistema lo redirige al formulario de creación de cuenta.                                              | E08                        |
-| US19          | Exponer API IAM                              | Como desarrollador, quiero exponer endpoints de autenticación y gestión de cuentas para el backend de NutriPlan.                                  | Dado un request POST /auth/registro con datos válidos, entonces se crea el usuario y retorna 201.                                                                                   | -                          |
-| US20          | API de Planes Nutricionales                   | Como desarrollador, quiero desarrollar endpoints para crear y obtener planes nutricionales.                                                     | Dado un request POST /planes con datos válidos, entonces se registra el plan nutricional y retorna 201.                                                                             | -                          |
-
+| Epic/Story ID | Título                          | Descripción                                                                                                       | Criterios de Aceptación                                                                                                                                | Relacionado con (Epic ID) |
+| ------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| E01           | Gestión de Cuentas              | Como usuario, quiero crear, iniciar sesión, recuperar y eliminar mi cuenta para acceder a NutriPlan.              | Dado un visitante, cuando se registra con datos válidos, entonces se crea la cuenta y se envía una confirmación por correo.                            | -                         |
+| US01          | Registro de Usuario             | Como visitante, quiero registrarme con mi correo y contraseña para crear una cuenta en NutriPlan.                 | Dado un visitante, cuando proporciona datos válidos de registro, entonces el sistema crea una cuenta y envía un correo de confirmación.                | E01                       |
+| US02          | Inicio y Cierre de Sesión       | Como usuario, quiero iniciar y cerrar sesión de forma segura para gestionar mi cuenta.                            | Dado un usuario con cuenta activa, cuando ingresa sus credenciales válidas, entonces el sistema le permite acceder.                                    | E01                       |
+| US03          | Recuperación de Contraseña      | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido.                 | Dado un usuario registrado, cuando solicita recuperar contraseña, entonces recibe un correo con un enlace para restablecerla.                          | E01                       |
+| US04          | Eliminación de Cuenta           | Como usuario, quiero eliminar mi cuenta y todos mis datos personales y nutricionales del sistema.                 | Dado un usuario autenticado, cuando solicita eliminar su cuenta, entonces el sistema elimina todos sus datos asociados.                                | E01                       |
+| E02           | Gestión de Perfiles             | Como usuario, quiero configurar y editar mi perfil para personalizar mi experiencia en NutriPlan.                 | Dado un usuario autenticado, cuando completa sus datos y objetivos, entonces el sistema guarda correctamente la información.                           | -                         |
+| US05          | Crear Perfil                    | Como usuario, quiero registrar mis datos personales y objetivos nutricionales para recibir planes adecuados.      | Dado un usuario autenticado, cuando ingresa sus datos físicos y metas, entonces el sistema los almacena en su perfil.                                  | E02                       |
+| US06          | Editar Perfil                   | Como usuario, quiero modificar mis datos de perfil cuando haya cambios en mi estado físico o metas.               | Dado un usuario con perfil registrado, cuando actualiza sus datos, entonces el sistema los guarda y actualiza su configuración.                        | E02                       |
+| E03           | Gestión de Suscripciones        | Como usuario, quiero suscribirme a un plan para acceder a las funcionalidades premium de NutriPlan.               | Dado un usuario, cuando selecciona un plan y realiza el pago, entonces el sistema activa su suscripción.                                               | -                         |
+| US07          | Seleccionar Plan de Suscripción | Como usuario, quiero elegir un plan según mis necesidades nutricionales.                                          | Dado un usuario autenticado, cuando selecciona un plan válido, entonces el sistema le permite proceder al pago.                                        | E03                       |
+| US08          | Ver Estado de Suscripción       | Como usuario, quiero visualizar el estado de mi suscripción para saber si está activa o vencida.                  | Dado un usuario con suscripción, cuando accede a su cuenta, entonces el sistema muestra el estado y vencimiento de la suscripción.                     | E03                       |
+| E04           | Gestión de Pagos                | Como usuario, quiero pagar mi suscripción de forma segura para acceder a funcionalidades premium.                 | Dado un usuario, cuando introduce datos de tarjeta válidos, entonces el pago se procesa correctamente.                                                 | -                         |
+| US09          | Procesar Pago                   | Como usuario, quiero ingresar los datos de mi tarjeta para pagar mi suscripción.                                  | Dado un usuario autenticado, cuando introduce datos válidos de pago, entonces el sistema procesa el cobro y genera un comprobante.                     | E04                       |
+| US10          | Ver Historial de Pagos          | Como usuario, quiero consultar mis pagos anteriores para llevar un control financiero.                            | Dado un usuario con historial de pagos, cuando accede a la sección correspondiente, entonces el sistema muestra la lista de pagos con fechas y montos. | E04                       |
+| E05           | Planificación Nutricional       | Como usuario o nutricionista, quiero crear y acceder a planes alimenticios personalizados para cumplir mis metas. | Dado un nutricionista autenticado, cuando crea un plan con objetivos, días y comidas, entonces el sistema lo guarda correctamente.                     | -                         |
+| US11          | Crear Plan Nutricional          | Como nutricionista, quiero crear planes alimenticios personalizados para mis pacientes.                           | Dado un nutricionista autenticado, cuando define un plan con comidas, horarios y objetivos, entonces el sistema lo registra y asocia al usuario.       | E05                       |
+| US12          | Ver Plan Nutricional Activo     | Como usuario, quiero visualizar mi plan nutricional vigente para seguirlo diariamente.                            | Dado un usuario con plan activo, cuando accede a su perfil, entonces el sistema muestra las comidas organizadas por día.                               | E05                       |
+| E06           | Seguimiento de Progreso         | Como usuario, quiero registrar y ver mi progreso nutricional y físico para evaluar mis avances.                   | Dado un usuario, cuando registra datos como peso y medidas, entonces el sistema los almacena correctamente.                                            | -                         |
+| US13          | Registrar Progreso              | Como usuario, quiero ingresar mi peso y medidas periódicamente para llevar control.                               | Dado un usuario autenticado, cuando ingresa sus datos de progreso, entonces el sistema los guarda y vincula a su cuenta.                               | E06                       |
+| US14          | Ver Gráficos de Progreso        | Como usuario, quiero visualizar gráficos con la evolución de mi estado físico.                                    | Dado un usuario con datos de progreso, cuando accede a su historial, entonces ve representaciones gráficas de su evolución.                            | E06                       |
+| E07           | Catálogo de Alimentos           | Como nutricionista, quiero consultar un catálogo de alimentos con información nutricional para planificar dietas. | Dado un nutricionista, cuando busca alimentos por nombre o categoría, entonces el sistema muestra resultados relevantes.                               | -                         |
+| US15          | Buscar Alimentos                | Como nutricionista, quiero buscar alimentos por nombre o categoría.                                               | Dado un nutricionista autenticado, cuando realiza una búsqueda, entonces el sistema muestra los alimentos coincidentes.                                | E07                       |
+| US16          | Ver Información Nutricional     | Como nutricionista, quiero ver la información nutricional completa de cada alimento.                              | Dado un alimento, cuando se accede a su detalle, entonces el sistema muestra su perfil nutricional.                                                    | E07                       |
+| E08           | Página de Inicio (Landing Page) | Como visitante, quiero acceder a la landing page para conocer la app antes de registrarme.                        | Dado un visitante, cuando accede al sitio, entonces puede ver información sobre beneficios, precios y testimonios.                                     | -                         |
+| US17          | Ver Información en Landing      | Como visitante, quiero conocer las funciones y ventajas de NutriPlan antes de registrarme.                        | Dado un visitante, cuando entra al sitio, entonces puede leer las secciones de beneficios, testimonios y funcionalidades.                              | E08                       |
+| US18          | Registro desde Landing          | Como visitante, quiero iniciar mi registro desde la página informativa.                                           | Dado un visitante interesado, cuando hace clic en “Registrarse”, entonces el sistema lo redirige al formulario de creación de cuenta.                  | E08                       |
+| US19          | Exponer API IAM                 | Como desarrollador, quiero exponer endpoints de autenticación y gestión de cuentas para el backend de NutriPlan.  | Dado un request POST /auth/registro con datos válidos, entonces se crea el usuario y retorna 201.                                                      | -                         |
+| US20          | API de Planes Nutricionales     | Como desarrollador, quiero desarrollar endpoints para crear y obtener planes nutricionales.                       | Dado un request POST /planes con datos válidos, entonces se registra el plan nutricional y retorna 201.                                                | -                         |
 
 ## 3.3 Impact Mapping
 
@@ -2885,7 +2884,6 @@ En esta sección, tendrás la posibilidad de gestionar y personalizar los sistem
 
 #### 5.1.2.3 SEO Tags and Meta Tags
 
-
 **SEO Tags**
 
 a. Title Tag:
@@ -2896,14 +2894,13 @@ b. Meta Description Tag:
 
 <meta name="description" content="Descubre, personaliza y mejora tu salud con NutriPlan, la plataforma que ofrece planes de dieta personalizados, asesoría nutricional y herramientas para un estilo de vida saludable.">
 
-
 **Meta Tags**
 
 a. Meta Robots Tag: Este tag indica a los motores de búsqueda que indexen el sitio y sigan los enlaces para mejorar la visibilidad de NutriPlan.
 
 <meta name="robots" content="index, follow">
 
-b. Meta Author Tag: Este meta tag se refiere al autor del contenido. 
+b. Meta Author Tag: Este meta tag se refiere al autor del contenido.
 
 <meta name="author" content="NutriPlan Inc.">
 
@@ -2971,8 +2968,6 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 ### 5.1.4.2 Mobile Applications Wireflow Diagrams
 
-
-
 ### 5.1.4.3 Mobile Applications Mock-up
 
 <img src="img/mobm1.png" width="1000" height="500">
@@ -2983,22 +2978,20 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/mobm4.png" width="1200" height="400">
 
-
 # Capitulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1 Software Configuration Management
 
 ### 6.1.1 Software Development Environment Configuration
 
-
 En esta seccion se proporcionara los enlaces a las aplicaciones que se usaran para mantener la coherencia del desarollo del proyecto, siendo estas clasificadas en software basado en modelos Saas y productos que se ejecuten en las computadoras .Tendremos las siguientes secciones.
 
-* Project Management
-* Requirements Management
-* Product UX/UI Design
-* Software Development
-* Software Testing
-* Software Documentation
+- Project Management
+- Requirements Management
+- Product UX/UI Design
+- Software Development
+- Software Testing
+- Software Documentation
 
 ## Project Management
 
@@ -3061,8 +3054,7 @@ Para la gestion del proyecto se usara software que se ejecuten en computadoras, 
 
 La gestion de requerimientos sera una herramienta de tipo Saas, aplicacion web, que permitira la organizacion de los rquerimientos planteados para nuestra aplicacion web.
 
-* **Pivotal Tracker:** Ea una herramienta que facilita la gestión de las historias de usuario, organizándolas en epopeyas y evaluando su importancia en el programa según su puntuación. Se utilizo para gestionar el avanze del desarrollo de la aplicacion entre todos los mienbros del equipo.
-
+- **Pivotal Tracker:** Ea una herramienta que facilita la gestión de las historias de usuario, organizándolas en epopeyas y evaluando su importancia en el programa según su puntuación. Se utilizo para gestionar el avanze del desarrollo de la aplicacion entre todos los mienbros del equipo.
 
 ## Product UX/UI Design
 
@@ -3119,7 +3111,6 @@ Landing Page Repository: https://github.com/HealTeam1/Landing-Page
 Front.end Repository: https://github.com/HealTeam1/NutriPlanProject
 
 Back-end Repository: https://github.com/HealTeam1/NutriHealthBackend
-
 
 Además, para optimizar el control de nuestro proyecto utilizamos GitFlow en la gestión de ramas y modificaciones en el código fuente. En este flujo de trabajo, se emplean dos ramas principales: main y develop.
 
@@ -3189,6 +3180,38 @@ Netlify se utiliza como plataforma de despliegue para nuestra Landing Page. Nos 
 
 link del landing desplegado: https://nutriplan-landing.netlify.app/
 
+**4.Railway**
+Railway se utiliza como plataforma de despliegue para nuestro backend. Nos permite desplegar el proyecto de manera sencilla y automática.
+
+- Ingresamos a railway:
+  <img src="/img/deploy-backend/dashboard.png">
+
+- Creamos el proyecto
+
+<img src="/img/deploy-backend/create-project.png">
+
+- Agregamos la base de datos
+
+<img src="/img/deploy-backend/add-database.png">
+
+- Agregamos el repositorio
+
+<img src="/img/deploy-backend/add-repository.png">
+
+- Conectamos el backend con la base de datos
+
+<img src="/img/deploy-backend/connect-backend-with-database.png">
+
+- Despliegue exitoso
+
+<img src="/img/deploy-backend/deployment-successfully.png">
+
+- swagger desde link generado por railway
+
+<img src="/img/deploy-backend/swagger-deployment.png">
+
+Link : https://nutrihealthbackend-production.up.railway.app/swagger-ui/index.html#/
+
 ## 6.2 Landing Page && Mobile Application Implementation
 
 ### 6.2.1 Sprint 1
@@ -3245,18 +3268,16 @@ link del landing desplegado: https://nutriplan-landing.netlify.app/
   </tr>
 </table>
 
-
 #### 6.2.1.2 Sprint Backlog 1
 
 ## Tabla de Avance – Landing Page
 
-|  Historia de Usuario |  Título           |  Relación con Product Backlog         |  Tarea Técnica         |  Descripción                                                                                          | Estimación (Horas) |  Asignado a  |  Estado |
-|------------------------|--------------------------------------------|-----------------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------|------------------------|----------------------|-----------|
-| HU15                   | Visualizar página informativa              | US15 – Ver recetas saludables           | T01                      | Programar la landing page comenzando por el HTML.                                                        | 4                      | Daiki Oshiro         | Done      |
-| HU17                   | Landing Page intuitiva                     | US15 – Ver recetas saludables           | T02                      | Asignar estilos generales para la página (CSS).                                                          | 4                      | Daiki Oshiro         | Done      |
-| US10                   | Diseño de Mockups y Wireframes (Landing)   | Diseño visual inicial del producto      | T27                      | Diseñar los mockups y wireframes de la landing page.                                                     | 6                      | Leonardo Dueñas      | Done      |
-| US11                   | Diseño de Mockups y Wireframes (App)       | Diseño visual general                   | T28                      | Diseñar los mockups de la aplicación móvil, que podrían tener influencia visual sobre la landing.        | 6                      | Jessica Comettant    | Done      |
-
+| Historia de Usuario | Título                                   | Relación con Product Backlog       | Tarea Técnica | Descripción                                                                                       | Estimación (Horas) | Asignado a        | Estado |
+| ------------------- | ---------------------------------------- | ---------------------------------- | ------------- | ------------------------------------------------------------------------------------------------- | ------------------ | ----------------- | ------ |
+| HU15                | Visualizar página informativa            | US15 – Ver recetas saludables      | T01           | Programar la landing page comenzando por el HTML.                                                 | 4                  | Daiki Oshiro      | Done   |
+| HU17                | Landing Page intuitiva                   | US15 – Ver recetas saludables      | T02           | Asignar estilos generales para la página (CSS).                                                   | 4                  | Daiki Oshiro      | Done   |
+| US10                | Diseño de Mockups y Wireframes (Landing) | Diseño visual inicial del producto | T27           | Diseñar los mockups y wireframes de la landing page.                                              | 6                  | Leonardo Dueñas   | Done   |
+| US11                | Diseño de Mockups y Wireframes (App)     | Diseño visual general              | T28           | Diseñar los mockups de la aplicación móvil, que podrían tener influencia visual sobre la landing. | 6                  | Jessica Comettant | Done   |
 
 <div align="center">
   <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
@@ -3264,12 +3285,12 @@ link del landing desplegado: https://nutriplan-landing.netlify.app/
 
 #### 6.2.1.3 Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit <br>Message | Author | Commited <br>on (Date) |
-|:-------------:|:---------------:|:-------------:|:-------------:|:---------------:|:-------------:|
-| Landing Page | main | 3205ccb | Initial commit   | DaikiOY | 09/05/2025 |
-| Front End | main | 0096cc5 | Update chapter VI   | Insonnio| 11/05/2025 |
+|  Repository  | Branch | Commit Id | Commit <br>Message |  Author  | Commited <br>on (Date) |
+| :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
+| Landing Page |  main  |  3205ccb  |   Initial commit   | DaikiOY  |       09/05/2025       |
+|  Front End   |  main  |  0096cc5  | Update chapter VI  | Insonnio |       11/05/2025       |
 
-#### 6.2.1.5  Execution Evidence for Sprint Review
+#### 6.2.1.5 Execution Evidence for Sprint Review
 
 Tras el desarrolo de la Landing Page en el Sprint 1, obtuvimos el siguiente resultado:
 
@@ -3279,9 +3300,9 @@ Tras el desarrolo de la Landing Page en el Sprint 1, obtuvimos el siguiente resu
 
 <img src="img/lad3.png" width="900" height="600">
 
-#### 6.2.1.6  Services Documentation Evidence for Sprint Review
+#### 6.2.1.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 1, se ha desplegado el Landing Page, usando Netlify bajo el dominio ".netlify.app" de forma gratuita. Y se puede visualizar bajo el siguiente link: 
+En el Sprint 1, se ha desplegado el Landing Page, usando Netlify bajo el dominio ".netlify.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
 
 <img src="img/laddeploy.png" width="900" height="600">
 
@@ -3339,7 +3360,6 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 - Iteración continua: Mantener una cultura de mejora constante basada en el feedback de usuarios, estableciendo ciclos cortos de experimentación (Lean) en las siguientes fases del desarrollo.
 
 <div style="page-break-after: always;"></div>
-
 
 # Bibliografía
 
