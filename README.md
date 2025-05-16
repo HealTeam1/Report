@@ -2978,6 +2978,28 @@ Estará compuesta por enlaces relevantes que redirigen a otras secciones de Nutr
 
 <img src="img/mobm4.png" width="1200" height="400">
 
+### 5.1.4.4 Mobile Applications UseFlow Diagrams
+
+##### User Goal: Iniciar Sesion
+
+![Image](https://github.com/user-attachments/assets/78f5b6d9-df9f-4039-8659-cf9a9db0ed77)
+
+##### User Goal: Ver Perfil
+
+![Image](https://github.com/user-attachments/assets/abb89c1c-fc17-4935-959d-4d2cc9a1dbe4)
+
+##### User Goal: Ver funciones Nutricionista
+
+![Image](https://github.com/user-attachments/assets/63b80172-64f1-4140-9899-28fd7e58bf21)
+
+##### User Goal: Cancelar suscripcion
+
+![Image](https://github.com/user-attachments/assets/09587a50-4f09-4c58-ab1b-e68a552874ba)
+
+##### User Goal: Ver funciones usuario
+
+![Image](https://github.com/user-attachments/assets/8e3431c5-c1ba-450f-9967-5fa2ad075a91)
+
 # Capitulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1 Software Configuration Management
