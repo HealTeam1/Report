@@ -3478,6 +3478,60 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 
 <img src="img/commits-backend.png" width="900" height="600">
 
+### 6.2.3 Sprint 2
+
+#### 6.2.3.1 Sprint Planning 2
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 2 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 15/05/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 21:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Virtual (Google Meet) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> Todos los integrantes del grupo HealTeam </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td>Se implementó el Landing Page y se desplegó usando netlify </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> En este sprint como equipo logramos desplegar la aplicación mobil forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
+    <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión mobil de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del backend</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 8 </td>
+  </tr>
+</table>
+
 ### Conclusiones
 
 **Conclusiones y recomendaciones**
