@@ -3386,19 +3386,19 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
     <td> Todos los integrantes del grupo HealTeam </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-    <td>Se implementó el Landing Page y se desplegó usando netlify </td>
+    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+    <td>Se implementó la primera versión del Backend </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
     <td> En este sprint como equipo logramos desplegar la landing page de forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
+    <td style="font-weight: bold;"> Sprint 2 Goal & User Stories</td>
     <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión del backend de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td style="font-weight: bold;"> Sprint 2 Velocity </td>
     <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del backend</td>
   </tr>
   <tr>
@@ -3478,25 +3478,25 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 
 <img src="img/commits-backend.png" width="900" height="600">
 
-### 6.2.3 Sprint 2
+### 6.2.3 Sprint 3
 
-#### 6.2.3.1 Sprint Planning 2
+#### 6.2.3.1 Sprint Planning 3
 
 <table>
   <tr>
     <th> Sprint # </th>
-    <th> Sprint 2 </th>
+    <th> Sprint 3 </th>
   </tr>
   <tr>
     <td style="font-weight: bold;" colspan="2"> Sprint Planning Background </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Date </td>
-    <td> 15/05/2025 </td>
+    <td> 14/05/2025 </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Time </td>
-    <td> 21:00 horas (GMT-5) </td>
+    <td> 20:00 horas (GMT-5) </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Location </td>
@@ -3511,26 +3511,27 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
     <td> Todos los integrantes del grupo HealTeam </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-    <td>Se implementó la aplicación mobile y se desplegó usando direbase </td>
+    <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
+    <td> Durante este sprint se avanzó con el desarrollo de la aplicación móvil de NutriPlan. Se implementaron pantallas principales como el login, registro y visualización del perfil, asegurando una navegación fluida entre componentes. Además, se establecieron las bases para la integración con servicios backend. </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
-    <td> En este sprint como equipo logramos desplegar la aplicación mobile forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
+    <td style="font-weight: bold;"> Sprint 3 Retrospective Summary </td>
+    <td> El equipo resaltó el progreso significativo en el desarrollo móvil. Se identificaron áreas de mejora en la asignación de tareas y en la documentación del código para facilitar futuras integraciones. Se destacó la necesidad de estandarizar componentes reutilizables para mantener coherencia visual. </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
-    <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión mobile de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
+    <td style="font-weight: bold;"> Sprint 3 Goal & User Stories </td>
+    <td> El objetivo principal del Sprint 3 fue construir las funcionalidades básicas de la aplicación móvil de NutriPlan. Las historias de usuario abordaron la autenticación, el acceso a perfiles de nutricionistas, y la experiencia inicial del usuario en dispositivos móviles. </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura de la aplicación mobile</td>
+    <td style="font-weight: bold;"> Sprint 3 Velocity </td>
+    <td> <strong>13</strong><br> El equipo estableció una capacidad de 13 Story Points para este Sprint, reflejando el crecimiento en la experiencia de desarrollo y el enfoque en funcionalidades esenciales. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
-    <td> 8 </td>
+    <td> 13 </td>
   </tr>
 </table>
+
 
 ### Conclusiones
 
