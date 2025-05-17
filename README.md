@@ -3512,19 +3512,19 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-    <td>Se implementó el Landing Page y se desplegó usando netlify </td>
+    <td>Se implementó la aplicación mobile y se desplegó usando direbase </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
-    <td> En este sprint como equipo logramos desplegar la aplicación mobil forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
+    <td> En este sprint como equipo logramos desplegar la aplicación mobile forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
-    <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión mobil de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
+    <td> El objetivo principal del Sprint 2 fue desarrollar y desplegar la primera versión mobile de NutriPlan, sirviendo como núcleo para la lógica de negocio. Se crearon historias de usuario enfocadas en estructurar el dominio mediante Domain Driven Design, implementar los servicios de aplicación necesarios y configurar la persistencia de datos, estableciendo así una base sólida para las siguientes funcionalidades.</td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del backend</td>
+    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura de la aplicación mobile</td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
