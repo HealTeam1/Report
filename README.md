@@ -3407,7 +3407,7 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
   </tr>
 </table>
 
-#### 6.2.1.2 Sprint Backlog 2
+#### 6.2.2.2 Sprint Backlog 2
 
 ## Tabla de Avance – Backend
 
@@ -3428,7 +3428,7 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
   <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
 </div>
 
-#### 6.2.1.3 Development Evidence for Sprint Review
+#### 6.2.2.3 Development Evidence for Sprint Review
 
 |     Repository     | Branch | Commit Id |                              Commit <br>Message                               |         Author          | Commited <br>on (Date) |
 | :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :---------------------: | :--------------------: |
@@ -3446,13 +3446,13 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
 | NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                | Alejandro Espino Flores |       13/05/2025       |
 | NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              | Alejandro Espino Flores |       14/05/2025       |
 
-#### 6.2.1.5 Execution Evidence for Sprint Review
+#### 6.2.2.5 Execution Evidence for Sprint Review
 
 Tras el desarrollo del backend en el Sprint 2, obtuvimos el siguiente resultado:
 
 <img src="img/deploy-backend/swagger-deployment.png" width="900" height="200" style="object-fit:cover">
 
-#### 6.2.1.6 Services Documentation Evidence for Sprint Review
+#### 6.2.2.6 Services Documentation Evidence for Sprint Review
 
 En el Sprint 1, se ha desplegado el Backend , usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
 
@@ -3460,7 +3460,7 @@ En el Sprint 1, se ha desplegado el Backend , usando Railway bajo el dominio ".r
 
 link del landing page: https://nutrihealthbackend-production.up.railway.app/swagger-ui.html
 
-#### 6.2.1.7 Software Deployment Evidence for Sprint Review
+#### 6.2.2.7 Software Deployment Evidence for Sprint Review
 
 En este sprint, se ha desarrollado la API de la aplicación web, utilizando las siguientes herramientas. No obstante, el despliegue de la API no está incluido en el alcance de este sprint.
 
@@ -3472,7 +3472,7 @@ En este sprint, se ha desarrollado la API de la aplicación web, utilizando las 
 <li> Swagger Ui: Herramienta destinada a probar y documentar nuestra API.</li>
 Además, para el despliegue del backend  se utilizó el servicio de **Railway**, que permitió publicar el backend y la base de datos de manera sencilla.
 
-#### 6.2.1.8 Team Collaboration Insights during Sprint
+#### 6.2.2.8 Team Collaboration Insights during Sprint
 
 A continuación se mostrarán el gráfico de insights durante el sprint:
 
@@ -3532,6 +3532,18 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
   </tr>
 </table>
 
+#### 6.2.3.2 Sprint Backlog 3
+
+## Tabla de Avance – Front-end
+
+| Historia de Usuario | Título del Desarrollo Frontend                      | Relación con Product Backlog   | Tarea Técnica | Descripción técnica del desarrollo frontend                                                              | Estimación (Horas) | Asignado a      | Estado   |
+|---------------------|----------------------------------------------------|--------------------------------|---------------|------------------------------------------------------------------------------------------------------------|--------------------|-----------------|----------|
+| US01                | Registro de usuario en app móvil                   | US01 – Registro de Usuario     | T101          | Crear formulario de registro con validaciones de campos e integración visual según diseño.                 | 5                  | Pardo Zapata, Gustavo Adolfo  | In Progress |
+| US02                | Inicio de sesión en app móvil                      | US02 – Inicio de sesión        | T102          | Implementar pantalla de login con campos de email y contraseña, conexión con backend simulada.            | 5                  | Pardo Zapata, Gustavo Adolfo        | To Do     |
+| US04                | Creación de perfil de usuario                      | US04 – Crear perfil            | T103          | Desarrollar pantalla para completar perfil nutricional (edad, género, peso, metas).                        | 6                  | Pardo Zapata, Gustavo Adolfo      | To Do     |
+| US07                | Pantalla de plan alimenticio personalizado         | US07 – Generar plan alimenticio| T104          | Programar visualización del plan semanal en vista tipo calendario/lista con tarjetas interactivas.         | 8                  | Pardo Zapata, Gustavo Adolfo         | To Do     |
+| US10                | Configuración de restricciones alimentarias        | US10 – Restricciones           | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles).         | 6                  | Pardo Zapata, Gustavo Adolfo        | To Do     |
+| US08                | Visualización del plan diario                      | US08 – Consultar plan diario   | T107          | Crear pantalla con menú del día, dividido por tiempos de comida.                                          | 5                  | Pardo Zapata, Gustavo Adolfo  | To Do     |
 
 ### Conclusiones
 
