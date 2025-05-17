@@ -3555,7 +3555,7 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 
 #### 6.2.3.5 Execution Evidence for Sprint Review
 
-Tras el desarrolo de la Landing Page en el Sprint 3, obtuvimos el siguiente resultado:
+Tras el desarrolo del Front-end en el Sprint 3, obtuvimos el siguiente resultado:
 
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
 
@@ -3569,11 +3569,23 @@ link del front-end:
 
 Para el desarrollo del front-end se emplearon las siguientes tecnologías:
 
+- Kotlin: Lenguaje principal utilizado para programar la aplicación móvil de NutriPlan, por su compatibilidad con Android y su sintaxis moderna.
 
+- Android Studio: IDE usado para escribir, probar y ejecutar la aplicación.
+
+- XML: Para definir algunas interfaces de usuario en caso de no usar Jetpack Compose.
+
+- Material Design: Para aplicar componentes visuales y estilos consistentes en la interfaz.
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 
-Para el desarrollo de la fronte-nd de NutriPlan, el equipo adoptó la metodología 
+Para el desarrollo de la fronte-end de NutriPlan se uso GitHub como plataforma de control de versiones y colaboración facilitó la revisión de código, integración continua y documentación del desarrollo. A través de pull requests, issues y commits estructurados, se logró mantener una trazabilidad clara de las decisiones y cambios implementados.
+
+Gracias a esta estructura y herramientas, el equipo logró construir un frontend robusto, mantenible y alineado con los requerimientos del producto. A continuación, se detallan las tareas asignadas a cada integrante y sus respectivos aportes reflejados en el repositorio de GitHub durante el desarrollo del frontend.
+
+<img src="img/sprint3cola.png" width="900" height="600">
+
+<img src="img/sprint3cola2.png" width="900" height="600">
 
 ### Conclusiones
 
