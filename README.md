@@ -3538,12 +3538,42 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 
 | Historia de Usuario | Título del Desarrollo Frontend                      | Relación con Product Backlog   | Tarea Técnica | Descripción técnica del desarrollo frontend                                                              | Estimación (Horas) | Asignado a      | Estado   |
 |---------------------|----------------------------------------------------|--------------------------------|---------------|------------------------------------------------------------------------------------------------------------|--------------------|-----------------|----------|
-| US01                | Registro de usuario en app móvil                   | US01 – Registro de Usuario     | T101          | Crear formulario de registro con validaciones de campos e integración visual según diseño.                 | 5                  | Pardo Zapata, Gustavo Adolfo  | In Progress |
-| US02                | Inicio de sesión en app móvil                      | US02 – Inicio de sesión        | T102          | Implementar pantalla de login con campos de email y contraseña, conexión con backend simulada.            | 5                  | Pardo Zapata, Gustavo Adolfo        | To Do     |
-| US04                | Creación de perfil de usuario                      | US04 – Crear perfil            | T103          | Desarrollar pantalla para completar perfil nutricional (edad, género, peso, metas).                        | 6                  | Pardo Zapata, Gustavo Adolfo      | To Do     |
+| US01                | Registro de usuario en app móvil                   | US01 – Registro de Usuario     | T101          | Crear formulario de registro con validaciones de campos e integración visual según diseño.                 | 5                  | Pardo Zapata, Gustavo Adolfo  | Done |
+| US02                | Inicio de sesión en app móvil                      | US02 – Inicio de sesión        | T102          | Implementar pantalla de login con campos de email y contraseña, conexión con backend simulada.            | 5                  | Pardo Zapata, Gustavo Adolfo        | Done     |
+| US04                | Creación de perfil de usuario                      | US04 – Crear perfil            | T103          | Desarrollar pantalla para completar perfil nutricional (edad, género, peso, metas).                        | 6                  | Pardo Zapata, Gustavo Adolfo      | Done     |
 | US07                | Pantalla de plan alimenticio personalizado         | US07 – Generar plan alimenticio| T104          | Programar visualización del plan semanal en vista tipo calendario/lista con tarjetas interactivas.         | 8                  | Pardo Zapata, Gustavo Adolfo         | To Do     |
 | US10                | Configuración de restricciones alimentarias        | US10 – Restricciones           | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles).         | 6                  | Pardo Zapata, Gustavo Adolfo        | To Do     |
-| US08                | Visualización del plan diario                      | US08 – Consultar plan diario   | T107          | Crear pantalla con menú del día, dividido por tiempos de comida.                                          | 5                  | Pardo Zapata, Gustavo Adolfo  | To Do     |
+| US08                | Visualización del plan diario                      | US08 – Consultar plan diario   | T107          | Crear pantalla con menú del día, dividido por tiempos de comida.                                          | 5                  | Pardo Zapata, Gustavo Adolfo  | Done    |
+
+#### 6.2.3.3 Development Evidence for Sprint Review
+
+|  Repository  | Branch | Commit Id | Commit <br>Message |  Author  | Commited <br>on (Date) |
+| :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
+| Front End |  main  |  3205ccb  |   First commit   | GAPZ17  |       14/05/2025       |
+|  Front End   |  main  |  0096cc5  | Merge pull request #1 from HealTeam1/Develop  | GAPZ17 |       15/05/2025       |
+
+
+#### 6.2.3.5 Execution Evidence for Sprint Review
+
+Tras el desarrolo de la Landing Page en el Sprint 3, obtuvimos el siguiente resultado:
+
+#### 6.2.3.6 Services Documentation Evidence for Sprint Review
+
+En el Sprint 3, se ha desplegado el Front-end. Y se puede visualizar bajo el siguiente link:
+
+
+
+link del front-end:
+
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+
+Para el desarrollo del front-end se emplearon las siguientes tecnologías:
+
+
+
+#### 6.2.3.8 Team Collaboration Insights during Sprint
+
+Para el desarrollo de la fronte-nd de NutriPlan, el equipo adoptó la metodología 
 
 ### Conclusiones
 
