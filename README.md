@@ -195,19 +195,45 @@ GitHub (repositorio principal del informe en formato Markdown)
   - [6.1.2 Source Code Management](#612-source-code-management)
   - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
 
-- [6.2 Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+- [6.2 Landing Page & Mobile Application Implementation](#62-landing-page-mobile-application-implementation)
 
-  - [6.2.X Sprint 1](#62x-sprint-1)
-    - [6.2.X.1 Sprint Planning 1](#62x1-sprint-planning-1)
-    - [6.2.X.2 Sprint Backlog 1](#62x2-sprint-backlog-1)
-    - [6.2.X.3 Execution Evidence for Sprint Review](#62x3-execution-evidence-for-sprint-review)
-    - [6.2.X.4 Services Documentation Evidence for Sprint Review](#62x4-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.5 Software Deployment Evidence for Sprint Review](#62x5-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+  - [6.2.1 Sprint 1](#621-sprint-1)
+    - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)
+    - [6.2.1.3 Development Evidence for Sprint Review](#6213-Development-Evidence-for-sprint-review)
+    - [6.2.1.5 Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    - [6.2.1.6 Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.7 Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.8 Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 
-  [Conclusiones](#conclusiones-1)
+  - [6.2.2 Sprint 2](#622-sprint-2)
+    - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)
+    - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)
+    - [6.2.2.3 Development Evidence for Sprint Review](#6223-Development-Evidence-for-sprint-review)
+    - [6.2.2.5 Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+    - [6.2.2.6 Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.7 Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.8 Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+
+  - [6.2.3 Sprint 3](#623-sprint-3)
+    - [6.2.3.1 Sprint Planning 3](#6231-sprint-planning-3)
+    - [6.2.3.2 Sprint Backlog 3](#6232-sprint-backlog-3)
+    - [6.2.3.3 Development Evidence for Sprint Review](#6233-Development-Evidence-for-sprint-review)
+    - [6.2.3.5 Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+    - [6.2.3.6 Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
+    - [6.2.3.7 Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+    - [6.2.3.8 Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
+ 
+- [6.3 Validation Interviews](#63-validation-interviews)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+
+- [6.4 Video About-the-Produc](#64-video-about-the-product)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
+- [Video About-the-team](#video-about-the-team)
 
 [Bibliografía](#bibliografc3ada-1)
 
@@ -3270,19 +3296,19 @@ Link : https://nutrihealthbackend-production.up.railway.app/swagger-ui/index.htm
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-    <td> Durante este sprint se desarrolló la primera versión de la landing page de NutriPlan. Se completó el diseño visual y se implementó una versión funcional en un entorno de pruebas. Este desarrollo incluyó la estructura básica, la integración de estilos coherentes con la identidad del producto y la preparación de secciones clave como presentación del servicio. </td>
+    <td> No existe un sprint anterior para realizar el review, siendo este el primer sprint a desarrollar para NutriPlan. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
-    <td> El equipo reflexionó sobre el proceso de diseño y desarrollo de la landing page, reconociendo avances importantes en su despliegue. Se identificó la necesidad de mejorar la definición y seguimiento de las historias de usuario relacionadas, especialmente en lo que respecta a la comunicación entre nutricionistas y usuarios. </td>
+    <td> No existe un sprint anterior para realizar una retrospectiva. Sin embargo, en base a lo avanzado debemos considerar como prioridad el correcto desarrollo de las User Stories y una planificación eficiente del Product Backlog. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Goal & User Stories</td>
-    <td> El objetivo principal del Sprint 1 fue desarrollar y desplegar la landing page de NutriPlan, sirviendo como punto de entrada para los usuarios. Se crearon historias de usuario enfocadas en la visualización clara del servicio, navegación intuitiva y recolección de datos de contacto, estableciendo así una base funcional y visual del producto. </td>
+    <td> El objetivo principal del Sprint 1 es desarrollar y desplegar la landing page de NutriPlan, sirviendo como punto de entrada para los usuarios. Se crearon historias de usuario enfocadas en la visualización clara del servicio, navegación intuitiva y recolección de datos de contacto, estableciendo así una base funcional y visual del producto. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 1 Velocity </td>
-    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del landing page </td>
+    <td> 8 </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
@@ -3291,6 +3317,18 @@ Link : https://nutrihealthbackend-production.up.railway.app/swagger-ui/index.htm
 </table>
 
 #### 6.2.1.2 Sprint Backlog 1
+
+El propósito principal del Sprint 1 fue sentar las bases del proyecto NutriPlan, enfocándose en el diseño de la interfaz (UI/UX), la creación inicial de la landing page, la planificación de los Sprints en la herramienta de gestión y la elaboración de la documentación fundamental. Además, se realizaron tareas generales como la configuración de los repositorios y la organización del equipo de trabajo.
+
+Link del Trello:
+
+https://trello.com/invite/b/673697a83324f4b114c6684f/ATTI0ae3f0d675813997d77bf4762f9c5a1393530AC1/sprint1
+
+A continuación, se muestra una captura del tablero de Sprint 1 en Trello, junto con su enlace público correspondiente:
+
+<div align="center">
+  <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
+</div>
 
 ## Tabla de Avance – Landing Page
 
@@ -3301,16 +3339,19 @@ Link : https://nutrihealthbackend-production.up.railway.app/swagger-ui/index.htm
 | US10                | Diseño de Mockups y Wireframes (Landing) | Diseño visual inicial del producto | T27           | Diseñar los mockups y wireframes de la landing page.                                              | 6                  | Leonardo Dueñas   | Done   |
 | US11                | Diseño de Mockups y Wireframes (App)     | Diseño visual general              | T28           | Diseñar los mockups de la aplicación móvil, que podrían tener influencia visual sobre la landing. | 6                  | Jessica Comettant | Done   |
 
-<div align="center">
-  <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
-</div>
-
 #### 6.2.1.3 Development Evidence for Sprint Review
 
-|  Repository  | Branch | Commit Id | Commit <br>Message |  Author  | Commited <br>on (Date) |
+Durante este sprint se desarrolló la primera versión de la landing page de nuestra plataforma.
+
+https://github.com/HealTeam1/Landing-Page/commits/main/
+
+Principales avances en implementación con relación a el Landing Page:
+
+|  Repository  | Branch | Commit Id | Commit Message |  Commit Message Body  | Commited on (Date) |
 | :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
-| Landing Page |  main  |  3205ccb  |   Initial commit   | DaikiOY  |       09/05/2025       |
-|  Front End   |  main  |  0096cc5  | Update chapter VI  | Insonnio |       11/05/2025       |
+| Landing Page |  main  |  3205ccb  |   Initial commit   | create the index.html  |       05/05/2025       |
+|  Landing Page   |  main  |  fce0ede  | Update style.css  | create de style.js |       05/05/2025       |
+|  Landing Page   |  main  |  74fe46d  | Update script.js  | create de script.js |       05/05/2025       |
 
 #### 6.2.1.5 Execution Evidence for Sprint Review
 
@@ -3322,13 +3363,11 @@ Tras el desarrolo de la Landing Page en el Sprint 1, obtuvimos el siguiente resu
 
 <img src="img/lad3.png" width="900" height="600">
 
+link del landing page: nutriplan-landing.netlify.app
+
 #### 6.2.1.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 1, se ha desplegado el Landing Page, usando Netlify bajo el dominio ".netlify.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
-
-<img src="img/laddeploy.png" width="900" height="600">
-
-link del landing page: nutriplan-landing.netlify.app
+Durante el primer sprint, se desarrolló el Landing Page del proyecto como una primera entrega visual. Esta implementación se centró únicamente en la estructura y diseño, sin integrar aún servicios web ni funcionalidades conectadas a sistemas externos.
 
 #### 6.2.1.7 Software Deployment Evidence for Sprint Review
 
@@ -3341,13 +3380,24 @@ Para el desarrollo de la landing page se emplearon las siguientes tecnologías:
 
 Además, para el despliegue de la página web se utilizó el servicio de **Netlify**, que permitió publicar el sitio de manera rápida y sencilla.
 
+<img src="img/laddeploy.png" width="900" height="600">
+
+link del landing page: nutriplan-landing.netlify.app
+
 #### 6.2.1.8 Team Collaboration Insights during Sprint
 
 Para el desarrollo de la landing page de NutriPlan, el equipo adoptó la metodología GitFlow, lo que permitió organizar eficientemente el trabajo y fomentar la colaboración entre los miembros. Se crearon ramas específicas para cada funcionalidad o sección, lo que facilitó el desarrollo simultáneo de distintas partes de la página sin afectar la estabilidad del proyecto principal.
 
 Esta estructura de trabajo permitió implementar mejoras, realizar pruebas individuales y asegurar que cada componente funcionara correctamente antes de su integración en la rama principal. Además, el uso de GitHub como plataforma de colaboración posibilitó una gestión clara de los cambios, revisión de código y control de versiones.
 
-Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, transparente y adaptable, lo que contribuyó significativamente a la calidad y solidez del producto final. A continuación, se presentan las tareas asignadas a cada miembro del equipo, así como los comentarios y aportes realizados en GitHub durante el proceso de desarrollo de la landing page.
+| Author | Task completed |
+| ------ | -------------- |
+| Daiki Oshiro | added index.html|
+| Daiki Oshiro | added style.css |
+| Daiki Oshiro | added script.js |
+| Daiki Oshiro | added img file  |
+
+Captura de Analíticos de Colaboración en GitHub -En el repositorio de la Landing Page:
 
 <img src="img/team2.png" width="900" height="600">
 
@@ -3386,12 +3436,12 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
     <td> Todos los integrantes del grupo HealTeam </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
-    <td>Se implementó la primera versión del Backend </td>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td> Durante el Sprint 1 se llevó a cabo el desarrollo inicial de la landing page de la aplicación. Se implementó una estructura base en HTML, acompañada de estilos en CSS, navegación funcional y un menú adaptable que responde correctamente en distintos tamaños de pantalla. La página fue diseñada para ser completamente responsive, garantizando una experiencia de usuario coherente y eficiente en dispositivos móviles y de escritorio. Todas las tareas asignadas se completaron satisfactoriamente, resultando en una página informativa, interactiva y visualmente coherente con la identidad gráfica de NutriPlan. </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
-    <td> En este sprint como equipo logramos desplegar la landing page de forma adecuada debido a la correcta division de tareas y el cumplimiento de cada uno </td>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> El Sprint 1 concluyó de manera exitosa con la entrega de la landing page. Sin embargo, se detectaron oportunidades de mejora, particularmente en la definición más detallada de ciertas funcionalidades y su correcta implementación. A pesar de estos retos, el equipo mantuvo una comunicación efectiva y mostró gran capacidad de adaptación, cumpliendo con los tiempos establecidos. De cara al siguiente sprint, el enfoque estará en mejorar la claridad de las tareas asignadas y en incorporar pruebas tempranas de usabilidad, con el objetivo de optimizar la experiencia del usuario. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 2 Goal & User Stories</td>
@@ -3399,7 +3449,7 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 2 Velocity </td>
-    <td> <strong>8</strong><br> El equipo ha establecido una capacidad de 8 Story Points para este Sprint, considerando el enfoque en el diseño inicial y la planificación de la estructura del backend</td>
+    <td> 8 </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
@@ -3409,9 +3459,17 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
 
 #### 6.2.2.2 Sprint Backlog 2
 
-## Tabla de Avance – Backend
+El objetivo principal del Sprint 2 fue implementar y desarrollar la primera versión funcional del backend de NutriPlan. Durante este ciclo, se construyeron los servicios fundamentales que permiten gestionar las principales funcionalidades del sistema, estableciendo la base de la lógica de negocio de la plataforma. Entre las funcionalidades implementadas se encuentran la actualización del perfil de usuario, la posibilidad de asignar recetas nutricionales, agregar alimentos al sistema y consultar planes alimenticios previamente registrados. Cada uno de estos módulos fue diseñado respetando principios de escalabilidad, modularidad y seguridad, garantizando una arquitectura robusta y preparada para el crecimiento futuro del sistema.
 
-## Tabla de Avance – Backend (NutritionalPlanning)
+Link del Trello: https://trello.com/invite/b/68498018738ca4556ab59ea6/ATTI41a8e0a99101eeb01fba45f6fd3f4ab8E456A1EF/sprint-2
+
+A continuación, se muestra una captura del tablero de Sprint 2 en Trello, junto con su enlace público correspondiente:
+
+<div align="center">
+  <img src="./img/trello2.png" style="margin: 10px 0;" width="70%"/>
+</div>
+
+## Tabla de Avance – Backend 
 
 | Historia de Usuario | Título                                | Relación con Product Backlog       | Tarea Técnica | Descripción                                                                                                              | Estimación (Horas) |
 | ------------------- | ------------------------------------- | ---------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------ |
@@ -3424,27 +3482,29 @@ Gracias a esta estrategia, se logró mantener un flujo de trabajo ordenado, tran
 | HU31                | Crear nuevo plan nutricional          | US11 – Crear Plan Nutricional      | T15           | Implementar el endpoint `POST /nutrition-plan/add-nutritional-plan` para instanciar un nuevo plan con sus dailyPlans.    | 6                  |
 | HU32                | Consultar planes de un usuario        | US12 – Ver Plan Nutricional Activo | T16           | Implementar el endpoint `GET /nutrition-plan/{userId}` para recuperar los planes de un usuario dado.                     | 3                  |
 
-<div align="center">
-  <img src="./img/trello1.png" style="margin: 10px 0;" width="70%"/>
-</div>
-
 #### 6.2.2.3 Development Evidence for Sprint Review
 
-|     Repository     | Branch | Commit Id |                              Commit <br>Message                               |         Author          | Commited <br>on (Date) |
+Durante este sprint se desarrolló la primera versión del back end de nuestra plataforma. 
+
+https://github.com/HealTeam1/NutriHealthBackend/commits/main/
+
+Principales avances en implementación con relación a el back end:
+
+|     Repository     | Branch | Commit Id |                              Commit Message                               |         Commit Message Body           | Commited on (Date) |
 | :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :---------------------: | :--------------------: |
-| NutriHealthBackend |  main  |  113b361  |            chore: Initialize project setup for NutriHealth backend            | Alejandro Espino Flores |       29/04/2025       |
-| NutriHealthBackend |  main  |  6750748  |                   Nutritional Plan post and delete endpoint                   | Alejandro Espino Flores |       02/05/2025       |
-| NutriHealthBackend |  main  |  dd868a7  |      feat(nutritional-plan): Nutritional Plan post and delete endpointd       | Alejandro Espino Flores |       02/05/2025       |
-| NutriHealthBackend |  main  |  30e8105  |           feat(nutritional-plan): update nutritional plan endpoint            | Alejandro Espino Flores |       09/05/2025       |
-| NutriHealthBackend |  main  |  03a90ef  |       feat(nutritional-plan): delete and get endpoint por daily planst        | Alejandro Espino Flores |       09/05/2025       |
-| NutriHealthBackend |  main  |  1890048  |          feat(nutritional-plan): delete ScheduledMeal endpoint added          | Alejandro Espino Flores |       09/05/2025       |
-| NutriHealthBackend |  main  |  80633d3  |           test(nutrihealth): Add dockerfile for Java 21 deployment            | Alejandro Espino Flores |       09/05/2025       |
-| NutriHealthBackend |  main  |  38f85c6  |            feat(nutrihealth): Nutritional plan get endpoint added             | Alejandro Espino Flores |       12/05/2025       |
-| NutriHealthBackend |  main  |  f71e708  |           feat(nutrihealth): Nutritional Plan Update endpoint added           | Alejandro Espino Flores |       13/05/2025       |
-| NutriHealthBackend |  main  |  06dd514  |                 feat(nutrihealth): create daily plan endpoint                 | Alejandro Espino Flores |       09/05/2025       |
-| NutriHealthBackend |  main  |  ea7fd02  | feat(nutrihealth): Add plannedFood endpoint and update ScheduledMeal endpoint | Alejandro Espino Flores |       13/05/2025       |
-| NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                | Alejandro Espino Flores |       13/05/2025       |
-| NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              | Alejandro Espino Flores |       14/05/2025       |
+| NutriHealthBackend |  main  |  113b361  |            chore: Initialize project setup for NutriHealth backend            | create the project setup |       29/04/2025       |
+| NutriHealthBackend |  main  |  6750748  |                   Nutritional Plan post and delete endpoint                   | create the post and delete endpoint |       02/05/2025       |
+| NutriHealthBackend |  main  |  dd868a7  |      feat(nutritional-plan): Nutritional Plan post and delete endpoint       | create Nutritional Plan post and delete endpoint    |       02/05/2025       |
+| NutriHealthBackend |  main  |  30e8105  |           feat(nutritional-plan): update nutritional plan endpoint            | update nutritional plan endpoint |       09/05/2025       |
+| NutriHealthBackend |  main  |  03a90ef  |       feat(nutritional-plan): delete and get endpoint por daily planst        | create delete and get endpoint por daily planst |       09/05/2025       |
+| NutriHealthBackend |  main  |  1890048  |          feat(nutritional-plan): delete ScheduledMeal endpoint added          | create delete ScheduledMeal endpoint added  |       09/05/2025       |
+| NutriHealthBackend |  main  |  80633d3  |           test(nutrihealth): Add dockerfile for Java 21 deployment            | create dockerfile for Java 21 deployment |       09/05/2025       |
+| NutriHealthBackend |  main  |  38f85c6  |            feat(nutrihealth): Nutritional plan get endpoint added             | create Nutritional plan get endpoint |       12/05/2025       |
+| NutriHealthBackend |  main  |  f71e708  |           feat(nutrihealth): Nutritional Plan Update endpoint added           | create Nutritional Plan Update endpoint |       13/05/2025       |
+| NutriHealthBackend |  main  |  06dd514  |                 feat(nutrihealth): create daily plan endpoint                 | create daily plan endpoint  |       09/05/2025       |
+| NutriHealthBackend |  main  |  ea7fd02  | feat(nutrihealth): Add plannedFood endpoint and update ScheduledMeal endpoint | create plannedFood endpoint and update ScheduledMeal endpoint |       13/05/2025       |
+| NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                | delete planned Food endpoint |       13/05/2025       |
+| NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              | deployment test edit properties |       14/05/2025       |
 
 #### 6.2.2.5 Execution Evidence for Sprint Review
 
@@ -3454,7 +3514,7 @@ Tras el desarrollo del backend en el Sprint 2, obtuvimos el siguiente resultado:
 
 #### 6.2.2.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 1, se ha desplegado el Backend , usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
+En el Sprint 2, se ha desplegado el Backend , usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
 
 <img src="img/deploy-backend/swagger-deployment.png" width="900" height="400" style="object-fit:cover">
 
@@ -3462,19 +3522,53 @@ link del landing page: https://nutrihealthbackend-production.up.railway.app/swag
 
 #### 6.2.2.7 Software Deployment Evidence for Sprint Review
 
-En este sprint, se ha desarrollado la API de la aplicación web, utilizando las siguientes herramientas. No obstante, el despliegue de la API no está incluido en el alcance de este sprint.
+Railway se utiliza como plataforma de despliegue para nuestro backend. Nos permite desplegar el proyecto de manera sencilla y automática.
 
-<ul>
+- Ingresamos a railway:
+  <img src="/img/deploy-backend/dashboard.png">
 
-<li> Git: Sistema de control de versiones que utilizamos para colaborar y rastrear las versiones de la aplicación web en un repositorio remoto.</li>
-<li> Gitflow: Proceso de trabajo colaborativo que nos permitió organizar el trabajo en ramas dentro de nuestro repositorio, facilitando así la colaboración en el desarrollo.</li>
-<li> GitHub: Plataforma que nos proporcionó la herramienta para crear nuestro repositorio y almacenar las versiones de nuestro proyecto. </li>
-<li> Swagger Ui: Herramienta destinada a probar y documentar nuestra API.</li>
-Además, para el despliegue del backend  se utilizó el servicio de **Railway**, que permitió publicar el backend y la base de datos de manera sencilla.
+- Creamos el proyecto
+
+<img src="/img/deploy-backend/create-project.png">
+
+- Agregamos la base de datos
+
+<img src="/img/deploy-backend/add-database.png">
+
+- Agregamos el repositorio
+
+<img src="/img/deploy-backend/add-repository.png">
+
+- Conectamos el backend con la base de datos
+
+<img src="/img/deploy-backend/connect-backend-with-database.png">
+
+- Despliegue exitoso
+
+<img src="/img/deploy-backend/deployment-successfully.png">
+
+- swagger desde link generado por railway
+
+<img src="/img/deploy-backend/swagger-deployment.png">
+
+Link : https://nutrihealthbackend-production.up.railway.app/swagger-ui/index.html#/
 
 #### 6.2.2.8 Team Collaboration Insights during Sprint
 
-A continuación se mostrarán el gráfico de insights durante el sprint:
+Para el desarrollo del back end de NutriPlan, el equipo adoptó la metodología GitFlow, lo que permitió estructurar y organizar eficientemente el trabajo colaborativo. Se crearon ramas específicas para cada funcionalidad o sección de la página, facilitando así el desarrollo paralelo de distintas partes sin comprometer la estabilidad del proyecto principal.
+
+Esta estrategia de ramificación favoreció la implementación progresiva de mejoras, la realización de pruebas individualizadas y la validación funcional de cada componente antes de integrarlo a la rama principal. Asimismo, el uso de GitHub como plataforma de gestión de código brindó un entorno colaborativo claro y ordenado, permitiendo la revisión de cambios, el control de versiones y una trazabilidad precisa durante todo el proceso de desarrollo.
+
+| Author | Task completed |
+| ------ | -------------- |
+|  Alejandro Espino | added Nutritional Plan post and delete endpointd |
+|  Alejandro Espino | added delete and get endpoint por daily planst |
+|  Alejandro Espino | added dockerfile for Java 21 deployment |
+|  Alejandro Espino | added daily plan endpoint |
+|  Alejandro Espino | added plannedFood endpoint |
+|  Alejandro Espino | deployment test edit properties |
+
+Captura de Analíticos de Colaboración en GitHub -En el repositorio del backend:
 
 <img src="img/commits-backend.png" width="900" height="600">
 
@@ -3511,12 +3605,12 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
     <td> Todos los integrantes del grupo HealTeam </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
-    <td> Durante este sprint se avanzó con el desarrollo de la aplicación móvil de NutriPlan. Se implementaron pantallas principales como el login, registro y visualización del perfil, asegurando una navegación fluida entre componentes. Además, se establecieron las bases para la integración con servicios backend. </td>
+    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+    <td> Durante el Sprint 2 se desarrolló e integró la primera versión funcional del Back End de NutriPlan, centrada en la implementación de los principales endpoints para el funcionamiento de la aplicación. Se desarrollaron los endpoints para modificar los datos de un plan existente, eliminar un plan por su identificador, asignar un recipeId a un ScheduledMeal, modificar cantidad o unidad de un PlannedFood, eliminar un PlannedFood existente, crear nuevos PlannedFoods y recuperar los planes de un usuario dado. </td>
   </tr>
   <tr>
-    <td style="font-weight: bold;"> Sprint 3 Retrospective Summary </td>
-    <td> El equipo resaltó el progreso significativo en el desarrollo móvil. Se identificaron áreas de mejora en la asignación de tareas y en la documentación del código para facilitar futuras integraciones. Se destacó la necesidad de estandarizar componentes reutilizables para mantener coherencia visual. </td>
+    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+    <td> Durante el Sprint 2, centrado en el desarrollo del backend, el equipo destacó como uno de sus principales logros la efectiva planificación y asignación de tareas, lo cual permitió mantener un ritmo de trabajo constante y bien coordinado. Como aspecto a mejorar, se identificó la necesidad de optimizar el tiempo dedicado a la revisión de código y de fortalecer los criterios de aceptación, con el objetivo de asegurar una mayor coherencia y uniformidad en las entregas por parte de todos los integrantes del equipo. </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 3 Goal & User Stories </td>
@@ -3524,7 +3618,7 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 3 Velocity </td>
-    <td> <strong>13</strong><br> El equipo estableció una capacidad de 13 Story Points para este Sprint, reflejando el crecimiento en la experiencia de desarrollo y el enfoque en funcionalidades esenciales. </td>
+    <td> 13 </td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
@@ -3533,6 +3627,16 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 </table>
 
 #### 6.2.3.2 Sprint Backlog 3
+
+El objetivo principal del Sprint 2 fue implementar y desarrollar la primera versión funcional del backend de NutriPlan. Durante este ciclo, se construyeron los servicios fundamentales que permiten gestionar las principales funcionalidades del sistema, estableciendo la base de la lógica de negocio de la plataforma. Entre las funcionalidades implementadas se encuentran la actualización del perfil de usuario, la posibilidad de asignar recetas nutricionales, agregar alimentos al sistema y consultar planes alimenticios previamente registrados. Cada uno de estos módulos fue diseñado respetando principios de escalabilidad, modularidad y seguridad, garantizando una arquitectura robusta y preparada para el crecimiento futuro del sistema.
+
+Link del Trello: https://trello.com/invite/b/68498615e293e58a1fb7d1e9/ATTIcf32c32e13d8024b8946500e65677a1bFBA2CD25/sprint-3
+
+A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto con su enlace público correspondiente:
+
+<div align="center">
+  <img src="./img/trello3.png" style="margin: 10px 0;" width="70%"/>
+</div>
 
 ## Tabla de Avance – Front-end
 
@@ -3547,11 +3651,15 @@ A continuación se mostrarán el gráfico de insights durante el sprint:
 
 #### 6.2.3.3 Development Evidence for Sprint Review
 
-|  Repository  | Branch | Commit Id | Commit <br>Message |  Author  | Commited <br>on (Date) |
+|  Repository  | Branch | Commit Id | Commit <br>Message |  Commit Message Body    | Commited <br>on (Date) |
 | :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
-| Front End |  main  |  3205ccb  |   First commit   | GAPZ17  |       14/05/2025       |
-|  Front End   |  main  |  0096cc5  | Merge pull request #1 from HealTeam1/Develop  | GAPZ17 |       15/05/2025       |
-
+| Front End |  main  |  3205ccb  |   First commit   | create application structure  |       14/05/2025       |
+|  Front End   |  main  |  fc4c3ad  | Feat: added StartScreen  | create the startscreen |       14/05/2025       |
+|  Front End   |  main  |  62d80f8  | Feat: added PaymentFormScreen  | create paymentform screen |       14/05/2025       |
+|  Front End   |  main  |  714b6de  | Feat: added RegisterScreen  | create register screen |       15/05/2025       |
+|  Front End   |  main  |  907feb6  | Feat: added PaymentConfirmationScreen  | create payment confirmation screen |       15/05/2025       |
+|  Front End   |  main  |  c8eab7f  | feat: added recipes screen  | create recipes screen |       15/05/2025       |
+|  Front End   |  main  |  109a4ed  | feat: added Profile Screen  | create profile screen |       15/05/2025       |
 
 #### 6.2.3.5 Execution Evidence for Sprint Review
 
@@ -3559,23 +3667,19 @@ Tras el desarrolo del Front-end en el Sprint 3, obtuvimos el siguiente resultado
 
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
 
+En el Sprint 3, se ha implementado los endpoints usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
+
+<img src="img/deploy-backend/swagger-deployment.png" width="900" height="400" style="object-fit:cover">
+
+link del landing page: https://nutrihealthbackend-production.up.railway.app/swagger-ui.html
+
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+
 En el Sprint 3, se ha desplegado el Front-end. Y se puede visualizar bajo el siguiente link:
 
 
 
 link del front-end:
-
-#### 6.2.3.7 Software Deployment Evidence for Sprint Review
-
-Para el desarrollo del front-end se emplearon las siguientes tecnologías:
-
-- Kotlin: Lenguaje principal utilizado para programar la aplicación móvil de NutriPlan, por su compatibilidad con Android y su sintaxis moderna.
-
-- Android Studio: IDE usado para escribir, probar y ejecutar la aplicación.
-
-- XML: Para definir algunas interfaces de usuario en caso de no usar Jetpack Compose.
-
-- Material Design: Para aplicar componentes visuales y estilos consistentes en la interfaz.
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 
@@ -3583,13 +3687,206 @@ Para el desarrollo de la fronte-end de NutriPlan se uso GitHub como plataforma d
 
 Gracias a esta estructura y herramientas, el equipo logró construir un frontend robusto, mantenible y alineado con los requerimientos del producto. A continuación, se detallan las tareas asignadas a cada integrante y sus respectivos aportes reflejados en el repositorio de GitHub durante el desarrollo del frontend.
 
+| Author | Task completed |
+| Gustavo Pardo | added Packages |
+| Gustavo Pardo | added StartScreen |
+| Gustavo Pardo | added PaymentFormScreen |
+| Gustavo Pardo    | added recipes screen |
+| Gustavo Pardo   | added RegisterScreen |
+| Daiki Oshiro | added PaymentPlansScreen |
+| Leonardo  Dueñas  | added PaymentConfirmationScreen |
+| Jessica   Comettant   | added Profile Screen|
+
+Captura de Analíticos de Colaboración en GitHub -En el repositorio del front end:
+
 <img src="img/sprint3cola.png" width="900" height="600">
 
 <img src="img/sprint3cola2.png" width="900" height="600">
 
-### Conclusiones
+## 6.3 Validation Interviews
 
-**Conclusiones y recomendaciones**
+### 6.3.1 Diseño de Entrevistas
+
+#### Segmento 1: Jóvenes Adultos de 18 a 28 Años en Lima
+
+##### Objetivo
+
+Validar la experiencia de usuario (UX) y la propuesta de valor de NutriPlan desde la perspectiva de quienes buscan asesoría nutricional profesional, además de identificar oportunidades de mejora en funcionalidades clave como búsqueda, reserva, pago, perfil y seguimiento.
+
+##### Introducción
+
+- Presentación del entrevistador y explicación del propósito de la entrevista.
+
+##### Contexto de uso
+
+- ¿Con qué frecuencia usas NutriPlan y qué tarea principal buscabas realizar en tu primera sesión?
+
+- ¿En qué dispositivo utilizas principalmente la aplicación?
+
+##### Descubrimiento & Onboarding
+
+- ¿Cómo fue tu experiencia al registrarte y configurar tu perfil nutricional?
+
+- ¿Encontraste algo confuso o que te haya tomado tiempo entender durante este proceso?
+
+##### Búsqueda y selección de planes nutricionales
+
+- ¿Alguna vez no encontraste el plan nutricional ideal? ¿Qué factores influyeron?
+  
+- ¿Qué sugerirías para mejorar los planes nutricionales?
+
+##### Registro de alimentos y seguimiento de recetas
+
+- Al ingresar alimentos o registrar recetas, ¿te pareció fácil y rápido el proceso?
+
+- ¿Pudiste encontrar todos los alimentos que necesitabas?
+
+- ¿Qué mejorarías en la forma de agregar o consultar alimentos y recetas?
+
+##### Cierre
+
+- Agradecimientos por tu tiempo y opinión.
+
+#### Segmento 2: Nutricionistas en Perú
+
+
+
+### 6.3.2 Registro de Entrevistas
+
+
+
+### 6.3.3 Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+
+#### Usability – Inclusive Design – Information Architecture
+
+**SITE O APP A EVALUAR:** NutriPlan
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Actualización del perfil de usuario
+- Asignación de recetas a planes nutricionales
+- Agregado de nuevos alimentos a la base de datos
+- Consulta de planes nutricionales personalizados
+- Navegación general dentro de la plataforma
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Funcionalidad de edición de recetas existentes
+- Generación automática de planes según perfil nutricional
+- Integración con sistema de mensajería o notificaciones
+- Reportes visuales o estadísticas de seguimiento nutricional
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+## Niveles de Severidad de Problemas de Usabilidad
+
+| **Nivel** | **Descripción** |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluación:
+
+### Tabla Resumen de Evaluación Heurística - FinTeka
+
+| Nº  | Problema Detectado                                             | Escala de Severidad | Heurística / Principio Violado     |
+|------|----------------------------------------------------------------|---------------------|-----------------------------------|
+| 1    | Falta de validación en campos numéricos del formulario de alimentos | 3                   | Prevención de errores             |
+| 2    | Ausencia de confirmación visual tras guardar cambios en el perfil | 2                   | Visibilidad del estado del sistema |
+| 3    | Falta de atajos para usuarios recurrentes al agregar alimentos    | 3                   | Flexibilidad y eficiencia de uso  |
+| 4    | No se muestra progreso durante la carga de planes nutricionales    | 2                   | Visibilidad del estado del sistema |
+| 5    | Ingreso manual repetitivo de datos al registrar recetas similares  | 3                   | Flexibilidad y eficiencia de uso  |
+| 6    | Ausencia de confirmación tras guardar cambios en el perfil         | 2                   | Visibilidad del estado del sistema |
+| 7    | No se permite filtrar alimentos por categoría o tipo               | 3                   | Flexibilidad y eficiencia de uso  |
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+#### PROBLEMA #1: Falta de validación en campos numéricos del formulario de alimentos
+
+- **Severidad:** 3
+
+- **Heurística violada:** Prevención de errores
+
+- **Problema:** El formulario para agregar alimentos permite ingresar texto o valores negativos en campos destinados a números, como cantidad o calorías. 
+
+- **Recomendación:** Incorporar validaciones que aseguren la entrada exclusiva de valores numéricos positivos.
+
+#### PROBLEMA #2: Ausencia de confirmación visual tras guardar cambios en el perfil
+
+- **Severidad:** 2
+
+- **Heurística violada:** Visibilidad del estado del sistema
+
+- **Problema:** Cuando un usuario actualiza su perfil, el sistema no muestra ningún mensaje ni indicador visual que confirme que los cambios fueron guardados correctamente.
+
+- **Recomendación:** Mostrar un mensaje emergente o una notificación temporal que confirme la acción realizada, asegurando al usuario que su información fue procesada.
+
+#### PROBLEMA #3: Falta de atajos para usuarios recurrentes al agregar alimentos
+
+- **Severidad:** 3
+
+- **Heurística violada:** Flexibilidad y eficiencia de uso
+  
+- **Problema:** Cada vez que un usuario desea agregar un alimento a su plan nutricional, debe buscarlo manualmente desde el listado completo, sin opción de acceder rápidamente a alimentos frecuentes o recientemente usados. 
+
+- **Recomendación:** Agregar funcionalidades como “alimentos favoritos”, “recientes” o campos de autocompletado inteligentes que prioricen alimentos utilizados con frecuencia.
+
+#### PROBLEMA #4: No se muestra progreso durante la carga de planes nutricionales
+
+- **Severidad:** 2
+
+- **Heurística violada:** Visibilidad del estado del sistema
+  
+- **Problema:** Al consultar los planes nutricionales, la interfaz se queda estática durante unos segundos sin mostrar una barra o ícono de carga. 
+
+- **Recomendación:** Incluir un ícono o animación de carga mientras se recupera la información, indicando que el sistema está trabajando en la solicitud.
+
+#### PROBLEMA #5: Ingreso manual repetitivo de datos al registrar recetas similares
+
+- **Severidad:** 3
+
+- **Heurística violada:** Flexibilidad y eficiencia de uso
+  
+- **Problema:** Cuando se desea registrar una receta nueva similar a una existente, el usuario debe completar todo el formulario desde cero, sin opción de duplicar o reutilizar información previa. 
+
+- **Recomendación:** Implementar una opción para “duplicar receta” o “usar como base”, que permita editar una copia de una receta anterior. Esto agiliza el flujo para usuarios que crean contenido regularmente.
+
+#### PROBLEMA #6: Ausencia de confirmación tras guardar cambios en el perfil
+
+- **Severidad:** 2
+
+- **Heurística violada:** Visibilidad del estado del sistema
+  
+- **Problema:** Cuando un usuario actualiza su perfil (como nombre o datos personales), no aparece ningún mensaje de confirmación visual. 
+
+- **Recomendación:** Mostrar una notificación clara y temporal como “Cambios guardados con éxito” o usar un ícono de verificación para confirmar la acción realizada.
+
+#### PROBLEMA #7: No se permite filtrar alimentos por categoría o tipo
+
+- **Severidad:** 3
+
+- **Heurística violada:** Flexibilidad y eficiencia de uso
+  
+- **Problema:** En el listado de alimentos disponibles, no existe opción de filtrar por categorías.
+
+- **Recomendación:** Incorporar filtros por tipo de alimento, etiquetas o categorías comunes para permitir un acceso más rápido y organizado a la información.
+
+
+## 6.4 Video About-the-Product
+
+Link del video:
+
+### Conclusiones y recomendaciones
 
 Conclusiones
 
@@ -3616,6 +3913,11 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 - Iteración continua: Mantener una cultura de mejora constante basada en el feedback de usuarios, estableciendo ciclos cortos de experimentación (Lean) en las siguientes fases del desarrollo.
 
 <div style="page-break-after: always;"></div>
+
+###  Video About-the-team
+
+Link del video:
+
 
 # Bibliografía
 
