@@ -3688,6 +3688,7 @@ Para el desarrollo de la fronte-end de NutriPlan se uso GitHub como plataforma d
 Gracias a esta estructura y herramientas, el equipo logró construir un frontend robusto, mantenible y alineado con los requerimientos del producto. A continuación, se detallan las tareas asignadas a cada integrante y sus respectivos aportes reflejados en el repositorio de GitHub durante el desarrollo del frontend.
 
 | Author | Task completed |
+| ------ | -------------- |
 | Gustavo Pardo | added Packages |
 | Gustavo Pardo | added StartScreen |
 | Gustavo Pardo | added PaymentFormScreen |
@@ -3749,9 +3750,97 @@ Validar la experiencia de usuario (UX) y la propuesta de valor de NutriPlan desd
 
 #### Segmento 2: Nutricionistas en Perú
 
+##### Objetivo
+
+Recoger feedback sobre las herramientas de gestión alimenticia y descubrir nuevas funcionalidades que potencien su productividad y escalabilidad .
+
+##### Introducción
+
+- Presentación del entrevistador y explicación del propósito de la entrevista.
+
+##### Contexto de uso
+
+- ¿Cuánto tiempo llevas usando la plataforma como nutricionista?
+
+- ¿Con qué frecuencia gestionas planes alimenticios desde la app? 
+
+##### Gestión de planes alimenticios
+
+- ¿Fue sencillo crear/editar un plan alimenticio?
+
+- ¿Qué cambiarías para que el plan alimenticio transmita mejor tu propuesta de valor?
+
+##### Seguimiento de recetas
+
+- ¿Cómo ha sido tu experiencia al realizar el seguimiento de recetas?
+
+- ¿Qué mejoras propondrías al seguimiento de recetas?
+
+##### Cierre
+
+- Agradecimientos por tu tiempo y opinión.
 
 
 ### 6.3.2 Registro de Entrevistas
+
+#### Segmento 1: Jóvenes Adultos de 18 a 28 Años en Lima
+
+#### Entrevista 1:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
+#### Entrevista 2:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
+#### Entrevista 3:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
+#### Segmento 2: Nutricionistas en Perú
+
+#### Entrevista 4:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
+#### Entrevista 5:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
+#### Entrevista 6:
+
+- Nombre: 
+- Edad: 
+- Distrito:
+- Link de la entrevista:
+
+Resumen:
+
 
 
 
