@@ -3711,11 +3711,22 @@ link del swagger: https://nutrihealthbackend-production.up.railway.app/swagger-u
 
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review
 
-En el Sprint 3, se ha desplegado el Front-end. Y se puede visualizar bajo el siguiente link:
+Durante el Sprint 3, se completó exitosamente el despliegue del Front-end de la aplicación NutriPlan. Esta versión inicial del interfaz de usuario ya está disponible para pruebas y revisión, permitiendo al equipo y a los stakeholders interactuar con las funcionalidades implementadas hasta el momento.
 
+El despliegue se realizó utilizando Netlify y tecnologías modernas que garantizan una experiencia ágil y accesible desde diversos dispositivos. La aplicación está alojada en un entorno web seguro y estable, lo que facilita el acceso remoto sin necesidad de instalaciones adicionales.
 
+<img src="img/de1.png" width="100%" height="100%">
 
-link del front-end:
+<img src="img/de2.png" width="100%" height="100%">
+
+<img src="img/de4.png" width="100%" height="100%">
+
+<img src="img/de5.png" width="100%" height="100%">
+
+<img src="img/de2.png" width="375" height="667">
+
+- [App flutter](https://harmonious-stardust-e1af42.netlify.app/)<br>
+
 
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 
@@ -4073,6 +4084,10 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 <div style="page-break-after: always;"></div>
 
 # Anexos
+
+Link de la app flutter:
+
+[App flutter](https://harmonious-stardust-e1af42.netlify.app/)<br>
 
 Lean Ux Canvas
 
