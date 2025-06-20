@@ -3723,7 +3723,7 @@ El despliegue se realizó utilizando Netlify y tecnologías modernas que garanti
 
 <img src="img/de5.png" width="100%" height="100%">
 
-<img src="img/de2.png" width="375" height="667">
+<img src="img/de3.png" width="375" height="667">
 
 - [App flutter](https://harmonious-stardust-e1af42.netlify.app/)<br>
 
