@@ -3665,6 +3665,16 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 
 Tras el desarrolo del Front-end en el Sprint 3, obtuvimos el siguiente resultado:
 
+<img src="img/login.png" width="100%" height="100%">
+
+<img src="img/home.png" width="100%" height="100%">
+
+<img src="img/plan.png" width="100%" height="100%">
+
+<img src="img/profile.png" width="100%" height="100%">
+
+<img src="img/seguimiento.png" width="100%" height="100%">
+
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
 
 En el Sprint 3, se ha implementado los endpoints usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
@@ -3695,6 +3705,8 @@ Gracias a esta estructura y herramientas, el equipo logró construir un frontend
 | Gustavo Pardo    | added recipes screen |
 | Gustavo Pardo   | added RegisterScreen |
 | Daiki Oshiro | added PaymentPlansScreen |
+| Daiki Oshiro | added NutricionalPlanScreen |
+| Daiki Oshiro | added ProgressScreen |
 | Leonardo  Dueñas  | added PaymentConfirmationScreen |
 | Jessica   Comettant   | added Profile Screen|
 
@@ -3787,12 +3799,15 @@ Recoger feedback sobre las herramientas de gestión alimenticia y descubrir nuev
 
 #### Entrevista 1:
 
-- Nombre: 
-- Edad: 
-- Distrito:
-- Link de la entrevista:
+- Nombre: Ernesto Ruiz
+- Edad: 20
+- Distrito: Jesús María
 
-Resumen:
+<img src="img/nutrientre1.png" width="100%" height="100%">
+  
+- [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/EUPI2_8K9YdFs_wVvS3AvhoBN2m3St3L3VpPlPDre6nVCA?e=8reWe7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+
+Resumen: Lo que más llamó la atención de NutriPlan fue la posibilidad de elegir y compartir planes nutricionales, combinando personalización y generación de ingresos. La plataforma es rápida y confiable, aunque podría mejorar en filtros de búsqueda y visibilidad de nutricionistas certificados. Su misión de facilitar el acceso a planes personalizados se refleja bien en la experiencia del usuario, aunque sería valioso sumar más contenido educativo y herramientas de personalización.
 
 #### Entrevista 2:
 
@@ -3816,12 +3831,15 @@ Resumen:
 
 #### Entrevista 4:
 
-- Nombre: 
-- Edad: 
-- Distrito:
-- Link de la entrevista:
+- Nombre: Ernesto Ruiz
+- Edad: 20
+- Distrito: Jesús María
 
-Resumen:
+<img src="img/nutrientre4.png" width="100%" height="100%">
+  
+- [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/EV212rsW2HhAu88jtKCQ7hUBW1SzKj6la9a4Ymu3zInevg?e=zdNjXd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+
+Resumen: La propuesta de NutriPlan es muy valorada por nutricionistas independientes, ya que facilita llegar a más personas sin depender de redes sociales o consultorios físicos. La plataforma es práctica y accesible, aunque sería ideal contar con mayor personalización de perfiles, validación profesional y herramientas como paneles de seguimiento, retroalimentación de usuarios y agendamiento de consultas. Para consolidarse como líder en nutrición digital, debería reforzar la seguridad nutricional, la comunidad profesional y la educación al usuario.
 
 #### Entrevista 5:
 
@@ -3973,7 +3991,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 
 ## 6.4 Video About-the-Product
 
-Link del video:
+- [Video About The Product]()<br>
 
 ### Conclusiones y recomendaciones
 
@@ -4005,7 +4023,7 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 
 ###  Video About-the-team
 
-Link del video:
+- [Video About The Team]()<br>
 
 
 # Bibliografía
@@ -4050,3 +4068,9 @@ https://miro.com/app/board/uXjVI271poo=/?share_link_id=940428667876
 https://lucid.app/lucidchart/7937fb20-a1b0-4a73-a8ef-d8c7cd401433/edit?viewport_loc=3102%2C-394%2C2037%2C951%2C0_0&invitationId=inv_14323b19-0f20-4888-87d2-bc6514205237
 
 <div style="page-break-after: always;"></div>
+
+Entrevistas:
+
+- [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/EUPI2_8K9YdFs_wVvS3AvhoBN2m3St3L3VpPlPDre6nVCA?e=8reWe7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+
+- [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/EV212rsW2HhAu88jtKCQ7hUBW1SzKj6la9a4Ymu3zInevg?e=zdNjXd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
