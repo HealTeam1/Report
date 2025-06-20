@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Aplicaciones para Dispositivos Móviles - 346 </h3>
 
