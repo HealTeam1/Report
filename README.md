@@ -3640,14 +3640,20 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 
 ## Tabla de Avance – Front-end
 
-| Historia de Usuario | Título del Desarrollo Frontend                      | Relación con Product Backlog   | Tarea Técnica | Descripción técnica del desarrollo frontend                                                              | Estimación (Horas) | Asignado a      | Estado   |
-|---------------------|----------------------------------------------------|--------------------------------|---------------|------------------------------------------------------------------------------------------------------------|--------------------|-----------------|----------|
-| US01                | Registro de usuario en app móvil                   | US01 – Registro de Usuario     | T101          | Crear formulario de registro con validaciones de campos e integración visual según diseño.                 | 5                  | Pardo Zapata, Gustavo Adolfo  | Done |
-| US02                | Inicio de sesión en app móvil                      | US02 – Inicio de sesión        | T102          | Implementar pantalla de login con campos de email y contraseña, conexión con backend simulada.            | 5                  | Pardo Zapata, Gustavo Adolfo        | Done     |
-| US04                | Creación de perfil de usuario                      | US04 – Crear perfil            | T103          | Desarrollar pantalla para completar perfil nutricional (edad, género, peso, metas).                        | 6                  | Pardo Zapata, Gustavo Adolfo      | Done     |
-| US07                | Pantalla de plan alimenticio personalizado         | US07 – Generar plan alimenticio| T104          | Programar visualización del plan semanal en vista tipo calendario/lista con tarjetas interactivas.         | 8                  | Pardo Zapata, Gustavo Adolfo         | To Do     |
-| US10                | Configuración de restricciones alimentarias        | US10 – Restricciones           | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles).         | 6                  | Pardo Zapata, Gustavo Adolfo        | To Do     |
-| US08                | Visualización del plan diario                      | US08 – Consultar plan diario   | T107          | Crear pantalla con menú del día, dividido por tiempos de comida.                                          | 5                  | Pardo Zapata, Gustavo Adolfo  | Done    |
+| Historia de Usuario | Título del Desarrollo Frontend         | Relación con Product Backlog    | Tarea Técnica | Descripción técnica del desarrollo frontend                                                                 | Estimación (Horas) | Asignado a                   | Estado |
+|---------------------|----------------------------------------|----------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------|--------|
+| US01                | Registro de usuario                    | US01 – Registro de Usuario       | T101          | Crear formulario de registro con validaciones de campos, implementación visual y conexión básica.                                                  | 5                  | Gustavo Pardo                | Done   |
+| US02                | Pantalla de inicio                     | US02 – Pantalla de inicio        | T108          | Diseño e implementación de pantalla de bienvenida con navegación hacia login o registro.                                                           | 3                  | Gustavo Pardo                | Done   |
+| US03                | Formulario de pago                     | US03 – Gestión de suscripciones  | T109          | Crear pantalla de ingreso de datos de tarjeta, con campos validados y diseño responsive.                                                           | 5                  | Gustavo Pardo                | Done   |
+| US04                | Creación de perfil                     | US04 – Crear perfil              | T103          | Formulario de datos personales y nutricionales con guardado local o simulado.                                                                      | 6                  | Jessica Comettant            | Done   |
+| US05                | Selección de plan de pago              | US05 – Planes de suscripción     | T110          | Pantalla para elegir entre planes mensuales/anuales con lógica condicional y navegación.                                                           | 4                  | Daiki Oshiro                 | Done   |
+| US06                | Visualización del plan nutricional     | US06 – Plan nutricional semanal  | T111          | Diseño de interfaz que muestre recomendaciones semanales en tarjetas o lista.                                                                      | 6                  | Daiki Oshiro                 | Done   |
+| US07                | Pantalla de progreso                   | US07 – Seguimiento de progreso   | T112          | Implementar vista gráfica o textual que muestre avances nutricionales del usuario.                                                                 | 5                  | Daiki Oshiro                 | Done   |
+| US08                | Visualización del plan diario          | US08 – Consultar plan diario     | T107          | Crear pantalla con menú del día dividido por tiempos de comida.                                                                                    | 5                  | Gustavo Pardo                | Done   |
+| US09                | Visualización de recetas               | US09 – Recetario                 | T113          | Diseñar vista de recetas saludables según el plan alimenticio, con tarjetas y scroll vertical.                                                     | 6                  | Gustavo Pardo                | Done   |
+| US10                | Configuración de restricciones         | US10 – Restricciones             | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles).                                                  | 6                  | Gustavo Pardo                | To Do  |
+| US11                | Confirmación de pago                   | US11 – Confirmar suscripción     | T114          | Crear pantalla de confirmación visual (icono, mensaje, botón) posterior al pago.                                                                   | 3                  | Leonardo Dueñas              | Done   |
+
 
 #### 6.2.3.3 Development Evidence for Sprint Review
 
@@ -3675,15 +3681,25 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 
 Tras el desarrolo del Front-end en el Sprint 3, obtuvimos el siguiente resultado:
 
-<img src="img/login.png" width="700" height="400">
+###### Pantalla de Login:
 
-<img src="img/home.png" width="700" height="400">
+<img src="img/login.png" width="375" height="667">
 
-<img src="img/plan.png" width="700" height="400">
+###### Pantalla de Home:
 
-<img src="img/profile.png" width="700" height="400">
+<img src="img/home.png" width="375" height="667">
 
-<img src="img/seguimiento.png" width="700" height="400">
+###### Pantalla de Plan Nutricional:
+
+<img src="img/plan.png" width="375" height="667">
+
+###### Pantalla de Perfil:
+
+<img src="img/profile.png" width="375" height="667">
+
+###### Pantalla de Seguimiento:
+
+<img src="img/seguimiento.png" width="375" height="667">
 
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
 
@@ -3845,7 +3861,7 @@ Resumen:
 - Edad: 20
 - Distrito: Jesús María
 
-<img src="img/nutrientre4.png" width="100%" height="100%">
+<img src="img/nutrientre4.png" width="375" height="667">
   
 - [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f846_upc_edu_pe/EV212rsW2HhAu88jtKCQ7hUBW1SzKj6la9a4Ymu3zInevg?e=zdNjXd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
 
