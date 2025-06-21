@@ -4062,7 +4062,7 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 
 ### Video About-the-team
 
-- [Video About The Team]()<br>
+- [Video About The Team](https://youtu.be/lZqOht9Jj38)<br>
 
 # Bibliografía
 
@@ -4089,6 +4089,14 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 Link de la app flutter:
 
 [App flutter](https://harmonious-stardust-e1af42.netlify.app/)<br>
+
+Link del Video About The Team:
+
+[Video About The Team](https://youtu.be/lZqOht9Jj38)<br>
+
+Link del Video About The Product:
+
+[Video About The Product](https://youtu.be/Wi8FOitNVfU)<br>
 
 Lean Ux Canvas
 
