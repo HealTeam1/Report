@@ -4030,7 +4030,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 
 ## 6.4 Video About-the-Product
 
-- [Video About The Product]()<br>
+- [Video About The Product](https://youtu.be/Wi8FOitNVfU)<br>
 
 ### Conclusiones y recomendaciones
 
