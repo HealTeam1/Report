@@ -3848,21 +3848,26 @@ Resumen: Lo que más llamó la atención de NutriPlan fue la posibilidad de eleg
 
 #### Entrevista 2:
 
-- Nombre:
-- Edad:
-- Distrito:
+- Nombre: Valeria Contreras
+- Edad: 23
+- Distrito: Miraflores
 - Link de la entrevista:
 
-Resumen:
+![Image](https://github.com/user-attachments/assets/be3008d7-23bd-481f-9537-1276d37e4419) 
+
+Resumen: Valeria destacó que NutriPlan le permitió adaptar su dieta vegana sin complicaciones, gracias a la comunidad activa y al sistema de recomendación inteligente. Le gustó la función de seguimiento de progreso, aunque sugiere integrar recordatorios automáticos y mejoras en la interfaz móvil. Considera que la plataforma refuerza hábitos saludables de manera práctica y accesible, pero le gustaría ver más tips de cocina rápida y saludable.
 
 #### Entrevista 3:
 
-- Nombre:
-- Edad:
-- Distrito:
+- Nombre: Diego Paredes
+- Edad: 26
+- Distrito: Pueblo Libre
 - Link de la entrevista:
 
+![Image](https://github.com/user-attachments/assets/be3008d7-23bd-481f-9537-1276d37e4419)
+
 Resumen:
+Diego encontró en NutriPlan una forma innovadora de mejorar su rendimiento físico sin tener que recurrir a costosos nutricionistas. Valoró especialmente los planes compartidos por otros usuarios con objetivos similares. Sugiere optimizar la segmentación por tipo de entrenamiento y ofrecer integración con apps de fitness. Menciona que la idea de monetizar sus propios planes es motivadora y fomenta una comunidad activa.
 
 #### Segmento 2: Nutricionistas en Perú
 
@@ -3880,21 +3885,27 @@ Resumen: La propuesta de NutriPlan es muy valorada por nutricionistas independie
 
 #### Entrevista 5:
 
-- Nombre:
-- Edad:
-- Distrito:
+- Nombre: Lucía Quispe
+- Edad: 29
+- Distrito: San Miguel
 - Link de la entrevista:
 
+![Image](https://github.com/user-attachments/assets/be3008d7-23bd-481f-9537-1276d37e4419)
+
 Resumen:
+Lucía considera que NutriPlan representa una oportunidad para ejercer la nutrición de forma más flexible y adaptada a la era digital. Le entusiasma poder compartir planes especializados y ampliar su clientela más allá de su zona geográfica. Sugiere incorporar videollamadas integradas, alertas de seguimiento y una sección de métricas clínicas. Asegura que el prestigio de los profesionales debería visibilizarse mejor, y que el respaldo académico es clave para ganar confianza en el público.
 
 #### Entrevista 6:
 
-- Nombre:
-- Edad:
-- Distrito:
+- Nombre: Juan Carlos Mendoza
+- Edad: 34
+- Distrito: Surco
 - Link de la entrevista:
 
+![Image](https://github.com/user-attachments/assets/be3008d7-23bd-481f-9537-1276d37e4419)
+
 Resumen:
+Juan Carlos destaca que NutriPlan democratiza el acceso a asesorías personalizadas y rompe barreras tradicionales del sector salud. Aplaude el enfoque colaborativo y el incentivo económico por compartir contenido de calidad. No obstante, considera crucial incluir un sistema de validación por colegios profesionales y permitir la carga de documentos como RNE y certificados. Recomienda sumar herramientas de evaluación nutricional, como calculadoras metabólicas y diarios alimentarios interactivos.
 
 ### 6.3.3 Evaluaciones según heurísticas
 
