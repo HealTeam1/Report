@@ -41,8 +41,7 @@
 | :-----: | :--------: | :-------------------: | :--------------------------------------------------------: |
 |   TB1   | 24/04/2025 | Todos los integrantes |               Se añadió los capítulos 1 al 4               |
 |   TP1   | 10/05/2025 | Todos los integrantes | Se añadió los capítulos 5 , 6 y se realizaron correcciones |
-|   TB2   | 20/06/2025 | Todos los integrantes |        Se realizaron correciones y temrino cap 6           |
-
+|   TB2   | 20/06/2025 | Todos los integrantes |         Se realizaron correciones y temrino cap 6          |
 
 # Project Report Collaboration Insights
 
@@ -200,6 +199,7 @@ GitHub (repositorio principal del informe en formato Markdown)
 - [6.2 Landing Page & Mobile Application Implementation](#62-landing-page-mobile-application-implementation)
 
   - [6.2.1 Sprint 1](#621-sprint-1)
+
     - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)
     - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)
     - [6.2.1.3 Development Evidence for Sprint Review](#6213-Development-Evidence-for-sprint-review)
@@ -209,6 +209,7 @@ GitHub (repositorio principal del informe en formato Markdown)
     - [6.2.1.8 Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 
   - [6.2.2 Sprint 2](#622-sprint-2)
+
     - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)
     - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)
     - [6.2.2.3 Development Evidence for Sprint Review](#6223-Development-Evidence-for-sprint-review)
@@ -225,11 +226,12 @@ GitHub (repositorio principal del informe en formato Markdown)
     - [6.2.3.6 Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)
     - [6.2.3.7 Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
     - [6.2.3.8 Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
- 
+
 - [6.3 Validation Interviews](#63-validation-interviews)
-    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
-    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+
+  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 
 - [6.4 Video About-the-Produc](#64-video-about-the-product)
 
@@ -245,10 +247,10 @@ GitHub (repositorio principal del informe en formato Markdown)
 
 # Student Outcome
 
-| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                   |
-| :------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto.<br> <br>_TP1_: Durante esta primera entrega, se emplearon habilidades y conceptos previamente estudiados como base para el desarrollo del proyecto.<br> <br>_TB2_: En esta fase, participé en la implementación de vistas funcionales utilizando Flutter. Aprendí a construir interfaces reactivas y a manejar la navegación entre pantallas, reforzando conocimientos sobre diseño UI adaptativo.<br> <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br> _TP_: Durante el desarrollo de la primera versión de la aplicación móvil, apliqué los conceptos y metodologías vistos en clase, como el uso de arquitecturas móviles, buenas prácticas en el diseño de interfaces (UI/UX). Paralelamente, identifiqué áreas donde necesitaba ampliar mis conocimientos, como la integración de librerías externas para mejorar la experiencia del usuario, y el manejo de estados dentro de la aplicación. <br> _TB2_:Actualicé mis conocimientos sobre arquitectura de software al estudiar Clean Architecture, comprendiendo cómo estructurar aplicaciones en capas bien definidas como entidades, casos de uso, interfaces y frameworks, lo que permite desarrollar soluciones más mantenibles, escalables y desacopladas; este enfoque ha sido clave para mejorar la calidad de mi proyecto y fortalecer mis competencias profesionales en el desarrollo de software.<br> <br> <br>_Alejandro Espino Flores_<br> _TB1:_ Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente.<br> _TP:_ En la primera versión de la app móvil y del backend de NutriPlan apliqué DDD, patrón Command–Query, Spring Data JPA y RESTful en el backend; y arquitecturas modulares con principios UI/UX en el móvil, identificando la necesidad de profundizar en optimización de consultas y manejo de transacciones.<br> <br>_Jessica Comettant Rubiños_<br> _TB1_: He actualizado y aplicado conceptos clave en el desarrollo de soluciones de software, especialmente mediante el uso de metodologías como Lean UX. Esto me ha permitido estructurar entregables como Lean UX assumptions, Business assumptions, User assumptions, Problem Statements, Hypothesis Statements, Lean UX canvas, Impact Mapping, y Product Backlog, mejorando mi capacidad técnica y estratégica en el proyecto. <br> _TP:_  Durante la fase de diseño de producto, wireframing y prototipado para landing page y mobile, actualicé y consolidé conocimientos en UX/UI, metodologías ágiles de diseño, y herramientas de diseño colaborativo, optimizando así la comunicación entre equipos y alineando los entregables con los requerimientos funcionales del proyecto de software.  <br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: Para esta primera entrega se desarrollaron las user stories, to be scenario mapping y se estuvo activamente atento a posibles deficiencias en el proyecto. Esto nos permite mejorar las capacidades de identificación estrategica en el proyecto para futuras entregas.  _TP:_ Durante la fase del diseño del producto, se desarrollaron los mock- ups, los wireframes, se actualizaron los captiulos 5 y 6, se corrigieron las us, para que se acomoden a las necesidades de nuestros usuarios.                                                                                   | Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> <br>La identificación de los bounded contexts y agregados facilitó una estructuración clara del sistema y una separación efectiva de responsabilidades.<br>  <br>La introducción de Flutter como herramienta principal permitió aplicar principios de programación reactiva, arquitectura modular y diseño centrado en el usuario. Esto fortaleció las habilidades técnicas del equipo en el desarrollo de interfaces móviles modernas y escalables.<br>         |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software.<br> <br>_TP1_:Para esta segunda entrega del trabajo, desarrollé parte de los capítulos 5 y 6, teniendo en cuenta las soluciones de software.<br> <br>_TB2_:Para esta segunda entrega del trabajo, desarrollé parte de la aplicación en flutter y realizé corrección de errores previos.<br> <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia.<br> <br> _TP_: Durante el proceso de desarrollo de la aplicación, identifiqué la importancia de seguir aprendiendo más allá del contenido brindado en las sesiones de clase. La necesidad de resolver problemas específicos y mejorar la eficiencia del código me llevó a investigar de forma autónoma y continua sobre buenas prácticas en desarrollo móvil, optimización de rendimiento y herramientas complementarias. Esta experiencia me permitió valorar el aprendizaje permanente como una habilidad esencial en el ámbito del desarrollo de software, ya que el entorno tecnológico evoluciona constantemente y exige una actitud proactiva frente al conocimiento.<br> <br> _TB2_: Reconocí la importancia del aprendizaje permanente al profundizar en Clean Architecture, entendiendo que dominar nuevas arquitecturas y patrones es esencial para adaptarse a los cambios tecnológicos y mejorar continuamente mis habilidades, lo cual es fundamental para desempeñarme con eficacia en entornos profesionales y desarrollar soluciones de software de alta calidad. .<br> <br>_Alejandro Espino Flores_<br> _TB1:_ En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. <br> _TP:_ Al desarrollar la app móvil y el backend de NutriPlan, apliqué DDD, patrón Command–Query, arquitecturas modulares, principios de UI/UX y Spring Data JPA; al mismo tiempo reconocí la necesidad de aprendizaje continuo en optimización de consultas, manejo de transacciones y patrones móviles para fortalecer mi desempeño profesional y la calidad de futuras soluciones.<br> <br>_Jessica Comettant Rubiños_<br> _TB1_: A través de este proceso, he comprendido la importancia del aprendizaje continuo para mantenerme al día con las mejores prácticas y herramientas del sector. Integrar metodologías como Lean UX y trabajar con herramientas prácticas ha sido esencial para mi desarrollo profesional y el éxito en proyectos de soluciones de software. <br> _TP:_ La definición del style guide y la creación de user flows reafirmaron la importancia de incorporar mejores prácticas de diseño escalable y arquitectura de interacción, lo cual exige una actualización continua en frameworks, patrones de diseño y tecnologías emergentes para asegurar la calidad, mantenibilidad y escalabilidad en el desarrollo de soluciones software.  <br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: En este primera entrega se comprendió lo importante que es mantener las buenas practicas y así estabilizar el proyecto a través de ellas para futuras entregas. _TP:_ Durante el proceso de desarrollo de la aplicación se identificaron los puntos faltantes y necesarios para seguir la fase del diseño del producto, se desarrollaron los mock- ups, los wireframes, se actualizaron los captiulos 5 y 6, se corrigieron las us, para que se acomoden a las necesidades de nuestros usuarios.   | Conclusiones: <br>Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software.<br> <br>La aplicación de metodologías modernas facilitó una comprensión más profunda del dominio del problema, mejorando la calidad del producto desde sus fases iniciales.<br> <br>El uso de nuevas tecnologías como Flutter demandó iniciativa para explorar fuentes externas, lo que fortaleció el pensamiento crítico, la adaptabilidad y la capacidad de aprendizaje autónomo del equipo. <br> |
+| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, se utilizaron conceptos y conocimientos previamente adquiridos para este desarrollo del proyecto.<br> <br>_TP1_: Durante esta primera entrega, se emplearon habilidades y conceptos previamente estudiados como base para el desarrollo del proyecto.<br> <br>_TB2_: En esta fase, participé en la implementación de vistas funcionales utilizando Flutter. Aprendí a construir interfaces reactivas y a manejar la navegación entre pantallas, reforzando conocimientos sobre diseño UI adaptativo.<br> <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Para esta primera entrega del trabajo,apliqué conocimientos adquiridos en diseño de softwware,modelado con DDD y arquitectura de sistemas para estructurar el proyecto Nutriplan. Participé activamente en la identificación de funcionalidades clave, eldiseño de diagramas y documentacion. <br> <br> _TP_: Durante el desarrollo de la primera versión de la aplicación móvil, apliqué los conceptos y metodologías vistos en clase, como el uso de arquitecturas móviles, buenas prácticas en el diseño de interfaces (UI/UX). Paralelamente, identifiqué áreas donde necesitaba ampliar mis conocimientos, como la integración de librerías externas para mejorar la experiencia del usuario, y el manejo de estados dentro de la aplicación. <br> _TB2_:Actualicé mis conocimientos sobre arquitectura de software al estudiar Clean Architecture, comprendiendo cómo estructurar aplicaciones en capas bien definidas como entidades, casos de uso, interfaces y frameworks, lo que permite desarrollar soluciones más mantenibles, escalables y desacopladas; este enfoque ha sido clave para mejorar la calidad de mi proyecto y fortalecer mis competencias profesionales en el desarrollo de software.<br> <br> <br>_Alejandro Espino Flores_<br> _TB1:_ Para esta entrega optimicé tanto el modelado de la base de datos como el diagrama UML, aplicando principios de Domain-Driven Design para reflejar fielmente la lógica del dominio. Identifiqué y definí claramente los distintos bounded contexts, estableciendo sus agregados, entidades y relaciones de manera coherente.<br> _TP:_ En la primera versión de la app móvil y del backend de NutriPlan apliqué DDD, patrón Command–Query, Spring Data JPA y RESTful en el backend; y arquitecturas modulares con principios UI/UX en el móvil, identificando la necesidad de profundizar en optimización de consultas y manejo de transacciones<br> <br> _TB2_: Actualicé mis conocimientos en Flutter, reforzando el uso de patrones como Bloc para el manejo de estado, el diseño de interfaces responsivas y la aplicación de Clean Architecture. Mejoré la estructura del proyecto separando responsabilidades por capas, lo que facilitó el mantenimiento y escalabilidad. Además, profundicé en la integración con servicios externos y el manejo del ciclo de vida de los widgets, optimizando la experiencia de usuario.<br> <br>_Jessica Comettant Rubiños_<br> _TB1_: He actualizado y aplicado conceptos clave en el desarrollo de soluciones de software, especialmente mediante el uso de metodologías como Lean UX. Esto me ha permitido estructurar entregables como Lean UX assumptions, Business assumptions, User assumptions, Problem Statements, Hypothesis Statements, Lean UX canvas, Impact Mapping, y Product Backlog, mejorando mi capacidad técnica y estratégica en el proyecto. <br> _TP:_ Durante la fase de diseño de producto, wireframing y prototipado para landing page y mobile, actualicé y consolidé conocimientos en UX/UI, metodologías ágiles de diseño, y herramientas de diseño colaborativo, optimizando así la comunicación entre equipos y alineando los entregables con los requerimientos funcionales del proyecto de software. <br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: Para esta primera entrega se desarrollaron las user stories, to be scenario mapping y se estuvo activamente atento a posibles deficiencias en el proyecto. Esto nos permite mejorar las capacidades de identificación estrategica en el proyecto para futuras entregas. _TP:_ Durante la fase del diseño del producto, se desarrollaron los mock- ups, los wireframes, se actualizaron los captiulos 5 y 6, se corrigieron las us, para que se acomoden a las necesidades de nuestros usuarios. | Conclusiones: <br>Se pudo utilizar y adquirir conceptos y conocimientos relacionados con las soluciones de software para el desarrollo del proyecto.<br> <br>La identificación de los bounded contexts y agregados facilitó una estructuración clara del sistema y una separación efectiva de responsabilidades.<br> <br>La introducción de Flutter como herramienta principal permitió aplicar principios de programación reactiva, arquitectura modular y diseño centrado en el usuario. Esto fortaleció las habilidades técnicas del equipo en el desarrollo de interfaces móviles modernas y escalables.<br> |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | _Daiki Oscar Oshiro Yamashita_ <br> _TB1_: Para esta primera entrega del trabajo, desarrollé parte de los capítulos 1 y 2, teniendo en cuenta las soluciones de software.<br> <br>_TP1_:Para esta segunda entrega del trabajo, desarrollé parte de los capítulos 5 y 6, teniendo en cuenta las soluciones de software.<br> <br>_TB2_:Para esta segunda entrega del trabajo, desarrollé parte de la aplicación en flutter y realizé corrección de errores previos.<br> <br> _Pardo Zapata Gustavo Adolfo_ <br> _TB1_: Contribuí a definir la visión estratégica de NutriPlan y colaboré en el desarrollo de secciones técnicas y estratégicas del documento del proyecto, lo cual exigió reforzar conceptos sobre modelos de dominio y arquitectura limpia.<br> <br> _TP_: Durante el proceso de desarrollo de la aplicación, identifiqué la importancia de seguir aprendiendo más allá del contenido brindado en las sesiones de clase. La necesidad de resolver problemas específicos y mejorar la eficiencia del código me llevó a investigar de forma autónoma y continua sobre buenas prácticas en desarrollo móvil, optimización de rendimiento y herramientas complementarias. Esta experiencia me permitió valorar el aprendizaje permanente como una habilidad esencial en el ámbito del desarrollo de software, ya que el entorno tecnológico evoluciona constantemente y exige una actitud proactiva frente al conocimiento.<br> <br> _TB2_: Reconocí la importancia del aprendizaje permanente al profundizar en Clean Architecture, entendiendo que dominar nuevas arquitecturas y patrones es esencial para adaptarse a los cambios tecnológicos y mejorar continuamente mis habilidades, lo cual es fundamental para desempeñarme con eficacia en entornos profesionales y desarrollar soluciones de software de alta calidad. .<br> <br>_Alejandro Espino Flores_<br> _TB1:_ En esta entrega combiné mi experiencia en modelado de bases de datos y diagramación UML con los principios de Domain-Driven Design para diseñar cada bounded context de forma clara y alineada con las reglas de negocio, al mismo tiempo reconociendo que el aprendizaje continuo es esencial para potenciar mi desempeño profesional y elevar la calidad de las soluciones de software. <br> _TP:_ Al desarrollar la app móvil y el backend de NutriPlan, apliqué DDD, patrón Command–Query, arquitecturas modulares, principios de UI/UX y Spring Data JPA; al mismo tiempo reconocí la necesidad de aprendizaje continuo en optimización de consultas, manejo de transacciones y patrones móviles para fortalecer mi desempeño profesional y la calidad de futuras soluciones.<br> <br>_TB2:_ Reconocí la importancia del aprendizaje continuo para mejorar mi desempeño profesional y la calidad del proyecto. Por ello, actualicé mis habilidades en Flutter aplicando patrones de diseño (Bloc, Clean Architecture), optimicé la separación de capas y profundicé en la integración de APIs y el ciclo de vida de widgets, lo que me permitió entregar una solución más escalable y mantenible.<br> <br>_Jessica Comettant Rubiños_<br> _TB1_: A través de este proceso, he comprendido la importancia del aprendizaje continuo para mantenerme al día con las mejores prácticas y herramientas del sector. Integrar metodologías como Lean UX y trabajar con herramientas prácticas ha sido esencial para mi desarrollo profesional y el éxito en proyectos de soluciones de software. <br> _TP:_ La definición del style guide y la creación de user flows reafirmaron la importancia de incorporar mejores prácticas de diseño escalable y arquitectura de interacción, lo cual exige una actualización continua en frameworks, patrones de diseño y tecnologías emergentes para asegurar la calidad, mantenibilidad y escalabilidad en el desarrollo de soluciones software. <br>_Dueñas Canales Leonardo Manuel_<br> _TB1_: En este primera entrega se comprendió lo importante que es mantener las buenas practicas y así estabilizar el proyecto a través de ellas para futuras entregas. _TP:_ Durante el proceso de desarrollo de la aplicación se identificaron los puntos faltantes y necesarios para seguir la fase del diseño del producto, se desarrollaron los mock- ups, los wireframes, se actualizaron los captiulos 5 y 6, se corrigieron las us, para que se acomoden a las necesidades de nuestros usuarios.         | Conclusiones: <br>Se confirma la necesidad del aprendizaje permanente para el desarrollo del proyecto por medio de las soluciones de software.<br> <br>La aplicación de metodologías modernas facilitó una comprensión más profunda del dominio del problema, mejorando la calidad del producto desde sus fases iniciales.<br> <br>El uso de nuevas tecnologías como Flutter demandó iniciativa para explorar fuentes externas, lo que fortaleció el pensamiento crítico, la adaptabilidad y la capacidad de aprendizaje autónomo del equipo. <br>                                                               |
 
 <div style="page-break-after: always;"></div>
 
@@ -3349,11 +3351,11 @@ https://github.com/HealTeam1/Landing-Page/commits/main/
 
 Principales avances en implementación con relación a el Landing Page:
 
-|  Repository  | Branch | Commit Id | Commit Message |  Commit Message Body  | Commited on (Date) |
-| :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
-| Landing Page |  main  |  3205ccb  |   Initial commit   | create the index.html  |       05/05/2025       |
-|  Landing Page   |  main  |  fce0ede  | Update style.css  | create de style.js |       05/05/2025       |
-|  Landing Page   |  main  |  74fe46d  | Update script.js  | create de script.js |       05/05/2025       |
+|  Repository  | Branch | Commit Id |  Commit Message  |  Commit Message Body  | Commited on (Date) |
+| :----------: | :----: | :-------: | :--------------: | :-------------------: | :----------------: |
+| Landing Page |  main  |  3205ccb  |  Initial commit  | create the index.html |     05/05/2025     |
+| Landing Page |  main  |  fce0ede  | Update style.css |  create de style.js   |     05/05/2025     |
+| Landing Page |  main  |  74fe46d  | Update script.js |  create de script.js  |     05/05/2025     |
 
 #### 6.2.1.5 Execution Evidence for Sprint Review
 
@@ -3392,12 +3394,12 @@ Para el desarrollo de la landing page de NutriPlan, el equipo adoptó la metodol
 
 Esta estructura de trabajo permitió implementar mejoras, realizar pruebas individuales y asegurar que cada componente funcionara correctamente antes de su integración en la rama principal. Además, el uso de GitHub como plataforma de colaboración posibilitó una gestión clara de los cambios, revisión de código y control de versiones.
 
-| Author | Task completed |
-| ------ | -------------- |
-| Daiki Oshiro | added index.html|
-| Daiki Oshiro | added style.css |
-| Daiki Oshiro | added script.js |
-| Daiki Oshiro | added img file  |
+| Author       | Task completed   |
+| ------------ | ---------------- |
+| Daiki Oshiro | added index.html |
+| Daiki Oshiro | added style.css  |
+| Daiki Oshiro | added script.js  |
+| Daiki Oshiro | added img file   |
 
 Captura de Analíticos de Colaboración en GitHub -En el repositorio de la Landing Page:
 
@@ -3471,7 +3473,7 @@ A continuación, se muestra una captura del tablero de Sprint 2 en Trello, junto
   <img src="./img/trello2.png" style="margin: 10px 0;" width="70%"/>
 </div>
 
-## Tabla de Avance – Backend 
+## Tabla de Avance – Backend
 
 | Historia de Usuario | Título                                | Relación con Product Backlog       | Tarea Técnica | Descripción                                                                                                              | Estimación (Horas) |
 | ------------------- | ------------------------------------- | ---------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------ |
@@ -3486,27 +3488,27 @@ A continuación, se muestra una captura del tablero de Sprint 2 en Trello, junto
 
 #### 6.2.2.3 Development Evidence for Sprint Review
 
-Durante este sprint se desarrolló la primera versión del back end de nuestra plataforma. 
+Durante este sprint se desarrolló la primera versión del back end de nuestra plataforma.
 
 https://github.com/HealTeam1/NutriHealthBackend/commits/main/
 
 Principales avances en implementación con relación a el back end:
 
-|     Repository     | Branch | Commit Id |                              Commit Message                               |         Commit Message Body           | Commited on (Date) |
-| :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :---------------------: | :--------------------: |
-| NutriHealthBackend |  main  |  113b361  |            chore: Initialize project setup for NutriHealth backend            | create the project setup |       29/04/2025       |
-| NutriHealthBackend |  main  |  6750748  |                   Nutritional Plan post and delete endpoint                   | create the post and delete endpoint |       02/05/2025       |
-| NutriHealthBackend |  main  |  dd868a7  |      feat(nutritional-plan): Nutritional Plan post and delete endpoint       | create Nutritional Plan post and delete endpoint    |       02/05/2025       |
-| NutriHealthBackend |  main  |  30e8105  |           feat(nutritional-plan): update nutritional plan endpoint            | update nutritional plan endpoint |       09/05/2025       |
-| NutriHealthBackend |  main  |  03a90ef  |       feat(nutritional-plan): delete and get endpoint por daily planst        | create delete and get endpoint por daily planst |       09/05/2025       |
-| NutriHealthBackend |  main  |  1890048  |          feat(nutritional-plan): delete ScheduledMeal endpoint added          | create delete ScheduledMeal endpoint added  |       09/05/2025       |
-| NutriHealthBackend |  main  |  80633d3  |           test(nutrihealth): Add dockerfile for Java 21 deployment            | create dockerfile for Java 21 deployment |       09/05/2025       |
-| NutriHealthBackend |  main  |  38f85c6  |            feat(nutrihealth): Nutritional plan get endpoint added             | create Nutritional plan get endpoint |       12/05/2025       |
-| NutriHealthBackend |  main  |  f71e708  |           feat(nutrihealth): Nutritional Plan Update endpoint added           | create Nutritional Plan Update endpoint |       13/05/2025       |
-| NutriHealthBackend |  main  |  06dd514  |                 feat(nutrihealth): create daily plan endpoint                 | create daily plan endpoint  |       09/05/2025       |
-| NutriHealthBackend |  main  |  ea7fd02  | feat(nutrihealth): Add plannedFood endpoint and update ScheduledMeal endpoint | create plannedFood endpoint and update ScheduledMeal endpoint |       13/05/2025       |
-| NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                | delete planned Food endpoint |       13/05/2025       |
-| NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              | deployment test edit properties |       14/05/2025       |
+|     Repository     | Branch | Commit Id |                                Commit Message                                 |                      Commit Message Body                      | Commited on (Date) |
+| :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------: | :----------------: |
+| NutriHealthBackend |  main  |  113b361  |            chore: Initialize project setup for NutriHealth backend            |                   create the project setup                    |     29/04/2025     |
+| NutriHealthBackend |  main  |  6750748  |                   Nutritional Plan post and delete endpoint                   |              create the post and delete endpoint              |     02/05/2025     |
+| NutriHealthBackend |  main  |  dd868a7  |       feat(nutritional-plan): Nutritional Plan post and delete endpoint       |       create Nutritional Plan post and delete endpoint        |     02/05/2025     |
+| NutriHealthBackend |  main  |  30e8105  |           feat(nutritional-plan): update nutritional plan endpoint            |               update nutritional plan endpoint                |     09/05/2025     |
+| NutriHealthBackend |  main  |  03a90ef  |       feat(nutritional-plan): delete and get endpoint por daily planst        |        create delete and get endpoint por daily planst        |     09/05/2025     |
+| NutriHealthBackend |  main  |  1890048  |          feat(nutritional-plan): delete ScheduledMeal endpoint added          |          create delete ScheduledMeal endpoint added           |     09/05/2025     |
+| NutriHealthBackend |  main  |  80633d3  |           test(nutrihealth): Add dockerfile for Java 21 deployment            |           create dockerfile for Java 21 deployment            |     09/05/2025     |
+| NutriHealthBackend |  main  |  38f85c6  |            feat(nutrihealth): Nutritional plan get endpoint added             |             create Nutritional plan get endpoint              |     12/05/2025     |
+| NutriHealthBackend |  main  |  f71e708  |           feat(nutrihealth): Nutritional Plan Update endpoint added           |            create Nutritional Plan Update endpoint            |     13/05/2025     |
+| NutriHealthBackend |  main  |  06dd514  |                 feat(nutrihealth): create daily plan endpoint                 |                  create daily plan endpoint                   |     09/05/2025     |
+| NutriHealthBackend |  main  |  ea7fd02  | feat(nutrihealth): Add plannedFood endpoint and update ScheduledMeal endpoint | create plannedFood endpoint and update ScheduledMeal endpoint |     13/05/2025     |
+| NutriHealthBackend |  main  |  659a38c  |                feat(nutrihealth): delete planned Food endpoint                |                 delete planned Food endpoint                  |     13/05/2025     |
+| NutriHealthBackend |  main  |  0e95acc  |              build(nutrihealth): deployment test edit properties              |                deployment test edit properties                |     14/05/2025     |
 
 #### 6.2.2.5 Execution Evidence for Sprint Review
 
@@ -3561,14 +3563,14 @@ Para el desarrollo del back end de NutriPlan, el equipo adoptó la metodología 
 
 Esta estrategia de ramificación favoreció la implementación progresiva de mejoras, la realización de pruebas individualizadas y la validación funcional de cada componente antes de integrarlo a la rama principal. Asimismo, el uso de GitHub como plataforma de gestión de código brindó un entorno colaborativo claro y ordenado, permitiendo la revisión de cambios, el control de versiones y una trazabilidad precisa durante todo el proceso de desarrollo.
 
-| Author | Task completed |
-| ------ | -------------- |
-|  Alejandro Espino | added Nutritional Plan post and delete endpointd |
-|  Alejandro Espino | added delete and get endpoint por daily planst |
-|  Alejandro Espino | added dockerfile for Java 21 deployment |
-|  Alejandro Espino | added daily plan endpoint |
-|  Alejandro Espino | added plannedFood endpoint |
-|  Alejandro Espino | deployment test edit properties |
+| Author           | Task completed                                   |
+| ---------------- | ------------------------------------------------ |
+| Alejandro Espino | added Nutritional Plan post and delete endpointd |
+| Alejandro Espino | added delete and get endpoint por daily planst   |
+| Alejandro Espino | added dockerfile for Java 21 deployment          |
+| Alejandro Espino | added daily plan endpoint                        |
+| Alejandro Espino | added plannedFood endpoint                       |
+| Alejandro Espino | deployment test edit properties                  |
 
 Captura de Analíticos de Colaboración en GitHub -En el repositorio del backend:
 
@@ -3642,38 +3644,37 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 
 ## Tabla de Avance – Front-end
 
-| Historia de Usuario | Título del Desarrollo Frontend         | Relación con Product Backlog    | Tarea Técnica | Descripción técnica del desarrollo frontend                                                                 | Estimación (Horas) | Asignado a                   | Estado |
-|---------------------|----------------------------------------|----------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------|--------|
-| US01                | Registro de usuario                    | US01 – Registro de Usuario       | T101          | Crear formulario de registro con validaciones de campos, implementación visual y conexión básica.                                                  | 5                  | Gustavo Pardo                | Done   |
-| US02                | Pantalla de inicio                     | US02 – Pantalla de inicio        | T108          | Diseño e implementación de pantalla de bienvenida con navegación hacia login o registro.                                                           | 3                  | Gustavo Pardo                | Done   |
-| US03                | Formulario de pago                     | US03 – Gestión de suscripciones  | T109          | Crear pantalla de ingreso de datos de tarjeta, con campos validados y diseño responsive.                                                           | 5                  | Gustavo Pardo                | Done   |
-| US04                | Creación de perfil                     | US04 – Crear perfil              | T103          | Formulario de datos personales y nutricionales con guardado local o simulado.                                                                      | 6                  | Jessica Comettant            | Done   |
-| US05                | Selección de plan de pago              | US05 – Planes de suscripción     | T110          | Pantalla para elegir entre planes mensuales/anuales con lógica condicional y navegación.                                                           | 4                  | Daiki Oshiro                 | Done   |
-| US06                | Visualización del plan nutricional     | US06 – Plan nutricional semanal  | T111          | Diseño de interfaz que muestre recomendaciones semanales en tarjetas o lista.                                                                      | 6                  | Daiki Oshiro                 | Done   |
-| US07                | Pantalla de progreso                   | US07 – Seguimiento de progreso   | T112          | Implementar vista gráfica o textual que muestre avances nutricionales del usuario.                                                                 | 5                  | Daiki Oshiro                 | Done   |
-| US08                | Visualización del plan diario          | US08 – Consultar plan diario     | T107          | Crear pantalla con menú del día dividido por tiempos de comida.                                                                                    | 5                  | Gustavo Pardo                | Done   |
-| US09                | Visualización de recetas               | US09 – Recetario                 | T113          | Diseñar vista de recetas saludables según el plan alimenticio, con tarjetas y scroll vertical.                                                     | 6                  | Gustavo Pardo                | Done   |
-| US10                | Configuración de restricciones         | US10 – Restricciones             | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles).                                                  | 6                  | Gustavo Pardo                | To Do  |
-| US11                | Confirmación de pago                   | US11 – Confirmar suscripción     | T114          | Crear pantalla de confirmación visual (icono, mensaje, botón) posterior al pago.                                                                   | 3                  | Leonardo Dueñas              | Done   |
-
+| Historia de Usuario | Título del Desarrollo Frontend     | Relación con Product Backlog    | Tarea Técnica | Descripción técnica del desarrollo frontend                                                       | Estimación (Horas) | Asignado a        | Estado |
+| ------------------- | ---------------------------------- | ------------------------------- | ------------- | ------------------------------------------------------------------------------------------------- | ------------------ | ----------------- | ------ |
+| US01                | Registro de usuario                | US01 – Registro de Usuario      | T101          | Crear formulario de registro con validaciones de campos, implementación visual y conexión básica. | 5                  | Gustavo Pardo     | Done   |
+| US02                | Pantalla de inicio                 | US02 – Pantalla de inicio       | T108          | Diseño e implementación de pantalla de bienvenida con navegación hacia login o registro.          | 3                  | Gustavo Pardo     | Done   |
+| US03                | Formulario de pago                 | US03 – Gestión de suscripciones | T109          | Crear pantalla de ingreso de datos de tarjeta, con campos validados y diseño responsive.          | 5                  | Gustavo Pardo     | Done   |
+| US04                | Creación de perfil                 | US04 – Crear perfil             | T103          | Formulario de datos personales y nutricionales con guardado local o simulado.                     | 6                  | Jessica Comettant | Done   |
+| US05                | Selección de plan de pago          | US05 – Planes de suscripción    | T110          | Pantalla para elegir entre planes mensuales/anuales con lógica condicional y navegación.          | 4                  | Daiki Oshiro      | Done   |
+| US06                | Visualización del plan nutricional | US06 – Plan nutricional semanal | T111          | Diseño de interfaz que muestre recomendaciones semanales en tarjetas o lista.                     | 6                  | Daiki Oshiro      | Done   |
+| US07                | Pantalla de progreso               | US07 – Seguimiento de progreso  | T112          | Implementar vista gráfica o textual que muestre avances nutricionales del usuario.                | 5                  | Daiki Oshiro      | Done   |
+| US08                | Visualización del plan diario      | US08 – Consultar plan diario    | T107          | Crear pantalla con menú del día dividido por tiempos de comida.                                   | 5                  | Gustavo Pardo     | Done   |
+| US09                | Visualización de recetas           | US09 – Recetario                | T113          | Diseñar vista de recetas saludables según el plan alimenticio, con tarjetas y scroll vertical.    | 6                  | Gustavo Pardo     | Done   |
+| US10                | Configuración de restricciones     | US10 – Restricciones            | T106          | Desarrollar sección para seleccionar alergias o preferencias alimenticias (checkboxes o toggles). | 6                  | Gustavo Pardo     | To Do  |
+| US11                | Confirmación de pago               | US11 – Confirmar suscripción    | T114          | Crear pantalla de confirmación visual (icono, mensaje, botón) posterior al pago.                  | 3                  | Leonardo Dueñas   | Done   |
 
 #### 6.2.3.3 Development Evidence for Sprint Review
 
-|  Repository  | Branch | Commit Id | Commit <br>Message |  Commit Message Body    | Commited <br>on (Date) |
-| :----------: | :----: | :-------: | :----------------: | :------: | :--------------------: |
-|  NutriplanProject |  main  |  3205ccb  |   First commit   | create application structure  |       14/05/2025       |
-|  NutriplanProject  |  main  |  fc4c3ad  | Feat: added StartScreen  | create the startscreen |       14/05/2025       |
-|  NutriplanProject   |  main  |  62d80f8  | Feat: added PaymentFormScreen  | create paymentform screen |       14/05/2025       |
-|  NutriplanProject   |  main  |  714b6de  | Feat: added RegisterScreen  | create register screen |       15/05/2025       |
-|  NutriplanProject |  main  |  907feb6  | Feat: added PaymentConfirmationScreen  | create payment confirmation screen |       15/05/2025       |
-|  NutriplanProject   |  main  |  c8eab7f  | feat: added recipes screen  | create recipes screen |       15/05/2025       |
-|  NutriplanProject   |  main  |  109a4ed  | feat: added Profile Screen  | create profile screen |       15/05/2025       |
-|  NutriPlanFlutter   |  main  |  e966408  | chore: Initialized Project  | create project |       18/06/2025       |
-|  NutriPlanFlutter   |  main  |  a8b02b6  | feat: create home_screen  | create home_screen |       19/06/2025       |
-|  NutriPlanFlutter   |  main  |  c1a1f6d  | feat: create nutrition_plans_screen  | create nutrition_plans_scree |       19/06/2025       |
-|  NutriPlanFlutter   |  main  |  cd4104c  | feat: create profile_screen  | create profile_screen |       19/06/2025       |
-|  NutriPlanFlutter   |  main  |  3baebe3  | feat: create progress_screen  | create progress_screen |       19/06/2025       |
-|  NutriPlanFlutter   |  main  |  35b95eb  | feat: create main_menu  | create main_menu |       19/06/2025       |
+|    Repository    | Branch | Commit Id |          Commit <br>Message           |        Commit Message Body         | Commited <br>on (Date) |
+| :--------------: | :----: | :-------: | :-----------------------------------: | :--------------------------------: | :--------------------: |
+| NutriplanProject |  main  |  3205ccb  |             First commit              |    create application structure    |       14/05/2025       |
+| NutriplanProject |  main  |  fc4c3ad  |        Feat: added StartScreen        |       create the startscreen       |       14/05/2025       |
+| NutriplanProject |  main  |  62d80f8  |     Feat: added PaymentFormScreen     |     create paymentform screen      |       14/05/2025       |
+| NutriplanProject |  main  |  714b6de  |      Feat: added RegisterScreen       |       create register screen       |       15/05/2025       |
+| NutriplanProject |  main  |  907feb6  | Feat: added PaymentConfirmationScreen | create payment confirmation screen |       15/05/2025       |
+| NutriplanProject |  main  |  c8eab7f  |      feat: added recipes screen       |       create recipes screen        |       15/05/2025       |
+| NutriplanProject |  main  |  109a4ed  |      feat: added Profile Screen       |       create profile screen        |       15/05/2025       |
+| NutriPlanFlutter |  main  |  e966408  |      chore: Initialized Project       |           create project           |       18/06/2025       |
+| NutriPlanFlutter |  main  |  a8b02b6  |       feat: create home_screen        |         create home_screen         |       19/06/2025       |
+| NutriPlanFlutter |  main  |  c1a1f6d  |  feat: create nutrition_plans_screen  |    create nutrition_plans_scree    |       19/06/2025       |
+| NutriPlanFlutter |  main  |  cd4104c  |      feat: create profile_screen      |       create profile_screen        |       19/06/2025       |
+| NutriPlanFlutter |  main  |  3baebe3  |     feat: create progress_screen      |       create progress_screen       |       19/06/2025       |
+| NutriPlanFlutter |  main  |  35b95eb  |        feat: create main_menu         |          create main_menu          |       19/06/2025       |
 
 - [Commits del repositorio kotlin](https://github.com/HealTeam1/NutriplanProject/commits/main/)<br>
 
@@ -3729,25 +3730,24 @@ El despliegue se realizó utilizando Netlify y tecnologías modernas que garanti
 
 - [App flutter](https://harmonious-stardust-e1af42.netlify.app/)<br>
 
-
 #### 6.2.3.8 Team Collaboration Insights during Sprint
 
 Para el desarrollo de la fronte-end de NutriPlan se uso GitHub como plataforma de control de versiones y colaboración facilitó la revisión de código, integración continua y documentación del desarrollo. A través de pull requests, issues y commits estructurados, se logró mantener una trazabilidad clara de las decisiones y cambios implementados.
 
 Gracias a esta estructura y herramientas, el equipo logró construir un frontend robusto, mantenible y alineado con los requerimientos del producto. A continuación, se detallan las tareas asignadas a cada integrante y sus respectivos aportes reflejados en el repositorio de GitHub durante el desarrollo del frontend.
 
-| Author | Task completed |
-| ------ | -------------- |
-| Gustavo Pardo | added Packages |
-| Gustavo Pardo | added StartScreen |
-| Gustavo Pardo | added PaymentFormScreen |
-| Gustavo Pardo    | added recipes screen |
-| Gustavo Pardo   | added RegisterScreen |
-| Daiki Oshiro | added PaymentPlansScreen |
-| Daiki Oshiro | added NutricionalPlanScreen |
-| Daiki Oshiro | added ProgressScreen |
-| Leonardo  Dueñas  | added PaymentConfirmationScreen |
-| Jessica   Comettant   | added Profile Screen|
+| Author            | Task completed                  |
+| ----------------- | ------------------------------- |
+| Gustavo Pardo     | added Packages                  |
+| Gustavo Pardo     | added StartScreen               |
+| Gustavo Pardo     | added PaymentFormScreen         |
+| Gustavo Pardo     | added recipes screen            |
+| Gustavo Pardo     | added RegisterScreen            |
+| Daiki Oshiro      | added PaymentPlansScreen        |
+| Daiki Oshiro      | added NutricionalPlanScreen     |
+| Daiki Oshiro      | added ProgressScreen            |
+| Leonardo Dueñas   | added PaymentConfirmationScreen |
+| Jessica Comettant | added Profile Screen            |
 
 Captura de Analíticos de Colaboración en GitHub -En el repositorio del front end:
 
@@ -3784,7 +3784,6 @@ Validar la experiencia de usuario (UX) y la propuesta de valor de NutriPlan desd
 ##### Búsqueda y selección de planes nutricionales
 
 - ¿Alguna vez no encontraste el plan nutricional ideal? ¿Qué factores influyeron?
-  
 - ¿Qué sugerirías para mejorar los planes nutricionales?
 
 ##### Registro de alimentos y seguimiento de recetas
@@ -3813,7 +3812,7 @@ Recoger feedback sobre las herramientas de gestión alimenticia y descubrir nuev
 
 - ¿Cuánto tiempo llevas usando la plataforma como nutricionista?
 
-- ¿Con qué frecuencia gestionas planes alimenticios desde la app? 
+- ¿Con qué frecuencia gestionas planes alimenticios desde la app?
 
 ##### Gestión de planes alimenticios
 
@@ -3830,7 +3829,6 @@ Recoger feedback sobre las herramientas de gestión alimenticia y descubrir nuev
 ##### Cierre
 
 - Agradecimientos por tu tiempo y opinión.
-
 
 ### 6.3.2 Registro de Entrevistas
 
@@ -3850,8 +3848,8 @@ Resumen: Lo que más llamó la atención de NutriPlan fue la posibilidad de eleg
 
 #### Entrevista 2:
 
-- Nombre: 
-- Edad: 
+- Nombre:
+- Edad:
 - Distrito:
 - Link de la entrevista:
 
@@ -3859,8 +3857,8 @@ Resumen:
 
 #### Entrevista 3:
 
-- Nombre: 
-- Edad: 
+- Nombre:
+- Edad:
 - Distrito:
 - Link de la entrevista:
 
@@ -3882,8 +3880,8 @@ Resumen: La propuesta de NutriPlan es muy valorada por nutricionistas independie
 
 #### Entrevista 5:
 
-- Nombre: 
-- Edad: 
+- Nombre:
+- Edad:
 - Distrito:
 - Link de la entrevista:
 
@@ -3891,15 +3889,12 @@ Resumen:
 
 #### Entrevista 6:
 
-- Nombre: 
-- Edad: 
+- Nombre:
+- Edad:
 - Distrito:
 - Link de la entrevista:
 
 Resumen:
-
-
-
 
 ### 6.3.3 Evaluaciones según heurísticas
 
@@ -3932,12 +3927,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 
 ## Niveles de Severidad de Problemas de Usabilidad
 
-| **Nivel** | **Descripción** |
-|-------|-------------|
-| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
-| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| **Nivel** | **Descripción**                                                                                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3         | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4         | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 **TABLA RESUMEN:**
 
@@ -3945,15 +3940,15 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 
 ### Tabla Resumen de Evaluación Heurística - FinTeka
 
-| Nº  | Problema Detectado                                             | Escala de Severidad | Heurística / Principio Violado     |
-|------|----------------------------------------------------------------|---------------------|-----------------------------------|
-| 1    | Falta de validación en campos numéricos del formulario de alimentos | 3                   | Prevención de errores             |
-| 2    | Ausencia de confirmación visual tras guardar cambios en el perfil | 2                   | Visibilidad del estado del sistema |
-| 3    | Falta de atajos para usuarios recurrentes al agregar alimentos    | 3                   | Flexibilidad y eficiencia de uso  |
-| 4    | No se muestra progreso durante la carga de planes nutricionales    | 2                   | Visibilidad del estado del sistema |
-| 5    | Ingreso manual repetitivo de datos al registrar recetas similares  | 3                   | Flexibilidad y eficiencia de uso  |
-| 6    | Ausencia de confirmación tras guardar cambios en el perfil         | 2                   | Visibilidad del estado del sistema |
-| 7    | No se permite filtrar alimentos por categoría o tipo               | 3                   | Flexibilidad y eficiencia de uso  |
+| Nº  | Problema Detectado                                                  | Escala de Severidad | Heurística / Principio Violado     |
+| --- | ------------------------------------------------------------------- | ------------------- | ---------------------------------- |
+| 1   | Falta de validación en campos numéricos del formulario de alimentos | 3                   | Prevención de errores              |
+| 2   | Ausencia de confirmación visual tras guardar cambios en el perfil   | 2                   | Visibilidad del estado del sistema |
+| 3   | Falta de atajos para usuarios recurrentes al agregar alimentos      | 3                   | Flexibilidad y eficiencia de uso   |
+| 4   | No se muestra progreso durante la carga de planes nutricionales     | 2                   | Visibilidad del estado del sistema |
+| 5   | Ingreso manual repetitivo de datos al registrar recetas similares   | 3                   | Flexibilidad y eficiencia de uso   |
+| 6   | Ausencia de confirmación tras guardar cambios en el perfil          | 2                   | Visibilidad del estado del sistema |
+| 7   | No se permite filtrar alimentos por categoría o tipo                | 3                   | Flexibilidad y eficiencia de uso   |
 
 ### DESCRIPCIÓN DE PROBLEMAS:
 
@@ -3963,7 +3958,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 
 - **Heurística violada:** Prevención de errores
 
-- **Problema:** El formulario para agregar alimentos permite ingresar texto o valores negativos en campos destinados a números, como cantidad o calorías. 
+- **Problema:** El formulario para agregar alimentos permite ingresar texto o valores negativos en campos destinados a números, como cantidad o calorías.
 
 - **Recomendación:** Incorporar validaciones que aseguren la entrada exclusiva de valores numéricos positivos.
 
@@ -3982,8 +3977,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 - **Severidad:** 3
 
 - **Heurística violada:** Flexibilidad y eficiencia de uso
-  
-- **Problema:** Cada vez que un usuario desea agregar un alimento a su plan nutricional, debe buscarlo manualmente desde el listado completo, sin opción de acceder rápidamente a alimentos frecuentes o recientemente usados. 
+- **Problema:** Cada vez que un usuario desea agregar un alimento a su plan nutricional, debe buscarlo manualmente desde el listado completo, sin opción de acceder rápidamente a alimentos frecuentes o recientemente usados.
 
 - **Recomendación:** Agregar funcionalidades como “alimentos favoritos”, “recientes” o campos de autocompletado inteligentes que prioricen alimentos utilizados con frecuencia.
 
@@ -3992,8 +3986,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 - **Severidad:** 2
 
 - **Heurística violada:** Visibilidad del estado del sistema
-  
-- **Problema:** Al consultar los planes nutricionales, la interfaz se queda estática durante unos segundos sin mostrar una barra o ícono de carga. 
+- **Problema:** Al consultar los planes nutricionales, la interfaz se queda estática durante unos segundos sin mostrar una barra o ícono de carga.
 
 - **Recomendación:** Incluir un ícono o animación de carga mientras se recupera la información, indicando que el sistema está trabajando en la solicitud.
 
@@ -4002,8 +3995,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 - **Severidad:** 3
 
 - **Heurística violada:** Flexibilidad y eficiencia de uso
-  
-- **Problema:** Cuando se desea registrar una receta nueva similar a una existente, el usuario debe completar todo el formulario desde cero, sin opción de duplicar o reutilizar información previa. 
+- **Problema:** Cuando se desea registrar una receta nueva similar a una existente, el usuario debe completar todo el formulario desde cero, sin opción de duplicar o reutilizar información previa.
 
 - **Recomendación:** Implementar una opción para “duplicar receta” o “usar como base”, que permita editar una copia de una receta anterior. Esto agiliza el flujo para usuarios que crean contenido regularmente.
 
@@ -4012,8 +4004,7 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 - **Severidad:** 2
 
 - **Heurística violada:** Visibilidad del estado del sistema
-  
-- **Problema:** Cuando un usuario actualiza su perfil (como nombre o datos personales), no aparece ningún mensaje de confirmación visual. 
+- **Problema:** Cuando un usuario actualiza su perfil (como nombre o datos personales), no aparece ningún mensaje de confirmación visual.
 
 - **Recomendación:** Mostrar una notificación clara y temporal como “Cambios guardados con éxito” o usar un ícono de verificación para confirmar la acción realizada.
 
@@ -4022,11 +4013,9 @@ La siguiente tabla presenta un resumen de los resultados obtenidos en la evaluac
 - **Severidad:** 3
 
 - **Heurística violada:** Flexibilidad y eficiencia de uso
-  
 - **Problema:** En el listado de alimentos disponibles, no existe opción de filtrar por categorías.
 
 - **Recomendación:** Incorporar filtros por tipo de alimento, etiquetas o categorías comunes para permitir un acceso más rápido y organizado a la información.
-
 
 ## 6.4 Video About-the-Product
 
@@ -4060,10 +4049,9 @@ Con base en los aprendizajes obtenidos, se recomienda lo siguiente como próximo
 
 <div style="page-break-after: always;"></div>
 
-###  Video About-the-team
+### Video About-the-team
 
 - [Video About The Team]()<br>
-
 
 # Bibliografía
 
