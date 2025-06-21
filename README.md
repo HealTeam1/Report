@@ -41,6 +41,8 @@
 | :-----: | :--------: | :-------------------: | :--------------------------------------------------------: |
 |   TB1   | 24/04/2025 | Todos los integrantes |               Se añadió los capítulos 1 al 4               |
 |   TP1   | 10/05/2025 | Todos los integrantes | Se añadió los capítulos 5 , 6 y se realizaron correcciones |
+|   TB2   | 20/06/2025 | Todos los integrantes |        Se realizaron correciones y temrino cap 6           |
+
 
 # Project Report Collaboration Insights
 
