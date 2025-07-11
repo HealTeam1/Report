@@ -66,8 +66,9 @@ Daiki Oshiro: Contribuyó en la redacción de Problem Statements, segmentación 
 
 **Herramientas utilizadas:**
 
-GitHub (repositorio principal del informe en formato Markdown)
+Se utilizo repositorios de GitHub para el avance de las siguientes secciones del proyecto:
 
+###### Evidencia del avance en el reporte:
 <img src="./img/Colaboration.png" width="500" height="400">
 
 **Alejandro**
@@ -112,9 +113,19 @@ Daiki Oshiro: Revisión de la app en flutter y corrección del reporte.
 
 **Herramientas utilizadas:**
 
-GitHub (repositorio principal del informe en formato Markdown)
+Se utilizo repositorios de GitHub para el avance de las siguientes secciones del proyecto:
 
+###### Evidencia del avance en el reporte:
 <img src="./img/RE12.png" width="500" height="400">
+
+###### Evidencia del avance en kotlin:
+<img src="./img/KT12.png" width="500" height="400">
+
+###### Evidencia del avance en flutter:
+<img src="./img/FT12.png" width="500" height="400">
+
+###### Evidencia del avance en e backend:
+<img src="./img/BK12.png" width="500" height="400">
 
 **Alejandro**
 
@@ -3532,7 +3543,7 @@ Durante este sprint se desarrolló la primera versión del back end de nuestra p
 
 https://github.com/HealTeam1/NutriHealthBackend/commits/main/
 
-Principales avances en implementación con relación a el back end:
+Principales avances en implementación con relación al Sprint:
 
 |     Repository     | Branch | Commit Id |                                Commit Message                                 |                      Commit Message Body                      | Commited on (Date) |
 | :----------------: | :----: | :-------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------: | :----------------: |
@@ -3552,17 +3563,34 @@ Principales avances en implementación con relación a el back end:
 
 #### 6.2.2.5 Execution Evidence for Sprint Review
 
-Tras el desarrollo del backend en el Sprint 2, obtuvimos el siguiente resultado:
+Durante el desarrollo de este segundo sprint, se lograron varios avances importantes relacionados con el backend de NutriPlan. A continuación, se presenta un resumen de los logros alcanzados:
 
+Establecimiento de Repositorios: Se crearon y configuraron repositorios en GitHub para gestionar el código y las pruebas.
+
+###### Repositorios relacionados con el sprint:
+<img src="./img/repos12.png" width="500" height="400">
+
+###### Swagger del backend de NutriPlan:
 <img src="img/deploy-backend/swagger-deployment.png" width="900" height="200" style="object-fit:cover">
+<img src="./img/sww12.png" width="500" height="400">
 
 #### 6.2.2.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 2, se ha desplegado el Backend , usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
+Durante este segundo sprint, se desarrolló y desplegó el backend de NutriPlan usando endpoints principalmente para la gestión de autenticación, perfiles, recetas y planes nutricionales.
 
-<img src="img/deploy-backend/swagger-deployment.png" width="900" height="400" style="object-fit:cover">
+A continuación, se resumen los endpoints utilizados:
 
-link del swaggerd: https://nutrihealthbackend-production.up.railway.app/swagger-ui.html
+| Endpoint         | Acción                                      | Método HTTP | Sintaxis de llamada | Parámetros Principales       | URL Swagger                        |
+|------------------|---------------------------------------------|--------------|----------------------|-------------------------------|------------------------------------|
+| `/register`      | Registra un nuevo usuario                   | POST         | /register            | Datos de usuario              | http://localhost:8080/swagger-ui/ |
+| `/login`         | Inicia sesión                               | POST         | /login               | Credenciales (email, pass)    | http://localhost:8080/swagger-ui/ |
+| `/profile`       | Obtener perfil de usuario                   | GET          | /profile             | Token de autenticación        | http://localhost:8080/swagger-ui/ |
+| `/profile`       | Actualizar perfil del usuario               | PUT          | /profile             | Datos actualizados del perfil | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Obtener comidas registradas por el usuario  | GET          | /meals               | Token del usuario             | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Guardar comidas marcadas como consumidas    | PUT          | /meals               | Lista de comidas              | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Eliminar todas las comidas del usuario      | DELETE       | /meals               | Confirmación (opcional)       | http://localhost:8080/swagger-ui/ |
+| `/meals/resumen` | Obtener resumen de comidas consumidas       | GET          | /meals/resumen       | Token del usuario             | http://localhost:8080/swagger-ui/ |
+| `/recetas`       | Obtener todas las recetas saludables         | GET          | /recetas             | Ninguno                       | http://localhost:8080/swagger-ui/ |
 
 #### 6.2.2.7 Software Deployment Evidence for Sprint Review
 
@@ -3700,6 +3728,14 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 
 #### 6.2.3.3 Development Evidence for Sprint Review
 
+En el presente Sprint 3 se avanzó significativamente en el desarrollo de la applicación NutriPlan. Se implementaron funcionalidades clave de secciones como la gestión de usuarios, planes nutricionales, perfil, progreso, entre otras. La interfaz desarrollada para NutriPlan busca facilitar la interacción del usuario con las principales funcionalidades del sistema. 
+
+- https://github.com/HealTeam1/NutriplanProject/commits/main/
+
+- https://github.com/HealTeam1/NutriPlanFlutter/commits/main/
+
+Principales avances en implementación con relación al Sprint:
+
 |    Repository    | Branch | Commit Id |          Commit <br>Message           |        Commit Message Body         | Commited <br>on (Date) |
 | :--------------: | :----: | :-------: | :-----------------------------------: | :--------------------------------: | :--------------------: |
 | NutriplanProject |  main  |  3205ccb  |             First commit              |    create application structure    |       14/05/2025       |
@@ -3715,10 +3751,6 @@ A continuación, se muestra una captura del tablero de Sprint 3 en Trello, junto
 | NutriPlanFlutter |  main  |  cd4104c  |      feat: create profile_screen      |       create profile_screen        |       19/06/2025       |
 | NutriPlanFlutter |  main  |  3baebe3  |     feat: create progress_screen      |       create progress_screen       |       19/06/2025       |
 | NutriPlanFlutter |  main  |  35b95eb  |        feat: create main_menu         |          create main_menu          |       19/06/2025       |
-
-- https://github.com/HealTeam1/NutriplanProject/commits/main/
-
-- https://github.com/HealTeam1/NutriPlanFlutter/commits/main/
 
 #### 6.2.3.5 Execution Evidence for Sprint Review
 
@@ -3746,11 +3778,21 @@ Tras el desarrolo del Front-end en el Sprint 3, obtuvimos el siguiente resultado
 
 #### 6.2.3.6 Services Documentation Evidence for Sprint Review
 
-En el Sprint 3, se ha implementado los endpoints usando Railway bajo el dominio ".railway.app" de forma gratuita. Y se puede visualizar bajo el siguiente link:
+Durante este tercer  sprint, se desarrolló y desplegó el frontend de NutriPlan usando endpoints principalmente para la gestión de autenticación, perfiles, recetas y planes nutricionales.
 
-<img src="img/deploy-backend/swagger-deployment.png" width="900" height="400" style="object-fit:cover">
+A continuación, se resumen los endpoints simulados con JSON Server indicando su funcionalidad, método HTTP y parámetros principales:
 
-link del swagger: https://nutrihealthbackend-production.up.railway.app/swagger-ui.html
+| Endpoint         | Acción                                      | Método HTTP | Sintaxis de llamada | Parámetros Principales       | URL Swagger                        |
+|------------------|---------------------------------------------|--------------|----------------------|-------------------------------|------------------------------------|
+| `/register`      | Registra un nuevo usuario                   | POST         | /register            | Datos de usuario              | http://localhost:8080/swagger-ui/ |
+| `/login`         | Inicia sesión                               | POST         | /login               | Credenciales (email, pass)    | http://localhost:8080/swagger-ui/ |
+| `/profile`       | Obtener perfil de usuario                   | GET          | /profile             | Token de autenticación        | http://localhost:8080/swagger-ui/ |
+| `/profile`       | Actualizar perfil del usuario               | PUT          | /profile             | Datos actualizados del perfil | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Obtener comidas registradas por el usuario  | GET          | /meals               | Token del usuario             | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Guardar comidas marcadas como consumidas    | PUT          | /meals               | Lista de comidas              | http://localhost:8080/swagger-ui/ |
+| `/meals`         | Eliminar todas las comidas del usuario      | DELETE       | /meals               | Confirmación (opcional)       | http://localhost:8080/swagger-ui/ |
+| `/meals/resumen` | Obtener resumen de comidas consumidas       | GET          | /meals/resumen       | Token del usuario             | http://localhost:8080/swagger-ui/ |
+| `/recetas`       | Obtener todas las recetas saludables         | GET          | /recetas             | Ninguno                       | http://localhost:8080/swagger-ui/ |
 
 #### 6.2.3.7 Software Deployment Evidence for Sprint Review
 
