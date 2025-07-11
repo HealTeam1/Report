@@ -46,13 +46,13 @@
 
 # Project Report Collaboration Insights
 
-**Primera Entrega**
+##### Primera Entrega
 
 Durante esta fase inicial, el equipo trabajó colaborativamente en la estructura general del informe y la redacción de las secciones introductorias, incluyendo el contexto del proyecto, definición del problema y objetivos.
 
-Link: https://github.com/HealTeam1/Report.git
+Link del repositorio del reporte: https://github.com/HealTeam1/Report
 
-Participación de los miembros:
+**Participación de los miembros:**
 
 Jessica Comettant: Contribuyo en la redaccion de Lean UX canvas,Impact mapping y Product backlog
 
@@ -64,7 +64,7 @@ Gustavo Pardo: Coordinación general del documento, diseño de EventStorming,c4 
 
 Daiki Oshiro: Contribuyó en la redacción de Problem Statements, segmentación y análisis preliminar de usuarios.
 
-Herramientas utilizadas:
+**Herramientas utilizadas:**
 
 GitHub (repositorio principal del informe en formato Markdown)
 
@@ -89,6 +89,44 @@ GitHub (repositorio principal del informe en formato Markdown)
 **Gustavo**
 
 <img src="./img/GustavoC.png" width="500" height="400">
+
+##### Entrega Final
+
+Durante esta fase final, el equipo trabajó colaborativamente en las correcciones correspondientes para el correcto funcionamiento de los artefactos y reporte.
+
+Link del repositorio del reporte: https://github.com/HealTeam1/Report
+
+Link del repositorio del kotlin: https://github.com/HealTeam1/NutriplanProject
+
+Link del repositorio del flutter: https://github.com/HealTeam1/NutriPlanFlutter
+
+Link del repositorio del backend: https://github.com/HealTeam1/NutriPlanBackEnd
+
+**Participación de los miembros:**
+
+Alejandro Espino : Revisión del backend y corrección del reporte.
+
+Gustavo Pardo: Revisión de la app en kotlin y corrección del reporte.
+
+Daiki Oshiro: Revisión de la app en flutter y corrección del reporte.
+
+**Herramientas utilizadas:**
+
+GitHub (repositorio principal del informe en formato Markdown)
+
+<img src="./img/RE12.png" width="500" height="400">
+
+**Alejandro**
+
+<img src="./img/AE12.png" width="500" height="400">
+
+**Daiki**
+
+<img src="./img/DO12.png" width="500" height="400">
+
+**Gustavo**
+
+<img src="./img/GP12.png" width="500" height="400">
 
 <div style="page-break-after: always;"></div>
 
